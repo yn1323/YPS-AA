@@ -30,7 +30,8 @@
     "createkey": "bat/createkey.sh",
     "release--android": "npm run csr && bat/release-android.sh ja",
     "release--android--en": "npm run csr--en && bat/release-android.sh en",
-    "sign--android": "bat/sign-android.sh"
+    "sign--android": "bat/sign-android.sh",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -67,7 +68,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-tailwind": "^0.2.1",
-    "husky": "^7.0.1",
+    "husky": "^7.0.0",
     "jest": "^27.0.6",
     "jest-enzyme": "^7.1.2",
     "lint-staged": "^11.0.0",
