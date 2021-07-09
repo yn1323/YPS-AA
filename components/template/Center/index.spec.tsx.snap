@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Center 1`] = `
+<div
+  className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+/>
+`;

@@ -1,7 +1,5 @@
-import Button from '@atom/Button'
 import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
@@ -13,7 +11,6 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Button label="aaaa" primary></Button>
         <Link href="/about">
           <a>About Us</a>
         </Link>

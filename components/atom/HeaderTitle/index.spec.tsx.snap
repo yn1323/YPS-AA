@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle 1`] = `
+<h6
+  className="MuiTypography-root HeaderTitle__TitleText-sc-ufp3wy-0 eAfaAT MuiTypography-h6"
+/>
+`;

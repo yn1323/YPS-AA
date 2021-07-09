@@ -1,7 +1,7 @@
 import { Box, Button } from '@material-ui/core'
 import React from 'react'
 import styled from 'styled-components'
-import ButtonWithBackgroundColor from '@atom/ButtonWithBackgroundColor'
+import ButtonWithBackgroundColor from 'components/SampleTemplate'
 
 const RedText = styled.span`
   font-size: 50px;

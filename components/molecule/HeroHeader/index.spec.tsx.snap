@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroHeader 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-1 HeroHeader__Root-sc-1fjf32q-1 iGqdbo"
+>
+  <div
+    className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+  >
+    <img
+      alt="Picture of the author"
+      height={200}
+      src="/images/mainIcon.png"
+      width={200}
+    />
+  </div>
+  <div
+    className="HeroHeader__ButtonWrapper-sc-1fjf32q-0 bPNgHg"
+  >
+    <div
+      className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          ログインしてはじめる
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
