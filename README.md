@@ -1,26 +1,10 @@
-# Next.js + Capacitor
-
-## Packages
-
-- Next.js(CSR & SSR)
-- Storybook
-- Styled-Component
-- Tailwind
-- MaterialUI
-- ESlint (Save on Lint)
-- i18n
-- Jest
-- Husky precommit(Jest)
+# YPS-AA
 
 ## Start Guide
 
-### Install from degit
-
-`npx degit yn1323/template#materialui-next <app-name>`
-
 ### initialize
 
-`npm i `
+`npm i`  
 `npx husky-init`
 
 ### Structure
@@ -53,20 +37,9 @@ const Component = () => <Box>{t('ボタン！')}</Box>
 1. Run test
    `npm run test`
 1. Update snapshot
-   `npm run test:update -t <Component DirectoryName>`
+   `npm run test -u <Component DirectoryName>`
 1. Coverage
    `npm run test:coverage`
-
-## Release
-
-### SSR
-
-1. Deploy somewhere
-
-### CSR
-
-1. `npm run csr`
-2. buil folder
 
 ## Build Story book
 
@@ -74,7 +47,6 @@ const Component = () => <Box>{t('ボタン！')}</Box>
 
 ### Use husky in Source Tree
 
-1. Change commit option -> bypass commit hook
 1. Command
 
    ```sh
@@ -85,6 +57,8 @@ const Component = () => <Box>{t('ボタン！')}</Box>
    echo 'export PATH="/usr/local/bin/:$PATH"' >> ~/.huskyrc
    echo 'source ~/.zprofile' >> ~/.huskyrc
    ```
+
+1. open from `stree` command
 
 ### Add Husky Command
 
