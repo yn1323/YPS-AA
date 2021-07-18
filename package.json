@@ -1,36 +1,28 @@
 {
-  "name": "ionic-next",
-  "version": "1.0.0",
-  "description": "",
+  "name": "yps-aa",
+  "version": "0.0.1",
+  "description": "Shift Time Management",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yn1323/template.git"
+    "url": "git+https://github.com/yn1323/yps-aa.git"
   },
   "author": "yn1323",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yn1323/template/issues"
   },
-  "homepage": "https://github.com/yn1323/template#readme",
+  "homepage": "https://yps-vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "csr": "csr=1 lang=ja next build && csr=1 lang=ja next export -o build/",
-    "csr--en": "csr=1 lang=en next build && csr=1 lang=en next export -o build/",
     "lint": "next lint",
     "test": "jest",
     "test:coverage": "jest --collect-coverage",
     "test:update": "jest -u",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -o ./build-storybook",
-    "chmod": "chmod 755 ./bat/*",
-    "checkkey": "bat/checkkey.sh",
-    "createkey": "bat/createkey.sh",
-    "release--android": "npm run csr && bat/release-android.sh ja",
-    "release--android--en": "npm run csr--en && bat/release-android.sh en",
-    "sign--android": "bat/sign-android.sh",
     "prepare": "husky install"
   },
   "dependencies": {
