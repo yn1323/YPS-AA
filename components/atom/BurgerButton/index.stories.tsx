@@ -12,9 +12,4 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const Primary = Template.bind({})
-Primary.args = {
-  primary: true,
-  label: 'Button',
-  size: 'large',
-}
+export const ButtonBurger = Template.bind({})

@@ -20,7 +20,12 @@
 
 ### initialize
 
-`npm i --legacy-peer-deps`
+`npm i `
+`npx husky-init`
+
+### Structure
+
+![structure](https://user-images.githubusercontent.com/17682207/124924793-c3a29500-e036-11eb-9a13-af7096bf164b.png)
 
 ## Development Guide
 
