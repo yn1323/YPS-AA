@@ -21,9 +21,7 @@ const Home: React.FC = () => {
 
       <StyledButton variant="contained">みどり</StyledButton>
 
-      <ButtonWithBackgroundColor backgroundColor="yellow">
-        きいろ
-      </ButtonWithBackgroundColor>
+      <ButtonWithBackgroundColor>きいろ</ButtonWithBackgroundColor>
 
       <RedText>あか</RedText>
     </Box>
