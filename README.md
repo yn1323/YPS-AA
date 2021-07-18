@@ -58,6 +58,8 @@ const Component = () => <Box>{t('ボタン！')}</Box>
    echo 'source ~/.zprofile' >> ~/.huskyrc
    ```
 
+1. open from `stree` command
+
 ### Add Husky Command
 
 https://github.com/typicode/husky/issues/866
