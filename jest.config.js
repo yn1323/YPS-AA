@@ -1,12 +1,12 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  roots: ['<rootDir>/components'],
+  roots: ['<rootDir>/components', '<rootDir>/public'],
   setupFilesAfterEnv: ['<rootDir>/test/setupTest.ts'],
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.(ts|tsx)$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   // https://github.com/zeit/next.js/issues/8663#issue-490553899
@@ -17,6 +17,17 @@ module.exports = {
     'ts-jest': {
       tsconfig: '<rootDir>/test/tsconfig.jest.json',
     },
+  },
+  moduleNameMapper: {
+    '^@locales(.*)$': '<rootDir>/locales$1',
+    '^@helper': '<rootDir>/src/helper',
+    '^@hooks': '<rootDir>/src/hooks',
+    '^@constant': '<rootDir>/src/constant',
+    '^@recoil(.*)$': '<rootDir>/src/recoil$1',
+    '^@atom(.*)$': '<rootDir>/components/atom$1',
+    '^@molecule(.*)$': '<rootDir>/components/molecule$1',
+    '^@organism(.*)$': '<rootDir>/components/organism$1',
+    '^@template(.*)$': '<rootDir>/components/template$1',
   },
   snapshotResolver: '<rootDir>/test/snapshotResolver.js',
   collectCoverageFrom: ['components/**/*/index.{ts,tsx}'],

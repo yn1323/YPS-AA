@@ -4,12 +4,15 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Component from '.'
 
 export default {
-  title: `atom/${Component.name}`,
+  title: `Sample/${Component.name}`,
   component: Component,
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
 } as ComponentMeta<typeof Component>
 
 const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const Primary = Template.bind({})
+export const SampleComponent = Template.bind({})

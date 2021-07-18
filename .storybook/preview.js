@@ -4,6 +4,7 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../src/constant/theme'
 import { RecoilRoot } from 'recoil'
+import * as nextImage from 'next/image'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -25,3 +26,9 @@ const withThemeProvider = (Story, context) => {
   )
 }
 export const decorators = [withThemeProvider]
+
+// Next.jsのimgを上書き
+Object.defineProperty(nextImage, 'default', {
+  configurable: true,
+  value: props => <img {...props} />,
+})
