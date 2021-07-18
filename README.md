@@ -74,7 +74,6 @@ const Component = () => <Box>{t('ボタン！')}</Box>
 
 ### Use husky in Source Tree
 
-1. Change commit option -> bypass commit hook
 1. Command
 
    ```sh
