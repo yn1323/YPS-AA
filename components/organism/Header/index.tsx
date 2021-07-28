@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppBar, Button, Theme, Toolbar } from '@material-ui/core'
+import { AppBar, Button, Toolbar } from '@material-ui/core'
 import HeaderTitle from '@atom/HeaderTitle'
 import styled from 'styled-components'
 
