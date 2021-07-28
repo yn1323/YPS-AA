@@ -20,6 +20,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '^@locales(.*)$': '<rootDir>/locales$1',
+    '^src(.*)$': '<rootDir>/src/$1',
     '^@helper': '<rootDir>/src/helper',
     '^@hooks': '<rootDir>/src/hooks',
     '^@constant': '<rootDir>/src/constant',
@@ -28,6 +29,7 @@ module.exports = {
     '^@molecule(.*)$': '<rootDir>/components/molecule$1',
     '^@organism(.*)$': '<rootDir>/components/organism$1',
     '^@template(.*)$': '<rootDir>/components/template$1',
+    '^@test(.*)$': '<rootDir>/test$1',
   },
   snapshotResolver: '<rootDir>/test/snapshotResolver.js',
   collectCoverageFrom: ['components/**/*/index.{ts,tsx}'],

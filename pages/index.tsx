@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
@@ -17,6 +18,7 @@ const Home = () => {
         <Link href="/colors">
           <a>Colors</a>
         </Link>
+        <Image src="/images/storyset/time.gif" width={400} height={400} />
       </main>
     </div>
   )
