@@ -2,10 +2,10 @@
 
 exports[`HeroHeader 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-1 HeroHeader__Root-sc-1fjf32q-1 iGqdbo"
+  className="MuiBox-root MuiBox-root-1 HeroHeader__Root-sc-12aeg85-1 eOfjJO"
 >
   <div
-    className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+    className="Center__CenterDiv-sc-rjeqkd-0 RSocn"
   >
     <img
       alt="Picture of the author"
@@ -15,10 +15,10 @@ exports[`HeroHeader 1`] = `
     />
   </div>
   <div
-    className="HeroHeader__ButtonWrapper-sc-1fjf32q-0 bPNgHg"
+    className="HeroHeader__ButtonWrapper-sc-12aeg85-0 kHBWbi"
   >
     <div
-      className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+      className="Center__CenterDiv-sc-rjeqkd-0 RSocn"
     >
       <button
         className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
