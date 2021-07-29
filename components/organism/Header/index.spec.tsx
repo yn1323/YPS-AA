@@ -1,26 +1,28 @@
+import { render } from 'enzyme'
 import React from 'react'
-import renderer from 'react-test-renderer'
-import TestWrapper from '@test/TestWrapper'
+import { act } from 'react-test-renderer'
 import Component from '.'
+import TestWrapper from '@test/TestWrapper'
 
-test(`${Component.name}-1`, () => {
-  const component = renderer.create(
-    <TestWrapper>
-      <Component space={200} />
-    </TestWrapper>
-  )
-  const tree = component.toJSON()
+test(Component.name, async () => {
+  let component
+  await act(async () => {
+    component = await render(
+      <TestWrapper>
+        <Component space={200} />
+      </TestWrapper>
+    )
+  })
 
-  expect(tree).toMatchSnapshot()
-})
+  expect(component).toMatchSnapshot()
 
-test(`${Component.name}-2`, () => {
-  const component = renderer.create(
-    <TestWrapper>
-      <Component />
-    </TestWrapper>
-  )
-  const tree = component.toJSON()
+  await act(async () => {
+    component = await render(
+      <TestWrapper>
+        <Component />
+      </TestWrapper>
+    )
+  })
 
-  expect(tree).toMatchSnapshot()
+  expect(component).toMatchSnapshot()
 })

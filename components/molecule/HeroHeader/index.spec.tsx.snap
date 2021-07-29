@@ -2,23 +2,22 @@
 
 exports[`HeroHeader 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-1 HeroHeader__Root-sc-12aeg85-1 eOfjJO"
+  className="MuiBox-root MuiBox-root-1 HeroHeader__BackGround-sc-12aeg85-3 kIFFBp"
 >
-  <div
-    className="Center__CenterDiv-sc-rjeqkd-0 RSocn"
-  >
-    <img
-      alt="Picture of the author"
-      height={200}
-      src="/images/mainIcon.png"
-      width={200}
-    />
-  </div>
-  <div
-    className="HeroHeader__ButtonWrapper-sc-12aeg85-0 kHBWbi"
-  >
+  <img
+    alt="Picture of the author"
+    height={250}
+    src="/images/storyset/time.svg"
+    width={250}
+  />
+  <div>
+    <h6
+      className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-1 kvNxwU MuiTypography-subtitle1"
+    >
+      共有できる無料のシフト管理
+    </h6>
     <div
-      className="Center__CenterDiv-sc-rjeqkd-0 RSocn"
+      className="HeroHeader__LoginButtonWrapper-sc-12aeg85-2 laPosn"
     >
       <button
         className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
