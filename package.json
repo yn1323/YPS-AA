@@ -19,6 +19,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
+    "watch": "jest --watch",
+    "watchAll": "jest --watchAll",
     "test:coverage": "jest --collect-coverage",
     "test:update": "jest -u",
     "storybook": "start-storybook -s ./public -p 6006",

@@ -34,10 +34,16 @@ const Component = () => <Box>{t('ボタン！')}</Box>
 
 ### Jest
 
-1. Run test
-   `npm run test`
+1. Run all test
+   `npm test`
+1. Run 1 file
+   `npm test -- <filename>`
+1. Run watch all
+   `npm run watchAll`
+1. Run watch 1 file
+   `npm run watch <filename>`
 1. Update snapshot
-   `test:update <Component DirectoryName>`
+   `npm run test:update <Component DirectoryName>`
 1. Coverage
    `npm run test:coverage`
 
