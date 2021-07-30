@@ -12,8 +12,8 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const IllustCard1 = Template.bind({})
-IllustCard1.args = {
+export const IllustCardRight = Template.bind({})
+IllustCardRight.args = {
   grayIsOnRight: true,
   imageUri: '/images/storyset/schedule.svg',
   text: `tetete
@@ -21,16 +21,9 @@ dasda`,
   size: 220,
 }
 
-export const IllustCard2 = Template.bind({})
-IllustCard2.args = {
+export const IllustCardLeft = Template.bind({})
+IllustCardLeft.args = {
   grayIsOnRight: false,
   imageUri: '/images/storyset/cheff.svg',
-  text: '1',
-}
-
-export const IllustCard3 = Template.bind({})
-IllustCard3.args = {
-  grayIsOnRight: true,
-  imageUri: '/images/storyset/mobile.svg',
   text: '1',
 }
