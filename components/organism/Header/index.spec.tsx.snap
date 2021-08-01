@@ -33,7 +33,7 @@ exports[`Header 1`] = `
       />
     </div>
     <h6
-      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 dffaCx MuiTypography-h6"
+      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 gvMAml MuiTypography-h6"
     >
       タイトル
     </h6>
@@ -85,7 +85,7 @@ exports[`Header 2`] = `
       />
     </div>
     <h6
-      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 dffaCx MuiTypography-h6"
+      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 gvMAml MuiTypography-h6"
     >
       タイトル
     </h6>

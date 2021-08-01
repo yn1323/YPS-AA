@@ -2,9 +2,10 @@ import { Typography } from '@material-ui/core'
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
+import tw from 'tailwind-extended.macro'
 
 const TitleText = styled(Typography)`
-  flex-grow: 1;
+  ${tw`flex-grow `};
 `
 const ImageLogo = styled(Image)`
   margin-right: 8px;

@@ -2,7 +2,7 @@ import { Box, Button, Typography } from '@material-ui/core'
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import tw from 'tailwind.macro'
+import tw from 'tailwind-extended.macro'
 
 const CatchCopy = styled(Typography)`
   ${tw`flex justify-around mb-6`}
@@ -12,7 +12,7 @@ const LoginButtonWrapper = styled.div`
 `
 
 const BackGround = styled.div`
-  ${tw`py-4 h-64 flex justify-around items-center`}
+  ${tw`py-4 h-72 flex justify-around items-center`}
   background: linear-gradient(126deg, rgba(254, 204, 204,1) 24%,rgba(240, 193, 158,1) 45%);
 `
 

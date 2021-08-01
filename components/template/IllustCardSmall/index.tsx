@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { replaceWithBrTag } from '@helper'
 
 interface Props {
-  grayIsOnRight: boolean
+  isGray: boolean
   imageUri: string
   text: string
   size?: number
@@ -22,8 +22,8 @@ const Background = styled.div<{ isGrayBg?: boolean }>`
     isGrayBg ? theme.palette.secondary.main : ''};
 `
 
-const IllustCard: React.FC<Props> = ({
-  grayIsOnRight,
+const IllustCardSmall: React.FC<Props> = ({
+  isGray,
   imageUri,
   text,
   size = 170,
@@ -33,14 +33,10 @@ const IllustCard: React.FC<Props> = ({
 
   return (
     <Root>
-      <Background isGrayBg={!grayIsOnRight}>
-        {!grayIsOnRight ? Illust : Message}
-      </Background>
-      <Background isGrayBg={grayIsOnRight}>
-        {grayIsOnRight ? Illust : Message}
-      </Background>
+      <Background isGrayBg={!isGray}>{!isGray ? Illust : Message}</Background>
+      <Background isGrayBg={isGray}>{isGray ? Illust : Message}</Background>
     </Root>
   )
 }
 
-export default IllustCard
+export default IllustCardSmall
