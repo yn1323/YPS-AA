@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer 1`] = `
+<div
+  class="Footer__Root-sc-1vgysp-0 jerMEw"
+>
+  <div
+    class="Footer__Urls-sc-1vgysp-1 sZKbU"
+  >
+    <div
+      class="SlashLink__Root-sc-12n56qr-0 hzOLSZ"
+    >
+      <a
+        href="http://www.google.com"
+        rel="noopener"
+      >
+        よくある質問
+      </a>
+      <span>
+        /
+      </span>
+      <a
+        href="http://www.google.com"
+        rel="noopener"
+      >
+        お問い合わせ
+      </a>
+      <span>
+        /
+      </span>
+      <a
+        href="https://storyset.com/work"
+        rel="noopener"
+      >
+        Illustrations by Storyset.
+      </a>
+    </div>
+  </div>
+  <span
+    class="MuiTypography-root Footer__CopyRight-sc-1vgysp-2 jQkOzQ MuiTypography-caption"
+  >
+    ©2021 YPS Team.
+  </span>
+</div>
+`;
