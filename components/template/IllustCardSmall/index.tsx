@@ -6,35 +6,40 @@ import Image from 'next/image'
 import { replaceWithBrTag } from '@helper'
 
 interface Props {
-  isGray: boolean
+  isGray?: boolean
   imageUri: string
   text: string
-  size?: number
 }
 
-const Root = styled.div`
-  ${tw`h-48 flex`}
-`
-
-const Background = styled.div<{ isGrayBg?: boolean }>`
-  ${tw`w-1/2 h-48 flex justify-center items-center`}
+const Root = styled.div<{ isGrayBg?: boolean }>`
+  ${tw`w-1/3 h-48 flex flex-col justify-center items-center p-4`}
   background: ${({ theme, isGrayBg }) =>
     isGrayBg ? theme.palette.secondary.main : ''};
 `
+const ImageWrapper = styled.div`
+  ${tw`h-3/4`}
+`
+const TextWrapper = styled.div`
+  ${tw`h-1/4 flex items-end text-lg font-semibold`}
+  color: ${({ theme }) => theme.palette.text.secondary};
+`
 
 const IllustCardSmall: React.FC<Props> = ({
-  isGray,
+  isGray = false,
   imageUri,
   text,
-  size = 170,
 }) => {
-  const Message = <Typography>{replaceWithBrTag(text)}</Typography>
-  const Illust = <Image src={imageUri} width={size} height={size} />
-
   return (
-    <Root>
-      <Background isGrayBg={!isGray}>{!isGray ? Illust : Message}</Background>
-      <Background isGrayBg={isGray}>{isGray ? Illust : Message}</Background>
+    <Root isGrayBg={isGray}>
+      <ImageWrapper>
+        <Image
+          src={imageUri}
+          height={'100%'}
+          width={'100%'}
+          objectFit="contain"
+        />
+      </ImageWrapper>
+      <TextWrapper>{replaceWithBrTag(text)}</TextWrapper>
     </Root>
   )
 }

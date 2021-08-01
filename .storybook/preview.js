@@ -30,5 +30,5 @@ export const decorators = [withThemeProvider]
 // Next.jsのimgを上書き
 Object.defineProperty(nextImage, 'default', {
   configurable: true,
-  value: props => <img {...props} />,
+  value: props => <img {...props} style={{ objectFit: 'contain' }} />,
 })

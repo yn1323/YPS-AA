@@ -12,16 +12,16 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const IllustCardSmall1 = Template.bind({})
-IllustCardSmall1.args = {
-  isGray: true,
-  imageUri: '/images/storyset/schedule.svg',
+export const BackgroundWhite = Template.bind({})
+BackgroundWhite.args = {
+  isGray: false,
+  imageUri: '/images/functionalIcon1.png',
   text: `tetetedasda`,
 }
 
-export const IllustCardSmall2 = Template.bind({})
-IllustCardSmall2.args = {
-  isGray: false,
-  imageUri: '/images/storyset/cheff.svg',
+export const BackgroundGray = Template.bind({})
+BackgroundGray.args = {
+  isGray: true,
+  imageUri: '/images/functionalIcon2.png',
   text: '1',
 }

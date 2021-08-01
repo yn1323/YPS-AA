@@ -10,10 +10,9 @@ test(Component.name, async () => {
     component = await render(
       <TestWrapper>
         <Component
-          grayIsOnRight={true}
-          imageUri="/images/storyset/schedule.svg"
+          isGray
+          imageUri="/images/functionalIcon1.png"
           text="sampletext"
-          size={220}
         />
       </TestWrapper>
     )
@@ -22,11 +21,7 @@ test(Component.name, async () => {
   await act(async () => {
     component = await render(
       <TestWrapper>
-        <Component
-          grayIsOnRight={false}
-          imageUri="/images/storyset/schedule.svg"
-          text="sampletext"
-        />
+        <Component imageUri="/images/functionalIcon1.png" text="sampletext" />
       </TestWrapper>
     )
   })
