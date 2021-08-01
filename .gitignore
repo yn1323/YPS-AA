@@ -47,3 +47,5 @@ build-storybook/
 
 /public/workbox-*.js
 /public/sw.js
+
+/components/__SampleTemplate
