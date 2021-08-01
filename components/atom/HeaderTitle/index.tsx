@@ -5,10 +5,10 @@ import Image from 'next/image'
 import tw from 'tailwind-extended.macro'
 
 const TitleText = styled(Typography)`
-  ${tw`flex-grow `};
+  ${tw`flex-grow`};
 `
 const ImageLogo = styled(Image)`
-  margin-right: 8px;
+  ${tw`mr-2`}
 `
 
 const HeaderTitle: React.FC = ({ children }) => {

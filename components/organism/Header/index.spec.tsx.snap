@@ -23,17 +23,17 @@ exports[`Header 1`] = `
         />
       </div>
       <noscript>
-        &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 kdUNWc"/&gt;
+        &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"/&gt;
       </noscript>
       <img
-        class="HeaderTitle__ImageLogo-sc-nwr99g-1 kdUNWc"
+        class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
       />
     </div>
     <h6
-      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 gvMAml MuiTypography-h6"
+      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 dfYmdX MuiTypography-h6"
     >
       タイトル
     </h6>
@@ -75,17 +75,17 @@ exports[`Header 2`] = `
         />
       </div>
       <noscript>
-        &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 kdUNWc"/&gt;
+        &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"/&gt;
       </noscript>
       <img
-        class="HeaderTitle__ImageLogo-sc-nwr99g-1 kdUNWc"
+        class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
       />
     </div>
     <h6
-      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 gvMAml MuiTypography-h6"
+      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 dfYmdX MuiTypography-h6"
     >
       タイトル
     </h6>
