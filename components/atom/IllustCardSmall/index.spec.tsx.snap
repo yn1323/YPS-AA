@@ -32,7 +32,7 @@ exports[`IllustCardSmall 1`] = `
     </div>
   </div>
   <div
-    class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+    class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
   >
     sampletext
   </div>
@@ -71,7 +71,7 @@ exports[`IllustCardSmall 2`] = `
     </div>
   </div>
   <div
-    class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+    class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
   >
     sampletext
   </div>

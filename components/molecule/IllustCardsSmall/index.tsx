@@ -38,6 +38,7 @@ const illusts = [
 
 const Root = styled.div`
   ${tw`flex flex-wrap`}
+  outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
 `
 
 const IllustCardsSmall: React.FC = () => {

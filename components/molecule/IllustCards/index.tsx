@@ -23,7 +23,9 @@ const illusts = [
   },
 ] as const
 
-const Root = styled.div``
+const Root = styled.div`
+  outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
+`
 
 const IllustCards: React.FC = () => {
   const illustCardArray = illusts.map(

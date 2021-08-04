@@ -11,11 +11,5 @@ export default {
 const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
-const Template2: ComponentStory<typeof Component> = args => (
-  <div style={{ width: '400px' }}>
-    <Component {...args} />
-  </div>
-)
 
 export const PC = Template.bind({})
-export const SP = Template2.bind({})

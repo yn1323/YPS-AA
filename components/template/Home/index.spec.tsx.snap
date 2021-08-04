@@ -5,7 +5,7 @@ exports[`Home 1`] = `
   class="Home__Root-sc-ffcnho-0 kbjdKM"
 >
   <section
-    class="Home__HeroWrapper-sc-ffcnho-1 cdvPbw"
+    class="Home__HeroWrapper-sc-ffcnho-1 iAGeyb"
   >
     <div
       class="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
@@ -20,7 +20,7 @@ exports[`Home 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
@@ -36,9 +36,13 @@ exports[`Home 1`] = `
       </div>
       <div>
         <h6
-          class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 eSFAtB MuiTypography-subtitle1"
+          class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
         >
-          共有できる無料のシフト管理
+          共有できる
+          <br
+            class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+          />
+          無料のシフト管理
         </h6>
         <div
           class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
@@ -64,10 +68,15 @@ exports[`Home 1`] = `
     </div>
   </section>
   <section
-    class="Home__SubWrapper-sc-ffcnho-2 gGLJHy"
+    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
   >
+    <p
+      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-body1"
+    >
+      YPSでできること
+    </p>
     <div
-      class="IllustCards__Root-sc-vtqqs7-0"
+      class="IllustCards__Root-sc-vtqqs7-0 dyMOrJ"
     >
       <div
         class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
@@ -192,10 +201,15 @@ exports[`Home 1`] = `
     </div>
   </section>
   <section
-    class="Home__SubWrapper-sc-ffcnho-2 gGLJHy"
+    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
   >
+    <h6
+      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h6"
+    >
+      機能
+    </h6>
     <div
-      class="IllustCardsSmall__Root-sc-18buo05-0 gfsLjv"
+      class="IllustCardsSmall__Root-sc-18buo05-0 htYGfg"
     >
       <div
         class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
@@ -228,7 +242,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           開閉店時間
         </div>
@@ -264,7 +278,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           タイムカード
         </div>
@@ -300,7 +314,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           月ごとで管理
         </div>
@@ -336,7 +350,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           勤務時間のリスト化
         </div>
@@ -372,7 +386,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           無料
         </div>
@@ -408,7 +422,7 @@ exports[`Home 1`] = `
           </div>
         </div>
         <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
         >
           クラウドに保存
         </div>

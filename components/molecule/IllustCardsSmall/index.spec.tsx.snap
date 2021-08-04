@@ -2,7 +2,7 @@
 
 exports[`IllustCardsSmall 1`] = `
 <div
-  class="IllustCardsSmall__Root-sc-18buo05-0 gfsLjv"
+  class="IllustCardsSmall__Root-sc-18buo05-0 htYGfg"
 >
   <div
     class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
@@ -35,7 +35,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       開閉店時間
     </div>
@@ -71,7 +71,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       タイムカード
     </div>
@@ -107,7 +107,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       月ごとで管理
     </div>
@@ -143,7 +143,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       勤務時間のリスト化
     </div>
@@ -179,7 +179,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       無料
     </div>
@@ -215,7 +215,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
     >
       クラウドに保存
     </div>

@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import Image from 'next/image'
 import { replaceWithBrTag } from '@helper'
+import { mediaQueries } from 'src/constant/mixins'
 
 interface Props {
   isGray?: boolean
@@ -20,8 +21,12 @@ const ImageWrapper = styled.div`
   ${tw`h-3/4 flex justify-center items-center`}
 `
 const TextWrapper = styled.div`
-  ${tw`h-1/4 flex items-end text-lg font-semibold`}
+  ${tw`h-1/4 flex items-end font-semibold`}
   color: ${({ theme }) => theme.palette.text.secondary};
+  font-size: 0.6rem;
+  ${mediaQueries('md')} {
+    font-size: 0.9rem;
+  }
 `
 
 const IllustCardSmall: React.FC<Props> = ({

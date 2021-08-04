@@ -14,7 +14,7 @@ exports[`HeroHeader 1`] = `
         alt=""
         aria-hidden="true"
         role="presentation"
-        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
         style="max-width:100%;display:block;margin:0;border:none;padding:0"
       />
     </div>
@@ -30,9 +30,13 @@ exports[`HeroHeader 1`] = `
   </div>
   <div>
     <h6
-      class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 eSFAtB MuiTypography-subtitle1"
+      class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
     >
-      共有できる無料のシフト管理
+      共有できる
+      <br
+        class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+      />
+      無料のシフト管理
     </h6>
     <div
       class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"

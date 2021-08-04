@@ -4,21 +4,16 @@ import HeaderTitle from '@atom/HeaderTitle'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
-interface Props {
-  space?: number
-}
-
-const SpacedToolbar = styled(Toolbar)<Pick<Props, 'space'>>`
-  padding-left: ${({ space }) => space}px;
-  padding-right: ${({ space }) => space}px;
+const SpacedToolbar = styled(Toolbar)`
+  ${tw`px-4 lg:px-56`}
   background: ${({ theme }) => theme.palette.secondary.main};
   color: ${({ theme }) => theme.palette.secondary.contrastText};
 `
 
-const Header: React.FC<Props> = ({ space = 20 }) => {
+const Header: React.FC = () => {
   return (
     <AppBar position="fixed">
-      <SpacedToolbar space={space}>
+      <SpacedToolbar>
         <HeaderTitle>タイトル</HeaderTitle>
         <Button color="inherit">Login</Button>
       </SpacedToolbar>

@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import HeroHeader from '@molecule/HeroHeader'
-import IllustCards from '@organism/IllustCards'
-import IllustCardsSmall from '@molecule/IllustCardsSmall'
+import HomeTemplate from '@template/Home'
 
 const Home = () => {
   return (
@@ -10,9 +8,7 @@ const Home = () => {
         <title>YPS</title>
       </Head>
       <main>
-        <HeroHeader />
-        <IllustCards />
-        <IllustCardsSmall />
+        <HomeTemplate />
       </main>
     </div>
   )
