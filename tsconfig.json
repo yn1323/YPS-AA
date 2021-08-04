@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@test/*": ["test/*"],
       "@locales/*": ["locales/*"],
       "@helper": ["src/helper"],
       "@hooks": ["src/hooks"],

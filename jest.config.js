@@ -1,7 +1,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  roots: ['<rootDir>/components', '<rootDir>/public'],
+  roots: ['<rootDir>/components', '<rootDir>/src', '<rootDir>/public'],
   setupFilesAfterEnv: ['<rootDir>/test/setupTest.ts'],
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
@@ -20,6 +20,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '^@locales(.*)$': '<rootDir>/locales$1',
+    '^src(.*)$': '<rootDir>/src/$1',
     '^@helper': '<rootDir>/src/helper',
     '^@hooks': '<rootDir>/src/hooks',
     '^@constant': '<rootDir>/src/constant',
@@ -28,8 +29,12 @@ module.exports = {
     '^@molecule(.*)$': '<rootDir>/components/molecule$1',
     '^@organism(.*)$': '<rootDir>/components/organism$1',
     '^@template(.*)$': '<rootDir>/components/template$1',
+    '^@test(.*)$': '<rootDir>/test$1',
   },
   snapshotResolver: '<rootDir>/test/snapshotResolver.js',
-  collectCoverageFrom: ['components/**/*/index.{ts,tsx}'],
+  collectCoverageFrom: [
+    'components/**/*/index.{ts,tsx}',
+    'src/helper/*[^index].{ts,tsx}',
+  ],
   collectCoverage: true,
 }

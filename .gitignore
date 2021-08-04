@@ -47,3 +47,7 @@ build-storybook/
 
 /public/workbox-*.js
 /public/sw.js
+
+# For debug
+/components/__SampleTemplate
+/tailwind.macro

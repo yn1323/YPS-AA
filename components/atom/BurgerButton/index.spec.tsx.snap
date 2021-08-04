@@ -3,7 +3,7 @@
 exports[`BurgerButton 1`] = `
 <button
   aria-label="menu"
-  className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-17j3exy-0 dDtap MuiIconButton-colorInherit MuiIconButton-edgeStart"
+  className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}

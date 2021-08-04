@@ -12,6 +12,7 @@ import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-component
 
 import 'styles/globals.css'
 import { theme } from '@constant'
+import Layout from '@template/Layout'
 
 const App = ({ Component, pageProps }: AppProps) => {
   // Remove the server-side injected CSS.(https://material-ui.com/guides/server-rendering/)
@@ -27,7 +28,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         <StyledComponentsThemeProvider theme={theme}>
           <CssBaseline />
           <RecoilRoot>
-            <Component {...pageProps} />
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
           </RecoilRoot>
         </StyledComponentsThemeProvider>
       </MaterialUIThemeProvider>
