@@ -17,7 +17,7 @@ const Root = styled.div<{ isGrayBg?: boolean }>`
     isGrayBg ? theme.palette.secondary.main : ''};
 `
 const ImageWrapper = styled.div`
-  ${tw`h-3/4`}
+  ${tw`h-3/4 flex justify-center items-center`}
 `
 const TextWrapper = styled.div`
   ${tw`h-1/4 flex items-end text-lg font-semibold`}
@@ -34,8 +34,8 @@ const IllustCardSmall: React.FC<Props> = ({
       <ImageWrapper>
         <Image
           src={imageUri}
-          height={'100%'}
-          width={'100%'}
+          height={'80%'}
+          width={'80%'}
           objectFit="contain"
         />
       </ImageWrapper>

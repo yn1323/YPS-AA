@@ -2,13 +2,13 @@
 
 exports[`IllustCards 1`] = `
 <div
-  class="IllustCards__Root-sc-1anawam-0"
+  class="IllustCards__Root-sc-vtqqs7-0"
 >
   <div
-    class="IllustCard__Root-sc-1odk8sa-0 lclisE"
+    class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
   >
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 crDaGk"
+      class="IllustCard__Background-sc-jkzekw-1 iVTORx"
     >
       <p
         class="MuiTypography-root MuiTypography-body1"
@@ -17,7 +17,7 @@ exports[`IllustCards 1`] = `
       </p>
     </div>
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 htZYfL"
+      class="IllustCard__Background-sc-jkzekw-1 imLytu"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -45,10 +45,10 @@ exports[`IllustCards 1`] = `
     </div>
   </div>
   <div
-    class="IllustCard__Root-sc-1odk8sa-0 lclisE"
+    class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
   >
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 htZYfL"
+      class="IllustCard__Background-sc-jkzekw-1 imLytu"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -75,7 +75,7 @@ exports[`IllustCards 1`] = `
       </div>
     </div>
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 crDaGk"
+      class="IllustCard__Background-sc-jkzekw-1 iVTORx"
     >
       <p
         class="MuiTypography-root MuiTypography-body1"
@@ -85,10 +85,10 @@ exports[`IllustCards 1`] = `
     </div>
   </div>
   <div
-    class="IllustCard__Root-sc-1odk8sa-0 lclisE"
+    class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
   >
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 crDaGk"
+      class="IllustCard__Background-sc-jkzekw-1 iVTORx"
     >
       <p
         class="MuiTypography-root MuiTypography-body1"
@@ -97,7 +97,7 @@ exports[`IllustCards 1`] = `
       </p>
     </div>
     <div
-      class="IllustCard__Background-sc-1odk8sa-1 htZYfL"
+      class="IllustCard__Background-sc-jkzekw-1 imLytu"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"

@@ -1,5 +1,5 @@
 import React from 'react'
-import IllustCardSmall from '@template/IllustCardSmall'
+import IllustCardSmall from '@atom/IllustCardSmall'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 

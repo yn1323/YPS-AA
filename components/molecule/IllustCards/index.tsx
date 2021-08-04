@@ -1,4 +1,4 @@
-import IllustCard from '@template/IllustCard'
+import IllustCard from '@atom/IllustCard'
 import React from 'react'
 import styled from 'styled-components'
 

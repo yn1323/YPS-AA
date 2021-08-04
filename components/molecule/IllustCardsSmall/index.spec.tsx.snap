@@ -2,13 +2,13 @@
 
 exports[`IllustCardsSmall 1`] = `
 <div
-  class="IllustCardsSmall__Root-sc-1rv1n5e-0 dLGfGh"
+  class="IllustCardsSmall__Root-sc-18buo05-0 gfsLjv"
 >
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 bVmiEj"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -20,12 +20,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -35,16 +35,16 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       開閉店時間
     </div>
   </div>
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 jOkAqI"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -56,12 +56,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -71,16 +71,16 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       タイムカード
     </div>
   </div>
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 bVmiEj"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -92,12 +92,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -107,16 +107,16 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       月ごとで管理
     </div>
   </div>
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 jOkAqI"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -128,12 +128,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -143,16 +143,16 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       勤務時間のリスト化
     </div>
   </div>
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 bVmiEj"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -164,12 +164,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -179,16 +179,16 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       無料
     </div>
   </div>
   <div
-    class="IllustCardSmall__Root-sc-pze6hn-0 jOkAqI"
+    class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
   >
     <div
-      class="IllustCardSmall__ImageWrapper-sc-pze6hn-1 cYrpPj"
+      class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
@@ -200,12 +200,12 @@ exports[`IllustCardsSmall 1`] = `
             alt=""
             aria-hidden="true"
             role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+          &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
         </noscript>
         <img
           decoding="async"
@@ -215,7 +215,7 @@ exports[`IllustCardsSmall 1`] = `
       </div>
     </div>
     <div
-      class="IllustCardSmall__TextWrapper-sc-pze6hn-2 hZRBmh"
+      class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 ceIjGK"
     >
       クラウドに保存
     </div>

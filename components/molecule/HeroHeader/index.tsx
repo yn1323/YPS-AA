@@ -1,6 +1,7 @@
 import { Box, Button, Typography } from '@material-ui/core'
 import Image from 'next/image'
 import React from 'react'
+import { SpOnlySpan } from 'src/helper/styles'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
@@ -29,7 +30,7 @@ const HeroHeader: React.FC = () => {
         <CatchCopy variant="subtitle1">共有できる無料のシフト管理</CatchCopy>
         <LoginButtonWrapper>
           <Button variant="contained" color="primary">
-            ログインしてはじめる
+            ログイン<SpOnlySpan>してはじめる</SpOnlySpan>
           </Button>
         </LoginButtonWrapper>
       </div>

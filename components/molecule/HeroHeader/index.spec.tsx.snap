@@ -45,7 +45,12 @@ exports[`HeroHeader 1`] = `
         <span
           class="MuiButton-label"
         >
-          ログインしてはじめる
+          ログイン
+          <span
+            class="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+          >
+            してはじめる
+          </span>
         </span>
       </button>
     </div>

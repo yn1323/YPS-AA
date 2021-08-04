@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
 const Root = styled.div`
-  ${tw`h-14 p-1 flex flex-col justify-center`}
+  ${tw`h-14 p-1 flex w-full flex-col justify-center`}
   background: ${({ theme }) => theme.palette.secondary.light};
 `
 

@@ -8,6 +8,12 @@ import * as nextImage from 'next/image'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
+  layout: 'fullscreen',
+  options: {
+    storySort: {
+      order: ['atom', 'molecule', 'organism', 'template', 'page'],
+    },
+  },
 }
 
 const withThemeProvider = (Story, context) => {
