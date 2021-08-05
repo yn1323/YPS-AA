@@ -14,8 +14,10 @@ const Header: React.FC = () => {
   return (
     <AppBar position="fixed">
       <SpacedToolbar>
-        <HeaderTitle>タイトル</HeaderTitle>
-        <Button color="inherit">Login</Button>
+        <HeaderTitle>YPS</HeaderTitle>
+        <Button variant="contained" color="primary">
+          ログイン
+        </Button>
       </SpacedToolbar>
     </AppBar>
   )

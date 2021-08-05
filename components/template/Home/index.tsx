@@ -32,11 +32,11 @@ const Home: React.FC = () => {
         <HeroHeader />
       </HeroWrapper>
       <SubWrapper>
-        <Summary>YPSでできること</Summary>
+        <Summary variant="h3">YPSでできること</Summary>
         <IllustCards />
       </SubWrapper>
       <SubWrapper>
-        <Summary variant="h6">機能</Summary>
+        <Summary variant="h3">特徴</Summary>
         <IllustCardsSmall />
       </SubWrapper>
     </Root>
