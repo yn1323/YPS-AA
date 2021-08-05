@@ -5,7 +5,7 @@ import Image from 'next/image'
 import tw from 'tailwind-extended.macro'
 
 const TitleText = styled(Typography)`
-  ${tw`flex-grow`};
+  ${tw`flex-grow ml-3`};
 `
 const ImageLogo = styled(Image)`
   ${tw`mr-2`}
