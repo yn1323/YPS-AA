@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home 1`] = `
+<div
+  class="Home__Root-sc-ffcnho-0 kbjdKM"
+>
+  <section
+    class="Home__HeroWrapper-sc-ffcnho-1 iAGeyb"
+  >
+    <div
+      class="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
+    >
+      <div
+        style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+      >
+        <div
+          style="box-sizing:border-box;display:block;max-width:100%"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            style="max-width:100%;display:block;margin:0;border:none;padding:0"
+          />
+        </div>
+        <noscript>
+          &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+        </noscript>
+        <img
+          alt="Picture of the author"
+          data-nimg="true"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+        />
+      </div>
+      <div>
+        <h6
+          class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+        >
+          共有できる
+          <br
+            class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+          />
+          無料のシフト管理
+        </h6>
+        <div
+          class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ログイン
+              <span
+                class="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+              >
+                してはじめる
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+  >
+    <h3
+      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+    >
+      YPSでできること
+    </h3>
+    <div
+      class="IllustCards__Root-sc-vtqqs7-0 dyMOrJ"
+    >
+      <div
+        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
+      >
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            シフトを一覧で表示
+          </p>
+        </div>
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 imLytu"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
+      >
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 imLytu"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            美味しいごはん
+          </p>
+        </div>
+      </div>
+      <div
+        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
+      >
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            スマホで登録
+          </p>
+        </div>
+        <div
+          class="IllustCard__Background-sc-jkzekw-1 imLytu"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+  >
+    <h3
+      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+    >
+      特徴
+    </h3>
+    <div
+      class="IllustCardsSmall__Root-sc-18buo05-0 htYGfg"
+    >
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          開閉店時間
+        </div>
+      </div>
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          タイムカード
+        </div>
+      </div>
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          月ごとで管理
+        </div>
+      </div>
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          勤務時間のリスト化
+        </div>
+      </div>
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          無料
+        </div>
+      </div>
+      <div
+        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
+      >
+        <div
+          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+            </noscript>
+            <img
+              data-nimg="true"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
+            />
+          </div>
+        </div>
+        <div
+          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+        >
+          クラウドに保存
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

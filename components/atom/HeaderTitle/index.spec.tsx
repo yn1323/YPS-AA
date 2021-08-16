@@ -1,10 +1,13 @@
+import { render } from 'enzyme'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { act } from 'react-test-renderer'
 import Component from '.'
 
-test(Component.name, () => {
-  const component = renderer.create(<Component />)
-  const tree = component.toJSON()
+test(Component.name, async () => {
+  let component
+  await act(async () => {
+    component = await render(<Component />)
+  })
 
-  expect(tree).toMatchSnapshot()
+  expect(component).toMatchSnapshot()
 })

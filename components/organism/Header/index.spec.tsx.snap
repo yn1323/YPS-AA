@@ -2,70 +2,49 @@
 
 exports[`Header 1`] = `
 <header
-  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
 >
   <div
-    className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    class="MuiToolbar-root MuiToolbar-regular Header__SpacedToolbar-sc-1u3zo5s-0 gMoPse MuiToolbar-gutters"
   >
-    <button
-      aria-label="menu"
-      className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-17j3exy-0 dDtap MuiIconButton-colorInherit MuiIconButton-edgeStart"
-      disabled={false}
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
+    <div
+      style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
     >
-      <span
-        className="MuiIconButton-label"
+      <div
+        style="box-sizing:border-box;display:block;max-width:100%"
       >
-        <svg
-          aria-hidden={true}
-          className="MuiSvgIcon-root"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-          />
-        </svg>
-      </span>
-    </button>
+        <img
+          alt=""
+          aria-hidden="true"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+          style="max-width:100%;display:block;margin:0;border:none;padding:0"
+        />
+      </div>
+      <noscript>
+        &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"/&gt;
+      </noscript>
+      <img
+        class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
+        data-nimg="true"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+      />
+    </div>
     <h6
-      className="MuiTypography-root HeaderTitle__TitleText-sc-ufp3wy-0 eAfaAT MuiTypography-h6"
+      class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 bBBKNK MuiTypography-h6"
     >
-      タイトル
+      YPS
     </h6>
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
-      disabled={false}
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
       type="button"
     >
       <span
-        className="MuiButton-label"
+        class="MuiButton-label"
       >
-        Login
+        ログイン
       </span>
     </button>
   </div>

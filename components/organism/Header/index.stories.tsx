@@ -12,4 +12,4 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const SampleButton = Template.bind({})
+export const Header = Template.bind({})

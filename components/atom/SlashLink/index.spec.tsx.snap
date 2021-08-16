@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlashLink 1`] = `
+<div
+  class="SlashLink__Root-sc-12n56qr-0 hzOLSZ"
+>
+  <a
+    href="http://www.google.com"
+    rel="noopener"
+  >
+    よくある質問
+  </a>
+  <span>
+    /
+  </span>
+  <a
+    href="http://www.google.com"
+    rel="noopener"
+  >
+    お問い合わせ
+  </a>
+  <span>
+    /
+  </span>
+  <a
+    href="https://storyset.com/work"
+    rel="noopener"
+  >
+    Illustrations by Storyset.
+  </a>
+</div>
+`;

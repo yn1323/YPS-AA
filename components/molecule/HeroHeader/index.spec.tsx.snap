@@ -2,45 +2,59 @@
 
 exports[`HeroHeader 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-1 HeroHeader__Root-sc-1fjf32q-1 iGqdbo"
+  class="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
 >
   <div
-    className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
-  >
-    <img
-      alt="Picture of the author"
-      height={200}
-      src="/images/mainIcon.png"
-      width={200}
-    />
-  </div>
-  <div
-    className="HeroHeader__ButtonWrapper-sc-1fjf32q-0 bPNgHg"
+    style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
   >
     <div
-      className="Center__CenterDiv-sc-1e15c0w-0 crOYdg"
+      style="box-sizing:border-box;display:block;max-width:100%"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+        style="max-width:100%;display:block;margin:0;border:none;padding:0"
+      />
+    </div>
+    <noscript>
+      &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+    </noscript>
+    <img
+      alt="Picture of the author"
+      data-nimg="true"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+    />
+  </div>
+  <div>
+    <h6
+      class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+    >
+      共有できる
+      <br
+        class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+      />
+      無料のシフト管理
+    </h6>
+    <div
+      class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
     >
       <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-        disabled={false}
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        tabindex="0"
         type="button"
       >
         <span
-          className="MuiButton-label"
+          class="MuiButton-label"
         >
-          ログインしてはじめる
+          ログイン
+          <span
+            class="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+          >
+            してはじめる
+          </span>
         </span>
       </button>
     </div>
