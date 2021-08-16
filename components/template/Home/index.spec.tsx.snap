@@ -19,16 +19,16 @@ exports[`Home 1`] = `
           <img
             alt=""
             aria-hidden="true"
-            role="presentation"
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style="max-width:100%;display:block;margin:0;border:none;padding:0"
           />
         </div>
         <noscript>
-          &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+          &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
         </noscript>
         <img
           alt="Picture of the author"
+          data-nimg="true"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
@@ -102,15 +102,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
@@ -133,15 +133,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
@@ -182,15 +182,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
@@ -226,15 +226,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
@@ -262,15 +262,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
@@ -298,15 +298,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
@@ -334,15 +334,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
@@ -370,15 +370,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
@@ -406,15 +406,15 @@ exports[`Home 1`] = `
               <img
                 alt=""
                 aria-hidden="true"
-                role="presentation"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                 style="max-width:100%;display:block;margin:0;border:none;padding:0"
               />
             </div>
             <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
+              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
             </noscript>
             <img
+              data-nimg="true"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
