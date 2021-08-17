@@ -4,8 +4,8 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
   ],
+  root: true,
   plugins: ['@typescript-eslint', 'prettier'],
   env: { node: true, es6: true },
   rules: {
