@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@schema/*": ["src/schema/*"],
+      "@constant/*": ["src/constant/*"],
+      "@helper/*": ["src/helper/*"],
+      "@resolver/*": ["src/resolver/*"]
+    },
     "module": "commonjs",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -9,7 +16,6 @@
     "target": "es2017"
   },
   "compileOnSave": true,
-  "include": [
-    "src"
-  ]
+  "include": ["src", "types"],
+  "exclude": ["node_modules"]
 }

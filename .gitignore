@@ -51,3 +51,10 @@ build-storybook/
 # For debug
 /components/__SampleTemplate
 /tailwind.macro
+
+# Firebae
+firestore-debug.log
+firebase-debug.log
+ui-debug.log
+functions/localdata
+functions/firebse-export*

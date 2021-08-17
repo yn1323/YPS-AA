@@ -17,6 +17,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "emulator": "cd functions && npm run serve",
     "lint": "next lint",
     "test": "jest",
     "watch": "jest --watch",
