@@ -36,6 +36,7 @@ const exportPathMap = isCSR
       ) => {
         return {
           '/': { page: '/' },
+          '/test': { page: '/test' },
         }
       },
     }

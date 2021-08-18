@@ -8,8 +8,7 @@ import {
 } from '@material-ui/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
-
-import { theme } from '@constant'
+import { theme } from '@constant/theme'
 
 interface Props {
   children: JSX.Element

@@ -1,4 +1,4 @@
-import { csrLang, isCSR } from '@constant'
+import { csrLang, isCSR } from '@constant/common'
 import en from '@locales/en'
 import { useRouter } from 'next/router'
 

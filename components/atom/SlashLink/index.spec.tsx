@@ -1,4 +1,4 @@
-import { FOOTER_LINKS } from '@constant'
+import { FOOTER_LINKS } from '@constant/common'
 import TestWrapper from '@test/TestWrapper'
 import { render } from 'enzyme'
 import React from 'react'
