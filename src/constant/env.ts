@@ -4,7 +4,7 @@ export const FIREBASE_NODE_CRUDENTIAL: ServiceAccount = {
   // type: 'service_account',
   projectId: process.env.NEXT_PUBLIC_F_PROJECT_ID,
   // private_key_id: process.env.NEXT_PUBLIC_F_PRIVATE_KEY_ID || '',
-  privateKey: process.env.NEXT_PUBLIC_F_PRIVATE_KEY,
+  privateKey: process.env.NEXT_PUBLIC_F_PRIVATE_KEY?.replace(/\\n/g, '\n'),
   clientEmail: process.env.NEXT_PUBLIC_F_CLIENT_ID,
   // client_id: process.env.NEXT_PUBLIC_F_CLIENT_ID || '',
   // auth_uri: process.env.NEXT_PUBLIC_F_AUTH_URI || '',
