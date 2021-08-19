@@ -1,6 +1,5 @@
 import { ApolloServer } from 'apollo-server-micro'
-import { resolvers } from '@graphql/resolver/query'
-import { typeDefs } from '@graphql/types/type'
+import { typeDefs, resolvers } from '@graphql/index'
 import { ENVIRONMENT } from '@constant/env'
 
 const apolloServer = new ApolloServer({

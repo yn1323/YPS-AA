@@ -6,7 +6,7 @@ interface Works {
   thumb: string
 }
 
-export const resolvers = {
+export const resolver = {
   Query: {
     async works() {
       const workses = await nodeFirestore.collection('works').get()
@@ -14,3 +14,5 @@ export const resolvers = {
     },
   },
 }
+
+export default resolver

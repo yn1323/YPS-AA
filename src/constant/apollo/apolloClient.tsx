@@ -6,7 +6,7 @@ let apolloClient: any
 function createIsomorphLink() {
   if (typeof window === 'undefined') {
     const { SchemaLink } = require('@apollo/client/link/schema')
-    const { schema } = require('@graphql/schema')
+    const { schema } = require('@graphql/index')
     return new SchemaLink({ schema })
   } else {
     const { HttpLink } = require('@apollo/client/link/http')

@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server-micro'
 
-export const typeDefs = gql`
+const typeDef = gql`
   type Query {
     works: [Works]
   }
@@ -9,3 +9,5 @@ export const typeDefs = gql`
     thumb: String!
   }
 `
+
+export default typeDef

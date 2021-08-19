@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server-micro'
 
-export const testQuery = gql`
+const mutation = gql`
   query Query {
     works {
       name
@@ -8,3 +8,4 @@ export const testQuery = gql`
     }
   }
 `
+export default mutation
