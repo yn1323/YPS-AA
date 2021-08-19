@@ -25,9 +25,19 @@
     "test:update": "jest -u",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -o ./build-storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "emulator": "rm -r ./firebase-export* | npm run kill && firebase emulators:start --import ./localdata --export-on-exit ./localdata",
+    "kill": "lsof -t -i :9099 -i:8080 -i:9199 -i:4000 -i:4400 | xargs kill -9"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.8",
+    "@google-cloud/storage": "^5.13.0",
+    "apollo-server-micro": "^3.1.2",
+    "axios": "^0.21.1",
+    "firebase": "^8.9.1",
+    "firebase-admin": "^9.11.0",
+    "graphql-tools": "^8.1.0",
+    "lodash": "^4.17.21",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -46,6 +56,7 @@
     "@storybook/react": "^6.3.7",
     "@types/enzyme": "^3.10.9",
     "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.172",
     "@types/react": "17.0.18",
     "@types/react-test-renderer": "^17.0.1",
     "@types/styled-components": "^5.1.12",

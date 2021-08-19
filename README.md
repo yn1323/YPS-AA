@@ -5,11 +5,14 @@
 ### initialize
 
 `npm i`  
-`npx husky-init`
+`npx husky-init`  
+`cd functions && npm i`
 
 ### Structure
 
 ![structure](https://user-images.githubusercontent.com/17682207/124924793-c3a29500-e036-11eb-9a13-af7096bf164b.png)
+
+---
 
 ## Development Guide
 
@@ -18,6 +21,13 @@
 
 2. Start Storybook
    `npm run storybook`
+
+3. Firebase emulator
+   `npm run storybook`
+
+4. [GraphQL Server](http://localhost:3000/api/graphql)
+
+---
 
 ## i18n
 
@@ -29,8 +39,6 @@ import { useLocale } from '@hooks'
 const { t } = useLocale()
 const Component = () => <Box>{t('ボタン！')}</Box>
 ```
-
-## Test
 
 ### Jest
 

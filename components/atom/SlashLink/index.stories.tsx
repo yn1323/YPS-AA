@@ -2,7 +2,7 @@ import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 import Component from '.'
-import { FOOTER_LINKS } from '@constant'
+import { FOOTER_LINKS } from '@constant/common'
 
 export default {
   title: `organism/${Component.name}`,

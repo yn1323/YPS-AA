@@ -4,14 +4,15 @@
     "paths": {
       "@test/*": ["test/*"],
       "@locales/*": ["locales/*"],
-      "@helper": ["src/helper"],
-      "@hooks": ["src/hooks"],
-      "@constant": ["src/constant"],
+      "@helper/*": ["src/helper/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@constant/*": ["src/constant/*"],
       "@recoil/*": ["src/recoil/*"],
       "@atom/*": ["components/atom/*"],
       "@molecule/*": ["components/molecule/*"],
       "@organism/*": ["components/organism/*"],
-      "@template/*": ["components/template/*"]
+      "@template/*": ["components/template/*"],
+      "@graphql/*": ["pages/api/graphql/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
