@@ -25,6 +25,8 @@
 3. Firebase emulator
    `npm run storybook`
 
+4. [GraphQL Server](http://localhost:3000/api/graphql)
+
 ---
 
 ## i18n
