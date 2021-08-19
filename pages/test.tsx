@@ -1,7 +1,6 @@
 import gql from 'graphql-tag'
-import Link from 'next/link'
 import { useQuery } from '@apollo/client'
-import { initializeApollo } from '@constant/apollo/apolloClient'
+import { apolloFilter, initializeApollo } from '@constant/apollo/apolloClient'
 
 const ViewerQuery = gql`
   query Query {
@@ -12,11 +11,10 @@ const ViewerQuery = gql`
   }
 `
 
-const Test = ({ initialApolloState }: any) => {
-  console.log(initialApolloState)
+const Test = (works: any) => {
+  console.log(works)
   // CSR
-  // const res = useQuery(ViewerQuery)
-  // console.log(res)
+  const res = useQuery(ViewerQuery)
   return (
     <div>
       {/* Youre signed in as {viewer.name} and youre {viewer.status} goto{' '}
@@ -29,16 +27,16 @@ const Test = ({ initialApolloState }: any) => {
 }
 
 // SSR
-export async function getServerSideProps() {
+export const getServerSideProps = async () => {
   const apolloClient = initializeApollo()
 
   await apolloClient.query({
     query: ViewerQuery,
   })
-  console.log(apolloClient.cache.extract())
+
   return {
     props: {
-      initialApolloState: apolloClient.cache.extract(),
+      ...apolloFilter(apolloClient),
     },
   }
 }

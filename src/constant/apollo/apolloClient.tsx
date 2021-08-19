@@ -41,6 +41,12 @@ export function initializeApollo(initialState = null) {
   return _apolloClient
 }
 
+export const apolloFilter = (apolloClient: any) => {
+  const obj = apolloClient.cache.extract()['ROOT_QUERY']
+  delete obj['__typename']
+  return obj
+}
+
 export function useApollo(initialState: any) {
   const store = useMemo(() => initializeApollo(initialState), [initialState])
   return store
