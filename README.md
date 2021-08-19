@@ -22,10 +22,8 @@
 2. Start Storybook
    `npm run storybook`
 
-## Firebase Guide
-
-1. Start emulator
-   `npm run emulator`
+3. Firebase emulator
+   `npm run storybook`
 
 ---
 
