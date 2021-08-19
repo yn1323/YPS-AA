@@ -17,7 +17,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "emulator": "cd functions && npm run serve",
     "lint": "next lint",
     "test": "jest",
     "watch": "jest --watch",
@@ -26,7 +25,9 @@
     "test:update": "jest -u",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -o ./build-storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "emulator": "rm -r ./firebase-export* | npm run kill && firebase emulators:start --import ./localdata --export-on-exit ./localdata",
+    "kill": "lsof -t -i :9099 -i:8080 -i:9199 -i:4000 -i:4400 | xargs kill -9"
   },
   "dependencies": {
     "@apollo/client": "^3.4.8",

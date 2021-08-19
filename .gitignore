@@ -58,3 +58,5 @@ firebase-debug.log
 ui-debug.log
 functions/localdata
 functions/firebse*
+localdata
+firebase-export*/
