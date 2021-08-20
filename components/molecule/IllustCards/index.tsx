@@ -1,5 +1,6 @@
 import IllustCard from '@atom/IllustCard'
-import React from 'react'
+import React, { FC } from 'react'
+
 import styled from 'styled-components'
 
 const illusts = [
@@ -27,7 +28,7 @@ const Root = styled.div`
   outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
 `
 
-const IllustCards: React.FC = () => {
+const IllustCards: FC = () => {
   const illustCardArray = illusts.map(
     ({ imageUri, text, size, isIllustRight }, i) => (
       <IllustCard

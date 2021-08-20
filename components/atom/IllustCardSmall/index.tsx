@@ -1,5 +1,5 @@
 import { Typography } from '@material-ui/core'
-import React from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import Image from 'next/image'
@@ -29,11 +29,7 @@ const TextWrapper = styled.div`
   }
 `
 
-const IllustCardSmall: React.FC<Props> = ({
-  isGray = false,
-  imageUri,
-  text,
-}) => {
+const IllustCardSmall: FC<Props> = ({ isGray = false, imageUri, text }) => {
   return (
     <Root isGrayBg={isGray}>
       <ImageWrapper>

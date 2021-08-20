@@ -1,5 +1,5 @@
 import { Typography } from '@material-ui/core'
-import React from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import Image from 'next/image'
@@ -22,7 +22,7 @@ const Background = styled.div<{ isGrayBg?: boolean }>`
     isGrayBg ? theme.palette.secondary.main : ''};
 `
 
-const IllustCard: React.FC<Props> = ({
+const IllustCard: FC<Props> = ({
   grayIsOnRight,
   imageUri,
   text,

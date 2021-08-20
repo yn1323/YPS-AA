@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import { injectStringInArray } from '@helper/reactHelpers'
@@ -18,7 +18,7 @@ const Root = styled.div`
   }
 `
 
-const SlashLink: React.FC<Props> = ({ links }) => {
+const SlashLink: FC<Props> = ({ links }) => {
   const linkWithDelimeter = injectStringInArray(links, '/').map((v, i) => {
     if (v === '/') {
       return <span key={i}>{v}</span>

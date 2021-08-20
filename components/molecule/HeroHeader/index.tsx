@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@material-ui/core'
 import Image from 'next/image'
-import React from 'react'
+import React, { FC } from 'react'
 import { mediaQueries } from 'src/constant/mixins'
 import { SpOnlyBr, SpOnlySpan } from 'src/helper/styles'
 import styled from 'styled-components'
@@ -22,7 +22,7 @@ const BackGround = styled.div`
   background: linear-gradient(126deg, rgba(254, 204, 204,1) 24%,rgba(240, 193, 158,1) 45%);
 `
 
-const HeroHeader: React.FC = () => {
+const HeroHeader: FC = () => {
   return (
     <BackGround>
       <Image

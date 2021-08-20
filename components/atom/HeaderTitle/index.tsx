@@ -1,5 +1,5 @@
 import { Typography } from '@material-ui/core'
-import React from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
 import tw from 'tailwind-extended.macro'
@@ -11,7 +11,7 @@ const ImageLogo = styled(Image)`
   ${tw`mr-2`}
 `
 
-const HeaderTitle: React.FC = ({ children }) => {
+const HeaderTitle: FC = ({ children }) => {
   return (
     <>
       <ImageLogo src="/images/logo.png" width={32} height={32} />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import { Typography } from '@material-ui/core'
 import SlashLink from '@atom/SlashLink'
 import styled from 'styled-components'
@@ -17,7 +17,7 @@ const CopyRight = styled(Typography)`
   ${tw`flex justify-center h-2/5 items-center w-full`}
 `
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
   return (
     <Root>
       <Urls>

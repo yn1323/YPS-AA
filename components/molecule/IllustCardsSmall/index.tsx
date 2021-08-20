@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { FC } from 'react'
+
 import IllustCardSmall from '@atom/IllustCardSmall'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
@@ -41,7 +42,7 @@ const Root = styled.div`
   outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
 `
 
-const IllustCardsSmall: React.FC = () => {
+const IllustCardsSmall: FC = () => {
   const illustCardArray = illusts.map(({ isGray, imageUri, text }, i) => (
     <IllustCardSmall key={i} isGray={isGray} imageUri={imageUri} text={text} />
   ))
