@@ -6,14 +6,21 @@ import TestWrapper from '@test/TestWrapper'
 
 test(Component.name, async () => {
   let component
-
   await act(async () => {
     component = await render(
       <TestWrapper>
-        <Component />
+        <Component isLoggedIn />
       </TestWrapper>
     )
   })
-
   expect(component).toMatchSnapshot()
+  let component2
+  await act(async () => {
+    component2 = await render(
+      <TestWrapper>
+        <Component isLoggedIn={false} />
+      </TestWrapper>
+    )
+  })
+  expect(component2).toMatchSnapshot()
 })
