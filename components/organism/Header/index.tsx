@@ -9,7 +9,7 @@ interface Props {
   isLoggedIn?: boolean
 }
 const SpacedToolbar = styled(Toolbar)<{ $isLoggedIn: boolean }>`
-  ${({ $isLoggedIn }) => $isLoggedIn && tw`px-4 lg:px-56`}
+  ${({ $isLoggedIn }) => !$isLoggedIn && tw`px-4 lg:px-56`}
   background: ${({ theme }) => theme.palette.secondary.main};
   color: ${({ theme }) => theme.palette.secondary.contrastText};
 `

@@ -8,7 +8,7 @@ exports[`Layout 1`] = `
     class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-regular Header__SpacedToolbar-sc-1u3zo5s-0 eYneNE MuiToolbar-gutters"
+      class="MuiToolbar-root MuiToolbar-regular Header__SpacedToolbar-sc-1u3zo5s-0 VBPDP MuiToolbar-gutters"
     >
       <div
         style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
