@@ -12,7 +12,7 @@ interface Props {
   size?: number
 }
 
-const Root = styled.div`
+const Container = styled.div`
   ${tw`h-48 flex`}
 `
 
@@ -32,14 +32,14 @@ const IllustCard: FC<Props> = ({
   const Illust = <Image src={imageUri} width={size} height={size} />
 
   return (
-    <Root>
+    <Container>
       <Background isGrayBg={!grayIsOnRight}>
         {!grayIsOnRight ? Illust : Message}
       </Background>
       <Background isGrayBg={grayIsOnRight}>
         {grayIsOnRight ? Illust : Message}
       </Background>
-    </Root>
+    </Container>
   )
 }
 

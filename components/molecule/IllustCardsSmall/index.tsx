@@ -37,7 +37,7 @@ const illusts = [
   },
 ] as const
 
-const Root = styled.div`
+const Container = styled.div`
   ${tw`flex flex-wrap`}
   outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
 `
@@ -46,7 +46,7 @@ const IllustCardsSmall: FC = () => {
   const illustCardArray = illusts.map(({ isGray, imageUri, text }, i) => (
     <IllustCardSmall key={i} isGray={isGray} imageUri={imageUri} text={text} />
   ))
-  return <Root>{illustCardArray}</Root>
+  return <Container>{illustCardArray}</Container>
 }
 
 export default IllustCardsSmall

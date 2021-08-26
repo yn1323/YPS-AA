@@ -7,7 +7,7 @@ import { mediaQueries } from 'src/constant/mixins'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
-const Root = styled.div`
+const Container = styled.div`
   ${tw`w-full flex flex-col items-center`}
 `
 const HeroWrapper = styled.section`
@@ -27,7 +27,7 @@ const Summary = styled(Typography)`
 
 const Home: React.FC = () => {
   return (
-    <Root>
+    <Container>
       <HeroWrapper>
         <HeroHeader />
       </HeroWrapper>
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         <Summary variant="h3">特徴</Summary>
         <IllustCardsSmall />
       </SubWrapper>
-    </Root>
+    </Container>
   )
 }
 

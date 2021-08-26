@@ -1,87 +1,352 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`IllustCard 1`] = `
-<div
-  class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
+exports[`IllustCard-snapshot 1`] = `
+<IllustCard
+  grayIsOnRight={true}
+  imageUri="/images/storyset/schedule.svg"
+  text="sampletext"
 >
-  <div
-    class="IllustCard__Background-sc-jkzekw-1 iVTORx"
-  >
-    <p
-      class="MuiTypography-root MuiTypography-body1"
-    >
-      sampletext
-    </p>
-  </div>
-  <div
-    class="IllustCard__Background-sc-jkzekw-1 imLytu"
-  >
+  <IllustCard__Container>
     <div
-      style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
     >
-      <div
-        style="box-sizing:border-box;display:block;max-width:100%"
+      <IllustCard__Background
+        isGrayBg={false}
       >
-        <img
-          alt=""
-          aria-hidden="true"
-          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-          style="max-width:100%;display:block;margin:0;border:none;padding:0"
-        />
-      </div>
-      <noscript>
-        &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-      </noscript>
-      <img
-        data-nimg="true"
-        decoding="async"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-      />
+        <div
+          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+        >
+          <WithStyles(ForwardRef(Typography))>
+            <ForwardRef(Typography)
+              classes={
+                Object {
+                  "alignCenter": "MuiTypography-alignCenter",
+                  "alignJustify": "MuiTypography-alignJustify",
+                  "alignLeft": "MuiTypography-alignLeft",
+                  "alignRight": "MuiTypography-alignRight",
+                  "body1": "MuiTypography-body1",
+                  "body2": "MuiTypography-body2",
+                  "button": "MuiTypography-button",
+                  "caption": "MuiTypography-caption",
+                  "colorError": "MuiTypography-colorError",
+                  "colorInherit": "MuiTypography-colorInherit",
+                  "colorPrimary": "MuiTypography-colorPrimary",
+                  "colorSecondary": "MuiTypography-colorSecondary",
+                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                  "displayBlock": "MuiTypography-displayBlock",
+                  "displayInline": "MuiTypography-displayInline",
+                  "gutterBottom": "MuiTypography-gutterBottom",
+                  "h1": "MuiTypography-h1",
+                  "h2": "MuiTypography-h2",
+                  "h3": "MuiTypography-h3",
+                  "h4": "MuiTypography-h4",
+                  "h5": "MuiTypography-h5",
+                  "h6": "MuiTypography-h6",
+                  "noWrap": "MuiTypography-noWrap",
+                  "overline": "MuiTypography-overline",
+                  "paragraph": "MuiTypography-paragraph",
+                  "root": "MuiTypography-root",
+                  "srOnly": "MuiTypography-srOnly",
+                  "subtitle1": "MuiTypography-subtitle1",
+                  "subtitle2": "MuiTypography-subtitle2",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                sampletext
+              </p>
+            </ForwardRef(Typography)>
+          </WithStyles(ForwardRef(Typography))>
+        </div>
+      </IllustCard__Background>
+      <IllustCard__Background
+        isGrayBg={true}
+      >
+        <div
+          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+        >
+          <Image1
+            height={170}
+            src="/images/storyset/schedule.svg"
+            width={170}
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "inline-block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "maxWidth": "100%",
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style={
+                    Object {
+                      "border": "none",
+                      "display": "block",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "padding": 0,
+                    }
+                  }
+                />
+              </div>
+              <noscript>
+                <img
+                  data-nimg={true}
+                  decoding="async"
+                  src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=384&q=75"
+                  srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=384&q=75 2x"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+              </noscript>
+              <img
+                data-nimg={true}
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </Image1>
+        </div>
+      </IllustCard__Background>
     </div>
-  </div>
-</div>
+  </IllustCard__Container>
+</IllustCard>
 `;
 
-exports[`IllustCard 2`] = `
-<div
-  class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
+exports[`IllustCard-snapshot 2`] = `
+<IllustCard
+  grayIsOnRight={false}
+  imageUri="/images/storyset/schedule.svg"
+  size={220}
+  text="sampletext"
 >
-  <div
-    class="IllustCard__Background-sc-jkzekw-1 imLytu"
-  >
+  <IllustCard__Container>
     <div
-      style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
     >
-      <div
-        style="box-sizing:border-box;display:block;max-width:100%"
+      <IllustCard__Background
+        isGrayBg={true}
       >
-        <img
-          alt=""
-          aria-hidden="true"
-          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-          style="max-width:100%;display:block;margin:0;border:none;padding:0"
-        />
-      </div>
-      <noscript>
-        &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-      </noscript>
-      <img
-        data-nimg="true"
-        decoding="async"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-      />
+        <div
+          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+        >
+          <Image1
+            height={220}
+            src="/images/storyset/schedule.svg"
+            width={220}
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "inline-block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "maxWidth": "100%",
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  style={
+                    Object {
+                      "border": "none",
+                      "display": "block",
+                      "margin": 0,
+                      "maxWidth": "100%",
+                      "padding": 0,
+                    }
+                  }
+                />
+              </div>
+              <noscript>
+                <img
+                  data-nimg={true}
+                  decoding="async"
+                  src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=640&q=75"
+                  srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=640&q=75 2x"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+              </noscript>
+              <img
+                data-nimg={true}
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </Image1>
+        </div>
+      </IllustCard__Background>
+      <IllustCard__Background
+        isGrayBg={false}
+      >
+        <div
+          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+        >
+          <WithStyles(ForwardRef(Typography))>
+            <ForwardRef(Typography)
+              classes={
+                Object {
+                  "alignCenter": "MuiTypography-alignCenter",
+                  "alignJustify": "MuiTypography-alignJustify",
+                  "alignLeft": "MuiTypography-alignLeft",
+                  "alignRight": "MuiTypography-alignRight",
+                  "body1": "MuiTypography-body1",
+                  "body2": "MuiTypography-body2",
+                  "button": "MuiTypography-button",
+                  "caption": "MuiTypography-caption",
+                  "colorError": "MuiTypography-colorError",
+                  "colorInherit": "MuiTypography-colorInherit",
+                  "colorPrimary": "MuiTypography-colorPrimary",
+                  "colorSecondary": "MuiTypography-colorSecondary",
+                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                  "displayBlock": "MuiTypography-displayBlock",
+                  "displayInline": "MuiTypography-displayInline",
+                  "gutterBottom": "MuiTypography-gutterBottom",
+                  "h1": "MuiTypography-h1",
+                  "h2": "MuiTypography-h2",
+                  "h3": "MuiTypography-h3",
+                  "h4": "MuiTypography-h4",
+                  "h5": "MuiTypography-h5",
+                  "h6": "MuiTypography-h6",
+                  "noWrap": "MuiTypography-noWrap",
+                  "overline": "MuiTypography-overline",
+                  "paragraph": "MuiTypography-paragraph",
+                  "root": "MuiTypography-root",
+                  "srOnly": "MuiTypography-srOnly",
+                  "subtitle1": "MuiTypography-subtitle1",
+                  "subtitle2": "MuiTypography-subtitle2",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                sampletext
+              </p>
+            </ForwardRef(Typography)>
+          </WithStyles(ForwardRef(Typography))>
+        </div>
+      </IllustCard__Background>
     </div>
-  </div>
-  <div
-    class="IllustCard__Background-sc-jkzekw-1 iVTORx"
-  >
-    <p
-      class="MuiTypography-root MuiTypography-body1"
-    >
-      sampletext
-    </p>
-  </div>
-</div>
+  </IllustCard__Container>
+</IllustCard>
 `;

@@ -1,63 +1,308 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeroHeader 1`] = `
-<div
-  class="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
->
-  <div
-    style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-  >
+exports[`HeroHeader-snapshot 1`] = `
+<HeroHeader>
+  <HeroHeader__BackGround>
     <div
-      style="box-sizing:border-box;display:block;max-width:100%"
+      className="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
     >
-      <img
-        alt=""
-        aria-hidden="true"
-        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-        style="max-width:100%;display:block;margin:0;border:none;padding:0"
-      />
-    </div>
-    <noscript>
-      &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-    </noscript>
-    <img
-      alt="Picture of the author"
-      data-nimg="true"
-      decoding="async"
-      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-      style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-    />
-  </div>
-  <div>
-    <h6
-      class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
-    >
-      共有できる
-      <br
-        class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
-      />
-      無料のシフト管理
-    </h6>
-    <div
-      class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
-    >
-      <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-        tabindex="0"
-        type="button"
+      <Image1
+        alt="Picture of the author"
+        height={200}
+        src="/images/storyset/time.svg"
+        width={200}
       >
-        <span
-          class="MuiButton-label"
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
         >
-          ログイン
-          <span
-            class="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
           >
-            してはじめる
-          </span>
-        </span>
-      </button>
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt="Picture of the author"
+              data-nimg={true}
+              decoding="async"
+              src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=640&q=75"
+              srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=640&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt="Picture of the author"
+            data-nimg={true}
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </Image1>
+      <div>
+        <HeroHeader__CatchCopy
+          variant="subtitle1"
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+            variant="subtitle1"
+          >
+            <ForwardRef(Typography)
+              className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+              classes={
+                Object {
+                  "alignCenter": "MuiTypography-alignCenter",
+                  "alignJustify": "MuiTypography-alignJustify",
+                  "alignLeft": "MuiTypography-alignLeft",
+                  "alignRight": "MuiTypography-alignRight",
+                  "body1": "MuiTypography-body1",
+                  "body2": "MuiTypography-body2",
+                  "button": "MuiTypography-button",
+                  "caption": "MuiTypography-caption",
+                  "colorError": "MuiTypography-colorError",
+                  "colorInherit": "MuiTypography-colorInherit",
+                  "colorPrimary": "MuiTypography-colorPrimary",
+                  "colorSecondary": "MuiTypography-colorSecondary",
+                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                  "displayBlock": "MuiTypography-displayBlock",
+                  "displayInline": "MuiTypography-displayInline",
+                  "gutterBottom": "MuiTypography-gutterBottom",
+                  "h1": "MuiTypography-h1",
+                  "h2": "MuiTypography-h2",
+                  "h3": "MuiTypography-h3",
+                  "h4": "MuiTypography-h4",
+                  "h5": "MuiTypography-h5",
+                  "h6": "MuiTypography-h6",
+                  "noWrap": "MuiTypography-noWrap",
+                  "overline": "MuiTypography-overline",
+                  "paragraph": "MuiTypography-paragraph",
+                  "root": "MuiTypography-root",
+                  "srOnly": "MuiTypography-srOnly",
+                  "subtitle1": "MuiTypography-subtitle1",
+                  "subtitle2": "MuiTypography-subtitle2",
+                }
+              }
+              variant="subtitle1"
+            >
+              <h6
+                className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+              >
+                共有できる
+                <styles__SpOnlyBr>
+                  <br
+                    className="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+                  />
+                </styles__SpOnlyBr>
+                無料のシフト管理
+              </h6>
+            </ForwardRef(Typography)>
+          </WithStyles(ForwardRef(Typography))>
+        </HeroHeader__CatchCopy>
+        <HeroHeader__LoginButtonWrapper>
+          <div
+            className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
+          >
+            <WithStyles(ForwardRef(Button))
+              color="primary"
+              variant="contained"
+            >
+              <ForwardRef(Button)
+                classes={
+                  Object {
+                    "colorInherit": "MuiButton-colorInherit",
+                    "contained": "MuiButton-contained",
+                    "containedPrimary": "MuiButton-containedPrimary",
+                    "containedSecondary": "MuiButton-containedSecondary",
+                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                    "disableElevation": "MuiButton-disableElevation",
+                    "disabled": "Mui-disabled",
+                    "endIcon": "MuiButton-endIcon",
+                    "focusVisible": "Mui-focusVisible",
+                    "fullWidth": "MuiButton-fullWidth",
+                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                    "label": "MuiButton-label",
+                    "outlined": "MuiButton-outlined",
+                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                    "root": "MuiButton-root",
+                    "sizeLarge": "MuiButton-sizeLarge",
+                    "sizeSmall": "MuiButton-sizeSmall",
+                    "startIcon": "MuiButton-startIcon",
+                    "text": "MuiButton-text",
+                    "textPrimary": "MuiButton-textPrimary",
+                    "textSecondary": "MuiButton-textSecondary",
+                    "textSizeLarge": "MuiButton-textSizeLarge",
+                    "textSizeSmall": "MuiButton-textSizeSmall",
+                  }
+                }
+                color="primary"
+                variant="contained"
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  type="button"
+                >
+                  <ForwardRef(ButtonBase)
+                    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        ログイン
+                        <styles__SpOnlySpan>
+                          <span
+                            className="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+                          >
+                            してはじめる
+                          </span>
+                        </styles__SpOnlySpan>
+                      </span>
+                      <WithStyles(memo)
+                        center={false}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={false}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(Button)>
+            </WithStyles(ForwardRef(Button))>
+          </div>
+        </HeroHeader__LoginButtonWrapper>
+      </div>
     </div>
-  </div>
-</div>
+  </HeroHeader__BackGround>
+</HeroHeader>
 `;

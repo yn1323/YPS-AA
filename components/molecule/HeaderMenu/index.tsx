@@ -1,6 +1,6 @@
 import ButtonMenu from '@atom/ButtonMenu'
 import { Alarm, Home, Send, ShoppingCart } from '@material-ui/icons'
-import React, { FC, useMemo, useState } from 'react'
+import React, { FC, useMemo } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
@@ -22,13 +22,12 @@ const ButtonWrapper = styled.div`
   }
 `
 
-export const handler1 = () => console.log('OK')
 const COMMON_MENU = [
   {
     icon: <Home />,
     label: 'マイページ',
     showArrowDown: true,
-    clickHandler: handler1,
+    clickHandler: () => console.log('OK'),
   },
   {
     icon: <Send />,
@@ -57,9 +56,6 @@ const ADMIN_MENU = [
 ]
 
 const HeaderMenu: FC<Props> = ({ showTimeCard = false, isAdmin = false }) => {
-  //
-  //
-
   const MENU = useMemo<Menu[]>(
     () => [
       ...COMMON_MENU,

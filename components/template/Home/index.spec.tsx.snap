@@ -1,433 +1,1752 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home 1`] = `
-<div
-  class="Home__Root-sc-ffcnho-0 kbjdKM"
->
-  <section
-    class="Home__HeroWrapper-sc-ffcnho-1 iAGeyb"
-  >
+exports[`Home-snapshot 1`] = `
+<Home>
+  <Home__Container>
     <div
-      class="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
+      className="Home__Container-sc-ffcnho-0 eYGudl"
     >
-      <div
-        style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-      >
-        <div
-          style="box-sizing:border-box;display:block;max-width:100%"
+      <Home__HeroWrapper>
+        <section
+          className="Home__HeroWrapper-sc-ffcnho-1 iAGeyb"
         >
-          <img
-            alt=""
-            aria-hidden="true"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style="max-width:100%;display:block;margin:0;border:none;padding:0"
-          />
-        </div>
-        <noscript>
-          &lt;img alt="Picture of the author" srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-        </noscript>
-        <img
-          alt="Picture of the author"
-          data-nimg="true"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-        />
-      </div>
-      <div>
-        <h6
-          class="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
-        >
-          共有できる
-          <br
-            class="styles__SpOnlyBr-sc-1b429mh-1 upXq"
-          />
-          無料のシフト管理
-        </h6>
-        <div
-          class="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
-        >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
-            >
-              ログイン
-              <span
-                class="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+          <HeroHeader>
+            <HeroHeader__BackGround>
+              <div
+                className="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
               >
-                してはじめる
-              </span>
-            </span>
-          </button>
-        </div>
-      </div>
+                <Image1
+                  alt="Picture of the author"
+                  height={200}
+                  src="/images/storyset/time.svg"
+                  width={200}
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <noscript>
+                      <img
+                        alt="Picture of the author"
+                        data-nimg={true}
+                        decoding="async"
+                        src="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=640&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Ftime.svg&w=640&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": undefined,
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                    <img
+                      alt="Picture of the author"
+                      data-nimg={true}
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </div>
+                </Image1>
+                <div>
+                  <HeroHeader__CatchCopy
+                    variant="subtitle1"
+                  >
+                    <WithStyles(ForwardRef(Typography))
+                      className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+                      variant="subtitle1"
+                    >
+                      <ForwardRef(Typography)
+                        className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        variant="subtitle1"
+                      >
+                        <h6
+                          className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+                        >
+                          共有できる
+                          <styles__SpOnlyBr>
+                            <br
+                              className="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+                            />
+                          </styles__SpOnlyBr>
+                          無料のシフト管理
+                        </h6>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </HeroHeader__CatchCopy>
+                  <HeroHeader__LoginButtonWrapper>
+                    <div
+                      className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
+                    >
+                      <WithStyles(ForwardRef(Button))
+                        color="primary"
+                        variant="contained"
+                      >
+                        <ForwardRef(Button)
+                          classes={
+                            Object {
+                              "colorInherit": "MuiButton-colorInherit",
+                              "contained": "MuiButton-contained",
+                              "containedPrimary": "MuiButton-containedPrimary",
+                              "containedSecondary": "MuiButton-containedSecondary",
+                              "containedSizeLarge": "MuiButton-containedSizeLarge",
+                              "containedSizeSmall": "MuiButton-containedSizeSmall",
+                              "disableElevation": "MuiButton-disableElevation",
+                              "disabled": "Mui-disabled",
+                              "endIcon": "MuiButton-endIcon",
+                              "focusVisible": "Mui-focusVisible",
+                              "fullWidth": "MuiButton-fullWidth",
+                              "iconSizeLarge": "MuiButton-iconSizeLarge",
+                              "iconSizeMedium": "MuiButton-iconSizeMedium",
+                              "iconSizeSmall": "MuiButton-iconSizeSmall",
+                              "label": "MuiButton-label",
+                              "outlined": "MuiButton-outlined",
+                              "outlinedPrimary": "MuiButton-outlinedPrimary",
+                              "outlinedSecondary": "MuiButton-outlinedSecondary",
+                              "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                              "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                              "root": "MuiButton-root",
+                              "sizeLarge": "MuiButton-sizeLarge",
+                              "sizeSmall": "MuiButton-sizeSmall",
+                              "startIcon": "MuiButton-startIcon",
+                              "text": "MuiButton-text",
+                              "textPrimary": "MuiButton-textPrimary",
+                              "textSecondary": "MuiButton-textSecondary",
+                              "textSizeLarge": "MuiButton-textSizeLarge",
+                              "textSizeSmall": "MuiButton-textSizeSmall",
+                            }
+                          }
+                          color="primary"
+                          variant="contained"
+                        >
+                          <WithStyles(ForwardRef(ButtonBase))
+                            className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                            component="button"
+                            disabled={false}
+                            focusRipple={true}
+                            focusVisibleClassName="Mui-focusVisible"
+                            type="button"
+                          >
+                            <ForwardRef(ButtonBase)
+                              className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "focusVisible": "Mui-focusVisible",
+                                  "root": "MuiButtonBase-root",
+                                }
+                              }
+                              component="button"
+                              disabled={false}
+                              focusRipple={true}
+                              focusVisibleClassName="Mui-focusVisible"
+                              type="button"
+                            >
+                              <button
+                                className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onDragLeave={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                tabIndex={0}
+                                type="button"
+                              >
+                                <span
+                                  className="MuiButton-label"
+                                >
+                                  ログイン
+                                  <styles__SpOnlySpan>
+                                    <span
+                                      className="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+                                    >
+                                      してはじめる
+                                    </span>
+                                  </styles__SpOnlySpan>
+                                </span>
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
+                                    center={false}
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
+                                    >
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
+                              </button>
+                            </ForwardRef(ButtonBase)>
+                          </WithStyles(ForwardRef(ButtonBase))>
+                        </ForwardRef(Button)>
+                      </WithStyles(ForwardRef(Button))>
+                    </div>
+                  </HeroHeader__LoginButtonWrapper>
+                </div>
+              </div>
+            </HeroHeader__BackGround>
+          </HeroHeader>
+        </section>
+      </Home__HeroWrapper>
+      <Home__SubWrapper>
+        <section
+          className="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+        >
+          <Home__Summary
+            variant="h3"
+          >
+            <WithStyles(ForwardRef(Typography))
+              className="Home__Summary-sc-ffcnho-3 hnBLDo"
+              variant="h3"
+            >
+              <ForwardRef(Typography)
+                className="Home__Summary-sc-ffcnho-3 hnBLDo"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter",
+                    "alignJustify": "MuiTypography-alignJustify",
+                    "alignLeft": "MuiTypography-alignLeft",
+                    "alignRight": "MuiTypography-alignRight",
+                    "body1": "MuiTypography-body1",
+                    "body2": "MuiTypography-body2",
+                    "button": "MuiTypography-button",
+                    "caption": "MuiTypography-caption",
+                    "colorError": "MuiTypography-colorError",
+                    "colorInherit": "MuiTypography-colorInherit",
+                    "colorPrimary": "MuiTypography-colorPrimary",
+                    "colorSecondary": "MuiTypography-colorSecondary",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                    "displayBlock": "MuiTypography-displayBlock",
+                    "displayInline": "MuiTypography-displayInline",
+                    "gutterBottom": "MuiTypography-gutterBottom",
+                    "h1": "MuiTypography-h1",
+                    "h2": "MuiTypography-h2",
+                    "h3": "MuiTypography-h3",
+                    "h4": "MuiTypography-h4",
+                    "h5": "MuiTypography-h5",
+                    "h6": "MuiTypography-h6",
+                    "noWrap": "MuiTypography-noWrap",
+                    "overline": "MuiTypography-overline",
+                    "paragraph": "MuiTypography-paragraph",
+                    "root": "MuiTypography-root",
+                    "srOnly": "MuiTypography-srOnly",
+                    "subtitle1": "MuiTypography-subtitle1",
+                    "subtitle2": "MuiTypography-subtitle2",
+                  }
+                }
+                variant="h3"
+              >
+                <h3
+                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+                >
+                  YPSでできること
+                </h3>
+              </ForwardRef(Typography)>
+            </WithStyles(ForwardRef(Typography))>
+          </Home__Summary>
+          <IllustCards>
+            <IllustCards__Container>
+              <div
+                className="IllustCards__Container-sc-vtqqs7-0 inueco"
+              >
+                <IllustCard
+                  grayIsOnRight={true}
+                  imageUri="/images/storyset/schedule.svg"
+                  key="0"
+                  size={220}
+                  text="シフトを一覧で表示"
+                >
+                  <IllustCard__Container>
+                    <div
+                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                    >
+                      <IllustCard__Background
+                        isGrayBg={false}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                        >
+                          <WithStyles(ForwardRef(Typography))>
+                            <ForwardRef(Typography)
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                            >
+                              <p
+                                className="MuiTypography-root MuiTypography-body1"
+                              >
+                                シフトを一覧で表示
+                              </p>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </IllustCard__Background>
+                      <IllustCard__Background
+                        isGrayBg={true}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                        >
+                          <Image1
+                            height={220}
+                            src="/images/storyset/schedule.svg"
+                            width={220}
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=640&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&w=640&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": undefined,
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": undefined,
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCard__Background>
+                    </div>
+                  </IllustCard__Container>
+                </IllustCard>
+                <IllustCard
+                  grayIsOnRight={false}
+                  imageUri="/images/storyset/cheff.svg"
+                  key="1"
+                  size={170}
+                  text="美味しいごはん"
+                >
+                  <IllustCard__Container>
+                    <div
+                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                    >
+                      <IllustCard__Background
+                        isGrayBg={true}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                        >
+                          <Image1
+                            height={170}
+                            src="/images/storyset/cheff.svg"
+                            width={170}
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&w=384&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&w=384&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": undefined,
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": undefined,
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCard__Background>
+                      <IllustCard__Background
+                        isGrayBg={false}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                        >
+                          <WithStyles(ForwardRef(Typography))>
+                            <ForwardRef(Typography)
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                            >
+                              <p
+                                className="MuiTypography-root MuiTypography-body1"
+                              >
+                                美味しいごはん
+                              </p>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </IllustCard__Background>
+                    </div>
+                  </IllustCard__Container>
+                </IllustCard>
+                <IllustCard
+                  grayIsOnRight={true}
+                  imageUri="/images/storyset/mobile.svg"
+                  key="2"
+                  size={170}
+                  text="スマホで登録"
+                >
+                  <IllustCard__Container>
+                    <div
+                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                    >
+                      <IllustCard__Background
+                        isGrayBg={false}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                        >
+                          <WithStyles(ForwardRef(Typography))>
+                            <ForwardRef(Typography)
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                            >
+                              <p
+                                className="MuiTypography-root MuiTypography-body1"
+                              >
+                                スマホで登録
+                              </p>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </IllustCard__Background>
+                      <IllustCard__Background
+                        isGrayBg={true}
+                      >
+                        <div
+                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                        >
+                          <Image1
+                            height={170}
+                            src="/images/storyset/mobile.svg"
+                            width={170}
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&w=384&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&w=384&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": undefined,
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": undefined,
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCard__Background>
+                    </div>
+                  </IllustCard__Container>
+                </IllustCard>
+              </div>
+            </IllustCards__Container>
+          </IllustCards>
+        </section>
+      </Home__SubWrapper>
+      <Home__SubWrapper>
+        <section
+          className="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+        >
+          <Home__Summary
+            variant="h3"
+          >
+            <WithStyles(ForwardRef(Typography))
+              className="Home__Summary-sc-ffcnho-3 hnBLDo"
+              variant="h3"
+            >
+              <ForwardRef(Typography)
+                className="Home__Summary-sc-ffcnho-3 hnBLDo"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter",
+                    "alignJustify": "MuiTypography-alignJustify",
+                    "alignLeft": "MuiTypography-alignLeft",
+                    "alignRight": "MuiTypography-alignRight",
+                    "body1": "MuiTypography-body1",
+                    "body2": "MuiTypography-body2",
+                    "button": "MuiTypography-button",
+                    "caption": "MuiTypography-caption",
+                    "colorError": "MuiTypography-colorError",
+                    "colorInherit": "MuiTypography-colorInherit",
+                    "colorPrimary": "MuiTypography-colorPrimary",
+                    "colorSecondary": "MuiTypography-colorSecondary",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                    "displayBlock": "MuiTypography-displayBlock",
+                    "displayInline": "MuiTypography-displayInline",
+                    "gutterBottom": "MuiTypography-gutterBottom",
+                    "h1": "MuiTypography-h1",
+                    "h2": "MuiTypography-h2",
+                    "h3": "MuiTypography-h3",
+                    "h4": "MuiTypography-h4",
+                    "h5": "MuiTypography-h5",
+                    "h6": "MuiTypography-h6",
+                    "noWrap": "MuiTypography-noWrap",
+                    "overline": "MuiTypography-overline",
+                    "paragraph": "MuiTypography-paragraph",
+                    "root": "MuiTypography-root",
+                    "srOnly": "MuiTypography-srOnly",
+                    "subtitle1": "MuiTypography-subtitle1",
+                    "subtitle2": "MuiTypography-subtitle2",
+                  }
+                }
+                variant="h3"
+              >
+                <h3
+                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+                >
+                  特徴
+                </h3>
+              </ForwardRef(Typography)>
+            </WithStyles(ForwardRef(Typography))>
+          </Home__Summary>
+          <IllustCardsSmall>
+            <IllustCardsSmall__Container>
+              <div
+                className="IllustCardsSmall__Container-sc-18buo05-0 jwiLlF"
+              >
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon1.png"
+                  isGray={false}
+                  key="0"
+                  text="開閉店時間"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={false}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon1.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          開閉店時間
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon2.png"
+                  isGray={true}
+                  key="1"
+                  text="タイムカード"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={true}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon2.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          タイムカード
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon3.png"
+                  isGray={false}
+                  key="2"
+                  text="月ごとで管理"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={false}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon3.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          月ごとで管理
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon4.png"
+                  isGray={true}
+                  key="3"
+                  text="勤務時間のリスト化"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={true}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon4.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          勤務時間のリスト化
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon5.png"
+                  isGray={false}
+                  key="4"
+                  text="無料"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={false}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon5.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          無料
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+                <IllustCardSmall
+                  imageUri="/images/functionalIcon6.png"
+                  isGray={true}
+                  key="5"
+                  text="クラウドに保存"
+                >
+                  <IllustCardSmall__Container
+                    isGrayBg={true}
+                  >
+                    <div
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                    >
+                      <IllustCardSmall__ImageWrapper>
+                        <div
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                        >
+                          <Image1
+                            height="80%"
+                            objectFit="contain"
+                            src="/images/functionalIcon6.png"
+                            width="80%"
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "boxSizing": "border-box",
+                                  "display": "inline-block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "overflow": "hidden",
+                                  "position": "relative",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "maxWidth": "100%",
+                                  }
+                                }
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden={true}
+                                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "display": "block",
+                                      "margin": 0,
+                                      "maxWidth": "100%",
+                                      "padding": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                              <noscript>
+                                <img
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=256&q=75"
+                                  srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=256&q=75 2x"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": "contain",
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </noscript>
+                              <img
+                                data-nimg={true}
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style={
+                                  Object {
+                                    "border": "none",
+                                    "bottom": 0,
+                                    "boxSizing": "border-box",
+                                    "display": "block",
+                                    "height": 0,
+                                    "left": 0,
+                                    "margin": "auto",
+                                    "maxHeight": "100%",
+                                    "maxWidth": "100%",
+                                    "minHeight": "100%",
+                                    "minWidth": "100%",
+                                    "objectFit": "contain",
+                                    "objectPosition": undefined,
+                                    "padding": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                            </div>
+                          </Image1>
+                        </div>
+                      </IllustCardSmall__ImageWrapper>
+                      <IllustCardSmall__TextWrapper>
+                        <div
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                        >
+                          クラウドに保存
+                        </div>
+                      </IllustCardSmall__TextWrapper>
+                    </div>
+                  </IllustCardSmall__Container>
+                </IllustCardSmall>
+              </div>
+            </IllustCardsSmall__Container>
+          </IllustCardsSmall>
+        </section>
+      </Home__SubWrapper>
     </div>
-  </section>
-  <section
-    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
-  >
-    <h3
-      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
-    >
-      YPSでできること
-    </h3>
-    <div
-      class="IllustCards__Root-sc-vtqqs7-0 dyMOrJ"
-    >
-      <div
-        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
-      >
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1"
-          >
-            シフトを一覧で表示
-          </p>
-        </div>
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 imLytu"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fschedule.svg&amp;w=640&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
-      >
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 imLytu"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fcheff.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1"
-          >
-            美味しいごはん
-          </p>
-        </div>
-      </div>
-      <div
-        class="IllustCard__Root-sc-jkzekw-0 ekLuRd"
-      >
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 iVTORx"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1"
-          >
-            スマホで登録
-          </p>
-        </div>
-        <div
-          class="IllustCard__Background-sc-jkzekw-1 imLytu"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcwIiBoZWlnaHQ9IjE3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fstoryset%2Fmobile.svg&amp;w=384&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section
-    class="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
-  >
-    <h3
-      class="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
-    >
-      特徴
-    </h3>
-    <div
-      class="IllustCardsSmall__Root-sc-18buo05-0 htYGfg"
-    >
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          開閉店時間
-        </div>
-      </div>
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          タイムカード
-        </div>
-      </div>
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          月ごとで管理
-        </div>
-      </div>
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          勤務時間のリスト化
-        </div>
-      </div>
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 eBDbzU"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          無料
-        </div>
-      </div>
-      <div
-        class="IllustCardSmall__Root-sc-1kir3jt-0 idVDSr"
-      >
-        <div
-          class="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
-        >
-          <div
-            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
-          >
-            <div
-              style="box-sizing:border-box;display:block;max-width:100%"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                style="max-width:100%;display:block;margin:0;border:none;padding:0"
-              />
-            </div>
-            <noscript>
-              &lt;img srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&amp;w=256&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"/&gt;
-            </noscript>
-            <img
-              data-nimg="true"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-            />
-          </div>
-        </div>
-        <div
-          class="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
-        >
-          クラウドに保存
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
+  </Home__Container>
+</Home>
 `;

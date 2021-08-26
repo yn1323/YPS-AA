@@ -9,7 +9,7 @@ import { mediaQueries } from 'src/constant/mixins'
 interface Props {
   children: JSX.Element
 }
-const Root = styled.div`
+const Container = styled.div`
   ${tw`relative`}
   min-height: calc(100vh - 3rem);
   ${mediaQueries('sm')} {
@@ -25,13 +25,13 @@ const ComponentWrapper = styled.main`
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <Root>
+    <Container>
       <Header />
       <ComponentWrapper>{children}</ComponentWrapper>
       <WrapperFooter>
         <Footer />
       </WrapperFooter>
-    </Root>
+    </Container>
   )
 }
 

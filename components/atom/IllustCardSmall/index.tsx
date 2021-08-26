@@ -12,7 +12,7 @@ interface Props {
   text: string
 }
 
-const Root = styled.div<{ isGrayBg?: boolean }>`
+const Container = styled.div<{ isGrayBg?: boolean }>`
   ${tw`w-1/3 h-48 flex flex-col justify-center items-center p-4`}
   background: ${({ theme, isGrayBg }) =>
     isGrayBg ? theme.palette.secondary.main : ''};
@@ -31,7 +31,7 @@ const TextWrapper = styled.div`
 
 const IllustCardSmall: FC<Props> = ({ isGray = false, imageUri, text }) => {
   return (
-    <Root isGrayBg={isGray}>
+    <Container isGrayBg={isGray}>
       <ImageWrapper>
         <Image
           src={imageUri}
@@ -41,7 +41,7 @@ const IllustCardSmall: FC<Props> = ({ isGray = false, imageUri, text }) => {
         />
       </ImageWrapper>
       <TextWrapper>{replaceWithBrTag(text)}</TextWrapper>
-    </Root>
+    </Container>
   )
 }
 

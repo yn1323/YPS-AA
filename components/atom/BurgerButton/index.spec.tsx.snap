@@ -1,37 +1,143 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BurgerButton 1`] = `
-<button
-  aria-label="menu"
-  className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiIconButton-label"
+exports[`BurgerButton-snapshot 1`] = `
+<BurgerButton>
+  <BurgerButton__BurgerMenuButton
+    aria-label="menu"
+    color="inherit"
+    edge="start"
   >
-    <svg
-      aria-hidden={true}
-      className="MuiSvgIcon-root"
-      focusable="false"
-      viewBox="0 0 24 24"
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="menu"
+      className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV"
+      color="inherit"
+      edge="start"
     >
-      <path
-        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-      />
-    </svg>
-  </span>
-</button>
+      <ForwardRef(IconButton)
+        aria-label="menu"
+        className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV"
+        classes={
+          Object {
+            "colorInherit": "MuiIconButton-colorInherit",
+            "colorPrimary": "MuiIconButton-colorPrimary",
+            "colorSecondary": "MuiIconButton-colorSecondary",
+            "disabled": "Mui-disabled",
+            "edgeEnd": "MuiIconButton-edgeEnd",
+            "edgeStart": "MuiIconButton-edgeStart",
+            "label": "MuiIconButton-label",
+            "root": "MuiIconButton-root",
+            "sizeSmall": "MuiIconButton-sizeSmall",
+          }
+        }
+        color="inherit"
+        edge="start"
+      >
+        <WithStyles(ForwardRef(ButtonBase))
+          aria-label="menu"
+          centerRipple={true}
+          className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          disabled={false}
+          focusRipple={true}
+        >
+          <ForwardRef(ButtonBase)
+            aria-label="menu"
+            centerRipple={true}
+            className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+            classes={
+              Object {
+                "disabled": "Mui-disabled",
+                "focusVisible": "Mui-focusVisible",
+                "root": "MuiButtonBase-root",
+              }
+            }
+            disabled={false}
+            focusRipple={true}
+          >
+            <button
+              aria-label="menu"
+              className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+              disabled={false}
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <ForwardRef(MenuIcon)>
+                  <WithStyles(ForwardRef(SvgIcon))>
+                    <ForwardRef(SvgIcon)
+                      classes={
+                        Object {
+                          "colorAction": "MuiSvgIcon-colorAction",
+                          "colorDisabled": "MuiSvgIcon-colorDisabled",
+                          "colorError": "MuiSvgIcon-colorError",
+                          "colorPrimary": "MuiSvgIcon-colorPrimary",
+                          "colorSecondary": "MuiSvgIcon-colorSecondary",
+                          "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                          "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                          "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                          "root": "MuiSvgIcon-root",
+                        }
+                      }
+                    >
+                      <svg
+                        aria-hidden={true}
+                        className="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                        />
+                      </svg>
+                    </ForwardRef(SvgIcon)>
+                  </WithStyles(ForwardRef(SvgIcon))>
+                </ForwardRef(MenuIcon)>
+              </span>
+              <WithStyles(memo)
+                center={true}
+              >
+                <ForwardRef(TouchRipple)
+                  center={true}
+                  classes={
+                    Object {
+                      "child": "MuiTouchRipple-child",
+                      "childLeaving": "MuiTouchRipple-childLeaving",
+                      "childPulsate": "MuiTouchRipple-childPulsate",
+                      "ripple": "MuiTouchRipple-ripple",
+                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                      "root": "MuiTouchRipple-root",
+                    }
+                  }
+                >
+                  <span
+                    className="MuiTouchRipple-root"
+                  >
+                    <TransitionGroup
+                      childFactory={[Function]}
+                      component={null}
+                      exit={true}
+                    />
+                  </span>
+                </ForwardRef(TouchRipple)>
+              </WithStyles(memo)>
+            </button>
+          </ForwardRef(ButtonBase)>
+        </WithStyles(ForwardRef(ButtonBase))>
+      </ForwardRef(IconButton)>
+    </WithStyles(ForwardRef(IconButton))>
+  </BurgerButton__BurgerMenuButton>
+</BurgerButton>
 `;

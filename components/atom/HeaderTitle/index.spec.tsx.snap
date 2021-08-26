@@ -1,33 +1,166 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderTitle 1`] = `
-Array [
-  <div
-    style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+exports[`HeaderTitle-snapshot 1`] = `
+<HeaderTitle>
+  <HeaderTitle__ImageLogo
+    height={32}
+    src="/images/logo.png"
+    width={32}
   >
-    <div
-      style="box-sizing:border-box;display:block;max-width:100%"
+    <Image1
+      className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
+      height={32}
+      src="/images/logo.png"
+      width={32}
     >
-      <img
-        alt=""
-        aria-hidden="true"
-        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-        style="max-width:100%;display:block;margin:0;border:none;padding:0"
-      />
-    </div>
-    <noscript>
-      &lt;img srcSet="/_next/image?url=%2Fimages%2Flogo.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=64&amp;q=75" decoding="async" data-nimg="true" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"/&gt;
-    </noscript>
-    <img
-      class="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-      data-nimg="true"
-      decoding="async"
-      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-      style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-    />
-  </div>,
-  <h6
-    class="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC MuiTypography-h6"
-  />,
-]
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "margin": 0,
+            "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
+            data-nimg={true}
+            decoding="async"
+            src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+            srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+        <img
+          className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
+          data-nimg={true}
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </Image1>
+  </HeaderTitle__ImageLogo>
+  <HeaderTitle__TitleText
+    variant="h6"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
+      variant="h6"
+    >
+      <ForwardRef(Typography)
+        className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h6"
+      >
+        <h6
+          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC MuiTypography-h6"
+        />
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </HeaderTitle__TitleText>
+</HeaderTitle>
 `;

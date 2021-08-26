@@ -5,7 +5,7 @@ import Component from '.'
 import { FOOTER_LINKS } from '@constant/common'
 
 export default {
-  title: `organism/${Component.name}`,
+  title: `atom/${Component.name}`,
   component: Component,
 } as ComponentMeta<typeof Component>
 

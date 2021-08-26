@@ -24,7 +24,7 @@ const illusts = [
   },
 ] as const
 
-const Root = styled.div`
+const Container = styled.div`
   outline: ${({ theme }) => `1px solid ${theme.palette.secondary.main}`};
 `
 
@@ -40,7 +40,7 @@ const IllustCards: FC = () => {
       />
     )
   )
-  return <Root>{illustCardArray}</Root>
+  return <Container>{illustCardArray}</Container>
 }
 
 export default IllustCards

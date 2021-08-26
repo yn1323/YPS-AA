@@ -1,32 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SlashLink 1`] = `
-<div
-  class="SlashLink__Root-sc-12n56qr-0 hzOLSZ"
+exports[`SlashLink-snapshot 1`] = `
+<SlashLink
+  links={
+    Array [
+      Object {
+        "rel": "noopener",
+        "text": "よくある質問",
+        "url": "http://www.google.com",
+      },
+      Object {
+        "rel": "noopener",
+        "text": "お問い合わせ",
+        "url": "http://www.google.com",
+      },
+      Object {
+        "rel": "noopener",
+        "text": "Illustrations by Storyset.",
+        "url": "https://storyset.com/work",
+      },
+    ]
+  }
 >
-  <a
-    href="http://www.google.com"
-    rel="noopener"
-  >
-    よくある質問
-  </a>
-  <span>
-    /
-  </span>
-  <a
-    href="http://www.google.com"
-    rel="noopener"
-  >
-    お問い合わせ
-  </a>
-  <span>
-    /
-  </span>
-  <a
-    href="https://storyset.com/work"
-    rel="noopener"
-  >
-    Illustrations by Storyset.
-  </a>
-</div>
+  <SlashLink__Container>
+    <div
+      className="SlashLink__Container-sc-12n56qr-0 dBEkwA"
+    >
+      <SlashLink__UrlLink
+        href="http://www.google.com"
+        key="0"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+          href="http://www.google.com"
+          rel="noopener"
+        >
+          よくある質問
+        </a>
+      </SlashLink__UrlLink>
+      <SlashLink__UrlLink
+        href="http://www.google.com"
+        key="1"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+          href="http://www.google.com"
+          rel="noopener"
+        >
+          お問い合わせ
+        </a>
+      </SlashLink__UrlLink>
+      <SlashLink__UrlLink
+        href="https://storyset.com/work"
+        key="2"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+          href="https://storyset.com/work"
+          rel="noopener"
+        >
+          Illustrations by Storyset.
+        </a>
+      </SlashLink__UrlLink>
+    </div>
+  </SlashLink__Container>
+</SlashLink>
 `;
