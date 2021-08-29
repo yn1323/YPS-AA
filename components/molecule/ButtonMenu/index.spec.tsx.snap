@@ -226,31 +226,12 @@ exports[`ButtonMenu-snapshot 1`] = `
       </ForwardRef(Button)>
     </WithStyles(ForwardRef(Button))>
   </ButtonMenu__TextButton>
-  <ListMenu
+  <Popper
     anchorEl={null}
-    items={
-      Array [
-        Object {
-          "icon": <Memo />,
-          "label": "シフト管理",
-          "link": "",
-        },
-        Object {
-          "icon": <Memo />,
-          "label": "勤怠管理",
-          "link": "",
-        },
-        Object {
-          "icon": <Memo />,
-          "label": "ユーザー管理",
-          "link": "",
-        },
-      ]
-    }
     setShow={[Function]}
     show={false}
   >
-    <ListMenu__Container
+    <Popper__Container
       anchorEl={null}
       open={false}
       placement="bottom-start"
@@ -258,13 +239,13 @@ exports[`ButtonMenu-snapshot 1`] = `
     >
       <ForwardRef(Popper)
         anchorEl={null}
-        className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+        className="Popper__Container-sc-fo3olu-0 bgjYMT"
         open={false}
         placement="bottom-start"
         transition={true}
       />
-    </ListMenu__Container>
-  </ListMenu>
+    </Popper__Container>
+  </Popper>
 </ButtonMenu>
 `;
 

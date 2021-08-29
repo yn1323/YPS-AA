@@ -4,6 +4,7 @@ import { KeyboardArrowDown } from '@material-ui/icons'
 import styled from 'styled-components'
 import React, { FC, useRef, useState } from 'react'
 import { MenuItem } from '@constant/layout/menus'
+import Popper from '@atom/Popper'
 
 interface Props {
   icon: JSX.Element
@@ -40,13 +41,9 @@ const ButtonMenu: FC<Props> = ({
         {children}
       </TextButton>
       {!!items.length && (
-        <ListMenu
-          items={items}
-          delimeterPosition={delimeterPosition}
-          show={show}
-          setShow={setShow}
-          anchorEl={ref.current}
-        />
+        <Popper show={show} setShow={setShow} anchorEl={ref.current}>
+          <ListMenu items={items} delimeterPosition={delimeterPosition} />
+        </Popper>
       )}
     </>
   )

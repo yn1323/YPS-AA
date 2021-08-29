@@ -1,44 +1,14 @@
 import { MenuItem as MenuItemType } from '@constant/layout/menus'
-import { Divider, Fade } from '@material-ui/core'
-import {
-  ClickAwayListener,
-  ListItemIcon,
-  ListItemText,
-  MenuItem,
-  MenuList,
-  Paper,
-  Popper,
-} from '@material-ui/core'
+import { Divider } from '@material-ui/core'
+import { ListItemIcon, ListItemText, MenuItem } from '@material-ui/core'
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
-type Placement =
-  | 'top'
-  | 'top-start'
-  | 'top-end'
-  | 'left'
-  | 'left-start'
-  | 'left-end'
-  | 'right'
-  | 'right-start'
-  | 'right-end'
-  | 'bottom'
-  | 'bottom-start'
-  | 'bottom-end'
 interface Props {
   items: MenuItemType[]
   delimeterPosition?: number[]
-  show: boolean
-  setShow: (show: boolean) => void
-  anchorEl: null | HTMLElement
-  placement?: Placement
 }
-
-const Container = styled(Popper)`
-  z-index: 10000;
-  min-width: 180px;
-`
 
 const MenuIcon = styled(ListItemIcon)`
   color: ${({ theme }) => theme.palette.text.secondary};
@@ -49,21 +19,11 @@ const MenuText = styled(ListItemText)`
   color: ${({ theme }) => theme.palette.text.secondary};
   font-size: 14px;
 `
-
 const MenuDivider = styled(Divider)`
   ${tw`mx-2`}
 `
 
-const ListMenu: FC<Props> = ({
-  items,
-  delimeterPosition = [],
-  placement = 'bottom-start',
-  show,
-  setShow,
-  anchorEl,
-}) => {
-  const close = () => setShow(false)
-
+const ListMenu: FC<Props> = ({ items, delimeterPosition = [] }) => {
   const MenuItems = items.reduce(
     (acc: JSX.Element[], { icon, label, link }, i) => {
       acc.push(
@@ -81,19 +41,7 @@ const ListMenu: FC<Props> = ({
     []
   )
 
-  return (
-    <Container open={show} placement={placement} transition anchorEl={anchorEl}>
-      {({ TransitionProps }) => (
-        <Fade {...TransitionProps} timeout={200}>
-          <Paper>
-            <ClickAwayListener onClickAway={close}>
-              <MenuList>{MenuItems}</MenuList>
-            </ClickAwayListener>
-          </Paper>
-        </Fade>
-      )}
-    </Container>
-  )
+  return <>{MenuItems}</>
 }
 
 export default ListMenu

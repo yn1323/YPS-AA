@@ -202,37 +202,13 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
       </ForwardRef(Button)>
     </WithStyles(ForwardRef(Button))>
   </ButtonAvatarMenu__TextButton>
-  <ListMenu
+  <Popper
     anchorEl={null}
-    delimeterPosition={
-      Array [
-        1,
-      ]
-    }
-    items={
-      Array [
-        Object {
-          "icon": <Memo />,
-          "label": "設定",
-          "link": "",
-        },
-        Object {
-          "icon": <Memo />,
-          "label": "よくある質問",
-          "link": "",
-        },
-        Object {
-          "icon": <Memo />,
-          "label": "ログアウト",
-          "link": "",
-        },
-      ]
-    }
     placement="bottom-end"
     setShow={[Function]}
     show={false}
   >
-    <ListMenu__Container
+    <Popper__Container
       anchorEl={null}
       open={false}
       placement="bottom-end"
@@ -240,12 +216,12 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
     >
       <ForwardRef(Popper)
         anchorEl={null}
-        className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+        className="Popper__Container-sc-fo3olu-0 bgjYMT"
         open={false}
         placement="bottom-end"
         transition={true}
       />
-    </ListMenu__Container>
-  </ListMenu>
+    </Popper__Container>
+  </Popper>
 </ButtonAvatarMenu>
 `;

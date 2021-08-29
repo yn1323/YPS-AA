@@ -231,31 +231,12 @@ exports[`HeaderMenu-snapshot 1`] = `
             </ForwardRef(Button)>
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
-        <ListMenu
+        <Popper
           anchorEl={null}
-          items={
-            Array [
-              Object {
-                "icon": <Memo />,
-                "label": "TOP",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "シフト",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "勤怠",
-                "link": "",
-              },
-            ]
-          }
           setShow={[Function]}
           show={false}
         >
-          <ListMenu__Container
+          <Popper__Container
             anchorEl={null}
             open={false}
             placement="bottom-start"
@@ -263,13 +244,13 @@ exports[`HeaderMenu-snapshot 1`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+              className="Popper__Container-sc-fo3olu-0 bgjYMT"
               open={false}
               placement="bottom-start"
               transition={true}
             />
-          </ListMenu__Container>
-        </ListMenu>
+          </Popper__Container>
+        </Popper>
       </ButtonMenu>
       <ButtonMenu
         delimeterPosition={
@@ -501,36 +482,12 @@ exports[`HeaderMenu-snapshot 1`] = `
             </ForwardRef(Button)>
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
-        <ListMenu
+        <Popper
           anchorEl={null}
-          delimeterPosition={
-            Array [
-              1,
-            ]
-          }
-          items={
-            Array [
-              Object {
-                "icon": <Memo />,
-                "label": "シフト申請",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "タイムカード編集",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "申請状況",
-                "link": "",
-              },
-            ]
-          }
           setShow={[Function]}
           show={false}
         >
-          <ListMenu__Container
+          <Popper__Container
             anchorEl={null}
             open={false}
             placement="bottom-start"
@@ -538,13 +495,13 @@ exports[`HeaderMenu-snapshot 1`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+              className="Popper__Container-sc-fo3olu-0 bgjYMT"
               open={false}
               placement="bottom-start"
               transition={true}
             />
-          </ListMenu__Container>
-        </ListMenu>
+          </Popper__Container>
+        </Popper>
       </ButtonMenu>
     </div>
   </HeaderMenu__ButtonWrapper>
@@ -785,7 +742,7 @@ exports[`HeaderMenu-snapshot 2`] = `
             </ForwardRef(Button)>
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
-        <ListMenu
+        <Popper
           anchorEl={
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
@@ -830,29 +787,10 @@ exports[`HeaderMenu-snapshot 2`] = `
               />
             </button>
           }
-          items={
-            Array [
-              Object {
-                "icon": <Memo />,
-                "label": "TOP",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "シフト",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "勤怠",
-                "link": "",
-              },
-            ]
-          }
           setShow={[Function]}
           show={false}
         >
-          <ListMenu__Container
+          <Popper__Container
             anchorEl={
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
@@ -946,13 +884,13 @@ exports[`HeaderMenu-snapshot 2`] = `
                   />
                 </button>
               }
-              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+              className="Popper__Container-sc-fo3olu-0 bgjYMT"
               open={false}
               placement="bottom-start"
               transition={true}
             />
-          </ListMenu__Container>
-        </ListMenu>
+          </Popper__Container>
+        </Popper>
       </ButtonMenu>
       <ButtonMenu
         delimeterPosition={
@@ -1184,7 +1122,7 @@ exports[`HeaderMenu-snapshot 2`] = `
             </ForwardRef(Button)>
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
-        <ListMenu
+        <Popper
           anchorEl={
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
@@ -1229,34 +1167,10 @@ exports[`HeaderMenu-snapshot 2`] = `
               />
             </button>
           }
-          delimeterPosition={
-            Array [
-              1,
-            ]
-          }
-          items={
-            Array [
-              Object {
-                "icon": <Memo />,
-                "label": "シフト申請",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "タイムカード編集",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "申請状況",
-                "link": "",
-              },
-            ]
-          }
           setShow={[Function]}
           show={false}
         >
-          <ListMenu__Container
+          <Popper__Container
             anchorEl={
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
@@ -1350,13 +1264,13 @@ exports[`HeaderMenu-snapshot 2`] = `
                   />
                 </button>
               }
-              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+              className="Popper__Container-sc-fo3olu-0 bgjYMT"
               open={false}
               placement="bottom-start"
               transition={true}
             />
-          </ListMenu__Container>
-        </ListMenu>
+          </Popper__Container>
+        </Popper>
       </ButtonMenu>
       <ButtonMenu
         hasMenu={false}
@@ -1696,31 +1610,12 @@ exports[`HeaderMenu-snapshot 2`] = `
             </ForwardRef(Button)>
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
-        <ListMenu
+        <Popper
           anchorEl={null}
-          items={
-            Array [
-              Object {
-                "icon": <Memo />,
-                "label": "シフト管理",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "勤怠管理",
-                "link": "",
-              },
-              Object {
-                "icon": <Memo />,
-                "label": "ユーザー管理",
-                "link": "",
-              },
-            ]
-          }
           setShow={[Function]}
           show={false}
         >
-          <ListMenu__Container
+          <Popper__Container
             anchorEl={null}
             open={false}
             placement="bottom-start"
@@ -1728,13 +1623,13 @@ exports[`HeaderMenu-snapshot 2`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+              className="Popper__Container-sc-fo3olu-0 bgjYMT"
               open={false}
               placement="bottom-start"
               transition={true}
             />
-          </ListMenu__Container>
-        </ListMenu>
+          </Popper__Container>
+        </Popper>
       </ButtonMenu>
     </div>
   </HeaderMenu__ButtonWrapper>

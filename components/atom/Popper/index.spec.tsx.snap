@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popper-snapshot 1`] = `
+<Popper
+  anchorEl={<body />}
+  setShow={[Function]}
+  show={false}
+>
+  <Popper__Container
+    anchorEl={<body />}
+    open={false}
+    placement="bottom-start"
+    transition={true}
+  >
+    <ForwardRef(Popper)
+      anchorEl={<body />}
+      className="Popper__Container-sc-fo3olu-0 bgjYMT"
+      open={false}
+      placement="bottom-start"
+      transition={true}
+    />
+  </Popper__Container>
+</Popper>
+`;
+
+exports[`Popper-snapshot 2`] = `
+<Popper
+  anchorEl={
+    <body>
+      <div
+        class="Popper__Container-sc-fo3olu-0 bgjYMT"
+        role="tooltip"
+        style="position: absolute; top: 0px; left: 0px;"
+        x-placement="bottom-end"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          style="opacity: 1; webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+        >
+          <ul
+            class="MuiList-root MuiList-padding"
+            role="menu"
+            tabindex="-1"
+          >
+            <div
+              tabindex="0"
+            />
+          </ul>
+        </div>
+      </div>
+    </body>
+  }
+  placement="bottom-end"
+  setShow={[Function]}
+  show={true}
+  timeout={200}
+>
+  <Popper__Container
+    anchorEl={
+      <body>
+        <div
+          class="Popper__Container-sc-fo3olu-0 bgjYMT"
+          role="tooltip"
+          style="position: absolute; top: 0px; left: 0px;"
+          x-placement="bottom-end"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style="opacity: 1; webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+          >
+            <ul
+              class="MuiList-root MuiList-padding"
+              role="menu"
+              tabindex="-1"
+            >
+              <div
+                tabindex="0"
+              />
+            </ul>
+          </div>
+        </div>
+      </body>
+    }
+    open={true}
+    placement="bottom-end"
+    transition={true}
+  >
+    <ForwardRef(Popper)
+      anchorEl={
+        <body>
+          <div
+            class="Popper__Container-sc-fo3olu-0 bgjYMT"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            x-placement="bottom-end"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+              style="opacity: 1; webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+            >
+              <ul
+                class="MuiList-root MuiList-padding"
+                role="menu"
+                tabindex="-1"
+              >
+                <div
+                  tabindex="0"
+                />
+              </ul>
+            </div>
+          </div>
+        </body>
+      }
+      className="Popper__Container-sc-fo3olu-0 bgjYMT"
+      open={true}
+      placement="bottom-end"
+      transition={true}
+    >
+      <ForwardRef(Portal)
+        disablePortal={false}
+      />
+    </ForwardRef(Popper)>
+  </Popper__Container>
+</Popper>
+`;

@@ -883,31 +883,12 @@ exports[`Header-snapshot 2`] = `
                                   </ForwardRef(Button)>
                                 </WithStyles(ForwardRef(Button))>
                               </ButtonMenu__TextButton>
-                              <ListMenu
+                              <Popper
                                 anchorEl={null}
-                                items={
-                                  Array [
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "TOP",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "シフト",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "勤怠",
-                                      "link": "",
-                                    },
-                                  ]
-                                }
                                 setShow={[Function]}
                                 show={false}
                               >
-                                <ListMenu__Container
+                                <Popper__Container
                                   anchorEl={null}
                                   open={false}
                                   placement="bottom-start"
@@ -915,13 +896,13 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
                                   />
-                                </ListMenu__Container>
-                              </ListMenu>
+                                </Popper__Container>
+                              </Popper>
                             </ButtonMenu>
                             <ButtonMenu
                               delimeterPosition={
@@ -1125,36 +1106,12 @@ exports[`Header-snapshot 2`] = `
                                   </ForwardRef(Button)>
                                 </WithStyles(ForwardRef(Button))>
                               </ButtonMenu__TextButton>
-                              <ListMenu
+                              <Popper
                                 anchorEl={null}
-                                delimeterPosition={
-                                  Array [
-                                    1,
-                                  ]
-                                }
-                                items={
-                                  Array [
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "シフト申請",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "タイムカード編集",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "申請状況",
-                                      "link": "",
-                                    },
-                                  ]
-                                }
                                 setShow={[Function]}
                                 show={false}
                               >
-                                <ListMenu__Container
+                                <Popper__Container
                                   anchorEl={null}
                                   open={false}
                                   placement="bottom-start"
@@ -1162,13 +1119,13 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
                                   />
-                                </ListMenu__Container>
-                              </ListMenu>
+                                </Popper__Container>
+                              </Popper>
                             </ButtonMenu>
                             <ButtonMenu
                               hasMenu={false}
@@ -1508,31 +1465,12 @@ exports[`Header-snapshot 2`] = `
                                   </ForwardRef(Button)>
                                 </WithStyles(ForwardRef(Button))>
                               </ButtonMenu__TextButton>
-                              <ListMenu
+                              <Popper
                                 anchorEl={null}
-                                items={
-                                  Array [
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "シフト管理",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "勤怠管理",
-                                      "link": "",
-                                    },
-                                    Object {
-                                      "icon": <Memo />,
-                                      "label": "ユーザー管理",
-                                      "link": "",
-                                    },
-                                  ]
-                                }
                                 setShow={[Function]}
                                 show={false}
                               >
-                                <ListMenu__Container
+                                <Popper__Container
                                   anchorEl={null}
                                   open={false}
                                   placement="bottom-start"
@@ -1540,13 +1478,13 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
                                   />
-                                </ListMenu__Container>
-                              </ListMenu>
+                                </Popper__Container>
+                              </Popper>
                             </ButtonMenu>
                           </div>
                         </HeaderMenu__ButtonWrapper>
@@ -1724,37 +1662,13 @@ exports[`Header-snapshot 2`] = `
                             </ForwardRef(Button)>
                           </WithStyles(ForwardRef(Button))>
                         </ButtonAvatarMenu__TextButton>
-                        <ListMenu
+                        <Popper
                           anchorEl={null}
-                          delimeterPosition={
-                            Array [
-                              1,
-                            ]
-                          }
-                          items={
-                            Array [
-                              Object {
-                                "icon": <Memo />,
-                                "label": "設定",
-                                "link": "",
-                              },
-                              Object {
-                                "icon": <Memo />,
-                                "label": "よくある質問",
-                                "link": "",
-                              },
-                              Object {
-                                "icon": <Memo />,
-                                "label": "ログアウト",
-                                "link": "",
-                              },
-                            ]
-                          }
                           placement="bottom-end"
                           setShow={[Function]}
                           show={false}
                         >
-                          <ListMenu__Container
+                          <Popper__Container
                             anchorEl={null}
                             open={false}
                             placement="bottom-end"
@@ -1762,13 +1676,13 @@ exports[`Header-snapshot 2`] = `
                           >
                             <ForwardRef(Popper)
                               anchorEl={null}
-                              className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+                              className="Popper__Container-sc-fo3olu-0 bgjYMT"
                               open={false}
                               placement="bottom-end"
                               transition={true}
                             />
-                          </ListMenu__Container>
-                        </ListMenu>
+                          </Popper__Container>
+                        </Popper>
                       </ButtonAvatarMenu>
                     </div>
                   </ForwardRef(Toolbar)>
