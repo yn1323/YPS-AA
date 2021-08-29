@@ -8,7 +8,7 @@ exports[`HeaderTitle-snapshot 1`] = `
     $isLoggedIn={false}
   >
     <div
-      className="HeaderTitle__Container-sc-nwr99g-0 esdMDD"
+      className="HeaderTitle__Container-sc-nwr99g-0 fpaVea"
     >
       <HeaderTitle__ImageLogo
         height={32}
@@ -16,7 +16,7 @@ exports[`HeaderTitle-snapshot 1`] = `
         width={32}
       >
         <Image1
-          className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+          className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
           height={32}
           src="/images/logo.png"
           width={32}
@@ -59,7 +59,7 @@ exports[`HeaderTitle-snapshot 1`] = `
             </div>
             <noscript>
               <img
-                className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                 data-nimg={true}
                 decoding="async"
                 src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
@@ -89,7 +89,7 @@ exports[`HeaderTitle-snapshot 1`] = `
               />
             </noscript>
             <img
-              className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+              className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
               data-nimg={true}
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -123,11 +123,11 @@ exports[`HeaderTitle-snapshot 1`] = `
         variant="h6"
       >
         <WithStyles(ForwardRef(Typography))
-          className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+          className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
           variant="h6"
         >
           <ForwardRef(Typography)
-            className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+            className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
             classes={
               Object {
                 "alignCenter": "MuiTypography-alignCenter",
@@ -165,7 +165,7 @@ exports[`HeaderTitle-snapshot 1`] = `
             variant="h6"
           >
             <h6
-              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
             />
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>
@@ -183,7 +183,7 @@ exports[`HeaderTitle-snapshot 2`] = `
     $isLoggedIn={true}
   >
     <div
-      className="HeaderTitle__Container-sc-nwr99g-0 esdMYy"
+      className="HeaderTitle__Container-sc-nwr99g-0 fpaWmr"
     >
       <HeaderTitle__ImageLogo
         height={32}
@@ -191,7 +191,7 @@ exports[`HeaderTitle-snapshot 2`] = `
         width={32}
       >
         <Image1
-          className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+          className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
           height={32}
           src="/images/logo.png"
           width={32}
@@ -234,7 +234,7 @@ exports[`HeaderTitle-snapshot 2`] = `
             </div>
             <noscript>
               <img
-                className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                 data-nimg={true}
                 decoding="async"
                 src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
@@ -264,7 +264,7 @@ exports[`HeaderTitle-snapshot 2`] = `
               />
             </noscript>
             <img
-              className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+              className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
               data-nimg={true}
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -298,11 +298,11 @@ exports[`HeaderTitle-snapshot 2`] = `
         variant="h6"
       >
         <WithStyles(ForwardRef(Typography))
-          className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+          className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
           variant="h6"
         >
           <ForwardRef(Typography)
-            className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+            className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
             classes={
               Object {
                 "alignCenter": "MuiTypography-alignCenter",
@@ -340,7 +340,7 @@ exports[`HeaderTitle-snapshot 2`] = `
             variant="h6"
           >
             <h6
-              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
             />
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>

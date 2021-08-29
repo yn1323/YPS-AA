@@ -4,7 +4,7 @@ exports[`IllustCards-snapshot 1`] = `
 <IllustCards>
   <IllustCards__Container>
     <div
-      className="IllustCards__Container-sc-vtqqs7-0 inueco"
+      className="IllustCards__Container-sc-vtqqs7-0 fOyxVB"
     >
       <IllustCard
         grayIsOnRight={true}
@@ -15,13 +15,13 @@ exports[`IllustCards-snapshot 1`] = `
       >
         <IllustCard__Container>
           <div
-            className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+            className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
           >
             <IllustCard__Background
               isGrayBg={false}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
               >
                 <WithStyles(ForwardRef(Typography))>
                   <ForwardRef(Typography)
@@ -73,7 +73,7 @@ exports[`IllustCards-snapshot 1`] = `
               isGrayBg={true}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
               >
                 <Image1
                   height={220}
@@ -189,13 +189,13 @@ exports[`IllustCards-snapshot 1`] = `
       >
         <IllustCard__Container>
           <div
-            className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+            className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
           >
             <IllustCard__Background
               isGrayBg={true}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
               >
                 <Image1
                   height={170}
@@ -303,7 +303,7 @@ exports[`IllustCards-snapshot 1`] = `
               isGrayBg={false}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
               >
                 <WithStyles(ForwardRef(Typography))>
                   <ForwardRef(Typography)
@@ -363,13 +363,13 @@ exports[`IllustCards-snapshot 1`] = `
       >
         <IllustCard__Container>
           <div
-            className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+            className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
           >
             <IllustCard__Background
               isGrayBg={false}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
               >
                 <WithStyles(ForwardRef(Typography))>
                   <ForwardRef(Typography)
@@ -421,7 +421,7 @@ exports[`IllustCards-snapshot 1`] = `
               isGrayBg={true}
             >
               <div
-                className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
               >
                 <Image1
                   height={170}

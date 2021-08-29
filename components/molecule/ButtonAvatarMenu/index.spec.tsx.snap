@@ -7,12 +7,12 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
     onClick={[Function]}
   >
     <WithStyles(ForwardRef(Button))
-      className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+      className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
       endIcon={<Memo />}
       onClick={[Function]}
     >
       <ForwardRef(Button)
-        className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+        className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
         classes={
           Object {
             "colorInherit": "MuiButton-colorInherit",
@@ -50,7 +50,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
         onClick={[Function]}
       >
         <WithStyles(ForwardRef(ButtonBase))
-          className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+          className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
           component="button"
           disabled={false}
           focusRipple={true}
@@ -59,7 +59,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
           type="button"
         >
           <ForwardRef(ButtonBase)
-            className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+            className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
             classes={
               Object {
                 "disabled": "Mui-disabled",
@@ -75,7 +75,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
             type="button"
           >
             <button
-              className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+              className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
               disabled={false}
               onBlur={[Function]}
               onClick={[Function]}
@@ -101,12 +101,12 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
                 >
                   <WithStyles(ForwardRef(Avatar))
                     alt="Remy Sharp"
-                    className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                    className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                     src="/static/images/avatar/1.jpg"
                   >
                     <ForwardRef(Avatar)
                       alt="Remy Sharp"
-                      className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                      className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                       classes={
                         Object {
                           "circle": "MuiAvatar-circle",
@@ -122,7 +122,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
                       src="/static/images/avatar/1.jpg"
                     >
                       <div
-                        className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                        className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                       >
                         <img
                           alt="Remy Sharp"
@@ -216,7 +216,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
     >
       <ForwardRef(Popper)
         anchorEl={null}
-        className="Popper__Container-sc-fo3olu-0 bgjYMT"
+        className="Popper__Container-sc-fo3olu-0 ibMCCu"
         open={false}
         placement="bottom-end"
         transition={true}

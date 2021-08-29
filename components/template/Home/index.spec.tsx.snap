@@ -4,16 +4,16 @@ exports[`Home-snapshot 1`] = `
 <Home>
   <Home__Container>
     <div
-      className="Home__Container-sc-ffcnho-0 eYGudl"
+      className="Home__Container-sc-ffcnho-0 hJDjLs"
     >
       <Home__HeroWrapper>
         <section
-          className="Home__HeroWrapper-sc-ffcnho-1 iAGeyb"
+          className="Home__HeroWrapper-sc-ffcnho-1 bybBmG"
         >
           <HeroHeader>
             <HeroHeader__BackGround>
               <div
-                className="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
+                className="HeroHeader__BackGround-sc-12aeg85-2 iAzwy"
               >
                 <Image1
                   alt="Picture of the author"
@@ -123,11 +123,11 @@ exports[`Home-snapshot 1`] = `
                     variant="subtitle1"
                   >
                     <WithStyles(ForwardRef(Typography))
-                      className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+                      className="HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE"
                       variant="subtitle1"
                     >
                       <ForwardRef(Typography)
-                        className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+                        className="HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE"
                         classes={
                           Object {
                             "alignCenter": "MuiTypography-alignCenter",
@@ -165,12 +165,12 @@ exports[`Home-snapshot 1`] = `
                         variant="subtitle1"
                       >
                         <h6
-                          className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+                          className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE MuiTypography-subtitle1"
                         >
                           共有できる
                           <styles__SpOnlyBr>
                             <br
-                              className="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+                              className="styles__SpOnlyBr-sc-1b429mh-1 kwxGkT"
                             />
                           </styles__SpOnlyBr>
                           無料のシフト管理
@@ -180,7 +180,7 @@ exports[`Home-snapshot 1`] = `
                   </HeroHeader__CatchCopy>
                   <HeroHeader__LoginButtonWrapper>
                     <div
-                      className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
+                      className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 hKmHdl"
                     >
                       <WithStyles(ForwardRef(Button))
                         color="primary"
@@ -269,7 +269,7 @@ exports[`Home-snapshot 1`] = `
                                   ログイン
                                   <styles__SpOnlySpan>
                                     <span
-                                      className="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+                                      className="styles__SpOnlySpan-sc-1b429mh-0 fRIjLu"
                                     >
                                       してはじめる
                                     </span>
@@ -318,17 +318,17 @@ exports[`Home-snapshot 1`] = `
       </Home__HeroWrapper>
       <Home__SubWrapper>
         <section
-          className="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+          className="Home__SubWrapper-sc-ffcnho-2 ipqsLF"
         >
           <Home__Summary
             variant="h3"
           >
             <WithStyles(ForwardRef(Typography))
-              className="Home__Summary-sc-ffcnho-3 hnBLDo"
+              className="Home__Summary-sc-ffcnho-3 dbEuHp"
               variant="h3"
             >
               <ForwardRef(Typography)
-                className="Home__Summary-sc-ffcnho-3 hnBLDo"
+                className="Home__Summary-sc-ffcnho-3 dbEuHp"
                 classes={
                   Object {
                     "alignCenter": "MuiTypography-alignCenter",
@@ -366,7 +366,7 @@ exports[`Home-snapshot 1`] = `
                 variant="h3"
               >
                 <h3
-                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 dbEuHp MuiTypography-h3"
                 >
                   YPSでできること
                 </h3>
@@ -376,7 +376,7 @@ exports[`Home-snapshot 1`] = `
           <IllustCards>
             <IllustCards__Container>
               <div
-                className="IllustCards__Container-sc-vtqqs7-0 inueco"
+                className="IllustCards__Container-sc-vtqqs7-0 fOyxVB"
               >
                 <IllustCard
                   grayIsOnRight={true}
@@ -387,13 +387,13 @@ exports[`Home-snapshot 1`] = `
                 >
                   <IllustCard__Container>
                     <div
-                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                      className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
                     >
                       <IllustCard__Background
                         isGrayBg={false}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                          className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
                         >
                           <WithStyles(ForwardRef(Typography))>
                             <ForwardRef(Typography)
@@ -445,7 +445,7 @@ exports[`Home-snapshot 1`] = `
                         isGrayBg={true}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                          className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
                         >
                           <Image1
                             height={220}
@@ -561,13 +561,13 @@ exports[`Home-snapshot 1`] = `
                 >
                   <IllustCard__Container>
                     <div
-                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                      className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
                     >
                       <IllustCard__Background
                         isGrayBg={true}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                          className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
                         >
                           <Image1
                             height={170}
@@ -675,7 +675,7 @@ exports[`Home-snapshot 1`] = `
                         isGrayBg={false}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                          className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
                         >
                           <WithStyles(ForwardRef(Typography))>
                             <ForwardRef(Typography)
@@ -735,13 +735,13 @@ exports[`Home-snapshot 1`] = `
                 >
                   <IllustCard__Container>
                     <div
-                      className="IllustCard__Container-sc-jkzekw-0 bTxGNY"
+                      className="IllustCard__Container-sc-jkzekw-0 bdyUFt"
                     >
                       <IllustCard__Background
                         isGrayBg={false}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 iVTORx"
+                          className="IllustCard__Background-sc-jkzekw-1 iyoCqs"
                         >
                           <WithStyles(ForwardRef(Typography))>
                             <ForwardRef(Typography)
@@ -793,7 +793,7 @@ exports[`Home-snapshot 1`] = `
                         isGrayBg={true}
                       >
                         <div
-                          className="IllustCard__Background-sc-jkzekw-1 imLytu"
+                          className="IllustCard__Background-sc-jkzekw-1 jdLCxL"
                         >
                           <Image1
                             height={170}
@@ -907,17 +907,17 @@ exports[`Home-snapshot 1`] = `
       </Home__SubWrapper>
       <Home__SubWrapper>
         <section
-          className="Home__SubWrapper-sc-ffcnho-2 gAjzsk"
+          className="Home__SubWrapper-sc-ffcnho-2 ipqsLF"
         >
           <Home__Summary
             variant="h3"
           >
             <WithStyles(ForwardRef(Typography))
-              className="Home__Summary-sc-ffcnho-3 hnBLDo"
+              className="Home__Summary-sc-ffcnho-3 dbEuHp"
               variant="h3"
             >
               <ForwardRef(Typography)
-                className="Home__Summary-sc-ffcnho-3 hnBLDo"
+                className="Home__Summary-sc-ffcnho-3 dbEuHp"
                 classes={
                   Object {
                     "alignCenter": "MuiTypography-alignCenter",
@@ -955,7 +955,7 @@ exports[`Home-snapshot 1`] = `
                 variant="h3"
               >
                 <h3
-                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 hnBLDo MuiTypography-h3"
+                  className="MuiTypography-root Home__Summary-sc-ffcnho-3 dbEuHp MuiTypography-h3"
                 >
                   特徴
                 </h3>
@@ -965,7 +965,7 @@ exports[`Home-snapshot 1`] = `
           <IllustCardsSmall>
             <IllustCardsSmall__Container>
               <div
-                className="IllustCardsSmall__Container-sc-18buo05-0 jwiLlF"
+                className="IllustCardsSmall__Container-sc-18buo05-0 cvqQyQ"
               >
                 <IllustCardSmall
                   imageUri="/images/functionalIcon1.png"
@@ -977,11 +977,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={false}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1088,7 +1088,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           開閉店時間
                         </div>
@@ -1106,11 +1106,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={true}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1217,7 +1217,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           タイムカード
                         </div>
@@ -1235,11 +1235,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={false}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1346,7 +1346,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           月ごとで管理
                         </div>
@@ -1364,11 +1364,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={true}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1475,7 +1475,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           勤務時間のリスト化
                         </div>
@@ -1493,11 +1493,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={false}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1604,7 +1604,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           無料
                         </div>
@@ -1622,11 +1622,11 @@ exports[`Home-snapshot 1`] = `
                     isGrayBg={true}
                   >
                     <div
-                      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+                      className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
                     >
                       <IllustCardSmall__ImageWrapper>
                         <div
-                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+                          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
                         >
                           <Image1
                             height="80%"
@@ -1733,7 +1733,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
                         >
                           クラウドに保存
                         </div>

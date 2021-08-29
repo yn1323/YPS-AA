@@ -4,7 +4,7 @@ exports[`HeaderMenu-snapshot 1`] = `
 <HeaderMenu>
   <HeaderMenu__ButtonWrapper>
     <div
-      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 dVkrNI"
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
     >
       <ButtonMenu
         hasMenu={true}
@@ -37,13 +37,13 @@ exports[`HeaderMenu-snapshot 1`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             endIcon={<Memo />}
             onClick={[Function]}
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -82,7 +82,7 @@ exports[`HeaderMenu-snapshot 1`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -91,7 +91,7 @@ exports[`HeaderMenu-snapshot 1`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -107,7 +107,7 @@ exports[`HeaderMenu-snapshot 1`] = `
                   type="button"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -244,7 +244,7 @@ exports[`HeaderMenu-snapshot 1`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+              className="Popper__Container-sc-fo3olu-0 ibMCCu"
               open={false}
               placement="bottom-start"
               transition={true}
@@ -288,13 +288,13 @@ exports[`HeaderMenu-snapshot 1`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             endIcon={<Memo />}
             onClick={[Function]}
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -333,7 +333,7 @@ exports[`HeaderMenu-snapshot 1`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -342,7 +342,7 @@ exports[`HeaderMenu-snapshot 1`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -358,7 +358,7 @@ exports[`HeaderMenu-snapshot 1`] = `
                   type="button"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -495,7 +495,7 @@ exports[`HeaderMenu-snapshot 1`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+              className="Popper__Container-sc-fo3olu-0 ibMCCu"
               open={false}
               placement="bottom-start"
               transition={true}
@@ -515,7 +515,7 @@ exports[`HeaderMenu-snapshot 2`] = `
 >
   <HeaderMenu__ButtonWrapper>
     <div
-      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 dVkrNI"
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
     >
       <ButtonMenu
         hasMenu={true}
@@ -548,13 +548,13 @@ exports[`HeaderMenu-snapshot 2`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             endIcon={<Memo />}
             onClick={[Function]}
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -593,7 +593,7 @@ exports[`HeaderMenu-snapshot 2`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -602,7 +602,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -618,7 +618,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                   type="button"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -745,7 +745,7 @@ exports[`HeaderMenu-snapshot 2`] = `
         <Popper
           anchorEl={
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               tabindex="0"
               type="button"
             >
@@ -793,7 +793,7 @@ exports[`HeaderMenu-snapshot 2`] = `
           <Popper__Container
             anchorEl={
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 tabindex="0"
                 type="button"
               >
@@ -842,7 +842,7 @@ exports[`HeaderMenu-snapshot 2`] = `
             <ForwardRef(Popper)
               anchorEl={
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   tabindex="0"
                   type="button"
                 >
@@ -884,7 +884,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                   />
                 </button>
               }
-              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+              className="Popper__Container-sc-fo3olu-0 ibMCCu"
               open={false}
               placement="bottom-start"
               transition={true}
@@ -928,13 +928,13 @@ exports[`HeaderMenu-snapshot 2`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             endIcon={<Memo />}
             onClick={[Function]}
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -973,7 +973,7 @@ exports[`HeaderMenu-snapshot 2`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -982,7 +982,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -998,7 +998,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                   type="button"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -1125,7 +1125,7 @@ exports[`HeaderMenu-snapshot 2`] = `
         <Popper
           anchorEl={
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               tabindex="0"
               type="button"
             >
@@ -1173,7 +1173,7 @@ exports[`HeaderMenu-snapshot 2`] = `
           <Popper__Container
             anchorEl={
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 tabindex="0"
                 type="button"
               >
@@ -1222,7 +1222,7 @@ exports[`HeaderMenu-snapshot 2`] = `
             <ForwardRef(Popper)
               anchorEl={
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   tabindex="0"
                   type="button"
                 >
@@ -1264,7 +1264,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                   />
                 </button>
               }
-              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+              className="Popper__Container-sc-fo3olu-0 ibMCCu"
               open={false}
               placement="bottom-start"
               transition={true}
@@ -1283,12 +1283,12 @@ exports[`HeaderMenu-snapshot 2`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             href="/timecard"
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -1326,7 +1326,7 @@ exports[`HeaderMenu-snapshot 2`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -1335,7 +1335,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -1352,7 +1352,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                 >
                   <a
                     aria-disabled={false}
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     href="/timecard"
                     onBlur={[Function]}
                     onDragLeave={[Function]}
@@ -1444,13 +1444,13 @@ exports[`HeaderMenu-snapshot 2`] = `
           startIcon={<Memo />}
         >
           <WithStyles(ForwardRef(Button))
-            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
             endIcon={<Memo />}
             onClick={[Function]}
             startIcon={<Memo />}
           >
             <ForwardRef(Button)
-              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
               classes={
                 Object {
                   "colorInherit": "MuiButton-colorInherit",
@@ -1489,7 +1489,7 @@ exports[`HeaderMenu-snapshot 2`] = `
               startIcon={<Memo />}
             >
               <WithStyles(ForwardRef(ButtonBase))
-                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                 component="button"
                 disabled={false}
                 focusRipple={true}
@@ -1498,7 +1498,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                 type="button"
               >
                 <ForwardRef(ButtonBase)
-                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                   classes={
                     Object {
                       "disabled": "Mui-disabled",
@@ -1514,7 +1514,7 @@ exports[`HeaderMenu-snapshot 2`] = `
                   type="button"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -1623,7 +1623,7 @@ exports[`HeaderMenu-snapshot 2`] = `
           >
             <ForwardRef(Popper)
               anchorEl={null}
-              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+              className="Popper__Container-sc-fo3olu-0 ibMCCu"
               open={false}
               placement="bottom-start"
               transition={true}

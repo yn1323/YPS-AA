@@ -9,13 +9,13 @@ exports[`BurgerButton-snapshot 1`] = `
   >
     <WithStyles(ForwardRef(IconButton))
       aria-label="menu"
-      className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV"
+      className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 QEHUQ"
       color="inherit"
       edge="start"
     >
       <ForwardRef(IconButton)
         aria-label="menu"
-        className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV"
+        className="BurgerButton__BurgerMenuButton-sc-cctgt0-0 QEHUQ"
         classes={
           Object {
             "colorInherit": "MuiIconButton-colorInherit",
@@ -35,14 +35,14 @@ exports[`BurgerButton-snapshot 1`] = `
         <WithStyles(ForwardRef(ButtonBase))
           aria-label="menu"
           centerRipple={true}
-          className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 QEHUQ MuiIconButton-colorInherit MuiIconButton-edgeStart"
           disabled={false}
           focusRipple={true}
         >
           <ForwardRef(ButtonBase)
             aria-label="menu"
             centerRipple={true}
-            className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+            className="MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 QEHUQ MuiIconButton-colorInherit MuiIconButton-edgeStart"
             classes={
               Object {
                 "disabled": "Mui-disabled",
@@ -55,7 +55,7 @@ exports[`BurgerButton-snapshot 1`] = `
           >
             <button
               aria-label="menu"
-              className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 evtanV MuiIconButton-colorInherit MuiIconButton-edgeStart"
+              className="MuiButtonBase-root MuiIconButton-root BurgerButton__BurgerMenuButton-sc-cctgt0-0 QEHUQ MuiIconButton-colorInherit MuiIconButton-edgeStart"
               disabled={false}
               onBlur={[Function]}
               onDragLeave={[Function]}

@@ -14,7 +14,7 @@ exports[`Popper-snapshot 1`] = `
   >
     <ForwardRef(Popper)
       anchorEl={<body />}
-      className="Popper__Container-sc-fo3olu-0 bgjYMT"
+      className="Popper__Container-sc-fo3olu-0 ibMCCu"
       open={false}
       placement="bottom-start"
       transition={true}
@@ -28,7 +28,7 @@ exports[`Popper-snapshot 2`] = `
   anchorEl={
     <body>
       <div
-        class="Popper__Container-sc-fo3olu-0 bgjYMT"
+        class="Popper__Container-sc-fo3olu-0 ibMCCu"
         role="tooltip"
         style="position: absolute; top: 0px; left: 0px;"
         x-placement="bottom-end"
@@ -59,7 +59,7 @@ exports[`Popper-snapshot 2`] = `
     anchorEl={
       <body>
         <div
-          class="Popper__Container-sc-fo3olu-0 bgjYMT"
+          class="Popper__Container-sc-fo3olu-0 ibMCCu"
           role="tooltip"
           style="position: absolute; top: 0px; left: 0px;"
           x-placement="bottom-end"
@@ -89,7 +89,7 @@ exports[`Popper-snapshot 2`] = `
       anchorEl={
         <body>
           <div
-            class="Popper__Container-sc-fo3olu-0 bgjYMT"
+            class="Popper__Container-sc-fo3olu-0 ibMCCu"
             role="tooltip"
             style="position: absolute; top: 0px; left: 0px;"
             x-placement="bottom-end"
@@ -111,7 +111,7 @@ exports[`Popper-snapshot 2`] = `
           </div>
         </body>
       }
-      className="Popper__Container-sc-fo3olu-0 bgjYMT"
+      className="Popper__Container-sc-fo3olu-0 ibMCCu"
       open={true}
       placement="bottom-end"
       transition={true}

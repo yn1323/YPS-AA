@@ -4,18 +4,18 @@ exports[`Layout-snapshot 1`] = `
 <Layout>
   <Layout__Container>
     <div
-      className="Layout__Container-sc-1mgn808-0 fJDiXB"
+      className="Layout__Container-sc-1mgn808-0 cNBmow"
     >
       <Header>
         <Header__Container
           position="fixed"
         >
           <WithStyles(ForwardRef(AppBar))
-            className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+            className="Header__Container-sc-1u3zo5s-0 dUkKUo"
             position="fixed"
           >
             <ForwardRef(AppBar)
-              className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+              className="Header__Container-sc-1u3zo5s-0 dUkKUo"
               classes={
                 Object {
                   "colorDefault": "MuiAppBar-colorDefault",
@@ -34,13 +34,13 @@ exports[`Layout-snapshot 1`] = `
               position="fixed"
             >
               <WithStyles(ForwardRef(Paper))
-                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
                 component="header"
                 elevation={4}
                 square={true}
               >
                 <ForwardRef(Paper)
-                  className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+                  className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
                   classes={
                     Object {
                       "elevation0": "MuiPaper-elevation0",
@@ -78,18 +78,18 @@ exports[`Layout-snapshot 1`] = `
                   square={true}
                 >
                   <header
-                    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed MuiPaper-elevation4"
+                    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed MuiPaper-elevation4"
                   >
                     <Header__SpacedToolbar
                       $isLoggedIn={false}
                       variant="dense"
                     >
                       <WithStyles(ForwardRef(Toolbar))
-                        className="Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF"
+                        className="Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw"
                         variant="dense"
                       >
                         <ForwardRef(Toolbar)
-                          className="Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF"
+                          className="Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw"
                           classes={
                             Object {
                               "dense": "MuiToolbar-dense",
@@ -101,7 +101,7 @@ exports[`Layout-snapshot 1`] = `
                           variant="dense"
                         >
                           <div
-                            className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF MuiToolbar-gutters"
+                            className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw MuiToolbar-gutters"
                           >
                             <HeaderTitle
                               isLoggedIn={false}
@@ -110,7 +110,7 @@ exports[`Layout-snapshot 1`] = `
                                 $isLoggedIn={false}
                               >
                                 <div
-                                  className="HeaderTitle__Container-sc-nwr99g-0 esdMDD"
+                                  className="HeaderTitle__Container-sc-nwr99g-0 fpaVea"
                                 >
                                   <HeaderTitle__ImageLogo
                                     height={32}
@@ -118,7 +118,7 @@ exports[`Layout-snapshot 1`] = `
                                     width={32}
                                   >
                                     <Image1
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                       height={32}
                                       src="/images/logo.png"
                                       width={32}
@@ -161,7 +161,7 @@ exports[`Layout-snapshot 1`] = `
                                         </div>
                                         <noscript>
                                           <img
-                                            className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                            className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                             data-nimg={true}
                                             decoding="async"
                                             src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
@@ -191,7 +191,7 @@ exports[`Layout-snapshot 1`] = `
                                           />
                                         </noscript>
                                         <img
-                                          className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                          className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                           data-nimg={true}
                                           decoding="async"
                                           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -225,11 +225,11 @@ exports[`Layout-snapshot 1`] = `
                                     variant="h6"
                                   >
                                     <WithStyles(ForwardRef(Typography))
-                                      className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                      className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                       variant="h6"
                                     >
                                       <ForwardRef(Typography)
-                                        className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                        className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                         classes={
                                           Object {
                                             "alignCenter": "MuiTypography-alignCenter",
@@ -267,7 +267,7 @@ exports[`Layout-snapshot 1`] = `
                                         variant="h6"
                                       >
                                         <h6
-                                          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
                                         >
                                           YPS
                                         </h6>
@@ -409,7 +409,7 @@ exports[`Layout-snapshot 1`] = `
       </Header>
       <Layout__ComponentWrapper>
         <main
-          className="Layout__ComponentWrapper-sc-1mgn808-2 dmkdqE"
+          className="Layout__ComponentWrapper-sc-1mgn808-2 brtYxJ"
         >
           <div>
             hoge
@@ -418,16 +418,16 @@ exports[`Layout-snapshot 1`] = `
       </Layout__ComponentWrapper>
       <Layout__WrapperFooter>
         <footer
-          className="Layout__WrapperFooter-sc-1mgn808-1 evsPkg"
+          className="Layout__WrapperFooter-sc-1mgn808-1 gLKozl"
         >
           <Footer>
             <Footer__Container>
               <div
-                className="Footer__Container-sc-1vgysp-0 jYsbCe"
+                className="Footer__Container-sc-1vgysp-0 SQfNP"
               >
                 <Footer__Urls>
                   <div
-                    className="Footer__Urls-sc-1vgysp-1 sZKbU"
+                    className="Footer__Urls-sc-1vgysp-1 dthWgl"
                   >
                     <SlashLink
                       links={
@@ -452,7 +452,7 @@ exports[`Layout-snapshot 1`] = `
                     >
                       <SlashLink__Container>
                         <div
-                          className="SlashLink__Container-sc-12n56qr-0 cpzquh"
+                          className="SlashLink__Container-sc-12n56qr-0 VxvwU"
                         >
                           <SlashLink__UrlLink
                             href="http://www.google.com"
@@ -460,7 +460,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                               href="http://www.google.com"
                               rel="noopener"
                             >
@@ -473,7 +473,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                               href="http://www.google.com"
                               rel="noopener"
                             >
@@ -486,7 +486,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                               href="https://storyset.com/work"
                               rel="noopener"
                             >
@@ -502,11 +502,11 @@ exports[`Layout-snapshot 1`] = `
                   variant="caption"
                 >
                   <WithStyles(ForwardRef(Typography))
-                    className="Footer__CopyRight-sc-1vgysp-2 jQkOzQ"
+                    className="Footer__CopyRight-sc-1vgysp-2 guojfR"
                     variant="caption"
                   >
                     <ForwardRef(Typography)
-                      className="Footer__CopyRight-sc-1vgysp-2 jQkOzQ"
+                      className="Footer__CopyRight-sc-1vgysp-2 guojfR"
                       classes={
                         Object {
                           "alignCenter": "MuiTypography-alignCenter",
@@ -544,7 +544,7 @@ exports[`Layout-snapshot 1`] = `
                       variant="caption"
                     >
                       <span
-                        className="MuiTypography-root Footer__CopyRight-sc-1vgysp-2 jQkOzQ MuiTypography-caption"
+                        className="MuiTypography-root Footer__CopyRight-sc-1vgysp-2 guojfR MuiTypography-caption"
                       >
                         ©2021 YPS Team.
                       </span>

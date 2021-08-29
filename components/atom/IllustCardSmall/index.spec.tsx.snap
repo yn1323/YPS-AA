@@ -9,11 +9,11 @@ exports[`IllustCardSmall-snapshot 1`] = `
     isGrayBg={false}
   >
     <div
-      className="IllustCardSmall__Container-sc-1kir3jt-0 ggRchh"
+      className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
     >
       <IllustCardSmall__ImageWrapper>
         <div
-          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
         >
           <Image1
             height="80%"
@@ -120,7 +120,7 @@ exports[`IllustCardSmall-snapshot 1`] = `
       </IllustCardSmall__ImageWrapper>
       <IllustCardSmall__TextWrapper>
         <div
-          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
         >
           sampletext
         </div>
@@ -140,11 +140,11 @@ exports[`IllustCardSmall-snapshot 2`] = `
     isGrayBg={true}
   >
     <div
-      className="IllustCardSmall__Container-sc-1kir3jt-0 gORLmW"
+      className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
     >
       <IllustCardSmall__ImageWrapper>
         <div
-          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 kEjaWo"
+          className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
         >
           <Image1
             height="80%"
@@ -251,7 +251,7 @@ exports[`IllustCardSmall-snapshot 2`] = `
       </IllustCardSmall__ImageWrapper>
       <IllustCardSmall__TextWrapper>
         <div
-          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
+          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
         >
           sampletext
         </div>

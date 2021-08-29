@@ -4,11 +4,11 @@ exports[`Footer-snapshot 1`] = `
 <Footer>
   <Footer__Container>
     <div
-      className="Footer__Container-sc-1vgysp-0 jYsbCe"
+      className="Footer__Container-sc-1vgysp-0 SQfNP"
     >
       <Footer__Urls>
         <div
-          className="Footer__Urls-sc-1vgysp-1 sZKbU"
+          className="Footer__Urls-sc-1vgysp-1 dthWgl"
         >
           <SlashLink
             links={
@@ -33,7 +33,7 @@ exports[`Footer-snapshot 1`] = `
           >
             <SlashLink__Container>
               <div
-                className="SlashLink__Container-sc-12n56qr-0 cpzquh"
+                className="SlashLink__Container-sc-12n56qr-0 VxvwU"
               >
                 <SlashLink__UrlLink
                   href="http://www.google.com"
@@ -41,7 +41,7 @@ exports[`Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                     href="http://www.google.com"
                     rel="noopener"
                   >
@@ -54,7 +54,7 @@ exports[`Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                     href="http://www.google.com"
                     rel="noopener"
                   >
@@ -67,7 +67,7 @@ exports[`Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gAUBLL"
+                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
                     href="https://storyset.com/work"
                     rel="noopener"
                   >
@@ -83,11 +83,11 @@ exports[`Footer-snapshot 1`] = `
         variant="caption"
       >
         <WithStyles(ForwardRef(Typography))
-          className="Footer__CopyRight-sc-1vgysp-2 jQkOzQ"
+          className="Footer__CopyRight-sc-1vgysp-2 guojfR"
           variant="caption"
         >
           <ForwardRef(Typography)
-            className="Footer__CopyRight-sc-1vgysp-2 jQkOzQ"
+            className="Footer__CopyRight-sc-1vgysp-2 guojfR"
             classes={
               Object {
                 "alignCenter": "MuiTypography-alignCenter",
@@ -125,7 +125,7 @@ exports[`Footer-snapshot 1`] = `
             variant="caption"
           >
             <span
-              className="MuiTypography-root Footer__CopyRight-sc-1vgysp-2 jQkOzQ MuiTypography-caption"
+              className="MuiTypography-root Footer__CopyRight-sc-1vgysp-2 guojfR MuiTypography-caption"
             >
               ©2021 YPS Team.
             </span>

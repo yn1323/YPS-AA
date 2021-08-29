@@ -6,11 +6,11 @@ exports[`Header-snapshot 1`] = `
     position="fixed"
   >
     <WithStyles(ForwardRef(AppBar))
-      className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+      className="Header__Container-sc-1u3zo5s-0 dUkKUo"
       position="fixed"
     >
       <ForwardRef(AppBar)
-        className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+        className="Header__Container-sc-1u3zo5s-0 dUkKUo"
         classes={
           Object {
             "colorDefault": "MuiAppBar-colorDefault",
@@ -29,13 +29,13 @@ exports[`Header-snapshot 1`] = `
         position="fixed"
       >
         <WithStyles(ForwardRef(Paper))
-          className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+          className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
           component="header"
           elevation={4}
           square={true}
         >
           <ForwardRef(Paper)
-            className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+            className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
             classes={
               Object {
                 "elevation0": "MuiPaper-elevation0",
@@ -73,18 +73,18 @@ exports[`Header-snapshot 1`] = `
             square={true}
           >
             <header
-              className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed MuiPaper-elevation4"
+              className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed MuiPaper-elevation4"
             >
               <Header__SpacedToolbar
                 $isLoggedIn={false}
                 variant="dense"
               >
                 <WithStyles(ForwardRef(Toolbar))
-                  className="Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF"
+                  className="Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw"
                   variant="dense"
                 >
                   <ForwardRef(Toolbar)
-                    className="Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF"
+                    className="Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw"
                     classes={
                       Object {
                         "dense": "MuiToolbar-dense",
@@ -96,7 +96,7 @@ exports[`Header-snapshot 1`] = `
                     variant="dense"
                   >
                     <div
-                      className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 dHgQNF MuiToolbar-gutters"
+                      className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 kYzKPw MuiToolbar-gutters"
                     >
                       <HeaderTitle
                         isLoggedIn={false}
@@ -105,7 +105,7 @@ exports[`Header-snapshot 1`] = `
                           $isLoggedIn={false}
                         >
                           <div
-                            className="HeaderTitle__Container-sc-nwr99g-0 esdMDD"
+                            className="HeaderTitle__Container-sc-nwr99g-0 fpaVea"
                           >
                             <HeaderTitle__ImageLogo
                               height={32}
@@ -113,7 +113,7 @@ exports[`Header-snapshot 1`] = `
                               width={32}
                             >
                               <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                 height={32}
                                 src="/images/logo.png"
                                 width={32}
@@ -156,7 +156,7 @@ exports[`Header-snapshot 1`] = `
                                   </div>
                                   <noscript>
                                     <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                       data-nimg={true}
                                       decoding="async"
                                       src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
@@ -186,7 +186,7 @@ exports[`Header-snapshot 1`] = `
                                     />
                                   </noscript>
                                   <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                     data-nimg={true}
                                     decoding="async"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -220,11 +220,11 @@ exports[`Header-snapshot 1`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                  className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -262,7 +262,7 @@ exports[`Header-snapshot 1`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -412,11 +412,11 @@ exports[`Header-snapshot 2`] = `
     position="fixed"
   >
     <WithStyles(ForwardRef(AppBar))
-      className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+      className="Header__Container-sc-1u3zo5s-0 dUkKUo"
       position="fixed"
     >
       <ForwardRef(AppBar)
-        className="Header__Container-sc-1u3zo5s-0 jjCwRR"
+        className="Header__Container-sc-1u3zo5s-0 dUkKUo"
         classes={
           Object {
             "colorDefault": "MuiAppBar-colorDefault",
@@ -435,13 +435,13 @@ exports[`Header-snapshot 2`] = `
         position="fixed"
       >
         <WithStyles(ForwardRef(Paper))
-          className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+          className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
           component="header"
           elevation={4}
           square={true}
         >
           <ForwardRef(Paper)
-            className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed"
+            className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed"
             classes={
               Object {
                 "elevation0": "MuiPaper-elevation0",
@@ -479,18 +479,18 @@ exports[`Header-snapshot 2`] = `
             square={true}
           >
             <header
-              className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 jjCwRR mui-fixed MuiPaper-elevation4"
+              className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Header__Container-sc-1u3zo5s-0 dUkKUo mui-fixed MuiPaper-elevation4"
             >
               <Header__SpacedToolbar
                 $isLoggedIn={true}
                 variant="dense"
               >
                 <WithStyles(ForwardRef(Toolbar))
-                  className="Header__SpacedToolbar-sc-1u3zo5s-1 hPjJya"
+                  className="Header__SpacedToolbar-sc-1u3zo5s-1 cgYEYP"
                   variant="dense"
                 >
                   <ForwardRef(Toolbar)
-                    className="Header__SpacedToolbar-sc-1u3zo5s-1 hPjJya"
+                    className="Header__SpacedToolbar-sc-1u3zo5s-1 cgYEYP"
                     classes={
                       Object {
                         "dense": "MuiToolbar-dense",
@@ -502,7 +502,7 @@ exports[`Header-snapshot 2`] = `
                     variant="dense"
                   >
                     <div
-                      className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 hPjJya MuiToolbar-gutters"
+                      className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-1 cgYEYP MuiToolbar-gutters"
                     >
                       <HeaderTitle
                         isLoggedIn={true}
@@ -511,7 +511,7 @@ exports[`Header-snapshot 2`] = `
                           $isLoggedIn={true}
                         >
                           <div
-                            className="HeaderTitle__Container-sc-nwr99g-0 esdMYy"
+                            className="HeaderTitle__Container-sc-nwr99g-0 fpaWmr"
                           >
                             <HeaderTitle__ImageLogo
                               height={32}
@@ -519,7 +519,7 @@ exports[`Header-snapshot 2`] = `
                               width={32}
                             >
                               <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                 height={32}
                                 src="/images/logo.png"
                                 width={32}
@@ -562,7 +562,7 @@ exports[`Header-snapshot 2`] = `
                                   </div>
                                   <noscript>
                                     <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                       data-nimg={true}
                                       decoding="async"
                                       src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
@@ -592,7 +592,7 @@ exports[`Header-snapshot 2`] = `
                                     />
                                   </noscript>
                                   <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
                                     data-nimg={true}
                                     decoding="async"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -626,11 +626,11 @@ exports[`Header-snapshot 2`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                  className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -668,7 +668,7 @@ exports[`Header-snapshot 2`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -684,7 +684,7 @@ exports[`Header-snapshot 2`] = `
                       >
                         <HeaderMenu__ButtonWrapper>
                           <div
-                            className="HeaderMenu__ButtonWrapper-sc-1g680o-0 dVkrNI"
+                            className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
                           >
                             <ButtonMenu
                               hasMenu={true}
@@ -717,13 +717,13 @@ exports[`Header-snapshot 2`] = `
                                 startIcon={<Memo />}
                               >
                                 <WithStyles(ForwardRef(Button))
-                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                   endIcon={<Memo />}
                                   onClick={[Function]}
                                   startIcon={<Memo />}
                                 >
                                   <ForwardRef(Button)
-                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit",
@@ -762,7 +762,7 @@ exports[`Header-snapshot 2`] = `
                                     startIcon={<Memo />}
                                   >
                                     <WithStyles(ForwardRef(ButtonBase))
-                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
@@ -771,7 +771,7 @@ exports[`Header-snapshot 2`] = `
                                       type="button"
                                     >
                                       <ForwardRef(ButtonBase)
-                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                         classes={
                                           Object {
                                             "disabled": "Mui-disabled",
@@ -787,7 +787,7 @@ exports[`Header-snapshot 2`] = `
                                         type="button"
                                       >
                                         <button
-                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                           disabled={false}
                                           onBlur={[Function]}
                                           onClick={[Function]}
@@ -896,7 +896,7 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
+                                    className="Popper__Container-sc-fo3olu-0 ibMCCu"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
@@ -940,13 +940,13 @@ exports[`Header-snapshot 2`] = `
                                 startIcon={<Memo />}
                               >
                                 <WithStyles(ForwardRef(Button))
-                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                   endIcon={<Memo />}
                                   onClick={[Function]}
                                   startIcon={<Memo />}
                                 >
                                   <ForwardRef(Button)
-                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit",
@@ -985,7 +985,7 @@ exports[`Header-snapshot 2`] = `
                                     startIcon={<Memo />}
                                   >
                                     <WithStyles(ForwardRef(ButtonBase))
-                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
@@ -994,7 +994,7 @@ exports[`Header-snapshot 2`] = `
                                       type="button"
                                     >
                                       <ForwardRef(ButtonBase)
-                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                         classes={
                                           Object {
                                             "disabled": "Mui-disabled",
@@ -1010,7 +1010,7 @@ exports[`Header-snapshot 2`] = `
                                         type="button"
                                       >
                                         <button
-                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                           disabled={false}
                                           onBlur={[Function]}
                                           onClick={[Function]}
@@ -1119,7 +1119,7 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
+                                    className="Popper__Container-sc-fo3olu-0 ibMCCu"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
@@ -1138,12 +1138,12 @@ exports[`Header-snapshot 2`] = `
                                 startIcon={<Memo />}
                               >
                                 <WithStyles(ForwardRef(Button))
-                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                   href="/timecard"
                                   startIcon={<Memo />}
                                 >
                                   <ForwardRef(Button)
-                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit",
@@ -1181,7 +1181,7 @@ exports[`Header-snapshot 2`] = `
                                     startIcon={<Memo />}
                                   >
                                     <WithStyles(ForwardRef(ButtonBase))
-                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
@@ -1190,7 +1190,7 @@ exports[`Header-snapshot 2`] = `
                                       type="button"
                                     >
                                       <ForwardRef(ButtonBase)
-                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                         classes={
                                           Object {
                                             "disabled": "Mui-disabled",
@@ -1207,7 +1207,7 @@ exports[`Header-snapshot 2`] = `
                                       >
                                         <a
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                           href="/timecard"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
@@ -1299,13 +1299,13 @@ exports[`Header-snapshot 2`] = `
                                 startIcon={<Memo />}
                               >
                                 <WithStyles(ForwardRef(Button))
-                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                  className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                   endIcon={<Memo />}
                                   onClick={[Function]}
                                   startIcon={<Memo />}
                                 >
                                   <ForwardRef(Button)
-                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                    className="ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit",
@@ -1344,7 +1344,7 @@ exports[`Header-snapshot 2`] = `
                                     startIcon={<Memo />}
                                   >
                                     <WithStyles(ForwardRef(ButtonBase))
-                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                      className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
@@ -1353,7 +1353,7 @@ exports[`Header-snapshot 2`] = `
                                       type="button"
                                     >
                                       <ForwardRef(ButtonBase)
-                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                        className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                         classes={
                                           Object {
                                             "disabled": "Mui-disabled",
@@ -1369,7 +1369,7 @@ exports[`Header-snapshot 2`] = `
                                         type="button"
                                       >
                                         <button
-                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 hJQYbX"
                                           disabled={false}
                                           onBlur={[Function]}
                                           onClick={[Function]}
@@ -1478,7 +1478,7 @@ exports[`Header-snapshot 2`] = `
                                 >
                                   <ForwardRef(Popper)
                                     anchorEl={null}
-                                    className="Popper__Container-sc-fo3olu-0 bgjYMT"
+                                    className="Popper__Container-sc-fo3olu-0 ibMCCu"
                                     open={false}
                                     placement="bottom-start"
                                     transition={true}
@@ -1495,12 +1495,12 @@ exports[`Header-snapshot 2`] = `
                           onClick={[Function]}
                         >
                           <WithStyles(ForwardRef(Button))
-                            className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                            className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                             endIcon={<Memo />}
                             onClick={[Function]}
                           >
                             <ForwardRef(Button)
-                              className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                              className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                               classes={
                                 Object {
                                   "colorInherit": "MuiButton-colorInherit",
@@ -1538,7 +1538,7 @@ exports[`Header-snapshot 2`] = `
                               onClick={[Function]}
                             >
                               <WithStyles(ForwardRef(ButtonBase))
-                                className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                 component="button"
                                 disabled={false}
                                 focusRipple={true}
@@ -1547,7 +1547,7 @@ exports[`Header-snapshot 2`] = `
                                 type="button"
                               >
                                 <ForwardRef(ButtonBase)
-                                  className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                  className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                   classes={
                                     Object {
                                       "disabled": "Mui-disabled",
@@ -1563,7 +1563,7 @@ exports[`Header-snapshot 2`] = `
                                   type="button"
                                 >
                                   <button
-                                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                     disabled={false}
                                     onBlur={[Function]}
                                     onClick={[Function]}
@@ -1589,12 +1589,12 @@ exports[`Header-snapshot 2`] = `
                                       >
                                         <WithStyles(ForwardRef(Avatar))
                                           alt="Remy Sharp"
-                                          className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                          className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                           src="/static/images/avatar/1.jpg"
                                         >
                                           <ForwardRef(Avatar)
                                             alt="Remy Sharp"
-                                            className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                            className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             classes={
                                               Object {
                                                 "circle": "MuiAvatar-circle",
@@ -1610,7 +1610,7 @@ exports[`Header-snapshot 2`] = `
                                             src="/static/images/avatar/1.jpg"
                                           >
                                             <div
-                                              className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                              className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             >
                                               <img
                                                 alt="Remy Sharp"
@@ -1676,7 +1676,7 @@ exports[`Header-snapshot 2`] = `
                           >
                             <ForwardRef(Popper)
                               anchorEl={null}
-                              className="Popper__Container-sc-fo3olu-0 bgjYMT"
+                              className="Popper__Container-sc-fo3olu-0 ibMCCu"
                               open={false}
                               placement="bottom-end"
                               transition={true}

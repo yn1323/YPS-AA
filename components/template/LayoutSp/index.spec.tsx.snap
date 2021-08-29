@@ -4,18 +4,18 @@ exports[`LayoutSp-snapshot 1`] = `
 <LayoutSp>
   <LayoutSp__Container>
     <div
-      className="LayoutSp__Container-sc-1yoqtdy-0 jYfgBq"
+      className="LayoutSp__Container-sc-1yoqtdy-0 cEIEmD"
     >
       <HeaderSp>
         <HeaderSp__Container
           position="fixed"
         >
           <WithStyles(ForwardRef(AppBar))
-            className="HeaderSp__Container-sc-17orm4h-0 gFkvrM"
+            className="HeaderSp__Container-sc-17orm4h-0 gKKDXh"
             position="fixed"
           >
             <ForwardRef(AppBar)
-              className="HeaderSp__Container-sc-17orm4h-0 gFkvrM"
+              className="HeaderSp__Container-sc-17orm4h-0 gKKDXh"
               classes={
                 Object {
                   "colorDefault": "MuiAppBar-colorDefault",
@@ -34,13 +34,13 @@ exports[`LayoutSp-snapshot 1`] = `
               position="fixed"
             >
               <WithStyles(ForwardRef(Paper))
-                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gFkvrM mui-fixed"
+                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gKKDXh mui-fixed"
                 component="header"
                 elevation={4}
                 square={true}
               >
                 <ForwardRef(Paper)
-                  className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gFkvrM mui-fixed"
+                  className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gKKDXh mui-fixed"
                   classes={
                     Object {
                       "elevation0": "MuiPaper-elevation0",
@@ -78,18 +78,18 @@ exports[`LayoutSp-snapshot 1`] = `
                   square={true}
                 >
                   <header
-                    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gFkvrM mui-fixed MuiPaper-elevation4"
+                    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderSp__Container-sc-17orm4h-0 gKKDXh mui-fixed MuiPaper-elevation4"
                   >
                     <HeaderSp__SpacedToolbar
                       $isLoggedIn={false}
                       variant="dense"
                     >
                       <WithStyles(ForwardRef(Toolbar))
-                        className="HeaderSp__SpacedToolbar-sc-17orm4h-1 ittAQq"
+                        className="HeaderSp__SpacedToolbar-sc-17orm4h-1 iNglLL"
                         variant="dense"
                       >
                         <ForwardRef(Toolbar)
-                          className="HeaderSp__SpacedToolbar-sc-17orm4h-1 ittAQq"
+                          className="HeaderSp__SpacedToolbar-sc-17orm4h-1 iNglLL"
                           classes={
                             Object {
                               "dense": "MuiToolbar-dense",
@@ -101,11 +101,11 @@ exports[`LayoutSp-snapshot 1`] = `
                           variant="dense"
                         >
                           <div
-                            className="MuiToolbar-root MuiToolbar-dense HeaderSp__SpacedToolbar-sc-17orm4h-1 ittAQq MuiToolbar-gutters"
+                            className="MuiToolbar-root MuiToolbar-dense HeaderSp__SpacedToolbar-sc-17orm4h-1 iNglLL MuiToolbar-gutters"
                           >
                             <HeaderSp__PageName>
                               <div
-                                className="HeaderSp__PageName-sc-17orm4h-2 iYQsqP"
+                                className="HeaderSp__PageName-sc-17orm4h-2 buTvHe"
                               >
                                 Not Found
                               </div>
@@ -117,11 +117,11 @@ exports[`LayoutSp-snapshot 1`] = `
                                 onClick={[Function]}
                               >
                                 <WithStyles(ForwardRef(Button))
-                                  className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                  className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                   onClick={[Function]}
                                 >
                                   <ForwardRef(Button)
-                                    className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                    className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit",
@@ -158,7 +158,7 @@ exports[`LayoutSp-snapshot 1`] = `
                                     onClick={[Function]}
                                   >
                                     <WithStyles(ForwardRef(ButtonBase))
-                                      className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                      className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
@@ -167,7 +167,7 @@ exports[`LayoutSp-snapshot 1`] = `
                                       type="button"
                                     >
                                       <ForwardRef(ButtonBase)
-                                        className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                        className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                         classes={
                                           Object {
                                             "disabled": "Mui-disabled",
@@ -183,7 +183,7 @@ exports[`LayoutSp-snapshot 1`] = `
                                         type="button"
                                       >
                                         <button
-                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                          className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
                                           disabled={false}
                                           onBlur={[Function]}
                                           onClick={[Function]}
@@ -209,12 +209,12 @@ exports[`LayoutSp-snapshot 1`] = `
                                             >
                                               <WithStyles(ForwardRef(Avatar))
                                                 alt="Remy Sharp"
-                                                className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                                className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                 src="/static/images/avatar/1.jpg"
                                               >
                                                 <ForwardRef(Avatar)
                                                   alt="Remy Sharp"
-                                                  className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                                  className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                   classes={
                                                     Object {
                                                       "circle": "MuiAvatar-circle",
@@ -230,7 +230,7 @@ exports[`LayoutSp-snapshot 1`] = `
                                                   src="/static/images/avatar/1.jpg"
                                                 >
                                                   <div
-                                                    className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                                                    className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                   >
                                                     <img
                                                       alt="Remy Sharp"

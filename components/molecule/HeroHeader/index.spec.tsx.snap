@@ -4,7 +4,7 @@ exports[`HeroHeader-snapshot 1`] = `
 <HeroHeader>
   <HeroHeader__BackGround>
     <div
-      className="HeroHeader__BackGround-sc-12aeg85-2 cdzoz"
+      className="HeroHeader__BackGround-sc-12aeg85-2 iAzwy"
     >
       <Image1
         alt="Picture of the author"
@@ -114,11 +114,11 @@ exports[`HeroHeader-snapshot 1`] = `
           variant="subtitle1"
         >
           <WithStyles(ForwardRef(Typography))
-            className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+            className="HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE"
             variant="subtitle1"
           >
             <ForwardRef(Typography)
-              className="HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd"
+              className="HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE"
               classes={
                 Object {
                   "alignCenter": "MuiTypography-alignCenter",
@@ -156,12 +156,12 @@ exports[`HeroHeader-snapshot 1`] = `
               variant="subtitle1"
             >
               <h6
-                className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 Mtywd MuiTypography-subtitle1"
+                className="MuiTypography-root HeroHeader__CatchCopy-sc-12aeg85-0 dPEBhE MuiTypography-subtitle1"
               >
                 共有できる
                 <styles__SpOnlyBr>
                   <br
-                    className="styles__SpOnlyBr-sc-1b429mh-1 upXq"
+                    className="styles__SpOnlyBr-sc-1b429mh-1 kwxGkT"
                   />
                 </styles__SpOnlyBr>
                 無料のシフト管理
@@ -171,7 +171,7 @@ exports[`HeroHeader-snapshot 1`] = `
         </HeroHeader__CatchCopy>
         <HeroHeader__LoginButtonWrapper>
           <div
-            className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 FgZzs"
+            className="HeroHeader__LoginButtonWrapper-sc-12aeg85-1 hKmHdl"
           >
             <WithStyles(ForwardRef(Button))
               color="primary"
@@ -260,7 +260,7 @@ exports[`HeroHeader-snapshot 1`] = `
                         ログイン
                         <styles__SpOnlySpan>
                           <span
-                            className="styles__SpOnlySpan-sc-1b429mh-0 hwLHQX"
+                            className="styles__SpOnlySpan-sc-1b429mh-0 fRIjLu"
                           >
                             してはじめる
                           </span>
