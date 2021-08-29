@@ -7,6 +7,27 @@ import { COMMON_MENU } from '@constant/layout/menus'
 export default {
   title: `atom/${Component.name}`,
   component: Component,
+  argTypes: {
+    placement: {
+      control: {
+        type: 'select',
+        labels: {
+          top: 'top',
+          'top-start': 'top-start',
+          'top-end': 'top-end',
+          left: 'left',
+          'left-start': 'left-start',
+          'left-end': 'left-end',
+          right: 'right',
+          'right-start': 'right-start',
+          'right-end': 'right-end',
+          bottom: 'bottom',
+          'bottom-start': 'bottom-start',
+          'bottom-end': 'bottom-end',
+        },
+      },
+    },
+  },
 } as ComponentMeta<typeof Component>
 
 const Template: ComponentStory<typeof Component> = args => (
@@ -22,4 +43,5 @@ ListMenu.args = {
   items: COMMON_MENU[1].items,
   delimeterPosition: [1],
   anchorEl: document.getElementsByTagName('body')[0],
+  placement: 'bottom-start',
 }

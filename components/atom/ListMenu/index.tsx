@@ -13,12 +13,26 @@ import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 
+type Placement =
+  | 'top'
+  | 'top-start'
+  | 'top-end'
+  | 'left'
+  | 'left-start'
+  | 'left-end'
+  | 'right'
+  | 'right-start'
+  | 'right-end'
+  | 'bottom'
+  | 'bottom-start'
+  | 'bottom-end'
 interface Props {
   items: MenuItemType[]
   delimeterPosition?: number[]
   show: boolean
   setShow: (show: boolean) => void
   anchorEl: null | HTMLElement
+  placement?: Placement
 }
 
 const Container = styled(Popper)`
@@ -42,6 +56,7 @@ const MenuDivider = styled(Divider)`
 const ListMenu: FC<Props> = ({
   items,
   delimeterPosition = [],
+  placement = 'bottom-start',
   show,
   setShow,
   anchorEl,
@@ -66,12 +81,7 @@ const ListMenu: FC<Props> = ({
   )
 
   return (
-    <Container
-      open={show}
-      placement="bottom-start"
-      transition
-      anchorEl={anchorEl}
-    >
+    <Container open={show} placement={placement} transition anchorEl={anchorEl}>
       {({ TransitionProps }) => (
         <Fade {...TransitionProps} timeout={200}>
           <Paper>

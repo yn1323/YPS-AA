@@ -786,7 +786,50 @@ exports[`HeaderMenu-snapshot 2`] = `
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
         <ListMenu
-          anchorEl={null}
+          anchorEl={
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                <span
+                  class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                    />
+                  </svg>
+                </span>
+                マイページ
+                <span
+                  class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          }
           items={
             Array [
               Object {
@@ -810,13 +853,99 @@ exports[`HeaderMenu-snapshot 2`] = `
           show={false}
         >
           <ListMenu__Container
-            anchorEl={null}
+            anchorEl={
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                      />
+                    </svg>
+                  </span>
+                  マイページ
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            }
             open={false}
             placement="bottom-start"
             transition={true}
           >
             <ForwardRef(Popper)
-              anchorEl={null}
+              anchorEl={
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                        />
+                      </svg>
+                    </span>
+                    マイページ
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              }
               className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
               open={false}
               placement="bottom-start"
@@ -1056,7 +1185,50 @@ exports[`HeaderMenu-snapshot 2`] = `
           </WithStyles(ForwardRef(Button))>
         </ButtonMenu__TextButton>
         <ListMenu
-          anchorEl={null}
+          anchorEl={
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                <span
+                  class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                    />
+                  </svg>
+                </span>
+                申請
+                <span
+                  class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          }
           delimeterPosition={
             Array [
               1,
@@ -1085,13 +1257,99 @@ exports[`HeaderMenu-snapshot 2`] = `
           show={false}
         >
           <ListMenu__Container
-            anchorEl={null}
+            anchorEl={
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                      />
+                    </svg>
+                  </span>
+                  申請
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            }
             open={false}
             placement="bottom-start"
             transition={true}
           >
             <ForwardRef(Popper)
-              anchorEl={null}
+              anchorEl={
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                        />
+                      </svg>
+                    </span>
+                    申請
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              }
               className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
               open={false}
               placement="bottom-start"

@@ -3,7 +3,10 @@ import {
   AccessAlarm,
   Alarm,
   Assessment,
+  Build,
   CompareArrows,
+  ExitToApp,
+  HelpOutline,
   Home,
   HomeWork,
   LibraryBooks,
@@ -48,6 +51,22 @@ export const MENU: Menu = {
     label: 'ユーザー管理',
     link: '',
   },
+
+  CONFIG: {
+    icon: <Build />,
+    label: '設定',
+    link: '',
+  },
+  QA: {
+    icon: <HelpOutline />,
+    label: 'よくある質問',
+    link: '',
+  },
+  LOGOUT: {
+    icon: <ExitToApp />,
+    label: 'ログアウト',
+    link: '',
+  },
 } as const
 
 export const COMMON_MENU = [
@@ -82,3 +101,5 @@ export const ADMIN_MENU = [
     ],
   },
 ]
+
+export const USER_MENU = [MENU.CONFIG, MENU.QA, MENU.LOGOUT]

@@ -1293,8 +1293,8 @@ exports[`ListMenu-snapshot 2`] = `
       <div
         class="ListMenu__Container-sc-ib7wze-0 eMdZcD"
         role="tooltip"
-        style="position: absolute; top: 0px; left: 0px;"
-        x-placement="bottom-start"
+        style="position: absolute;"
+        x-placement="bottom-end"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
@@ -1430,6 +1430,7 @@ exports[`ListMenu-snapshot 2`] = `
       },
     ]
   }
+  placement="bottom-end"
   setShow={[Function]}
   show={true}
 >
@@ -1439,8 +1440,8 @@ exports[`ListMenu-snapshot 2`] = `
         <div
           class="ListMenu__Container-sc-ib7wze-0 eMdZcD"
           role="tooltip"
-          style="position: absolute; top: 0px; left: 0px;"
-          x-placement="bottom-start"
+          style="position: absolute;"
+          x-placement="bottom-end"
         >
           <div
             class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
@@ -1553,7 +1554,7 @@ exports[`ListMenu-snapshot 2`] = `
       </body>
     }
     open={true}
-    placement="bottom-start"
+    placement="bottom-end"
     transition={true}
   >
     <ForwardRef(Popper)
@@ -1562,8 +1563,8 @@ exports[`ListMenu-snapshot 2`] = `
           <div
             class="ListMenu__Container-sc-ib7wze-0 eMdZcD"
             role="tooltip"
-            style="position: absolute; top: 0px; left: 0px;"
-            x-placement="bottom-start"
+            style="position: absolute;"
+            x-placement="bottom-end"
           >
             <div
               class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
@@ -1677,7 +1678,7 @@ exports[`ListMenu-snapshot 2`] = `
       }
       className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
       open={true}
-      placement="bottom-start"
+      placement="bottom-end"
       transition={true}
     >
       <ForwardRef(Portal)
@@ -1689,8 +1690,8 @@ exports[`ListMenu-snapshot 2`] = `
               <div
                 class="ListMenu__Container-sc-ib7wze-0 eMdZcD"
                 role="tooltip"
-                style="position: absolute; top: 0px; left: 0px;"
-                x-placement="bottom-start"
+                style="position: absolute;"
+                x-placement="bottom-end"
               >
                 <div
                   class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"

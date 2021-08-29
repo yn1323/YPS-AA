@@ -9,7 +9,8 @@ import {
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
 import { theme } from '@constant/theme'
-import { mount } from 'enzyme'
+import { mount, render } from 'enzyme'
+import { act } from 'react-test-renderer'
 interface Props {
   children: JSX.Element
 }
@@ -32,3 +33,23 @@ export const mountWithTheme = (tree: ReactElement) =>
   mount(tree, {
     wrappingComponent: ThemeProvideWrapper,
   })
+
+// NOTE: https://github.com/enzymejs/enzyme/issues/2073#issuecomment-515817947
+export const disableWarn = () => {
+  const mockConsoleMethod = (realConsoleMethod: () => void) => {
+    const ignoredMessages = ['test was not wrapped in act(...)']
+
+    return (message: any, ...args: any) => {
+      const containsIgnoredMessage = ignoredMessages.some(ignoredMessage =>
+        message.includes(ignoredMessage)
+      )
+
+      if (!containsIgnoredMessage) {
+        realConsoleMethod(message, ...args)
+      }
+    }
+  }
+
+  console.warn = jest.fn(mockConsoleMethod(console.warn))
+  console.error = jest.fn(mockConsoleMethod(console.error))
+}

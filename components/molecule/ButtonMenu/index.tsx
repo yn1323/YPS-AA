@@ -2,7 +2,7 @@ import ListMenu from '@atom/ListMenu'
 import { Button } from '@material-ui/core'
 import { KeyboardArrowDown } from '@material-ui/icons'
 import styled from 'styled-components'
-import React, { FC, MouseEvent, useState } from 'react'
+import React, { FC, useRef, useState } from 'react'
 import { MenuItem } from '@constant/layout/menus'
 
 interface Props {
@@ -26,12 +26,7 @@ const ButtonMenu: FC<Props> = ({
   children,
 }) => {
   const [show, setShow] = useState(false)
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
-
-  const showMenuHandler = (e: MouseEvent<HTMLElement>) => {
-    setShow(true)
-    setAnchorEl(e.currentTarget)
-  }
+  const ref = useRef(null)
 
   return (
     <>
@@ -39,7 +34,8 @@ const ButtonMenu: FC<Props> = ({
         startIcon={icon}
         endIcon={hasMenu ? <KeyboardArrowDown /> : undefined}
         href={link ? link : undefined}
-        onClick={!link ? showMenuHandler : undefined}
+        onClick={!link ? () => setShow(true) : undefined}
+        ref={ref}
       >
         {children}
       </TextButton>
@@ -49,7 +45,7 @@ const ButtonMenu: FC<Props> = ({
           delimeterPosition={delimeterPosition}
           show={show}
           setShow={setShow}
-          anchorEl={anchorEl}
+          anchorEl={ref.current}
         />
       )}
     </>
