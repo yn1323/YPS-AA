@@ -19,7 +19,7 @@ ListMenu.args = {
   setShow: () => {
     console.log('close')
   },
-  items: COMMON_MENU[0].items,
+  items: COMMON_MENU[1].items,
   delimeterPosition: [1],
   anchorEl: document.getElementsByTagName('body')[0],
 }

@@ -1,7 +1,6 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import { injectStringInArray } from '@helper/reactHelpers'
 
 interface Props {
   links: {

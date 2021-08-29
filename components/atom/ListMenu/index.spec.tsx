@@ -10,9 +10,23 @@ test(`${Component.name}-snapshot`, () => {
       console.log('close')
     },
     items: COMMON_MENU[0].items,
-    delimeterPosition: [1],
     anchorEl: document.getElementsByTagName('body')[0],
   }
   const wrapper = mountWithTheme(<Component {...args} />)
   expect(wrapper).toMatchSnapshot()
+  wrapper.setProps({ ...args, delimeterPosition: [1] })
+  expect(wrapper).toMatchSnapshot()
+})
+
+test(`${Component.name}-event`, async () => {
+  const args = {
+    show: false,
+    setShow: () => {
+      console.log('close')
+    },
+    items: COMMON_MENU[0].items,
+    anchorEl: document.getElementsByTagName('body')[0],
+  }
+  const wrapper = await mountWithTheme(<Component {...args} />)
+  wrapper.find('body').map(elem => elem.simulate('click'))
 })

@@ -11,6 +11,7 @@ import {
 } from '@material-ui/core'
 import React, { FC } from 'react'
 import styled from 'styled-components'
+import tw from 'tailwind-extended.macro'
 
 interface Props {
   items: MenuItemType[]
@@ -20,14 +21,17 @@ interface Props {
   anchorEl: null | HTMLElement
 }
 
-const Exnteder = styled.div`
-  color: ${({ theme }) => theme.palette.text.secondary};
-`
 const Container = styled(Popper)`
   z-index: 10000;
 `
-const MenuIcon = Exnteder.withComponent(ListItemIcon)
-const MenuText = Exnteder.withComponent(ListItemText)
+const MenuIcon = styled(ListItemIcon)`
+  color: ${({ theme }) => theme.palette.text.secondary};
+`
+const MenuText = MenuIcon.withComponent(ListItemText)
+
+const MenuDivider = styled(Divider)`
+  ${tw`mx-2`}
+`
 
 const ListMenu: FC<Props> = ({
   items,
@@ -37,6 +41,23 @@ const ListMenu: FC<Props> = ({
   anchorEl,
 }) => {
   const close = () => setShow(false)
+
+  const MenuItems = items.reduce(
+    (acc: JSX.Element[], { icon, label, link }, i) => {
+      acc.push(
+        <MenuItem onClick={close} key={acc.length + 1}>
+          <MenuIcon>{icon}</MenuIcon>
+          <MenuText primary={label} />
+          {delimeterPosition.includes(i) && <MenuDivider />}
+        </MenuItem>
+      )
+      if (delimeterPosition.includes(i)) {
+        acc.push(<MenuDivider key={acc.length + 1} />)
+      }
+      return acc
+    },
+    []
+  )
 
   return (
     <Container
@@ -49,14 +70,7 @@ const ListMenu: FC<Props> = ({
         <Fade {...TransitionProps} timeout={200}>
           <Paper>
             <ClickAwayListener onClickAway={close}>
-              <MenuList>
-                {items.map(({ icon, label, link }, i) => (
-                  <MenuItem onClick={close} key={i}>
-                    <MenuIcon>{icon}</MenuIcon>
-                    <MenuText primary={label} />
-                  </MenuItem>
-                ))}
-              </MenuList>
+              <MenuList>{MenuItems}</MenuList>
             </ClickAwayListener>
           </Paper>
         </Fade>
