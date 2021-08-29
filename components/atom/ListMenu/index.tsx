@@ -24,10 +24,16 @@ interface Props {
 const Container = styled(Popper)`
   z-index: 10000;
 `
+
 const MenuIcon = styled(ListItemIcon)`
   color: ${({ theme }) => theme.palette.text.secondary};
+  min-width: 2rem;
 `
-const MenuText = MenuIcon.withComponent(ListItemText)
+const MenuText = styled(ListItemText)`
+  ${tw`m-0`}
+  color: ${({ theme }) => theme.palette.text.secondary};
+  font-size: 14px;
+`
 
 const MenuDivider = styled(Divider)`
   ${tw`mx-2`}
@@ -45,9 +51,9 @@ const ListMenu: FC<Props> = ({
   const MenuItems = items.reduce(
     (acc: JSX.Element[], { icon, label, link }, i) => {
       acc.push(
-        <MenuItem onClick={close} key={acc.length + 1}>
+        <MenuItem onClick={close} key={acc.length + 1} m={0} p={0}>
           <MenuIcon>{icon}</MenuIcon>
-          <MenuText primary={label} />
+          <MenuText primary={label} disableTypography />
           {delimeterPosition.includes(i) && <MenuDivider />}
         </MenuItem>
       )

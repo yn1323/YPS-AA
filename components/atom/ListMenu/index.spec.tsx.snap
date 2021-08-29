@@ -22,11 +22,13 @@ exports[`ListMenu-snapshot 1`] = `
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="0"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -43,13 +45,9 @@ exports[`ListMenu-snapshot 1`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  TOP
-                </span>
+                TOP
               </div>
               <span
                 class="MuiTouchRipple-root"
@@ -58,11 +56,13 @@ exports[`ListMenu-snapshot 1`] = `
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="-1"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -76,13 +76,9 @@ exports[`ListMenu-snapshot 1`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  シフト
-                </span>
+                シフト
               </div>
               <span
                 class="MuiTouchRipple-root"
@@ -91,11 +87,13 @@ exports[`ListMenu-snapshot 1`] = `
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="-1"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -109,13 +107,9 @@ exports[`ListMenu-snapshot 1`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  勤怠
-                </span>
+                勤怠
               </div>
               <span
                 class="MuiTouchRipple-root"
@@ -169,11 +163,13 @@ exports[`ListMenu-snapshot 1`] = `
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="0"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -190,13 +186,9 @@ exports[`ListMenu-snapshot 1`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    TOP
-                  </span>
+                  TOP
                 </div>
                 <span
                   class="MuiTouchRipple-root"
@@ -205,11 +197,13 @@ exports[`ListMenu-snapshot 1`] = `
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="-1"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -223,13 +217,9 @@ exports[`ListMenu-snapshot 1`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    シフト
-                  </span>
+                  シフト
                 </div>
                 <span
                   class="MuiTouchRipple-root"
@@ -238,11 +228,13 @@ exports[`ListMenu-snapshot 1`] = `
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="-1"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -256,13 +248,9 @@ exports[`ListMenu-snapshot 1`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    勤怠
-                  </span>
+                  勤怠
                 </div>
                 <span
                   class="MuiTouchRipple-root"
@@ -298,11 +286,13 @@ exports[`ListMenu-snapshot 1`] = `
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="0"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -319,13 +309,9 @@ exports[`ListMenu-snapshot 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      TOP
-                    </span>
+                    TOP
                   </div>
                   <span
                     class="MuiTouchRipple-root"
@@ -334,11 +320,13 @@ exports[`ListMenu-snapshot 1`] = `
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -352,13 +340,9 @@ exports[`ListMenu-snapshot 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      シフト
-                    </span>
+                    シフト
                   </div>
                   <span
                     class="MuiTouchRipple-root"
@@ -367,11 +351,13 @@ exports[`ListMenu-snapshot 1`] = `
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -385,13 +371,9 @@ exports[`ListMenu-snapshot 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      勤怠
-                    </span>
+                    勤怠
                   </div>
                   <span
                     class="MuiTouchRipple-root"
@@ -431,11 +413,13 @@ exports[`ListMenu-snapshot 1`] = `
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="0"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -452,13 +436,9 @@ exports[`ListMenu-snapshot 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          TOP
-                        </span>
+                        TOP
                       </div>
                       <span
                         class="MuiTouchRipple-root"
@@ -467,11 +447,13 @@ exports[`ListMenu-snapshot 1`] = `
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="-1"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -485,13 +467,9 @@ exports[`ListMenu-snapshot 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          シフト
-                        </span>
+                        シフト
                       </div>
                       <span
                         class="MuiTouchRipple-root"
@@ -500,11 +478,13 @@ exports[`ListMenu-snapshot 1`] = `
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="-1"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -518,13 +498,9 @@ exports[`ListMenu-snapshot 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          勤怠
-                        </span>
+                        勤怠
                       </div>
                       <span
                         class="MuiTouchRipple-root"
@@ -665,7 +641,9 @@ exports[`ListMenu-snapshot 1`] = `
                               >
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$1"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                   tabIndex={0}
                                 >
                                   <ForwardRef(MenuItem)
@@ -677,7 +655,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                     tabIndex={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
@@ -690,7 +670,9 @@ exports[`ListMenu-snapshot 1`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={0}
                                     >
@@ -714,7 +696,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={0}
                                       >
@@ -723,7 +707,9 @@ exports[`ListMenu-snapshot 1`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={0}
                                         >
@@ -739,13 +725,16 @@ exports[`ListMenu-snapshot 1`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={0}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -758,6 +747,7 @@ exports[`ListMenu-snapshot 1`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={0}
                                             >
@@ -765,10 +755,10 @@ exports[`ListMenu-snapshot 1`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -777,7 +767,7 @@ exports[`ListMenu-snapshot 1`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(HomeWorkIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -816,16 +806,18 @@ exports[`ListMenu-snapshot 1`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="TOP"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="TOP"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -836,68 +828,17 @@ exports[`ListMenu-snapshot 1`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="TOP"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            TOP
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      TOP
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                               <WithStyles(memo)
                                                 center={false}
                                               >
@@ -935,7 +876,9 @@ exports[`ListMenu-snapshot 1`] = `
                                 </WithStyles(ForwardRef(MenuItem))>
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$2"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                 >
                                   <ForwardRef(MenuItem)
                                     classes={
@@ -946,7 +889,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
                                       button={true}
@@ -958,7 +903,9 @@ exports[`ListMenu-snapshot 1`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={-1}
                                     >
@@ -982,7 +929,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={-1}
                                       >
@@ -991,7 +940,9 @@ exports[`ListMenu-snapshot 1`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={-1}
                                         >
@@ -1007,13 +958,16 @@ exports[`ListMenu-snapshot 1`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={-1}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -1026,6 +980,7 @@ exports[`ListMenu-snapshot 1`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={-1}
                                             >
@@ -1033,10 +988,10 @@ exports[`ListMenu-snapshot 1`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -1045,7 +1000,7 @@ exports[`ListMenu-snapshot 1`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(LibraryBooksIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -1081,16 +1036,18 @@ exports[`ListMenu-snapshot 1`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="シフト"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="シフト"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -1101,68 +1058,17 @@ exports[`ListMenu-snapshot 1`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="シフト"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            シフト
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      シフト
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                               <WithStyles(memo)
                                                 center={false}
                                               >
@@ -1200,7 +1106,9 @@ exports[`ListMenu-snapshot 1`] = `
                                 </WithStyles(ForwardRef(MenuItem))>
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$3"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                 >
                                   <ForwardRef(MenuItem)
                                     classes={
@@ -1211,7 +1119,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
                                       button={true}
@@ -1223,7 +1133,9 @@ exports[`ListMenu-snapshot 1`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={-1}
                                     >
@@ -1247,7 +1159,9 @@ exports[`ListMenu-snapshot 1`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={-1}
                                       >
@@ -1256,7 +1170,9 @@ exports[`ListMenu-snapshot 1`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={-1}
                                         >
@@ -1272,13 +1188,16 @@ exports[`ListMenu-snapshot 1`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={-1}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -1291,6 +1210,7 @@ exports[`ListMenu-snapshot 1`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={-1}
                                             >
@@ -1298,10 +1218,10 @@ exports[`ListMenu-snapshot 1`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -1310,7 +1230,7 @@ exports[`ListMenu-snapshot 1`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(AssessmentIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -1346,16 +1266,18 @@ exports[`ListMenu-snapshot 1`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="勤怠"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="勤怠"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -1366,68 +1288,17 @@ exports[`ListMenu-snapshot 1`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="勤怠"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            勤怠
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      勤怠
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                               <WithStyles(memo)
                                                 center={false}
                                               >
@@ -1503,11 +1374,13 @@ exports[`ListMenu-snapshot 2`] = `
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="0"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -1524,13 +1397,9 @@ exports[`ListMenu-snapshot 2`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  TOP
-                </span>
+                TOP
               </div>
               <span
                 class="MuiTouchRipple-root"
@@ -1539,11 +1408,13 @@ exports[`ListMenu-snapshot 2`] = `
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="-1"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -1557,32 +1428,30 @@ exports[`ListMenu-snapshot 2`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  シフト
-                </span>
+                シフト
               </div>
               <hr
-                class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
               />
               <span
                 class="MuiTouchRipple-root"
               />
             </li>
             <hr
-              class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+              class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
             />
             <li
               aria-disabled="false"
               class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+              m="0"
+              p="0"
               role="menuitem"
               tabindex="-1"
             >
               <div
-                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
               >
                 <svg
                   aria-hidden="true"
@@ -1596,13 +1465,9 @@ exports[`ListMenu-snapshot 2`] = `
                 </svg>
               </div>
               <div
-                class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
               >
-                <span
-                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                >
-                  勤怠
-                </span>
+                勤怠
               </div>
               <span
                 class="MuiTouchRipple-root"
@@ -1661,11 +1526,13 @@ exports[`ListMenu-snapshot 2`] = `
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="0"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -1682,13 +1549,9 @@ exports[`ListMenu-snapshot 2`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    TOP
-                  </span>
+                  TOP
                 </div>
                 <span
                   class="MuiTouchRipple-root"
@@ -1697,11 +1560,13 @@ exports[`ListMenu-snapshot 2`] = `
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="-1"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -1715,32 +1580,30 @@ exports[`ListMenu-snapshot 2`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    シフト
-                  </span>
+                  シフト
                 </div>
                 <hr
-                  class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                  class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                 />
                 <span
                   class="MuiTouchRipple-root"
                 />
               </li>
               <hr
-                class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
               />
               <li
                 aria-disabled="false"
                 class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                m="0"
+                p="0"
                 role="menuitem"
                 tabindex="-1"
               >
                 <div
-                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                  class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                 >
                   <svg
                     aria-hidden="true"
@@ -1754,13 +1617,9 @@ exports[`ListMenu-snapshot 2`] = `
                   </svg>
                 </div>
                 <div
-                  class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                  class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                 >
-                  <span
-                    class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                  >
-                    勤怠
-                  </span>
+                  勤怠
                 </div>
                 <span
                   class="MuiTouchRipple-root"
@@ -1796,11 +1655,13 @@ exports[`ListMenu-snapshot 2`] = `
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="0"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -1817,13 +1678,9 @@ exports[`ListMenu-snapshot 2`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      TOP
-                    </span>
+                    TOP
                   </div>
                   <span
                     class="MuiTouchRipple-root"
@@ -1832,11 +1689,13 @@ exports[`ListMenu-snapshot 2`] = `
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -1850,32 +1709,30 @@ exports[`ListMenu-snapshot 2`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      シフト
-                    </span>
+                    シフト
                   </div>
                   <hr
-                    class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                    class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                   />
                   <span
                     class="MuiTouchRipple-root"
                   />
                 </li>
                 <hr
-                  class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                  class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                 />
                 <li
                   aria-disabled="false"
                   class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                  m="0"
+                  p="0"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <div
-                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                    class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                   >
                     <svg
                       aria-hidden="true"
@@ -1889,13 +1746,9 @@ exports[`ListMenu-snapshot 2`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                    class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                   >
-                    <span
-                      class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                    >
-                      勤怠
-                    </span>
+                    勤怠
                   </div>
                   <span
                     class="MuiTouchRipple-root"
@@ -1935,11 +1788,13 @@ exports[`ListMenu-snapshot 2`] = `
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="0"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -1956,13 +1811,9 @@ exports[`ListMenu-snapshot 2`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          TOP
-                        </span>
+                        TOP
                       </div>
                       <span
                         class="MuiTouchRipple-root"
@@ -1971,11 +1822,13 @@ exports[`ListMenu-snapshot 2`] = `
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="-1"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -1989,32 +1842,30 @@ exports[`ListMenu-snapshot 2`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          シフト
-                        </span>
+                        シフト
                       </div>
                       <hr
-                        class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                        class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                       />
                       <span
                         class="MuiTouchRipple-root"
                       />
                     </li>
                     <hr
-                      class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                      class="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                     />
                     <li
                       aria-disabled="false"
                       class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      m="0"
+                      p="0"
                       role="menuitem"
                       tabindex="-1"
                     >
                       <div
-                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                        class="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                       >
                         <svg
                           aria-hidden="true"
@@ -2028,13 +1879,9 @@ exports[`ListMenu-snapshot 2`] = `
                         </svg>
                       </div>
                       <div
-                        class="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                        class="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                       >
-                        <span
-                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                        >
-                          勤怠
-                        </span>
+                        勤怠
                       </div>
                       <span
                         class="MuiTouchRipple-root"
@@ -2175,7 +2022,9 @@ exports[`ListMenu-snapshot 2`] = `
                               >
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$1"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                   tabIndex={0}
                                 >
                                   <ForwardRef(MenuItem)
@@ -2187,7 +2036,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                     tabIndex={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
@@ -2200,7 +2051,9 @@ exports[`ListMenu-snapshot 2`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={0}
                                     >
@@ -2224,7 +2077,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={0}
                                       >
@@ -2233,7 +2088,9 @@ exports[`ListMenu-snapshot 2`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={0}
                                         >
@@ -2249,13 +2106,16 @@ exports[`ListMenu-snapshot 2`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={0}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -2268,6 +2128,7 @@ exports[`ListMenu-snapshot 2`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={0}
                                             >
@@ -2275,10 +2136,10 @@ exports[`ListMenu-snapshot 2`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -2287,7 +2148,7 @@ exports[`ListMenu-snapshot 2`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(HomeWorkIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -2326,16 +2187,18 @@ exports[`ListMenu-snapshot 2`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="TOP"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="TOP"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -2346,68 +2209,17 @@ exports[`ListMenu-snapshot 2`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="TOP"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            TOP
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      TOP
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                               <WithStyles(memo)
                                                 center={false}
                                               >
@@ -2445,7 +2257,9 @@ exports[`ListMenu-snapshot 2`] = `
                                 </WithStyles(ForwardRef(MenuItem))>
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$2"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                 >
                                   <ForwardRef(MenuItem)
                                     classes={
@@ -2456,7 +2270,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
                                       button={true}
@@ -2468,7 +2284,9 @@ exports[`ListMenu-snapshot 2`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={-1}
                                     >
@@ -2492,7 +2310,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={-1}
                                       >
@@ -2501,7 +2321,9 @@ exports[`ListMenu-snapshot 2`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={-1}
                                         >
@@ -2517,13 +2339,16 @@ exports[`ListMenu-snapshot 2`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={-1}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -2536,6 +2361,7 @@ exports[`ListMenu-snapshot 2`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={-1}
                                             >
@@ -2543,10 +2369,10 @@ exports[`ListMenu-snapshot 2`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -2555,7 +2381,7 @@ exports[`ListMenu-snapshot 2`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(LibraryBooksIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -2591,16 +2417,18 @@ exports[`ListMenu-snapshot 2`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="シフト"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="シフト"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -2611,76 +2439,25 @@ exports[`ListMenu-snapshot 2`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="シフト"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            シフト
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      シフト
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                               <ListMenu__MenuDivider
                                                 key=".2"
                                               >
                                                 <WithStyles(ForwardRef(Divider))
-                                                  className="ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                                  className="ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                                 >
                                                   <ForwardRef(Divider)
-                                                    className="ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                                    className="ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                                     classes={
                                                       Object {
                                                         "absolute": "MuiDivider-absolute",
@@ -2694,7 +2471,7 @@ exports[`ListMenu-snapshot 2`] = `
                                                     }
                                                   >
                                                     <hr
-                                                      className="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                                      className="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                                     />
                                                   </ForwardRef(Divider)>
                                                 </WithStyles(ForwardRef(Divider))>
@@ -2738,10 +2515,10 @@ exports[`ListMenu-snapshot 2`] = `
                                   key=".$3"
                                 >
                                   <WithStyles(ForwardRef(Divider))
-                                    className="ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                    className="ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                   >
                                     <ForwardRef(Divider)
-                                      className="ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                      className="ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                       classes={
                                         Object {
                                           "absolute": "MuiDivider-absolute",
@@ -2755,14 +2532,16 @@ exports[`ListMenu-snapshot 2`] = `
                                       }
                                     >
                                       <hr
-                                        className="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-2 cVYJmX"
+                                        className="MuiDivider-root ListMenu__MenuDivider-sc-ib7wze-3 ipfiPC"
                                       />
                                     </ForwardRef(Divider)>
                                   </WithStyles(ForwardRef(Divider))>
                                 </ListMenu__MenuDivider>
                                 <WithStyles(ForwardRef(MenuItem))
                                   key=".$4"
+                                  m={0}
                                   onClick={[Function]}
+                                  p={0}
                                 >
                                   <ForwardRef(MenuItem)
                                     classes={
@@ -2773,7 +2552,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         "selected": "Mui-selected",
                                       }
                                     }
+                                    m={0}
                                     onClick={[Function]}
+                                    p={0}
                                   >
                                     <WithStyles(ForwardRef(ListItem))
                                       button={true}
@@ -2785,7 +2566,9 @@ exports[`ListMenu-snapshot 2`] = `
                                       }
                                       component="li"
                                       disableGutters={false}
+                                      m={0}
                                       onClick={[Function]}
+                                      p={0}
                                       role="menuitem"
                                       tabIndex={-1}
                                     >
@@ -2809,7 +2592,9 @@ exports[`ListMenu-snapshot 2`] = `
                                         }
                                         component="li"
                                         disableGutters={false}
+                                        m={0}
                                         onClick={[Function]}
+                                        p={0}
                                         role="menuitem"
                                         tabIndex={-1}
                                       >
@@ -2818,7 +2603,9 @@ exports[`ListMenu-snapshot 2`] = `
                                           component="li"
                                           disabled={false}
                                           focusVisibleClassName="Mui-focusVisible"
+                                          m={0}
                                           onClick={[Function]}
+                                          p={0}
                                           role="menuitem"
                                           tabIndex={-1}
                                         >
@@ -2834,13 +2621,16 @@ exports[`ListMenu-snapshot 2`] = `
                                             component="li"
                                             disabled={false}
                                             focusVisibleClassName="Mui-focusVisible"
+                                            m={0}
                                             onClick={[Function]}
+                                            p={0}
                                             role="menuitem"
                                             tabIndex={-1}
                                           >
                                             <li
                                               aria-disabled={false}
                                               className="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                                              m={0}
                                               onBlur={[Function]}
                                               onClick={[Function]}
                                               onDragLeave={[Function]}
@@ -2853,6 +2643,7 @@ exports[`ListMenu-snapshot 2`] = `
                                               onTouchEnd={[Function]}
                                               onTouchMove={[Function]}
                                               onTouchStart={[Function]}
+                                              p={0}
                                               role="menuitem"
                                               tabIndex={-1}
                                             >
@@ -2860,10 +2651,10 @@ exports[`ListMenu-snapshot 2`] = `
                                                 key=".0"
                                               >
                                                 <WithStyles(ForwardRef(ListItemIcon))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                  className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                 >
                                                   <ForwardRef(ListItemIcon)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                    className="ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     classes={
                                                       Object {
                                                         "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
@@ -2872,7 +2663,7 @@ exports[`ListMenu-snapshot 2`] = `
                                                     }
                                                   >
                                                     <div
-                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 eyFueQ"
+                                                      className="MuiListItemIcon-root ListMenu__MenuIcon-sc-ib7wze-1 cmuReY"
                                                     >
                                                       <ForwardRef(AssessmentIcon)>
                                                         <WithStyles(ForwardRef(SvgIcon))>
@@ -2908,16 +2699,18 @@ exports[`ListMenu-snapshot 2`] = `
                                                   </ForwardRef(ListItemIcon)>
                                                 </WithStyles(ForwardRef(ListItemIcon))>
                                               </ListMenu__MenuIcon>
-                                              <ListMenu__MenuIcon
+                                              <ListMenu__MenuText
+                                                disableTypography={true}
                                                 key=".1"
                                                 primary="勤怠"
                                               >
                                                 <WithStyles(ForwardRef(ListItemText))
-                                                  className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                  className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
+                                                  disableTypography={true}
                                                   primary="勤怠"
                                                 >
                                                   <ForwardRef(ListItemText)
-                                                    className="ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                    className="ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     classes={
                                                       Object {
                                                         "dense": "MuiListItemText-dense",
@@ -2928,68 +2721,17 @@ exports[`ListMenu-snapshot 2`] = `
                                                         "secondary": "MuiListItemText-secondary",
                                                       }
                                                     }
+                                                    disableTypography={true}
                                                     primary="勤怠"
                                                   >
                                                     <div
-                                                      className="MuiListItemText-root ListMenu__MenuIcon-sc-ib7wze-1-WithStyles-ForwardRef-ListItemText fnxHwj"
+                                                      className="MuiListItemText-root ListMenu__MenuText-sc-ib7wze-2 fEzjNq"
                                                     >
-                                                      <WithStyles(ForwardRef(Typography))
-                                                        className="MuiListItemText-primary"
-                                                        component="span"
-                                                        display="block"
-                                                        variant="body1"
-                                                      >
-                                                        <ForwardRef(Typography)
-                                                          className="MuiListItemText-primary"
-                                                          classes={
-                                                            Object {
-                                                              "alignCenter": "MuiTypography-alignCenter",
-                                                              "alignJustify": "MuiTypography-alignJustify",
-                                                              "alignLeft": "MuiTypography-alignLeft",
-                                                              "alignRight": "MuiTypography-alignRight",
-                                                              "body1": "MuiTypography-body1",
-                                                              "body2": "MuiTypography-body2",
-                                                              "button": "MuiTypography-button",
-                                                              "caption": "MuiTypography-caption",
-                                                              "colorError": "MuiTypography-colorError",
-                                                              "colorInherit": "MuiTypography-colorInherit",
-                                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                              "displayBlock": "MuiTypography-displayBlock",
-                                                              "displayInline": "MuiTypography-displayInline",
-                                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                                              "h1": "MuiTypography-h1",
-                                                              "h2": "MuiTypography-h2",
-                                                              "h3": "MuiTypography-h3",
-                                                              "h4": "MuiTypography-h4",
-                                                              "h5": "MuiTypography-h5",
-                                                              "h6": "MuiTypography-h6",
-                                                              "noWrap": "MuiTypography-noWrap",
-                                                              "overline": "MuiTypography-overline",
-                                                              "paragraph": "MuiTypography-paragraph",
-                                                              "root": "MuiTypography-root",
-                                                              "srOnly": "MuiTypography-srOnly",
-                                                              "subtitle1": "MuiTypography-subtitle1",
-                                                              "subtitle2": "MuiTypography-subtitle2",
-                                                            }
-                                                          }
-                                                          component="span"
-                                                          display="block"
-                                                          variant="body1"
-                                                        >
-                                                          <span
-                                                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-                                                          >
-                                                            勤怠
-                                                          </span>
-                                                        </ForwardRef(Typography)>
-                                                      </WithStyles(ForwardRef(Typography))>
+                                                      勤怠
                                                     </div>
                                                   </ForwardRef(ListItemText)>
                                                 </WithStyles(ForwardRef(ListItemText))>
-                                              </ListMenu__MenuIcon>
+                                              </ListMenu__MenuText>
                                             </li>
                                           </ForwardRef(ButtonBase)>
                                         </WithStyles(ForwardRef(ButtonBase))>
