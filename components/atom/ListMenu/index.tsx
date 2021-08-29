@@ -51,7 +51,7 @@ const ListMenu: FC<Props> = ({
   const MenuItems = items.reduce(
     (acc: JSX.Element[], { icon, label, link }, i) => {
       acc.push(
-        <MenuItem onClick={close} key={acc.length + 1} m={0} p={0}>
+        <MenuItem onClick={close} key={acc.length + 1}>
           <MenuIcon>{icon}</MenuIcon>
           <MenuText primary={label} disableTypography />
           {delimeterPosition.includes(i) && <MenuDivider />}
