@@ -120,7 +120,7 @@ exports[`IllustCardSmall-snapshot 1`] = `
       </IllustCardSmall__ImageWrapper>
       <IllustCardSmall__TextWrapper>
         <div
-          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
         >
           sampletext
         </div>
@@ -251,7 +251,7 @@ exports[`IllustCardSmall-snapshot 2`] = `
       </IllustCardSmall__ImageWrapper>
       <IllustCardSmall__TextWrapper>
         <div
-          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
         >
           sampletext
         </div>

@@ -1088,7 +1088,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           開閉店時間
                         </div>
@@ -1217,7 +1217,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           タイムカード
                         </div>
@@ -1346,7 +1346,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           月ごとで管理
                         </div>
@@ -1475,7 +1475,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           勤務時間のリスト化
                         </div>
@@ -1604,7 +1604,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           無料
                         </div>
@@ -1733,7 +1733,7 @@ exports[`Home-snapshot 1`] = `
                       </IllustCardSmall__ImageWrapper>
                       <IllustCardSmall__TextWrapper>
                         <div
-                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 bFOcND"
+                          className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 kuiZbm"
                         >
                           クラウドに保存
                         </div>

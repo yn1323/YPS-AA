@@ -3,7 +3,7 @@ import { AppBar, Button, Toolbar } from '@material-ui/core'
 import HeaderTitle from '@atom/HeaderTitle'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import HeaderMenu from '@molecule/HeaderMenu'
+import HeaderMenu from '@organism/HeaderMenu'
 
 interface Props {
   isLoggedIn?: boolean

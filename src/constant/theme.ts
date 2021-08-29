@@ -22,8 +22,8 @@ export const theme: Theme = createTheme({
       default: '#FFFFFE',
     },
     text: {
-      primary: '#0D0D0D',
-      secondary: '#FF8E3C',
+      primary: '#111',
+      secondary: '#444',
     },
   },
   breakpoints: {

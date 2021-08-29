@@ -1,0 +1,1484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderMenu-snapshot 1`] = `
+<HeaderMenu>
+  <HeaderMenu__ButtonWrapper>
+    <div
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 bSoyHL"
+    >
+      <ButtonMenu
+        hasMenu={true}
+        icon={<Memo />}
+        items={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "label": "TOP",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "シフト",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "勤怠",
+              "link": "",
+            },
+          ]
+        }
+        key="0"
+        link=""
+      >
+        <ButtonMenu__TextButton
+          endIcon={<Memo />}
+          onClick={[Function]}
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            endIcon={<Memo />}
+            onClick={[Function]}
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              endIcon={<Memo />}
+              onClick={[Function]}
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(HomeIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(HomeIcon)>
+                      </span>
+                      マイページ
+                      <span
+                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(KeyboardArrowDownIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(KeyboardArrowDownIcon)>
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+        <ListMenu
+          anchorEl={null}
+          items={
+            Array [
+              Object {
+                "icon": <Memo />,
+                "label": "TOP",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "シフト",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "勤怠",
+                "link": "",
+              },
+            ]
+          }
+          setShow={[Function]}
+          show={false}
+        >
+          <ListMenu__Container
+            anchorEl={null}
+            open={false}
+            placement="bottom-start"
+            transition={true}
+          >
+            <ForwardRef(Popper)
+              anchorEl={null}
+              className="ListMenu__Container-sc-ib7wze-1 gEpeHG"
+              open={false}
+              placement="bottom-start"
+              transition={true}
+            />
+          </ListMenu__Container>
+        </ListMenu>
+      </ButtonMenu>
+      <ButtonMenu
+        delimeterPosition={
+          Array [
+            1,
+          ]
+        }
+        hasMenu={true}
+        icon={<Memo />}
+        items={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "label": "シフト申請",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "タイムカード編集",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "申請状況",
+              "link": "",
+            },
+          ]
+        }
+        key="1"
+        link=""
+      >
+        <ButtonMenu__TextButton
+          endIcon={<Memo />}
+          onClick={[Function]}
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            endIcon={<Memo />}
+            onClick={[Function]}
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              endIcon={<Memo />}
+              onClick={[Function]}
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(SendIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(SendIcon)>
+                      </span>
+                      申請
+                      <span
+                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(KeyboardArrowDownIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(KeyboardArrowDownIcon)>
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+        <ListMenu
+          anchorEl={null}
+          delimeterPosition={
+            Array [
+              1,
+            ]
+          }
+          items={
+            Array [
+              Object {
+                "icon": <Memo />,
+                "label": "シフト申請",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "タイムカード編集",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "申請状況",
+                "link": "",
+              },
+            ]
+          }
+          setShow={[Function]}
+          show={false}
+        >
+          <ListMenu__Container
+            anchorEl={null}
+            open={false}
+            placement="bottom-start"
+            transition={true}
+          >
+            <ForwardRef(Popper)
+              anchorEl={null}
+              className="ListMenu__Container-sc-ib7wze-1 gEpeHG"
+              open={false}
+              placement="bottom-start"
+              transition={true}
+            />
+          </ListMenu__Container>
+        </ListMenu>
+      </ButtonMenu>
+    </div>
+  </HeaderMenu__ButtonWrapper>
+</HeaderMenu>
+`;
+
+exports[`HeaderMenu-snapshot 2`] = `
+<HeaderMenu
+  isAdmin={true}
+  showTimeCard={true}
+>
+  <HeaderMenu__ButtonWrapper>
+    <div
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 bSoyHL"
+    >
+      <ButtonMenu
+        hasMenu={true}
+        icon={<Memo />}
+        items={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "label": "TOP",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "シフト",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "勤怠",
+              "link": "",
+            },
+          ]
+        }
+        key="0"
+        link=""
+      >
+        <ButtonMenu__TextButton
+          endIcon={<Memo />}
+          onClick={[Function]}
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            endIcon={<Memo />}
+            onClick={[Function]}
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              endIcon={<Memo />}
+              onClick={[Function]}
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(HomeIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(HomeIcon)>
+                      </span>
+                      マイページ
+                      <span
+                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(KeyboardArrowDownIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(KeyboardArrowDownIcon)>
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+        <ListMenu
+          anchorEl={null}
+          items={
+            Array [
+              Object {
+                "icon": <Memo />,
+                "label": "TOP",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "シフト",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "勤怠",
+                "link": "",
+              },
+            ]
+          }
+          setShow={[Function]}
+          show={false}
+        >
+          <ListMenu__Container
+            anchorEl={null}
+            open={false}
+            placement="bottom-start"
+            transition={true}
+          >
+            <ForwardRef(Popper)
+              anchorEl={null}
+              className="ListMenu__Container-sc-ib7wze-1 gEpeHG"
+              open={false}
+              placement="bottom-start"
+              transition={true}
+            />
+          </ListMenu__Container>
+        </ListMenu>
+      </ButtonMenu>
+      <ButtonMenu
+        delimeterPosition={
+          Array [
+            1,
+          ]
+        }
+        hasMenu={true}
+        icon={<Memo />}
+        items={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "label": "シフト申請",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "タイムカード編集",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "申請状況",
+              "link": "",
+            },
+          ]
+        }
+        key="1"
+        link=""
+      >
+        <ButtonMenu__TextButton
+          endIcon={<Memo />}
+          onClick={[Function]}
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            endIcon={<Memo />}
+            onClick={[Function]}
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              endIcon={<Memo />}
+              onClick={[Function]}
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(SendIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(SendIcon)>
+                      </span>
+                      申請
+                      <span
+                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(KeyboardArrowDownIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(KeyboardArrowDownIcon)>
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+        <ListMenu
+          anchorEl={null}
+          delimeterPosition={
+            Array [
+              1,
+            ]
+          }
+          items={
+            Array [
+              Object {
+                "icon": <Memo />,
+                "label": "シフト申請",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "タイムカード編集",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "申請状況",
+                "link": "",
+              },
+            ]
+          }
+          setShow={[Function]}
+          show={false}
+        >
+          <ListMenu__Container
+            anchorEl={null}
+            open={false}
+            placement="bottom-start"
+            transition={true}
+          >
+            <ForwardRef(Popper)
+              anchorEl={null}
+              className="ListMenu__Container-sc-ib7wze-1 gEpeHG"
+              open={false}
+              placement="bottom-start"
+              transition={true}
+            />
+          </ListMenu__Container>
+        </ListMenu>
+      </ButtonMenu>
+      <ButtonMenu
+        hasMenu={false}
+        icon={<Memo />}
+        key="2"
+        link="/timecard"
+      >
+        <ButtonMenu__TextButton
+          href="/timecard"
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            href="/timecard"
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              href="/timecard"
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                href="/timecard"
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  href="/timecard"
+                  type="button"
+                >
+                  <a
+                    aria-disabled={false}
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    href="/timecard"
+                    onBlur={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(AlarmIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM12.5 8H11v6l4.75 2.85.75-1.23-4-2.37V8zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(AlarmIcon)>
+                      </span>
+                      タイムカード
+                    </span>
+                  </a>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+      </ButtonMenu>
+      <ButtonMenu
+        hasMenu={true}
+        icon={<Memo />}
+        items={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "label": "シフト管理",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "勤怠管理",
+              "link": "",
+            },
+            Object {
+              "icon": <Memo />,
+              "label": "ユーザー管理",
+              "link": "",
+            },
+          ]
+        }
+        key="3"
+        link=""
+      >
+        <ButtonMenu__TextButton
+          endIcon={<Memo />}
+          onClick={[Function]}
+          startIcon={<Memo />}
+        >
+          <WithStyles(ForwardRef(Button))
+            className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+            endIcon={<Memo />}
+            onClick={[Function]}
+            startIcon={<Memo />}
+          >
+            <ForwardRef(Button)
+              className="ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+              classes={
+                Object {
+                  "colorInherit": "MuiButton-colorInherit",
+                  "contained": "MuiButton-contained",
+                  "containedPrimary": "MuiButton-containedPrimary",
+                  "containedSecondary": "MuiButton-containedSecondary",
+                  "containedSizeLarge": "MuiButton-containedSizeLarge",
+                  "containedSizeSmall": "MuiButton-containedSizeSmall",
+                  "disableElevation": "MuiButton-disableElevation",
+                  "disabled": "Mui-disabled",
+                  "endIcon": "MuiButton-endIcon",
+                  "focusVisible": "Mui-focusVisible",
+                  "fullWidth": "MuiButton-fullWidth",
+                  "iconSizeLarge": "MuiButton-iconSizeLarge",
+                  "iconSizeMedium": "MuiButton-iconSizeMedium",
+                  "iconSizeSmall": "MuiButton-iconSizeSmall",
+                  "label": "MuiButton-label",
+                  "outlined": "MuiButton-outlined",
+                  "outlinedPrimary": "MuiButton-outlinedPrimary",
+                  "outlinedSecondary": "MuiButton-outlinedSecondary",
+                  "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                  "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                  "root": "MuiButton-root",
+                  "sizeLarge": "MuiButton-sizeLarge",
+                  "sizeSmall": "MuiButton-sizeSmall",
+                  "startIcon": "MuiButton-startIcon",
+                  "text": "MuiButton-text",
+                  "textPrimary": "MuiButton-textPrimary",
+                  "textSecondary": "MuiButton-textSecondary",
+                  "textSizeLarge": "MuiButton-textSizeLarge",
+                  "textSizeSmall": "MuiButton-textSizeSmall",
+                }
+              }
+              endIcon={<Memo />}
+              onClick={[Function]}
+              startIcon={<Memo />}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+                type="button"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonMenu__TextButton-sc-hvgn0k-0 dPGlhO"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      <span
+                        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(ShoppingCartIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(ShoppingCartIcon)>
+                      </span>
+                      店舗管理
+                      <span
+                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                      >
+                        <ForwardRef(KeyboardArrowDownIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(KeyboardArrowDownIcon)>
+                      </span>
+                    </span>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(Button)>
+          </WithStyles(ForwardRef(Button))>
+        </ButtonMenu__TextButton>
+        <ListMenu
+          anchorEl={null}
+          items={
+            Array [
+              Object {
+                "icon": <Memo />,
+                "label": "シフト管理",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "勤怠管理",
+                "link": "",
+              },
+              Object {
+                "icon": <Memo />,
+                "label": "ユーザー管理",
+                "link": "",
+              },
+            ]
+          }
+          setShow={[Function]}
+          show={false}
+        >
+          <ListMenu__Container
+            anchorEl={null}
+            open={false}
+            placement="bottom-start"
+            transition={true}
+          >
+            <ForwardRef(Popper)
+              anchorEl={null}
+              className="ListMenu__Container-sc-ib7wze-1 gEpeHG"
+              open={false}
+              placement="bottom-start"
+              transition={true}
+            />
+          </ListMenu__Container>
+        </ListMenu>
+      </ButtonMenu>
+    </div>
+  </HeaderMenu__ButtonWrapper>
+</HeaderMenu>
+`;

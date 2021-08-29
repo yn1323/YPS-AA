@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Component from '.'
 
 export default {
-  title: `molecule/${Component.name}`,
+  title: `organism/${Component.name}`,
   component: Component,
 } as ComponentMeta<typeof Component>
 
@@ -13,3 +13,7 @@ const Template: ComponentStory<typeof Component> = args => (
 )
 
 export const HeaderMenu = Template.bind({})
+HeaderMenu.args = {
+  showTimeCard: true,
+  isAdmin: true,
+}
