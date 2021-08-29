@@ -233,7 +233,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
     >
       <ForwardRef(Popper)
         anchorEl={null}
-        className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
+        className="ListMenu__Container-sc-ib7wze-0 duhcwm"
         open={false}
         placement="bottom-end"
         transition={true}

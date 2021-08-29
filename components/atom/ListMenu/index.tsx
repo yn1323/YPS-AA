@@ -37,6 +37,7 @@ interface Props {
 
 const Container = styled(Popper)`
   z-index: 10000;
+  min-width: 180px;
 `
 
 const MenuIcon = styled(ListItemIcon)`

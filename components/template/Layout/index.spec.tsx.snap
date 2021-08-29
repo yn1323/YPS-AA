@@ -98,169 +98,179 @@ exports[`Layout-snapshot 1`] = `
                         <div
                           className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-0 eYneNE MuiToolbar-gutters"
                         >
-                          <HeaderTitle>
-                            <HeaderTitle__ImageLogo
-                              height={32}
-                              src="/images/logo.png"
-                              width={32}
+                          <HeaderTitle
+                            isLoggedIn={false}
+                          >
+                            <HeaderTitle__Container
+                              $isLoggedIn={false}
                             >
-                              <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                                height={32}
-                                src="/images/logo.png"
-                                width={32}
+                              <div
+                                className="HeaderTitle__Container-sc-nwr99g-0 esdMDD"
                               >
-                                <div
-                                  style={
-                                    Object {
-                                      "boxSizing": "border-box",
-                                      "display": "inline-block",
-                                      "margin": 0,
-                                      "maxWidth": "100%",
-                                      "overflow": "hidden",
-                                      "position": "relative",
-                                    }
-                                  }
+                                <HeaderTitle__ImageLogo
+                                  height={32}
+                                  src="/images/logo.png"
+                                  width={32}
                                 >
-                                  <div
-                                    style={
-                                      Object {
-                                        "boxSizing": "border-box",
-                                        "display": "block",
-                                        "maxWidth": "100%",
-                                      }
-                                    }
+                                  <Image1
+                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                    height={32}
+                                    src="/images/logo.png"
+                                    width={32}
                                   >
-                                    <img
-                                      alt=""
-                                      aria-hidden={true}
-                                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                    <div
                                       style={
                                         Object {
-                                          "border": "none",
-                                          "display": "block",
+                                          "boxSizing": "border-box",
+                                          "display": "inline-block",
                                           "margin": 0,
                                           "maxWidth": "100%",
-                                          "padding": 0,
+                                          "overflow": "hidden",
+                                          "position": "relative",
                                         }
                                       }
-                                    />
-                                  </div>
-                                  <noscript>
-                                    <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                                      data-nimg={true}
-                                      decoding="async"
-                                      src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
-                                      srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
-                                      style={
-                                        Object {
-                                          "border": "none",
-                                          "bottom": 0,
-                                          "boxSizing": "border-box",
-                                          "display": "block",
-                                          "height": 0,
-                                          "left": 0,
-                                          "margin": "auto",
-                                          "maxHeight": "100%",
-                                          "maxWidth": "100%",
-                                          "minHeight": "100%",
-                                          "minWidth": "100%",
-                                          "objectFit": undefined,
-                                          "objectPosition": undefined,
-                                          "padding": 0,
-                                          "position": "absolute",
-                                          "right": 0,
-                                          "top": 0,
-                                          "width": 0,
+                                    >
+                                      <div
+                                        style={
+                                          Object {
+                                            "boxSizing": "border-box",
+                                            "display": "block",
+                                            "maxWidth": "100%",
+                                          }
                                         }
-                                      }
-                                    />
-                                  </noscript>
-                                  <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                                    data-nimg={true}
-                                    decoding="async"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    style={
-                                      Object {
-                                        "border": "none",
-                                        "bottom": 0,
-                                        "boxSizing": "border-box",
-                                        "display": "block",
-                                        "height": 0,
-                                        "left": 0,
-                                        "margin": "auto",
-                                        "maxHeight": "100%",
-                                        "maxWidth": "100%",
-                                        "minHeight": "100%",
-                                        "minWidth": "100%",
-                                        "objectFit": undefined,
-                                        "objectPosition": undefined,
-                                        "padding": 0,
-                                        "position": "absolute",
-                                        "right": 0,
-                                        "top": 0,
-                                        "width": 0,
-                                      }
-                                    }
-                                  />
-                                </div>
-                              </Image1>
-                            </HeaderTitle__ImageLogo>
-                            <HeaderTitle__TitleText
-                              variant="h6"
-                            >
-                              <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                                variant="h6"
-                              >
-                                <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                                  classes={
-                                    Object {
-                                      "alignCenter": "MuiTypography-alignCenter",
-                                      "alignJustify": "MuiTypography-alignJustify",
-                                      "alignLeft": "MuiTypography-alignLeft",
-                                      "alignRight": "MuiTypography-alignRight",
-                                      "body1": "MuiTypography-body1",
-                                      "body2": "MuiTypography-body2",
-                                      "button": "MuiTypography-button",
-                                      "caption": "MuiTypography-caption",
-                                      "colorError": "MuiTypography-colorError",
-                                      "colorInherit": "MuiTypography-colorInherit",
-                                      "colorPrimary": "MuiTypography-colorPrimary",
-                                      "colorSecondary": "MuiTypography-colorSecondary",
-                                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                      "displayBlock": "MuiTypography-displayBlock",
-                                      "displayInline": "MuiTypography-displayInline",
-                                      "gutterBottom": "MuiTypography-gutterBottom",
-                                      "h1": "MuiTypography-h1",
-                                      "h2": "MuiTypography-h2",
-                                      "h3": "MuiTypography-h3",
-                                      "h4": "MuiTypography-h4",
-                                      "h5": "MuiTypography-h5",
-                                      "h6": "MuiTypography-h6",
-                                      "noWrap": "MuiTypography-noWrap",
-                                      "overline": "MuiTypography-overline",
-                                      "paragraph": "MuiTypography-paragraph",
-                                      "root": "MuiTypography-root",
-                                      "srOnly": "MuiTypography-srOnly",
-                                      "subtitle1": "MuiTypography-subtitle1",
-                                      "subtitle2": "MuiTypography-subtitle2",
-                                    }
-                                  }
+                                      >
+                                        <img
+                                          alt=""
+                                          aria-hidden={true}
+                                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                          style={
+                                            Object {
+                                              "border": "none",
+                                              "display": "block",
+                                              "margin": 0,
+                                              "maxWidth": "100%",
+                                              "padding": 0,
+                                            }
+                                          }
+                                        />
+                                      </div>
+                                      <noscript>
+                                        <img
+                                          className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                          data-nimg={true}
+                                          decoding="async"
+                                          src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+                                          srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+                                          style={
+                                            Object {
+                                              "border": "none",
+                                              "bottom": 0,
+                                              "boxSizing": "border-box",
+                                              "display": "block",
+                                              "height": 0,
+                                              "left": 0,
+                                              "margin": "auto",
+                                              "maxHeight": "100%",
+                                              "maxWidth": "100%",
+                                              "minHeight": "100%",
+                                              "minWidth": "100%",
+                                              "objectFit": undefined,
+                                              "objectPosition": undefined,
+                                              "padding": 0,
+                                              "position": "absolute",
+                                              "right": 0,
+                                              "top": 0,
+                                              "width": 0,
+                                            }
+                                          }
+                                        />
+                                      </noscript>
+                                      <img
+                                        className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                        data-nimg={true}
+                                        decoding="async"
+                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                        style={
+                                          Object {
+                                            "border": "none",
+                                            "bottom": 0,
+                                            "boxSizing": "border-box",
+                                            "display": "block",
+                                            "height": 0,
+                                            "left": 0,
+                                            "margin": "auto",
+                                            "maxHeight": "100%",
+                                            "maxWidth": "100%",
+                                            "minHeight": "100%",
+                                            "minWidth": "100%",
+                                            "objectFit": undefined,
+                                            "objectPosition": undefined,
+                                            "padding": 0,
+                                            "position": "absolute",
+                                            "right": 0,
+                                            "top": 0,
+                                            "width": 0,
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </Image1>
+                                </HeaderTitle__ImageLogo>
+                                <HeaderTitle__TitleText
                                   variant="h6"
                                 >
-                                  <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC MuiTypography-h6"
+                                  <WithStyles(ForwardRef(Typography))
+                                    className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                    variant="h6"
                                   >
-                                    YPS
-                                  </h6>
-                                </ForwardRef(Typography)>
-                              </WithStyles(ForwardRef(Typography))>
-                            </HeaderTitle__TitleText>
+                                    <ForwardRef(Typography)
+                                      className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                      classes={
+                                        Object {
+                                          "alignCenter": "MuiTypography-alignCenter",
+                                          "alignJustify": "MuiTypography-alignJustify",
+                                          "alignLeft": "MuiTypography-alignLeft",
+                                          "alignRight": "MuiTypography-alignRight",
+                                          "body1": "MuiTypography-body1",
+                                          "body2": "MuiTypography-body2",
+                                          "button": "MuiTypography-button",
+                                          "caption": "MuiTypography-caption",
+                                          "colorError": "MuiTypography-colorError",
+                                          "colorInherit": "MuiTypography-colorInherit",
+                                          "colorPrimary": "MuiTypography-colorPrimary",
+                                          "colorSecondary": "MuiTypography-colorSecondary",
+                                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                          "displayBlock": "MuiTypography-displayBlock",
+                                          "displayInline": "MuiTypography-displayInline",
+                                          "gutterBottom": "MuiTypography-gutterBottom",
+                                          "h1": "MuiTypography-h1",
+                                          "h2": "MuiTypography-h2",
+                                          "h3": "MuiTypography-h3",
+                                          "h4": "MuiTypography-h4",
+                                          "h5": "MuiTypography-h5",
+                                          "h6": "MuiTypography-h6",
+                                          "noWrap": "MuiTypography-noWrap",
+                                          "overline": "MuiTypography-overline",
+                                          "paragraph": "MuiTypography-paragraph",
+                                          "root": "MuiTypography-root",
+                                          "srOnly": "MuiTypography-srOnly",
+                                          "subtitle1": "MuiTypography-subtitle1",
+                                          "subtitle2": "MuiTypography-subtitle2",
+                                        }
+                                      }
+                                      variant="h6"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                      >
+                                        YPS
+                                      </h6>
+                                    </ForwardRef(Typography)>
+                                  </WithStyles(ForwardRef(Typography))>
+                                </HeaderTitle__TitleText>
+                              </div>
+                            </HeaderTitle__Container>
                           </HeaderTitle>
                           <WithStyles(ForwardRef(Button))
                             color="primary"

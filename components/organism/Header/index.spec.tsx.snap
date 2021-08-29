@@ -93,169 +93,179 @@ exports[`Header-snapshot 1`] = `
                   <div
                     className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-0 eYneNE MuiToolbar-gutters"
                   >
-                    <HeaderTitle>
-                      <HeaderTitle__ImageLogo
-                        height={32}
-                        src="/images/logo.png"
-                        width={32}
+                    <HeaderTitle
+                      isLoggedIn={false}
+                    >
+                      <HeaderTitle__Container
+                        $isLoggedIn={false}
                       >
-                        <Image1
-                          className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                          height={32}
-                          src="/images/logo.png"
-                          width={32}
+                        <div
+                          className="HeaderTitle__Container-sc-nwr99g-0 esdMDD"
                         >
-                          <div
-                            style={
-                              Object {
-                                "boxSizing": "border-box",
-                                "display": "inline-block",
-                                "margin": 0,
-                                "maxWidth": "100%",
-                                "overflow": "hidden",
-                                "position": "relative",
-                              }
-                            }
+                          <HeaderTitle__ImageLogo
+                            height={32}
+                            src="/images/logo.png"
+                            width={32}
                           >
-                            <div
-                              style={
-                                Object {
-                                  "boxSizing": "border-box",
-                                  "display": "block",
-                                  "maxWidth": "100%",
-                                }
-                              }
+                            <Image1
+                              className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                              height={32}
+                              src="/images/logo.png"
+                              width={32}
                             >
-                              <img
-                                alt=""
-                                aria-hidden={true}
-                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                              <div
                                 style={
                                   Object {
-                                    "border": "none",
-                                    "display": "block",
+                                    "boxSizing": "border-box",
+                                    "display": "inline-block",
                                     "margin": 0,
                                     "maxWidth": "100%",
-                                    "padding": 0,
+                                    "overflow": "hidden",
+                                    "position": "relative",
                                   }
                                 }
-                              />
-                            </div>
-                            <noscript>
-                              <img
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                                data-nimg={true}
-                                decoding="async"
-                                src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
-                                srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
-                                style={
-                                  Object {
-                                    "border": "none",
-                                    "bottom": 0,
-                                    "boxSizing": "border-box",
-                                    "display": "block",
-                                    "height": 0,
-                                    "left": 0,
-                                    "margin": "auto",
-                                    "maxHeight": "100%",
-                                    "maxWidth": "100%",
-                                    "minHeight": "100%",
-                                    "minWidth": "100%",
-                                    "objectFit": undefined,
-                                    "objectPosition": undefined,
-                                    "padding": 0,
-                                    "position": "absolute",
-                                    "right": 0,
-                                    "top": 0,
-                                    "width": 0,
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "maxWidth": "100%",
+                                    }
                                   }
-                                }
-                              />
-                            </noscript>
-                            <img
-                              className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                              data-nimg={true}
-                              decoding="async"
-                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                              style={
-                                Object {
-                                  "border": "none",
-                                  "bottom": 0,
-                                  "boxSizing": "border-box",
-                                  "display": "block",
-                                  "height": 0,
-                                  "left": 0,
-                                  "margin": "auto",
-                                  "maxHeight": "100%",
-                                  "maxWidth": "100%",
-                                  "minHeight": "100%",
-                                  "minWidth": "100%",
-                                  "objectFit": undefined,
-                                  "objectPosition": undefined,
-                                  "padding": 0,
-                                  "position": "absolute",
-                                  "right": 0,
-                                  "top": 0,
-                                  "width": 0,
-                                }
-                              }
-                            />
-                          </div>
-                        </Image1>
-                      </HeaderTitle__ImageLogo>
-                      <HeaderTitle__TitleText
-                        variant="h6"
-                      >
-                        <WithStyles(ForwardRef(Typography))
-                          className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                          variant="h6"
-                        >
-                          <ForwardRef(Typography)
-                            className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                            classes={
-                              Object {
-                                "alignCenter": "MuiTypography-alignCenter",
-                                "alignJustify": "MuiTypography-alignJustify",
-                                "alignLeft": "MuiTypography-alignLeft",
-                                "alignRight": "MuiTypography-alignRight",
-                                "body1": "MuiTypography-body1",
-                                "body2": "MuiTypography-body2",
-                                "button": "MuiTypography-button",
-                                "caption": "MuiTypography-caption",
-                                "colorError": "MuiTypography-colorError",
-                                "colorInherit": "MuiTypography-colorInherit",
-                                "colorPrimary": "MuiTypography-colorPrimary",
-                                "colorSecondary": "MuiTypography-colorSecondary",
-                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                "displayBlock": "MuiTypography-displayBlock",
-                                "displayInline": "MuiTypography-displayInline",
-                                "gutterBottom": "MuiTypography-gutterBottom",
-                                "h1": "MuiTypography-h1",
-                                "h2": "MuiTypography-h2",
-                                "h3": "MuiTypography-h3",
-                                "h4": "MuiTypography-h4",
-                                "h5": "MuiTypography-h5",
-                                "h6": "MuiTypography-h6",
-                                "noWrap": "MuiTypography-noWrap",
-                                "overline": "MuiTypography-overline",
-                                "paragraph": "MuiTypography-paragraph",
-                                "root": "MuiTypography-root",
-                                "srOnly": "MuiTypography-srOnly",
-                                "subtitle1": "MuiTypography-subtitle1",
-                                "subtitle2": "MuiTypography-subtitle2",
-                              }
-                            }
+                                >
+                                  <img
+                                    alt=""
+                                    aria-hidden={true}
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                    style={
+                                      Object {
+                                        "border": "none",
+                                        "display": "block",
+                                        "margin": 0,
+                                        "maxWidth": "100%",
+                                        "padding": 0,
+                                      }
+                                    }
+                                  />
+                                </div>
+                                <noscript>
+                                  <img
+                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                    data-nimg={true}
+                                    decoding="async"
+                                    src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+                                    srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+                                    style={
+                                      Object {
+                                        "border": "none",
+                                        "bottom": 0,
+                                        "boxSizing": "border-box",
+                                        "display": "block",
+                                        "height": 0,
+                                        "left": 0,
+                                        "margin": "auto",
+                                        "maxHeight": "100%",
+                                        "maxWidth": "100%",
+                                        "minHeight": "100%",
+                                        "minWidth": "100%",
+                                        "objectFit": undefined,
+                                        "objectPosition": undefined,
+                                        "padding": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                        "width": 0,
+                                      }
+                                    }
+                                  />
+                                </noscript>
+                                <img
+                                  className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": undefined,
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                            </Image1>
+                          </HeaderTitle__ImageLogo>
+                          <HeaderTitle__TitleText
                             variant="h6"
                           >
-                            <h6
-                              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC MuiTypography-h6"
+                            <WithStyles(ForwardRef(Typography))
+                              className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                              variant="h6"
                             >
-                              YPS
-                            </h6>
-                          </ForwardRef(Typography)>
-                        </WithStyles(ForwardRef(Typography))>
-                      </HeaderTitle__TitleText>
+                              <ForwardRef(Typography)
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                                variant="h6"
+                              >
+                                <h6
+                                  className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                >
+                                  YPS
+                                </h6>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </HeaderTitle__TitleText>
+                        </div>
+                      </HeaderTitle__Container>
                     </HeaderTitle>
                     <WithStyles(ForwardRef(Button))
                       color="primary"
@@ -483,169 +493,179 @@ exports[`Header-snapshot 2`] = `
                   <div
                     className="MuiToolbar-root MuiToolbar-dense Header__SpacedToolbar-sc-1u3zo5s-0 gHndkz MuiToolbar-gutters"
                   >
-                    <HeaderTitle>
-                      <HeaderTitle__ImageLogo
-                        height={32}
-                        src="/images/logo.png"
-                        width={32}
+                    <HeaderTitle
+                      isLoggedIn={true}
+                    >
+                      <HeaderTitle__Container
+                        $isLoggedIn={true}
                       >
-                        <Image1
-                          className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                          height={32}
-                          src="/images/logo.png"
-                          width={32}
+                        <div
+                          className="HeaderTitle__Container-sc-nwr99g-0 esdMYy"
                         >
-                          <div
-                            style={
-                              Object {
-                                "boxSizing": "border-box",
-                                "display": "inline-block",
-                                "margin": 0,
-                                "maxWidth": "100%",
-                                "overflow": "hidden",
-                                "position": "relative",
-                              }
-                            }
+                          <HeaderTitle__ImageLogo
+                            height={32}
+                            src="/images/logo.png"
+                            width={32}
                           >
-                            <div
-                              style={
-                                Object {
-                                  "boxSizing": "border-box",
-                                  "display": "block",
-                                  "maxWidth": "100%",
-                                }
-                              }
+                            <Image1
+                              className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                              height={32}
+                              src="/images/logo.png"
+                              width={32}
                             >
-                              <img
-                                alt=""
-                                aria-hidden={true}
-                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                              <div
                                 style={
                                   Object {
-                                    "border": "none",
-                                    "display": "block",
+                                    "boxSizing": "border-box",
+                                    "display": "inline-block",
                                     "margin": 0,
                                     "maxWidth": "100%",
-                                    "padding": 0,
+                                    "overflow": "hidden",
+                                    "position": "relative",
                                   }
                                 }
-                              />
-                            </div>
-                            <noscript>
-                              <img
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                                data-nimg={true}
-                                decoding="async"
-                                src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
-                                srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
-                                style={
-                                  Object {
-                                    "border": "none",
-                                    "bottom": 0,
-                                    "boxSizing": "border-box",
-                                    "display": "block",
-                                    "height": 0,
-                                    "left": 0,
-                                    "margin": "auto",
-                                    "maxHeight": "100%",
-                                    "maxWidth": "100%",
-                                    "minHeight": "100%",
-                                    "minWidth": "100%",
-                                    "objectFit": undefined,
-                                    "objectPosition": undefined,
-                                    "padding": 0,
-                                    "position": "absolute",
-                                    "right": 0,
-                                    "top": 0,
-                                    "width": 0,
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "maxWidth": "100%",
+                                    }
                                   }
-                                }
-                              />
-                            </noscript>
-                            <img
-                              className="HeaderTitle__ImageLogo-sc-nwr99g-1 gqIWiZ"
-                              data-nimg={true}
-                              decoding="async"
-                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                              style={
-                                Object {
-                                  "border": "none",
-                                  "bottom": 0,
-                                  "boxSizing": "border-box",
-                                  "display": "block",
-                                  "height": 0,
-                                  "left": 0,
-                                  "margin": "auto",
-                                  "maxHeight": "100%",
-                                  "maxWidth": "100%",
-                                  "minHeight": "100%",
-                                  "minWidth": "100%",
-                                  "objectFit": undefined,
-                                  "objectPosition": undefined,
-                                  "padding": 0,
-                                  "position": "absolute",
-                                  "right": 0,
-                                  "top": 0,
-                                  "width": 0,
-                                }
-                              }
-                            />
-                          </div>
-                        </Image1>
-                      </HeaderTitle__ImageLogo>
-                      <HeaderTitle__TitleText
-                        variant="h6"
-                      >
-                        <WithStyles(ForwardRef(Typography))
-                          className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                          variant="h6"
-                        >
-                          <ForwardRef(Typography)
-                            className="HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC"
-                            classes={
-                              Object {
-                                "alignCenter": "MuiTypography-alignCenter",
-                                "alignJustify": "MuiTypography-alignJustify",
-                                "alignLeft": "MuiTypography-alignLeft",
-                                "alignRight": "MuiTypography-alignRight",
-                                "body1": "MuiTypography-body1",
-                                "body2": "MuiTypography-body2",
-                                "button": "MuiTypography-button",
-                                "caption": "MuiTypography-caption",
-                                "colorError": "MuiTypography-colorError",
-                                "colorInherit": "MuiTypography-colorInherit",
-                                "colorPrimary": "MuiTypography-colorPrimary",
-                                "colorSecondary": "MuiTypography-colorSecondary",
-                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                "displayBlock": "MuiTypography-displayBlock",
-                                "displayInline": "MuiTypography-displayInline",
-                                "gutterBottom": "MuiTypography-gutterBottom",
-                                "h1": "MuiTypography-h1",
-                                "h2": "MuiTypography-h2",
-                                "h3": "MuiTypography-h3",
-                                "h4": "MuiTypography-h4",
-                                "h5": "MuiTypography-h5",
-                                "h6": "MuiTypography-h6",
-                                "noWrap": "MuiTypography-noWrap",
-                                "overline": "MuiTypography-overline",
-                                "paragraph": "MuiTypography-paragraph",
-                                "root": "MuiTypography-root",
-                                "srOnly": "MuiTypography-srOnly",
-                                "subtitle1": "MuiTypography-subtitle1",
-                                "subtitle2": "MuiTypography-subtitle2",
-                              }
-                            }
+                                >
+                                  <img
+                                    alt=""
+                                    aria-hidden={true}
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                                    style={
+                                      Object {
+                                        "border": "none",
+                                        "display": "block",
+                                        "margin": 0,
+                                        "maxWidth": "100%",
+                                        "padding": 0,
+                                      }
+                                    }
+                                  />
+                                </div>
+                                <noscript>
+                                  <img
+                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                    data-nimg={true}
+                                    decoding="async"
+                                    src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+                                    srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+                                    style={
+                                      Object {
+                                        "border": "none",
+                                        "bottom": 0,
+                                        "boxSizing": "border-box",
+                                        "display": "block",
+                                        "height": 0,
+                                        "left": 0,
+                                        "margin": "auto",
+                                        "maxHeight": "100%",
+                                        "maxWidth": "100%",
+                                        "minHeight": "100%",
+                                        "minWidth": "100%",
+                                        "objectFit": undefined,
+                                        "objectPosition": undefined,
+                                        "padding": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                        "width": 0,
+                                      }
+                                    }
+                                  />
+                                </noscript>
+                                <img
+                                  className="HeaderTitle__ImageLogo-sc-nwr99g-2 dRhyUy"
+                                  data-nimg={true}
+                                  decoding="async"
+                                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                  style={
+                                    Object {
+                                      "border": "none",
+                                      "bottom": 0,
+                                      "boxSizing": "border-box",
+                                      "display": "block",
+                                      "height": 0,
+                                      "left": 0,
+                                      "margin": "auto",
+                                      "maxHeight": "100%",
+                                      "maxWidth": "100%",
+                                      "minHeight": "100%",
+                                      "minWidth": "100%",
+                                      "objectFit": undefined,
+                                      "objectPosition": undefined,
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "right": 0,
+                                      "top": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                />
+                              </div>
+                            </Image1>
+                          </HeaderTitle__ImageLogo>
+                          <HeaderTitle__TitleText
                             variant="h6"
                           >
-                            <h6
-                              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-0 fxMhyC MuiTypography-h6"
+                            <WithStyles(ForwardRef(Typography))
+                              className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                              variant="h6"
                             >
-                              YPS
-                            </h6>
-                          </ForwardRef(Typography)>
-                        </WithStyles(ForwardRef(Typography))>
-                      </HeaderTitle__TitleText>
+                              <ForwardRef(Typography)
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL"
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                                variant="h6"
+                              >
+                                <h6
+                                  className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 iOIwAL MuiTypography-h6"
+                                >
+                                  YPS
+                                </h6>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </HeaderTitle__TitleText>
+                        </div>
+                      </HeaderTitle__Container>
                     </HeaderTitle>
                     <HeaderMenu
                       isAdmin={true}
@@ -653,7 +673,7 @@ exports[`Header-snapshot 2`] = `
                     >
                       <HeaderMenu__ButtonWrapper>
                         <div
-                          className="HeaderMenu__ButtonWrapper-sc-1g680o-0 bSoyHL"
+                          className="HeaderMenu__ButtonWrapper-sc-1g680o-0 dVkrNI"
                         >
                           <ButtonMenu
                             hasMenu={true}
@@ -884,7 +904,7 @@ exports[`Header-snapshot 2`] = `
                               >
                                 <ForwardRef(Popper)
                                   anchorEl={null}
-                                  className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
+                                  className="ListMenu__Container-sc-ib7wze-0 duhcwm"
                                   open={false}
                                   placement="bottom-start"
                                   transition={true}
@@ -1131,7 +1151,7 @@ exports[`Header-snapshot 2`] = `
                               >
                                 <ForwardRef(Popper)
                                   anchorEl={null}
-                                  className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
+                                  className="ListMenu__Container-sc-ib7wze-0 duhcwm"
                                   open={false}
                                   placement="bottom-start"
                                   transition={true}
@@ -1509,7 +1529,7 @@ exports[`Header-snapshot 2`] = `
                               >
                                 <ForwardRef(Popper)
                                   anchorEl={null}
-                                  className="ListMenu__Container-sc-ib7wze-0 eMdZcD"
+                                  className="ListMenu__Container-sc-ib7wze-0 duhcwm"
                                   open={false}
                                   placement="bottom-start"
                                   transition={true}
@@ -1520,6 +1540,218 @@ exports[`Header-snapshot 2`] = `
                         </div>
                       </HeaderMenu__ButtonWrapper>
                     </HeaderMenu>
+                    <ButtonAvatarMenu>
+                      <ButtonAvatarMenu__TextButton
+                        endIcon={<Memo />}
+                        onClick={[Function]}
+                      >
+                        <WithStyles(ForwardRef(Button))
+                          className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                          endIcon={<Memo />}
+                          onClick={[Function]}
+                        >
+                          <ForwardRef(Button)
+                            className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiButton-colorInherit",
+                                "contained": "MuiButton-contained",
+                                "containedPrimary": "MuiButton-containedPrimary",
+                                "containedSecondary": "MuiButton-containedSecondary",
+                                "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                "disableElevation": "MuiButton-disableElevation",
+                                "disabled": "Mui-disabled",
+                                "endIcon": "MuiButton-endIcon",
+                                "focusVisible": "Mui-focusVisible",
+                                "fullWidth": "MuiButton-fullWidth",
+                                "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                "label": "MuiButton-label",
+                                "outlined": "MuiButton-outlined",
+                                "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                "root": "MuiButton-root",
+                                "sizeLarge": "MuiButton-sizeLarge",
+                                "sizeSmall": "MuiButton-sizeSmall",
+                                "startIcon": "MuiButton-startIcon",
+                                "text": "MuiButton-text",
+                                "textPrimary": "MuiButton-textPrimary",
+                                "textSecondary": "MuiButton-textSecondary",
+                                "textSizeLarge": "MuiButton-textSizeLarge",
+                                "textSizeSmall": "MuiButton-textSizeSmall",
+                              }
+                            }
+                            endIcon={<Memo />}
+                            onClick={[Function]}
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                              component="button"
+                              disabled={false}
+                              focusRipple={true}
+                              focusVisibleClassName="Mui-focusVisible"
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              <ForwardRef(ButtonBase)
+                                className="MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                component="button"
+                                disabled={false}
+                                focusRipple={true}
+                                focusVisibleClassName="Mui-focusVisible"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <button
+                                  className="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 gDCCjg"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiButton-label"
+                                  >
+                                    <WithStyles(ForwardRef(Avatar))
+                                      alt="Remy Sharp"
+                                      src="/static/images/avatar/1.jpg"
+                                    >
+                                      <ForwardRef(Avatar)
+                                        alt="Remy Sharp"
+                                        classes={
+                                          Object {
+                                            "circle": "MuiAvatar-circle",
+                                            "circular": "MuiAvatar-circular",
+                                            "colorDefault": "MuiAvatar-colorDefault",
+                                            "fallback": "MuiAvatar-fallback",
+                                            "img": "MuiAvatar-img",
+                                            "root": "MuiAvatar-root",
+                                            "rounded": "MuiAvatar-rounded",
+                                            "square": "MuiAvatar-square",
+                                          }
+                                        }
+                                        src="/static/images/avatar/1.jpg"
+                                      >
+                                        <div
+                                          className="MuiAvatar-root MuiAvatar-circular"
+                                        >
+                                          <img
+                                            alt="Remy Sharp"
+                                            className="MuiAvatar-img"
+                                            src="/static/images/avatar/1.jpg"
+                                          />
+                                        </div>
+                                      </ForwardRef(Avatar)>
+                                    </WithStyles(ForwardRef(Avatar))>
+                                    <span
+                                      className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                                    >
+                                      <ForwardRef(KeyboardArrowDownIcon)>
+                                        <WithStyles(ForwardRef(SvgIcon))>
+                                          <ForwardRef(SvgIcon)
+                                            classes={
+                                              Object {
+                                                "colorAction": "MuiSvgIcon-colorAction",
+                                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                "colorError": "MuiSvgIcon-colorError",
+                                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                "root": "MuiSvgIcon-root",
+                                              }
+                                            }
+                                          >
+                                            <svg
+                                              aria-hidden={true}
+                                              className="MuiSvgIcon-root"
+                                              focusable="false"
+                                              viewBox="0 0 24 24"
+                                            >
+                                              <path
+                                                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                              />
+                                            </svg>
+                                          </ForwardRef(SvgIcon)>
+                                        </WithStyles(ForwardRef(SvgIcon))>
+                                      </ForwardRef(KeyboardArrowDownIcon)>
+                                    </span>
+                                  </span>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(Button)>
+                        </WithStyles(ForwardRef(Button))>
+                      </ButtonAvatarMenu__TextButton>
+                      <ListMenu
+                        anchorEl={null}
+                        delimeterPosition={
+                          Array [
+                            1,
+                          ]
+                        }
+                        items={
+                          Array [
+                            Object {
+                              "icon": <Memo />,
+                              "label": "設定",
+                              "link": "",
+                            },
+                            Object {
+                              "icon": <Memo />,
+                              "label": "よくある質問",
+                              "link": "",
+                            },
+                            Object {
+                              "icon": <Memo />,
+                              "label": "ログアウト",
+                              "link": "",
+                            },
+                          ]
+                        }
+                        placement="bottom-end"
+                        setShow={[Function]}
+                        show={false}
+                      >
+                        <ListMenu__Container
+                          anchorEl={null}
+                          open={false}
+                          placement="bottom-end"
+                          transition={true}
+                        >
+                          <ForwardRef(Popper)
+                            anchorEl={null}
+                            className="ListMenu__Container-sc-ib7wze-0 duhcwm"
+                            open={false}
+                            placement="bottom-end"
+                            transition={true}
+                          />
+                        </ListMenu__Container>
+                      </ListMenu>
+                    </ButtonAvatarMenu>
                   </div>
                 </ForwardRef(Toolbar)>
               </WithStyles(ForwardRef(Toolbar))>

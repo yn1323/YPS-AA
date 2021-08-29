@@ -15,6 +15,7 @@ interface Props {
 }
 
 const ButtonWrapper = styled.div`
+  flex-grow: 1;
   > * {
     ${tw`mx-2`}
   }

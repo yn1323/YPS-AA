@@ -3,6 +3,8 @@ import React from 'react'
 import Component from '.'
 
 test(`${Component.name}-snapshot`, () => {
-  const wrapper = mountWithTheme(<Component />)
+  const wrapper = mountWithTheme(<Component isLoggedIn={false} />)
+  expect(wrapper).toMatchSnapshot()
+  wrapper.setProps({ isLoggedIn: true })
   expect(wrapper).toMatchSnapshot()
 })

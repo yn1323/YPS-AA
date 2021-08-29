@@ -4,6 +4,7 @@ import HeaderTitle from '@atom/HeaderTitle'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import HeaderMenu from '@organism/HeaderMenu'
+import ButtonAvatarMenu from '@molecule/ButtonAvatarMenu'
 
 interface Props {
   isLoggedIn?: boolean
@@ -18,10 +19,12 @@ const Header: FC<Props> = ({ isLoggedIn = false }) => {
   return (
     <AppBar position="fixed">
       <SpacedToolbar $isLoggedIn={isLoggedIn} variant="dense">
-        <HeaderTitle>YPS</HeaderTitle>
+        <HeaderTitle isLoggedIn={isLoggedIn}>YPS</HeaderTitle>
         {isLoggedIn && <HeaderMenu isAdmin showTimeCard />}
 
-        {!isLoggedIn && (
+        {isLoggedIn ? (
+          <ButtonAvatarMenu />
+        ) : (
           <Button variant="contained" color="primary">
             ログイン
           </Button>

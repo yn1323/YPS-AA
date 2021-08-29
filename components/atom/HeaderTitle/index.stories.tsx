@@ -18,5 +18,6 @@ const Template: ComponentStory<typeof Component> = args => (
 export const HeaderTitle = Template.bind({})
 
 HeaderTitle.args = {
+  isLoggedIn: true,
   children: 'タイトルDayo!',
 }
