@@ -95,37 +95,44 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
               <span
                 className="MuiButton-label"
               >
-                <WithStyles(ForwardRef(Avatar))
+                <ButtonAvatarMenu__StyledAvatar
                   alt="Remy Sharp"
                   src="/static/images/avatar/1.jpg"
                 >
-                  <ForwardRef(Avatar)
+                  <WithStyles(ForwardRef(Avatar))
                     alt="Remy Sharp"
-                    classes={
-                      Object {
-                        "circle": "MuiAvatar-circle",
-                        "circular": "MuiAvatar-circular",
-                        "colorDefault": "MuiAvatar-colorDefault",
-                        "fallback": "MuiAvatar-fallback",
-                        "img": "MuiAvatar-img",
-                        "root": "MuiAvatar-root",
-                        "rounded": "MuiAvatar-rounded",
-                        "square": "MuiAvatar-square",
-                      }
-                    }
+                    className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
                     src="/static/images/avatar/1.jpg"
                   >
-                    <div
-                      className="MuiAvatar-root MuiAvatar-circular"
+                    <ForwardRef(Avatar)
+                      alt="Remy Sharp"
+                      className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                      classes={
+                        Object {
+                          "circle": "MuiAvatar-circle",
+                          "circular": "MuiAvatar-circular",
+                          "colorDefault": "MuiAvatar-colorDefault",
+                          "fallback": "MuiAvatar-fallback",
+                          "img": "MuiAvatar-img",
+                          "root": "MuiAvatar-root",
+                          "rounded": "MuiAvatar-rounded",
+                          "square": "MuiAvatar-square",
+                        }
+                      }
+                      src="/static/images/avatar/1.jpg"
                     >
-                      <img
-                        alt="Remy Sharp"
-                        className="MuiAvatar-img"
-                        src="/static/images/avatar/1.jpg"
-                      />
-                    </div>
-                  </ForwardRef(Avatar)>
-                </WithStyles(ForwardRef(Avatar))>
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 mVzJx"
+                      >
+                        <img
+                          alt="Remy Sharp"
+                          className="MuiAvatar-img"
+                          src="/static/images/avatar/1.jpg"
+                        />
+                      </div>
+                    </ForwardRef(Avatar)>
+                  </WithStyles(ForwardRef(Avatar))>
+                </ButtonAvatarMenu__StyledAvatar>
                 <span
                   className="MuiButton-endIcon MuiButton-iconSizeMedium"
                 >

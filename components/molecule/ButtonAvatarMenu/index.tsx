@@ -11,6 +11,10 @@ interface Props {}
 export const TextButton = styled(Button)`
   color: ${({ theme }) => theme.palette.text.secondary};
 `
+const StyledAvatar = styled(Avatar)`
+  width: 36px;
+  height: 36px;
+`
 
 const ButtonAvatarMenu: FC<Props> = () => {
   const [show, setShow] = useState(false)
@@ -23,7 +27,7 @@ const ButtonAvatarMenu: FC<Props> = () => {
         ref={ref}
         onClick={() => setShow(true)}
       >
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        <StyledAvatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
       </TextButton>
       <ListMenu
         items={USER_MENU}

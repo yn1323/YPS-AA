@@ -9,6 +9,9 @@ import ButtonAvatarMenu from '@molecule/ButtonAvatarMenu'
 interface Props {
   isLoggedIn?: boolean
 }
+const Container = styled(AppBar)`
+  box-shadow: none;
+`
 const SpacedToolbar = styled(Toolbar)<{ $isLoggedIn: boolean }>`
   ${({ $isLoggedIn }) => $isLoggedIn && tw`px-4`}
   background: ${({ theme }) => theme.palette.secondary.main};
@@ -17,7 +20,7 @@ const SpacedToolbar = styled(Toolbar)<{ $isLoggedIn: boolean }>`
 
 const Header: FC<Props> = ({ isLoggedIn = false }) => {
   return (
-    <AppBar position="fixed">
+    <Container position="fixed">
       <SpacedToolbar $isLoggedIn={isLoggedIn} variant="dense">
         <HeaderTitle isLoggedIn={isLoggedIn}>YPS</HeaderTitle>
         {isLoggedIn && <HeaderMenu isAdmin showTimeCard />}
@@ -30,7 +33,7 @@ const Header: FC<Props> = ({ isLoggedIn = false }) => {
           </Button>
         )}
       </SpacedToolbar>
-    </AppBar>
+    </Container>
   )
 }
 
