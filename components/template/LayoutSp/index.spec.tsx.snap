@@ -103,11 +103,13 @@ exports[`LayoutSp-snapshot 1`] = `
                           <div
                             className="MuiToolbar-root MuiToolbar-dense HeaderSp__SpacedToolbar-sc-17orm4h-1 ittAQq MuiToolbar-gutters"
                           >
-                            <HeaderSp__Elem>
+                            <HeaderSp__PageName>
                               <div
-                                className="HeaderSp__Elem-sc-17orm4h-2 ijeVvi"
-                              />
-                            </HeaderSp__Elem>
+                                className="HeaderSp__PageName-sc-17orm4h-2 iYQsqP"
+                              >
+                                Not Found
+                              </div>
+                            </HeaderSp__PageName>
                             <ButtonAvatarMenu
                               isSp={true}
                             >
