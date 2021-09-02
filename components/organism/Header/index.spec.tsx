@@ -7,4 +7,6 @@ test(`${Component.name}-snapshot`, () => {
   expect(wrapper).toMatchSnapshot()
   wrapper.setProps({ isLoggedIn: true })
   expect(wrapper).toMatchSnapshot()
+  wrapper.setProps({ initialLogin: true })
+  expect(wrapper).toMatchSnapshot()
 })

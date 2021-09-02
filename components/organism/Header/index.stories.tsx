@@ -16,4 +16,10 @@ export const HeaderTop = Template.bind({})
 export const HeaderLoggedIn = Template.bind({})
 HeaderLoggedIn.args = {
   isLoggedIn: true,
+  isInitialLogin: false,
+}
+export const HeaderInitialLogin = Template.bind({})
+HeaderInitialLogin.args = {
+  isLoggedIn: false,
+  isInitialLogin: true,
 }
