@@ -2,10 +2,16 @@
 
 exports[`Center-snapshot 1`] = `
 <Center>
-  <Center__CenterDiv>
-    <div
-      className="Center__CenterDiv-sc-rjeqkd-0 bHSIXa"
-    />
-  </Center__CenterDiv>
+  <Center__Container>
+    <main
+      className="Center__Container-sc-rjeqkd-0 ekYtfj"
+    >
+      <Center__CenterDiv>
+        <div
+          className="Center__CenterDiv-sc-rjeqkd-1 gxxXam"
+        />
+      </Center__CenterDiv>
+    </main>
+  </Center__Container>
 </Center>
 `;

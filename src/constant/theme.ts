@@ -31,7 +31,7 @@ export const theme: Theme = createTheme({
       xs: 0,
       sm: 640,
       md: 768,
-      lg: 1280,
+      lg: 1080,
       xl: 1536,
     },
   },
