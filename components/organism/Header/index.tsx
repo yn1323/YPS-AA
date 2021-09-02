@@ -28,7 +28,7 @@ const Header: FC<Props> = ({ isLoggedIn = false }) => {
         {isLoggedIn ? (
           <ButtonAvatarMenu />
         ) : (
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="primary" size="small">
             ログイン
           </Button>
         )}

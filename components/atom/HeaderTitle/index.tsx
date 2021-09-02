@@ -14,7 +14,7 @@ const Container = styled.div<{ $isLoggedIn: boolean }>`
 `
 
 const TitleText = styled(Typography)`
-  ${tw`mr-12 ml-3`};
+  ${tw`mr-12 md:ml-3`};
 `
 const ImageLogo = styled(Image)`
   ${tw`mr-2`}

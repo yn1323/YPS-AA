@@ -226,11 +226,11 @@ exports[`Layout-snapshot 1`] = `
                                     variant="h6"
                                   >
                                     <WithStyles(ForwardRef(Typography))
-                                      className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                      className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                       variant="h6"
                                     >
                                       <ForwardRef(Typography)
-                                        className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                        className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                         classes={
                                           Object {
                                             "alignCenter": "MuiTypography-alignCenter",
@@ -268,7 +268,7 @@ exports[`Layout-snapshot 1`] = `
                                         variant="h6"
                                       >
                                         <h6
-                                          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
+                                          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
                                         >
                                           YPS
                                         </h6>
@@ -280,6 +280,7 @@ exports[`Layout-snapshot 1`] = `
                             </HeaderTitle>
                             <WithStyles(ForwardRef(Button))
                               color="primary"
+                              size="small"
                               variant="contained"
                             >
                               <ForwardRef(Button)
@@ -317,10 +318,11 @@ exports[`Layout-snapshot 1`] = `
                                   }
                                 }
                                 color="primary"
+                                size="small"
                                 variant="contained"
                               >
                                 <WithStyles(ForwardRef(ButtonBase))
-                                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                                   component="button"
                                   disabled={false}
                                   focusRipple={true}
@@ -328,7 +330,7 @@ exports[`Layout-snapshot 1`] = `
                                   type="button"
                                 >
                                   <ForwardRef(ButtonBase)
-                                    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                                    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                                     classes={
                                       Object {
                                         "disabled": "Mui-disabled",
@@ -343,7 +345,7 @@ exports[`Layout-snapshot 1`] = `
                                     type="button"
                                   >
                                     <button
-                                      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                                      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                                       disabled={false}
                                       onBlur={[Function]}
                                       onDragLeave={[Function]}

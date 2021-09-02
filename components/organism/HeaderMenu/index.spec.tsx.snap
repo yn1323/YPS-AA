@@ -4,7 +4,7 @@ exports[`HeaderMenu-snapshot 1`] = `
 <HeaderMenu>
   <HeaderMenu__ButtonWrapper>
     <div
-      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 jGFJzj"
     >
       <ButtonMenu
         hasMenu={true}
@@ -515,7 +515,7 @@ exports[`HeaderMenu-snapshot 2`] = `
 >
   <HeaderMenu__ButtonWrapper>
     <div
-      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
+      className="HeaderMenu__ButtonWrapper-sc-1g680o-0 jGFJzj"
     >
       <ButtonMenu
         hasMenu={true}

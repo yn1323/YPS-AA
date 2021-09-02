@@ -221,11 +221,11 @@ exports[`Header-snapshot 1`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                  className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -263,7 +263,7 @@ exports[`Header-snapshot 1`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -275,6 +275,7 @@ exports[`Header-snapshot 1`] = `
                       </HeaderTitle>
                       <WithStyles(ForwardRef(Button))
                         color="primary"
+                        size="small"
                         variant="contained"
                       >
                         <ForwardRef(Button)
@@ -312,10 +313,11 @@ exports[`Header-snapshot 1`] = `
                             }
                           }
                           color="primary"
+                          size="small"
                           variant="contained"
                         >
                           <WithStyles(ForwardRef(ButtonBase))
-                            className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                            className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                             component="button"
                             disabled={false}
                             focusRipple={true}
@@ -323,7 +325,7 @@ exports[`Header-snapshot 1`] = `
                             type="button"
                           >
                             <ForwardRef(ButtonBase)
-                              className="MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                              className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                               classes={
                                 Object {
                                   "disabled": "Mui-disabled",
@@ -338,7 +340,7 @@ exports[`Header-snapshot 1`] = `
                               type="button"
                             >
                               <button
-                                className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+                                className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                                 disabled={false}
                                 onBlur={[Function]}
                                 onDragLeave={[Function]}
@@ -628,11 +630,11 @@ exports[`Header-snapshot 2`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+                                  className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -670,7 +672,7 @@ exports[`Header-snapshot 2`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -686,7 +688,7 @@ exports[`Header-snapshot 2`] = `
                       >
                         <HeaderMenu__ButtonWrapper>
                           <div
-                            className="HeaderMenu__ButtonWrapper-sc-1g680o-0 kZfRrB"
+                            className="HeaderMenu__ButtonWrapper-sc-1g680o-0 jGFJzj"
                           >
                             <ButtonMenu
                               hasMenu={true}
@@ -1492,13 +1494,16 @@ exports[`Header-snapshot 2`] = `
                         </HeaderMenu__ButtonWrapper>
                       </HeaderMenu>
                       <ButtonAvatarMenu>
+                        <ButtonAvatarMenu__SpSpace>
+                          <div
+                            className="ButtonAvatarMenu__SpSpace-sc-c2fxzv-2 JgtgY"
+                          />
+                        </ButtonAvatarMenu__SpSpace>
                         <ButtonAvatarMenu__TextButton
-                          endIcon={<Memo />}
                           onClick={[Function]}
                         >
                           <WithStyles(ForwardRef(Button))
                             className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
-                            endIcon={<Memo />}
                             onClick={[Function]}
                           >
                             <ForwardRef(Button)
@@ -1536,7 +1541,6 @@ exports[`Header-snapshot 2`] = `
                                   "textSizeSmall": "MuiButton-textSizeSmall",
                                 }
                               }
-                              endIcon={<Memo />}
                               onClick={[Function]}
                             >
                               <WithStyles(ForwardRef(ButtonBase))
@@ -1586,16 +1590,16 @@ exports[`Header-snapshot 2`] = `
                                       className="MuiButton-label"
                                     >
                                       <ButtonAvatarMenu__StyledAvatar
-                                        alt="Remy Sharp"
+                                        alt="Somebody"
                                         src="/static/images/avatar/1.jpg"
                                       >
                                         <WithStyles(ForwardRef(Avatar))
-                                          alt="Remy Sharp"
+                                          alt="Somebody"
                                           className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                           src="/static/images/avatar/1.jpg"
                                         >
                                           <ForwardRef(Avatar)
-                                            alt="Remy Sharp"
+                                            alt="Somebody"
                                             className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             classes={
                                               Object {
@@ -1615,7 +1619,7 @@ exports[`Header-snapshot 2`] = `
                                               className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             >
                                               <img
-                                                alt="Remy Sharp"
+                                                alt="Somebody"
                                                 className="MuiAvatar-img"
                                                 src="/static/images/avatar/1.jpg"
                                               />
@@ -1623,40 +1627,6 @@ exports[`Header-snapshot 2`] = `
                                           </ForwardRef(Avatar)>
                                         </WithStyles(ForwardRef(Avatar))>
                                       </ButtonAvatarMenu__StyledAvatar>
-                                      <span
-                                        className="MuiButton-endIcon MuiButton-iconSizeMedium"
-                                      >
-                                        <ForwardRef(KeyboardArrowDownIcon)>
-                                          <WithStyles(ForwardRef(SvgIcon))>
-                                            <ForwardRef(SvgIcon)
-                                              classes={
-                                                Object {
-                                                  "colorAction": "MuiSvgIcon-colorAction",
-                                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
-                                                  "colorError": "MuiSvgIcon-colorError",
-                                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
-                                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
-                                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                                                  "root": "MuiSvgIcon-root",
-                                                }
-                                              }
-                                            >
-                                              <svg
-                                                aria-hidden={true}
-                                                className="MuiSvgIcon-root"
-                                                focusable="false"
-                                                viewBox="0 0 24 24"
-                                              >
-                                                <path
-                                                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
-                                                />
-                                              </svg>
-                                            </ForwardRef(SvgIcon)>
-                                          </WithStyles(ForwardRef(SvgIcon))>
-                                        </ForwardRef(KeyboardArrowDownIcon)>
-                                      </span>
                                     </span>
                                   </button>
                                 </ForwardRef(ButtonBase)>

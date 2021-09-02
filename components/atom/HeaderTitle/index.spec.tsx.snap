@@ -124,11 +124,11 @@ exports[`HeaderTitle-snapshot 1`] = `
         variant="h6"
       >
         <WithStyles(ForwardRef(Typography))
-          className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+          className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
           variant="h6"
         >
           <ForwardRef(Typography)
-            className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+            className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
             classes={
               Object {
                 "alignCenter": "MuiTypography-alignCenter",
@@ -166,7 +166,7 @@ exports[`HeaderTitle-snapshot 1`] = `
             variant="h6"
           >
             <h6
-              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
+              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
             />
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>
@@ -300,11 +300,11 @@ exports[`HeaderTitle-snapshot 2`] = `
         variant="h6"
       >
         <WithStyles(ForwardRef(Typography))
-          className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+          className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
           variant="h6"
         >
           <ForwardRef(Typography)
-            className="HeaderTitle__TitleText-sc-nwr99g-1 RBOIK"
+            className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
             classes={
               Object {
                 "alignCenter": "MuiTypography-alignCenter",
@@ -342,7 +342,7 @@ exports[`HeaderTitle-snapshot 2`] = `
             variant="h6"
           >
             <h6
-              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 RBOIK MuiTypography-h6"
+              className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
             />
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>

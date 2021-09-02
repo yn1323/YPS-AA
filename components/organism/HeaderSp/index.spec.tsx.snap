@@ -108,6 +108,11 @@ exports[`HeaderSp-snapshot 1`] = `
                       <ButtonAvatarMenu
                         isSp={true}
                       >
+                        <ButtonAvatarMenu__SpSpace>
+                          <div
+                            className="ButtonAvatarMenu__SpSpace-sc-c2fxzv-2 JgtgY"
+                          />
+                        </ButtonAvatarMenu__SpSpace>
                         <ButtonAvatarMenu__TextButton
                           onClick={[Function]}
                         >
@@ -199,16 +204,16 @@ exports[`HeaderSp-snapshot 1`] = `
                                       className="MuiButton-label"
                                     >
                                       <ButtonAvatarMenu__StyledAvatar
-                                        alt="Remy Sharp"
+                                        alt="Somebody"
                                         src="/static/images/avatar/1.jpg"
                                       >
                                         <WithStyles(ForwardRef(Avatar))
-                                          alt="Remy Sharp"
+                                          alt="Somebody"
                                           className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                           src="/static/images/avatar/1.jpg"
                                         >
                                           <ForwardRef(Avatar)
-                                            alt="Remy Sharp"
+                                            alt="Somebody"
                                             className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             classes={
                                               Object {
@@ -228,7 +233,7 @@ exports[`HeaderSp-snapshot 1`] = `
                                               className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             >
                                               <img
-                                                alt="Remy Sharp"
+                                                alt="Somebody"
                                                 className="MuiAvatar-img"
                                                 src="/static/images/avatar/1.jpg"
                                               />
@@ -271,6 +276,27 @@ exports[`HeaderSp-snapshot 1`] = `
                             </ForwardRef(Button)>
                           </WithStyles(ForwardRef(Button))>
                         </ButtonAvatarMenu__TextButton>
+                        <Popper
+                          anchorEl={null}
+                          placement="bottom-end"
+                          setShow={[Function]}
+                          show={false}
+                        >
+                          <Popper__Container
+                            anchorEl={null}
+                            open={false}
+                            placement="bottom-end"
+                            transition={true}
+                          >
+                            <ForwardRef(Popper)
+                              anchorEl={null}
+                              className="Popper__Container-sc-fo3olu-0 ibMCCu"
+                              open={false}
+                              placement="bottom-end"
+                              transition={true}
+                            />
+                          </Popper__Container>
+                        </Popper>
                       </ButtonAvatarMenu>
                     </div>
                   </ForwardRef(Toolbar)>
@@ -395,6 +421,11 @@ exports[`HeaderSp-snapshot 2`] = `
                       <ButtonAvatarMenu
                         isSp={true}
                       >
+                        <ButtonAvatarMenu__SpSpace>
+                          <div
+                            className="ButtonAvatarMenu__SpSpace-sc-c2fxzv-2 JgtgY"
+                          />
+                        </ButtonAvatarMenu__SpSpace>
                         <ButtonAvatarMenu__TextButton
                           onClick={[Function]}
                         >
@@ -486,16 +517,16 @@ exports[`HeaderSp-snapshot 2`] = `
                                       className="MuiButton-label"
                                     >
                                       <ButtonAvatarMenu__StyledAvatar
-                                        alt="Remy Sharp"
+                                        alt="Somebody"
                                         src="/static/images/avatar/1.jpg"
                                       >
                                         <WithStyles(ForwardRef(Avatar))
-                                          alt="Remy Sharp"
+                                          alt="Somebody"
                                           className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                           src="/static/images/avatar/1.jpg"
                                         >
                                           <ForwardRef(Avatar)
-                                            alt="Remy Sharp"
+                                            alt="Somebody"
                                             className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             classes={
                                               Object {
@@ -515,7 +546,7 @@ exports[`HeaderSp-snapshot 2`] = `
                                               className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                             >
                                               <img
-                                                alt="Remy Sharp"
+                                                alt="Somebody"
                                                 className="MuiAvatar-img"
                                                 src="/static/images/avatar/1.jpg"
                                               />
@@ -558,6 +589,96 @@ exports[`HeaderSp-snapshot 2`] = `
                             </ForwardRef(Button)>
                           </WithStyles(ForwardRef(Button))>
                         </ButtonAvatarMenu__TextButton>
+                        <Popper
+                          anchorEl={
+                            <button
+                              class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <span
+                                class="MuiButton-label"
+                              >
+                                <div
+                                  class="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
+                                >
+                                  <img
+                                    alt="Somebody"
+                                    class="MuiAvatar-img"
+                                    src="/static/images/avatar/1.jpg"
+                                  />
+                                </div>
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          }
+                          placement="bottom-end"
+                          setShow={[Function]}
+                          show={false}
+                        >
+                          <Popper__Container
+                            anchorEl={
+                              <button
+                                class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiButton-label"
+                                >
+                                  <div
+                                    class="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
+                                  >
+                                    <img
+                                      alt="Somebody"
+                                      class="MuiAvatar-img"
+                                      src="/static/images/avatar/1.jpg"
+                                    />
+                                  </div>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            }
+                            open={false}
+                            placement="bottom-end"
+                            transition={true}
+                          >
+                            <ForwardRef(Popper)
+                              anchorEl={
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-text ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    <div
+                                      class="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
+                                    >
+                                      <img
+                                        alt="Somebody"
+                                        class="MuiAvatar-img"
+                                        src="/static/images/avatar/1.jpg"
+                                      />
+                                    </div>
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              }
+                              className="Popper__Container-sc-fo3olu-0 ibMCCu"
+                              open={false}
+                              placement="bottom-end"
+                              transition={true}
+                            />
+                          </Popper__Container>
+                        </Popper>
                       </ButtonAvatarMenu>
                     </div>
                   </ForwardRef(Toolbar)>

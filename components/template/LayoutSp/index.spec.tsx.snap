@@ -113,6 +113,11 @@ exports[`LayoutSp-snapshot 1`] = `
                             <ButtonAvatarMenu
                               isSp={true}
                             >
+                              <ButtonAvatarMenu__SpSpace>
+                                <div
+                                  className="ButtonAvatarMenu__SpSpace-sc-c2fxzv-2 JgtgY"
+                                />
+                              </ButtonAvatarMenu__SpSpace>
                               <ButtonAvatarMenu__TextButton
                                 onClick={[Function]}
                               >
@@ -204,16 +209,16 @@ exports[`LayoutSp-snapshot 1`] = `
                                             className="MuiButton-label"
                                           >
                                             <ButtonAvatarMenu__StyledAvatar
-                                              alt="Remy Sharp"
+                                              alt="Somebody"
                                               src="/static/images/avatar/1.jpg"
                                             >
                                               <WithStyles(ForwardRef(Avatar))
-                                                alt="Remy Sharp"
+                                                alt="Somebody"
                                                 className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                 src="/static/images/avatar/1.jpg"
                                               >
                                                 <ForwardRef(Avatar)
-                                                  alt="Remy Sharp"
+                                                  alt="Somebody"
                                                   className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                   classes={
                                                     Object {
@@ -233,7 +238,7 @@ exports[`LayoutSp-snapshot 1`] = `
                                                     className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                                                   >
                                                     <img
-                                                      alt="Remy Sharp"
+                                                      alt="Somebody"
                                                       className="MuiAvatar-img"
                                                       src="/static/images/avatar/1.jpg"
                                                     />
@@ -276,6 +281,27 @@ exports[`LayoutSp-snapshot 1`] = `
                                   </ForwardRef(Button)>
                                 </WithStyles(ForwardRef(Button))>
                               </ButtonAvatarMenu__TextButton>
+                              <Popper
+                                anchorEl={null}
+                                placement="bottom-end"
+                                setShow={[Function]}
+                                show={false}
+                              >
+                                <Popper__Container
+                                  anchorEl={null}
+                                  open={false}
+                                  placement="bottom-end"
+                                  transition={true}
+                                >
+                                  <ForwardRef(Popper)
+                                    anchorEl={null}
+                                    className="Popper__Container-sc-fo3olu-0 ibMCCu"
+                                    open={false}
+                                    placement="bottom-end"
+                                    transition={true}
+                                  />
+                                </Popper__Container>
+                              </Popper>
                             </ButtonAvatarMenu>
                           </div>
                         </ForwardRef(Toolbar)>

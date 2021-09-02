@@ -2,13 +2,16 @@
 
 exports[`ButtonAvatarMenu-snapshot 1`] = `
 <ButtonAvatarMenu>
+  <ButtonAvatarMenu__SpSpace>
+    <div
+      className="ButtonAvatarMenu__SpSpace-sc-c2fxzv-2 JgtgY"
+    />
+  </ButtonAvatarMenu__SpSpace>
   <ButtonAvatarMenu__TextButton
-    endIcon={<Memo />}
     onClick={[Function]}
   >
     <WithStyles(ForwardRef(Button))
       className="ButtonAvatarMenu__TextButton-sc-c2fxzv-0 feUdZp"
-      endIcon={<Memo />}
       onClick={[Function]}
     >
       <ForwardRef(Button)
@@ -46,7 +49,6 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
             "textSizeSmall": "MuiButton-textSizeSmall",
           }
         }
-        endIcon={<Memo />}
         onClick={[Function]}
       >
         <WithStyles(ForwardRef(ButtonBase))
@@ -96,16 +98,16 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
                 className="MuiButton-label"
               >
                 <ButtonAvatarMenu__StyledAvatar
-                  alt="Remy Sharp"
+                  alt="Somebody"
                   src="/static/images/avatar/1.jpg"
                 >
                   <WithStyles(ForwardRef(Avatar))
-                    alt="Remy Sharp"
+                    alt="Somebody"
                     className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                     src="/static/images/avatar/1.jpg"
                   >
                     <ForwardRef(Avatar)
-                      alt="Remy Sharp"
+                      alt="Somebody"
                       className="ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                       classes={
                         Object {
@@ -125,7 +127,7 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
                         className="MuiAvatar-root MuiAvatar-circular ButtonAvatarMenu__StyledAvatar-sc-c2fxzv-1 dCcorU"
                       >
                         <img
-                          alt="Remy Sharp"
+                          alt="Somebody"
                           className="MuiAvatar-img"
                           src="/static/images/avatar/1.jpg"
                         />
@@ -133,40 +135,6 @@ exports[`ButtonAvatarMenu-snapshot 1`] = `
                     </ForwardRef(Avatar)>
                   </WithStyles(ForwardRef(Avatar))>
                 </ButtonAvatarMenu__StyledAvatar>
-                <span
-                  className="MuiButton-endIcon MuiButton-iconSizeMedium"
-                >
-                  <ForwardRef(KeyboardArrowDownIcon)>
-                    <WithStyles(ForwardRef(SvgIcon))>
-                      <ForwardRef(SvgIcon)
-                        classes={
-                          Object {
-                            "colorAction": "MuiSvgIcon-colorAction",
-                            "colorDisabled": "MuiSvgIcon-colorDisabled",
-                            "colorError": "MuiSvgIcon-colorError",
-                            "colorPrimary": "MuiSvgIcon-colorPrimary",
-                            "colorSecondary": "MuiSvgIcon-colorSecondary",
-                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                            "root": "MuiSvgIcon-root",
-                          }
-                        }
-                      >
-                        <svg
-                          aria-hidden={true}
-                          className="MuiSvgIcon-root"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
-                          />
-                        </svg>
-                      </ForwardRef(SvgIcon)>
-                    </WithStyles(ForwardRef(SvgIcon))>
-                  </ForwardRef(KeyboardArrowDownIcon)>
-                </span>
               </span>
               <WithStyles(memo)
                 center={false}
