@@ -9,6 +9,12 @@
         "displayName": true,
         "preprocess": false
       }
+    ],
+    [
+      "@babel/plugin-proposal-private-methods",
+      {
+        "loose": false
+      }
     ]
   ]
 }
