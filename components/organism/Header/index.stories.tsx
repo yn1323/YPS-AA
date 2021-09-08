@@ -13,6 +13,10 @@ const Template: ComponentStory<typeof Component> = args => (
 )
 
 export const HeaderTop = Template.bind({})
+HeaderTop.args = {
+  isLoggedIn: true,
+  isInitialLogin: true,
+}
 export const HeaderLoggedIn = Template.bind({})
 HeaderLoggedIn.args = {
   isLoggedIn: true,
