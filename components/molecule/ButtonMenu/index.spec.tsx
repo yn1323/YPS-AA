@@ -1,7 +1,7 @@
-import { ADMIN_MENU, TIMECARD } from '@constant/layout/menus'
-import { mountWithTheme } from '@test/TestWrapper'
 import React from 'react'
 import Component, { TextButton } from '.'
+import { ADMIN_MENU, TIMECARD } from '@constant/layout/menus'
+import { mountWithTheme } from '@test/TestWrapper'
 
 test(`${Component.name}-snapshot`, () => {
   const wrapper = mountWithTheme(

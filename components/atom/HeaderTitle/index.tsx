@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core'
+import Image from 'next/image'
 import React, { FC } from 'react'
 import styled from 'styled-components'
-import Image from 'next/image'
 import tw from 'tailwind-extended.macro'
 
 interface Props {

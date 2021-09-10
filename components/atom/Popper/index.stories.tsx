@@ -1,6 +1,5 @@
-import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-
+import React from 'react'
 import Component from '.'
 import { COMMON_MENU } from '@constant/layout/menus'
 

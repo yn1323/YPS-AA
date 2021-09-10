@@ -1,7 +1,7 @@
-import { COMMON_MENU } from '@constant/layout/menus'
-import { disableWarn, mountWithTheme } from '@test/TestWrapper'
 import React from 'react'
 import Component from '.'
+import { COMMON_MENU } from '@constant/layout/menus'
+import { disableWarn, mountWithTheme } from '@test/TestWrapper'
 
 test(`${Component.name}-snapshot`, () => {
   const args = {

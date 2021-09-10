@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   AccessAlarm,
   Alarm,
@@ -15,6 +14,7 @@ import {
   Send,
   ShoppingCart,
 } from '@material-ui/icons'
+import React from 'react'
 
 export type MenuItem = {
   icon: JSX.Element

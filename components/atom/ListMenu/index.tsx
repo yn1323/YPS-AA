@@ -1,9 +1,13 @@
-import { MenuItem as MenuItemType } from '@constant/layout/menus'
-import { Divider } from '@material-ui/core'
-import { ListItemIcon, ListItemText, MenuItem } from '@material-ui/core'
+import {
+  Divider,
+  ListItemIcon,
+  ListItemText,
+  MenuItem,
+} from '@material-ui/core'
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
+import { MenuItem as MenuItemType } from '@constant/layout/menus'
 
 interface Props {
   items: MenuItemType[]

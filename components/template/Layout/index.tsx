@@ -1,9 +1,8 @@
 import React from 'react'
-import Header from '@organism/Header'
-import Footer from '@molecule/Footer'
-
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
+import Footer from '@molecule/Footer'
+import Header from '@organism/Header'
 import { mediaQueries } from 'src/constant/mixins'
 
 interface Props {

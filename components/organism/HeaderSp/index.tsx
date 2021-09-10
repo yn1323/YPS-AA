@@ -1,10 +1,10 @@
-import React, { FC, useMemo } from 'react'
 import { AppBar, Toolbar } from '@material-ui/core'
+import { useRouter } from 'next/router'
+import React, { FC, useMemo } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import ButtonAvatarMenu from '@molecule/ButtonAvatarMenu'
-import { useRouter } from 'next/router'
 import { MENU } from '@constant/layout/menus'
+import ButtonAvatarMenu from '@molecule/ButtonAvatarMenu'
 
 const Container = styled(AppBar)`
   box-shadow: none;

@@ -1,16 +1,14 @@
-import React, { ReactElement, FC } from 'react'
-
-import { RecoilRoot } from 'recoil'
-
+import CssBaseline from '@material-ui/core/CssBaseline'
 import {
   ThemeProvider as MaterialUIThemeProvider,
   StylesProvider,
 } from '@material-ui/styles'
-import CssBaseline from '@material-ui/core/CssBaseline'
+import { mount, render } from 'enzyme'
+import React, { ReactElement, FC } from 'react'
+import { act } from 'react-test-renderer'
+import { RecoilRoot } from 'recoil'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
 import { theme } from '@constant/theme'
-import { mount, render } from 'enzyme'
-import { act } from 'react-test-renderer'
 interface Props {
   children: JSX.Element
 }

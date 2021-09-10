@@ -1,11 +1,11 @@
 import { Avatar, Button, Hidden } from '@material-ui/core'
 import { KeyboardArrowDown } from '@material-ui/icons'
-import styled from 'styled-components'
 import React, { FC, useRef, useState } from 'react'
+import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import ListMenu from '@atom/ListMenu'
-import { USER_MENU } from '@constant/layout/menus'
 import Popper from '@atom/Popper'
+import { USER_MENU } from '@constant/layout/menus'
 import { useMediaQuery } from '@hooks/useMediaQuery'
 
 export const TextButton = styled(Button)`

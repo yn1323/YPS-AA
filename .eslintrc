@@ -7,9 +7,11 @@
     "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
   ],
-  "plugins": ["@typescript-eslint", "prettier", "react"],
+  "plugins": ["@typescript-eslint", "prettier", "react", "import"],
   "env": { "node": true, "es6": true },
   "parserOptions": {
     "sourceType": "module",
@@ -30,6 +32,14 @@
     "@typescript-eslint/no-var-requires": "off",
     "@next/next/no-img-element": "off",
     "jsx-a11y/alt-text": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "import/no-named-as-default": "off",
+    "import/order": [
+      "warn",
+      {
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "never"
+      }
+    ]
   }
 }

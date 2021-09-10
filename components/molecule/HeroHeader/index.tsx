@@ -1,10 +1,10 @@
 import { Box, Button, Typography } from '@material-ui/core'
 import Image from 'next/image'
 import React, { FC } from 'react'
-import { mediaQueries } from 'src/constant/mixins'
-import { SpOnlyBr, SpOnlySpan } from 'src/helper/styles'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
+import { mediaQueries } from 'src/constant/mixins'
+import { SpOnlyBr, SpOnlySpan } from 'src/helper/styles'
 
 const CatchCopy = styled(Typography)`
   ${tw`flex justify-around mb-6`}

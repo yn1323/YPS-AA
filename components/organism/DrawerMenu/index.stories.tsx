@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import Component from '.'
+import React, { useEffect } from 'react'
 import { useSetRecoilState } from 'recoil'
+import Component from '.'
 import { drawerState } from '@recoil/drawer'
 
 export default {

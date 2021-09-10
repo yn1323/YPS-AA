@@ -1,10 +1,9 @@
-import { Typography } from '@material-ui/core'
+import Image from 'next/image'
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import Image from 'next/image'
-import { mediaQueries } from 'src/constant/mixins'
 import { replaceWithBrTag } from '@helper/reactHelpers'
+import { mediaQueries } from 'src/constant/mixins'
 
 interface Props {
   isGray?: boolean

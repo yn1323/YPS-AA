@@ -1,8 +1,7 @@
 import React, { FC } from 'react'
-
-import IllustCardSmall from '@atom/IllustCardSmall'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
+import IllustCardSmall from '@atom/IllustCardSmall'
 
 const illusts = [
   {

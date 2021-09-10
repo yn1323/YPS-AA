@@ -1,8 +1,6 @@
 import React from 'react'
-
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import { mediaQueries } from 'src/constant/mixins'
 import HeaderSp from '@organism/HeaderSp'
 
 interface Props {

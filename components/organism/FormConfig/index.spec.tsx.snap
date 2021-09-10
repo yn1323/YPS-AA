@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormConfig-snapshot 1`] = `
+<FormConfig>
+  <Center>
+    <Center__Container>
+      <main
+        className="Center__Container-sc-rjeqkd-0 ekYtfj"
+      >
+        <Center__CenterDiv>
+          <div
+            className="Center__CenterDiv-sc-rjeqkd-1 gxxXam"
+          >
+            <div>
+              Title
+            </div>
+            <div>
+              Description
+            </div>
+            <div>
+              Form
+            </div>
+          </div>
+        </Center__CenterDiv>
+      </main>
+    </Center__Container>
+  </Center>
+</FormConfig>
+`;
+
+exports[`FormConfig-snapshot 2`] = `
+<FormConfig
+  isLoggedIn={true}
+>
+  <Center>
+    <Center__Container>
+      <main
+        className="Center__Container-sc-rjeqkd-0 ekYtfj"
+      >
+        <Center__CenterDiv>
+          <div
+            className="Center__CenterDiv-sc-rjeqkd-1 gxxXam"
+          >
+            <div>
+              Title
+            </div>
+            <div>
+              Description
+            </div>
+            <div>
+              Form
+            </div>
+          </div>
+        </Center__CenterDiv>
+      </main>
+    </Center__Container>
+  </Center>
+</FormConfig>
+`;
+
+exports[`FormConfig-snapshot 3`] = `
+<FormConfig
+  initialLogin={true}
+  isLoggedIn={true}
+>
+  <Center>
+    <Center__Container>
+      <main
+        className="Center__Container-sc-rjeqkd-0 ekYtfj"
+      >
+        <Center__CenterDiv>
+          <div
+            className="Center__CenterDiv-sc-rjeqkd-1 gxxXam"
+          >
+            <div>
+              Title
+            </div>
+            <div>
+              Description
+            </div>
+            <div>
+              Form
+            </div>
+          </div>
+        </Center__CenterDiv>
+      </main>
+    </Center__Container>
+  </Center>
+</FormConfig>
+`;

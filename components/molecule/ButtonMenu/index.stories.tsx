@@ -1,6 +1,5 @@
-import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-
+import React from 'react'
 import Component from '.'
 import { ADMIN_MENU, TIMECARD } from '@constant/layout/menus'
 
