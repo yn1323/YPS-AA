@@ -1,7 +1,7 @@
 import {
   FormControlLabel,
   RadioGroup,
-  Radio,
+  Radio as MaterialUIRadio,
   RadioProps,
 } from '@material-ui/core'
 import React, { FC, useEffect } from 'react'
@@ -21,7 +21,7 @@ export interface Props {
   row?: boolean
 }
 
-const FormRadio: FC<Props> = ({
+const Radio: FC<Props> = ({
   initialVal,
   groupName,
   options,
@@ -50,7 +50,7 @@ const FormRadio: FC<Props> = ({
         ({ label, value, disabled = false, color = 'primary' }, i) => (
           <FormControlLabel
             value={value}
-            control={<Radio color={color} />}
+            control={<MaterialUIRadio color={color} />}
             label={label}
             disabled={disabled}
             key={i}
@@ -61,4 +61,4 @@ const FormRadio: FC<Props> = ({
   )
 }
 
-export default FormRadio
+export default Radio

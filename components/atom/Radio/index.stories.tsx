@@ -29,5 +29,5 @@ export const Args1: Props = {
   row: true,
 }
 
-export const FormRadio = Template.bind({})
-FormRadio.args = Args1
+export const Radio = Template.bind({})
+Radio.args = Args1

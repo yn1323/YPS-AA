@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormRadio FormRadio-snapshot 1`] = `
-<FormRadio
+exports[`Radio Radio-snapshot 1`] = `
+<Radio
   groupName="age"
   initialVal="200"
   options={
@@ -2301,5 +2301,5 @@ exports[`FormRadio FormRadio-snapshot 1`] = `
       </ForwardRef(FormGroup)>
     </WithStyles(ForwardRef(FormGroup))>
   </ForwardRef(RadioGroup)>
-</FormRadio>
+</Radio>
 `;
