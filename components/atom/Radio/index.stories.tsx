@@ -2,18 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React from 'react'
 import Component, { Props } from '.'
 
-export default {
-  title: `atom/${Component.name}`,
-  component: Component,
-} as ComponentMeta<typeof Component>
-
-const Template: ComponentStory<typeof Component> = args => (
-  <div style={{ height: 100 }}>
-    <Component {...args} />
-  </div>
-)
-
-export const Args1: Props = {
+const Args: Props = {
   groupName: 'age',
   initialVal: '200',
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -29,5 +18,16 @@ export const Args1: Props = {
   row: true,
 }
 
+export default {
+  title: `atom/${Component.name}`,
+  component: Component,
+  args: Args as Props,
+} as ComponentMeta<typeof Component>
+
+const Template: ComponentStory<typeof Component> = args => (
+  <div style={{ height: 100 }}>
+    <Component {...args} />
+  </div>
+)
+
 export const Radio = Template.bind({})
-Radio.args = Args1
