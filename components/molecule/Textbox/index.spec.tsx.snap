@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textbox Textbox-snapshot 1`] = `
+<ForwardRef
+  defaultValue="default"
+  disabled={false}
+  error={false}
+  helperText="error"
+  maxLength={64}
+  placeholder="placeholder"
+  required={false}
+>
+  <WithStyles(ForwardRef(TextField))
+    defaultValue="default"
+    disabled={false}
+    error={false}
+    fullWidth={true}
+    helperText={false}
+    inputProps={
+      Object {
+        "maxLength": 64,
+      }
+    }
+    inputRef={null}
+    placeholder="placeholder"
+    required={false}
+  >
+    <ForwardRef(TextField)
+      classes={
+        Object {
+          "root": "MuiTextField-root",
+        }
+      }
+      defaultValue="default"
+      disabled={false}
+      error={false}
+      fullWidth={true}
+      helperText={false}
+      inputProps={
+        Object {
+          "maxLength": 64,
+        }
+      }
+      inputRef={null}
+      placeholder="placeholder"
+      required={false}
+    >
+      <WithStyles(ForwardRef(FormControl))
+        className="MuiTextField-root"
+        color="primary"
+        disabled={false}
+        error={false}
+        fullWidth={true}
+        required={false}
+        variant="standard"
+      >
+        <ForwardRef(FormControl)
+          className="MuiTextField-root"
+          classes={
+            Object {
+              "fullWidth": "MuiFormControl-fullWidth",
+              "marginDense": "MuiFormControl-marginDense",
+              "marginNormal": "MuiFormControl-marginNormal",
+              "root": "MuiFormControl-root",
+            }
+          }
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={true}
+          required={false}
+          variant="standard"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <WithStyles(ForwardRef(Input))
+              autoFocus={false}
+              defaultValue="default"
+              fullWidth={true}
+              inputProps={
+                Object {
+                  "maxLength": 64,
+                }
+              }
+              inputRef={null}
+              multiline={false}
+              placeholder="placeholder"
+            >
+              <ForwardRef(Input)
+                autoFocus={false}
+                classes={
+                  Object {
+                    "colorSecondary": "MuiInput-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "error": "Mui-error",
+                    "focused": "Mui-focused",
+                    "formControl": "MuiInput-formControl",
+                    "fullWidth": "MuiInput-fullWidth",
+                    "input": "MuiInput-input",
+                    "inputMarginDense": "MuiInput-inputMarginDense",
+                    "inputMultiline": "MuiInput-inputMultiline",
+                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                    "marginDense": "MuiInput-marginDense",
+                    "multiline": "MuiInput-multiline",
+                    "root": "MuiInput-root",
+                    "underline": "MuiInput-underline",
+                  }
+                }
+                defaultValue="default"
+                fullWidth={true}
+                inputProps={
+                  Object {
+                    "maxLength": 64,
+                  }
+                }
+                inputRef={null}
+                multiline={false}
+                placeholder="placeholder"
+              >
+                <WithStyles(ForwardRef(InputBase))
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "colorSecondary": "MuiInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInput-formControl",
+                      "fullWidth": "MuiInput-fullWidth",
+                      "input": "MuiInput-input",
+                      "inputMarginDense": "MuiInput-inputMarginDense",
+                      "inputMultiline": "MuiInput-inputMultiline",
+                      "inputTypeSearch": "MuiInput-inputTypeSearch",
+                      "marginDense": "MuiInput-marginDense",
+                      "multiline": "MuiInput-multiline",
+                      "root": "MuiInput-root MuiInput-underline",
+                      "underline": null,
+                    }
+                  }
+                  defaultValue="default"
+                  fullWidth={true}
+                  inputComponent="input"
+                  inputProps={
+                    Object {
+                      "maxLength": 64,
+                    }
+                  }
+                  inputRef={null}
+                  multiline={false}
+                  placeholder="placeholder"
+                  type="text"
+                >
+                  <ForwardRef(InputBase)
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiInputBase-adornedEnd",
+                        "adornedStart": "MuiInputBase-adornedStart",
+                        "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                        "disabled": "Mui-disabled Mui-disabled",
+                        "error": "Mui-error Mui-error",
+                        "focused": "Mui-focused Mui-focused",
+                        "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                        "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                        "input": "MuiInputBase-input MuiInput-input",
+                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                        "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                        "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                        "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                        "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                        "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                        "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                        "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                        "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                      }
+                    }
+                    defaultValue="default"
+                    fullWidth={true}
+                    inputComponent="input"
+                    inputProps={
+                      Object {
+                        "maxLength": 64,
+                      }
+                    }
+                    inputRef={null}
+                    multiline={false}
+                    placeholder="placeholder"
+                    type="text"
+                  >
+                    <div
+                      className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                      onClick={[Function]}
+                    >
+                      <input
+                        aria-invalid={false}
+                        autoFocus={false}
+                        className="MuiInputBase-input MuiInput-input"
+                        defaultValue="default"
+                        disabled={false}
+                        maxLength={64}
+                        onAnimationStart={[Function]}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        placeholder="placeholder"
+                        required={false}
+                        type="text"
+                      />
+                    </div>
+                  </ForwardRef(InputBase)>
+                </WithStyles(ForwardRef(InputBase))>
+              </ForwardRef(Input)>
+            </WithStyles(ForwardRef(Input))>
+          </div>
+        </ForwardRef(FormControl)>
+      </WithStyles(ForwardRef(FormControl))>
+    </ForwardRef(TextField)>
+  </WithStyles(ForwardRef(TextField))>
+</ForwardRef>
+`;
