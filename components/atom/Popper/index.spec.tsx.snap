@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Popper-snapshot 1`] = `
+exports[`Popper Popper-snapshot 1`] = `
 <Popper
   anchorEl={<body />}
   setShow={[Function]}
@@ -23,7 +23,7 @@ exports[`Popper-snapshot 1`] = `
 </Popper>
 `;
 
-exports[`Popper-snapshot 2`] = `
+exports[`Popper Popper-snapshot 2`] = `
 <Popper
   anchorEl={
     <body>

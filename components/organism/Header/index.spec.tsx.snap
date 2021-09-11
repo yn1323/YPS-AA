@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header-snapshot 1`] = `
+exports[`Header Header-snapshot 1`] = `
 <Header>
   <Header__Container
     position="fixed"
@@ -407,7 +407,7 @@ exports[`Header-snapshot 1`] = `
 </Header>
 `;
 
-exports[`Header-snapshot 2`] = `
+exports[`Header Header-snapshot 2`] = `
 <Header
   isLoggedIn={true}
 >
@@ -1669,7 +1669,7 @@ exports[`Header-snapshot 2`] = `
 </Header>
 `;
 
-exports[`Header-snapshot 3`] = `
+exports[`Header Header-snapshot 3`] = `
 <Header
   initialLogin={true}
   isLoggedIn={true}

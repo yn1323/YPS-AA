@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading-snapshot 1`] = `
+exports[`Heading Heading-snapshot 1`] = `
 <Heading
   type="sub"
 >
@@ -60,7 +60,7 @@ exports[`Heading-snapshot 1`] = `
 </Heading>
 `;
 
-exports[`Heading-snapshot 2`] = `
+exports[`Heading Heading-snapshot 2`] = `
 <Heading
   showUnderline={true}
   type="sub"

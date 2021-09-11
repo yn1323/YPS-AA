@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderSp-snapshot 1`] = `
+exports[`HeaderSp HeaderSp-snapshot 1`] = `
 <HeaderSp>
   <HeaderSp__Container
     position="fixed"
@@ -311,7 +311,7 @@ exports[`HeaderSp-snapshot 1`] = `
 </HeaderSp>
 `;
 
-exports[`HeaderSp-snapshot 2`] = `
+exports[`HeaderSp HeaderSp-snapshot 2`] = `
 <HeaderSp
   isLoggedIn={true}
 >

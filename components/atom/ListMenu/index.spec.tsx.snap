@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListMenu-snapshot 1`] = `
+exports[`ListMenu ListMenu-snapshot 1`] = `
 <ListMenu
   anchorEl={<body />}
   items={
@@ -679,7 +679,7 @@ exports[`ListMenu-snapshot 1`] = `
 </ListMenu>
 `;
 
-exports[`ListMenu-snapshot 2`] = `
+exports[`ListMenu ListMenu-snapshot 2`] = `
 <ListMenu
   anchorEl={<body />}
   delimeterPosition={

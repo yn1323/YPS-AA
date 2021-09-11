@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`IllustCard-snapshot 1`] = `
+exports[`IllustCard IllustCard-snapshot 1`] = `
 <IllustCard
   grayIsOnRight={true}
   imageUri="/images/storyset/schedule.svg"
@@ -176,7 +176,7 @@ exports[`IllustCard-snapshot 1`] = `
 </IllustCard>
 `;
 
-exports[`IllustCard-snapshot 2`] = `
+exports[`IllustCard IllustCard-snapshot 2`] = `
 <IllustCard
   grayIsOnRight={false}
   imageUri="/images/storyset/schedule.svg"

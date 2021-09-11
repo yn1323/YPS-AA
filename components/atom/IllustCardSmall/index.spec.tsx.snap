@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`IllustCardSmall-snapshot 1`] = `
+exports[`IllustCardSmall IllustCardSmall-snapshot 1`] = `
 <IllustCardSmall
   imageUri="/images/functionalIcon1.png"
   text="sampletext"
@@ -131,7 +131,7 @@ exports[`IllustCardSmall-snapshot 1`] = `
 </IllustCardSmall>
 `;
 
-exports[`IllustCardSmall-snapshot 2`] = `
+exports[`IllustCardSmall IllustCardSmall-snapshot 2`] = `
 <IllustCardSmall
   imageUri="/images/functionalIcon1.png"
   isGray={true}

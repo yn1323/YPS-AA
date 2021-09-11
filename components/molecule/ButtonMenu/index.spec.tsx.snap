@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonMenu-snapshot 1`] = `
+exports[`ButtonMenu ButtonMenu-snapshot 1`] = `
 <ButtonMenu
   hasMenu={true}
   icon={<Memo />}
@@ -249,7 +249,7 @@ exports[`ButtonMenu-snapshot 1`] = `
 </ButtonMenu>
 `;
 
-exports[`ButtonMenu-snapshot 2`] = `
+exports[`ButtonMenu ButtonMenu-snapshot 2`] = `
 <ButtonMenu
   hasMenu={false}
   icon={<Memo />}

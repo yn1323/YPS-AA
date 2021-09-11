@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderTitle-snapshot 1`] = `
+exports[`HeaderTitle HeaderTitle-snapshot 1`] = `
 <HeaderTitle
   isLoggedIn={false}
 >
@@ -176,7 +176,7 @@ exports[`HeaderTitle-snapshot 1`] = `
 </HeaderTitle>
 `;
 
-exports[`HeaderTitle-snapshot 2`] = `
+exports[`HeaderTitle HeaderTitle-snapshot 2`] = `
 <HeaderTitle
   isLoggedIn={true}
 >

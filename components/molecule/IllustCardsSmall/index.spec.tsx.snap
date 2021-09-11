@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`IllustCardsSmall-snapshot 1`] = `
+exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
 <IllustCardsSmall>
   <IllustCardsSmall__Container>
     <div

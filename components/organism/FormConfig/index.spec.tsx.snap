@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormConfig-snapshot 1`] = `
+exports[`FormConfig FormConfig-snapshot 1`] = `
 <FormConfig>
   <Center>
     <Center__Container>
@@ -28,7 +28,7 @@ exports[`FormConfig-snapshot 1`] = `
 </FormConfig>
 `;
 
-exports[`FormConfig-snapshot 2`] = `
+exports[`FormConfig FormConfig-snapshot 2`] = `
 <FormConfig
   isLoggedIn={true}
 >
@@ -58,7 +58,7 @@ exports[`FormConfig-snapshot 2`] = `
 </FormConfig>
 `;
 
-exports[`FormConfig-snapshot 3`] = `
+exports[`FormConfig FormConfig-snapshot 3`] = `
 <FormConfig
   initialLogin={true}
   isLoggedIn={true}

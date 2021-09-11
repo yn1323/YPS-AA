@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderMenu-snapshot 1`] = `
+exports[`HeaderMenu HeaderMenu-snapshot 1`] = `
 <HeaderMenu>
   <HeaderMenu__ButtonWrapper>
     <div
@@ -508,7 +508,7 @@ exports[`HeaderMenu-snapshot 1`] = `
 </HeaderMenu>
 `;
 
-exports[`HeaderMenu-snapshot 2`] = `
+exports[`HeaderMenu HeaderMenu-snapshot 2`] = `
 <HeaderMenu
   isAdmin={true}
   showTimeCard={true}
