@@ -1,4 +1,3 @@
-import { TextFieldProps } from '@material-ui/core'
 import React, { FC, forwardRef } from 'react'
 import Textbox, { Props as TextboxProps } from '@atom/Textbox'
 import { MAX_LENGTH } from '@constant/validation'
