@@ -10,7 +10,6 @@ export interface Props {
   placeholder?: string
   maxLength?: number
   ref: TextFieldProps['inputRef']
-  setter: (v: string) => void
 }
 
 const Textbox: FC<Props> = forwardRef(

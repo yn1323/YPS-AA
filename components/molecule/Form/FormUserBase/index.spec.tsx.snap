@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormUserBase FormUserBase-snapshot 1`] = `
+<FormUserBase
+  definition="User type"
+  item={
+    <div>
+      aaa
+    </div>
+  }
+>
+  <FormUserBase__Container>
+    <div
+      className="FormUserBase__Container-sc-143288g-0 krfzgn"
+    >
+      <FormUserBase__Title>
+        <div
+          className="FormUserBase__Title-sc-143288g-1 dldOxw"
+        >
+          User type
+        </div>
+      </FormUserBase__Title>
+      <div>
+        aaa
+      </div>
+    </div>
+  </FormUserBase__Container>
+</FormUserBase>
+`;

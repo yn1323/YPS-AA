@@ -9,7 +9,11 @@ interface Props {
 const TooptipNote: FC<Props> = ({ children }) => {
   return (
     <Tooltip title={children}>
-      <IconButton size="small">
+      <IconButton
+        size="small"
+        disableRipple
+        style={{ backgroundColor: 'transparent' }}
+      >
         <HelpOutlineOutlined />
       </IconButton>
     </Tooltip>

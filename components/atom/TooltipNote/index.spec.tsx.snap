@@ -26,6 +26,7 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
       <WithStyles(ForwardRef(IconButton))
         aria-describedby={null}
         className=""
+        disableRipple={true}
         onBlur={[Function]}
         onFocus={[Function]}
         onMouseLeave={[Function]}
@@ -33,6 +34,11 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
         size="small"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
         title="Tooltip Note"
       >
         <ForwardRef(IconButton)
@@ -51,6 +57,7 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
               "sizeSmall": "MuiIconButton-sizeSmall",
             }
           }
+          disableRipple={true}
           onBlur={[Function]}
           onFocus={[Function]}
           onMouseLeave={[Function]}
@@ -58,12 +65,18 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
           onTouchEnd={[Function]}
           onTouchStart={[Function]}
           size="small"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
           title="Tooltip Note"
         >
           <WithStyles(ForwardRef(ButtonBase))
             aria-describedby={null}
             centerRipple={true}
             className="MuiIconButton-root MuiIconButton-sizeSmall"
+            disableRipple={true}
             disabled={false}
             focusRipple={true}
             onBlur={[Function]}
@@ -72,6 +85,11 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
             onMouseOver={[Function]}
             onTouchEnd={[Function]}
             onTouchStart={[Function]}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
             title="Tooltip Note"
           >
             <ForwardRef(ButtonBase)
@@ -85,6 +103,7 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
                   "root": "MuiButtonBase-root",
                 }
               }
+              disableRipple={true}
               disabled={false}
               focusRipple={true}
               onBlur={[Function]}
@@ -93,6 +112,11 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
               onMouseOver={[Function]}
               onTouchEnd={[Function]}
               onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
               title="Tooltip Note"
             >
               <button
@@ -111,6 +135,11 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
                 onTouchEnd={[Function]}
                 onTouchMove={[Function]}
                 onTouchStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
                 tabIndex={0}
                 title="Tooltip Note"
                 type="button"
@@ -149,34 +178,6 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
                     </WithStyles(ForwardRef(SvgIcon))>
                   </ForwardRef(HelpOutlineOutlinedIcon)>
                 </span>
-                <WithStyles(memo)
-                  center={true}
-                >
-                  <ForwardRef(TouchRipple)
-                    center={true}
-                    classes={
-                      Object {
-                        "child": "MuiTouchRipple-child",
-                        "childLeaving": "MuiTouchRipple-childLeaving",
-                        "childPulsate": "MuiTouchRipple-childPulsate",
-                        "ripple": "MuiTouchRipple-ripple",
-                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                        "rippleVisible": "MuiTouchRipple-rippleVisible",
-                        "root": "MuiTouchRipple-root",
-                      }
-                    }
-                  >
-                    <span
-                      className="MuiTouchRipple-root"
-                    >
-                      <TransitionGroup
-                        childFactory={[Function]}
-                        component={null}
-                        exit={true}
-                      />
-                    </span>
-                  </ForwardRef(TouchRipple)>
-                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -186,6 +187,7 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
         anchorEl={
           <button
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall"
+            style="background-color: transparent;"
             tabindex="0"
             title="Tooltip Note"
             type="button"
@@ -204,9 +206,6 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
                 />
               </svg>
             </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
           </button>
         }
         className="MuiTooltip-popper"

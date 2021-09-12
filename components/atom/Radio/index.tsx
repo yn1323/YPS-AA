@@ -5,30 +5,38 @@ import {
   RadioProps,
 } from '@material-ui/core'
 import React, { FC, useEffect } from 'react'
+import styled from 'styled-components'
+import tw from 'tailwind-extended.macro'
+import TooltipNote from '@atom/TooltipNote'
 
-type Option = {
+export type Option = {
   label: string
   value: string
   disabled?: boolean
   color?: RadioProps['color']
+  note?: string
 }
 
 export interface Props {
-  initialVal: string
+  initialValue: string
   groupName: string
   options: Option[]
   setter: (v: string) => void
   row?: boolean
 }
 
+const LabelContainer = styled.div`
+  ${tw`flex `}
+`
+
 const Radio: FC<Props> = ({
-  initialVal,
+  initialValue,
   groupName,
   options,
   setter,
   row = false,
 }) => {
-  const [value, setValue] = React.useState(initialVal)
+  const [value, setValue] = React.useState(initialValue)
 
   useEffect(() => {
     setter(value)
@@ -47,14 +55,19 @@ const Radio: FC<Props> = ({
       row={row}
     >
       {options.map(
-        ({ label, value, disabled = false, color = 'primary' }, i) => (
-          <FormControlLabel
-            value={value}
-            control={<MaterialUIRadio color={color} />}
-            label={label}
-            disabled={disabled}
-            key={i}
-          />
+        (
+          { label, value, disabled = false, color = 'primary', note = '' },
+          i
+        ) => (
+          <LabelContainer key={i}>
+            <FormControlLabel
+              value={value}
+              control={<MaterialUIRadio color={color} />}
+              label={label}
+              disabled={disabled}
+            />
+            {note && <TooltipNote>{note}</TooltipNote>}
+          </LabelContainer>
         )
       )}
     </RadioGroup>
