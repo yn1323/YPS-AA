@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React, { useRef } from 'react'
 import Component, { Props } from '.'
 
-const COMPONENT_NAME = 'TexFormUserNametbox'
+const COMPONENT_NAME = 'FormShopId'
 
 export default {
   title: `molecule/Form/${COMPONENT_NAME}`,

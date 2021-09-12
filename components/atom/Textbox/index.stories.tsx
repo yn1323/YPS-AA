@@ -2,8 +2,10 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React, { useRef } from 'react'
 import Component, { Props } from '.'
 
+const COMPONENT_NAME = 'Textbox'
+
 export default {
-  title: `atom/Textbox`,
+  title: `atom/${COMPONENT_NAME}`,
   component: Component,
   args: {
     error: false,
@@ -31,4 +33,4 @@ const Template: ComponentStory<typeof Component> = args => {
   )
 }
 
-export const Textbox = Template.bind({})
+export const Basic = Template.bind({})

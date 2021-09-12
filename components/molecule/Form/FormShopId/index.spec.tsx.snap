@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-snapshot 1`] = `
+exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
 <ForwardRef>
   <FormUserBase
-    definition="ユーザー名"
+    definition="店舗ID"
     item={
       <ForwardRef
         defaultValue=""
         error={false}
         helperText=""
-        maxLength={32}
-        placeholder="ユーザー名を入力してください。"
+        maxLength={64}
+        placeholder="店舗IDを入力してください。"
         required={false}
       />
     }
@@ -23,15 +23,15 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
           <div
             className="FormUserBase__Title-sc-143288g-1 dldOxw"
           >
-            ユーザー名
+            店舗ID
           </div>
         </FormUserBase__Title>
         <ForwardRef
           defaultValue=""
           error={false}
           helperText=""
-          maxLength={32}
-          placeholder="ユーザー名を入力してください。"
+          maxLength={64}
+          placeholder="店舗IDを入力してください。"
           required={false}
         >
           <WithStyles(ForwardRef(TextField))
@@ -42,11 +42,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
             helperText={false}
             inputProps={
               Object {
-                "maxLength": 32,
+                "maxLength": 64,
               }
             }
             inputRef={null}
-            placeholder="ユーザー名を入力してください。"
+            placeholder="店舗IDを入力してください。"
             required={false}
           >
             <ForwardRef(TextField)
@@ -62,11 +62,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
               helperText={false}
               inputProps={
                 Object {
-                  "maxLength": 32,
+                  "maxLength": 64,
                 }
               }
               inputRef={null}
-              placeholder="ユーザー名を入力してください。"
+              placeholder="店舗IDを入力してください。"
               required={false}
             >
               <WithStyles(ForwardRef(FormControl))
@@ -104,12 +104,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                       fullWidth={true}
                       inputProps={
                         Object {
-                          "maxLength": 32,
+                          "maxLength": 64,
                         }
                       }
                       inputRef={null}
                       multiline={false}
-                      placeholder="ユーザー名を入力してください。"
+                      placeholder="店舗IDを入力してください。"
                     >
                       <ForwardRef(Input)
                         autoFocus={false}
@@ -135,12 +135,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                         fullWidth={true}
                         inputProps={
                           Object {
-                            "maxLength": 32,
+                            "maxLength": 64,
                           }
                         }
                         inputRef={null}
                         multiline={false}
-                        placeholder="ユーザー名を入力してください。"
+                        placeholder="店舗IDを入力してください。"
                       >
                         <WithStyles(ForwardRef(InputBase))
                           autoFocus={false}
@@ -167,12 +167,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                           inputComponent="input"
                           inputProps={
                             Object {
-                              "maxLength": 32,
+                              "maxLength": 64,
                             }
                           }
                           inputRef={null}
                           multiline={false}
-                          placeholder="ユーザー名を入力してください。"
+                          placeholder="店舗IDを入力してください。"
                           type="text"
                         >
                           <ForwardRef(InputBase)
@@ -204,12 +204,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                             inputComponent="input"
                             inputProps={
                               Object {
-                                "maxLength": 32,
+                                "maxLength": 64,
                               }
                             }
                             inputRef={null}
                             multiline={false}
-                            placeholder="ユーザー名を入力してください。"
+                            placeholder="店舗IDを入力してください。"
                             type="text"
                           >
                             <div
@@ -222,12 +222,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                                 className="MuiInputBase-input MuiInput-input"
                                 defaultValue=""
                                 disabled={false}
-                                maxLength={32}
+                                maxLength={64}
                                 onAnimationStart={[Function]}
                                 onBlur={[Function]}
                                 onChange={[Function]}
                                 onFocus={[Function]}
-                                placeholder="ユーザー名を入力してください。"
+                                placeholder="店舗IDを入力してください。"
                                 required={false}
                                 type="text"
                               />
@@ -248,7 +248,7 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
 </ForwardRef>
 `;
 
-exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-snapshot 2`] = `
+exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
 <ForwardRef
   defaultValue=""
   error={false}
@@ -256,14 +256,14 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
   required={false}
 >
   <FormUserBase
-    definition="ユーザー名"
+    definition="店舗ID"
     item={
       <ForwardRef
         defaultValue=""
         error={false}
         helperText="必ず入力してください。"
-        maxLength={32}
-        placeholder="ユーザー名を入力してください。"
+        maxLength={64}
+        placeholder="店舗IDを入力してください。"
         required={false}
       />
     }
@@ -276,15 +276,15 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
           <div
             className="FormUserBase__Title-sc-143288g-1 dldOxw"
           >
-            ユーザー名
+            店舗ID
           </div>
         </FormUserBase__Title>
         <ForwardRef
           defaultValue=""
           error={false}
           helperText="必ず入力してください。"
-          maxLength={32}
-          placeholder="ユーザー名を入力してください。"
+          maxLength={64}
+          placeholder="店舗IDを入力してください。"
           required={false}
         >
           <WithStyles(ForwardRef(TextField))
@@ -295,11 +295,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
             helperText={false}
             inputProps={
               Object {
-                "maxLength": 32,
+                "maxLength": 64,
               }
             }
             inputRef={null}
-            placeholder="ユーザー名を入力してください。"
+            placeholder="店舗IDを入力してください。"
             required={false}
           >
             <ForwardRef(TextField)
@@ -315,11 +315,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
               helperText={false}
               inputProps={
                 Object {
-                  "maxLength": 32,
+                  "maxLength": 64,
                 }
               }
               inputRef={null}
-              placeholder="ユーザー名を入力してください。"
+              placeholder="店舗IDを入力してください。"
               required={false}
             >
               <WithStyles(ForwardRef(FormControl))
@@ -357,12 +357,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                       fullWidth={true}
                       inputProps={
                         Object {
-                          "maxLength": 32,
+                          "maxLength": 64,
                         }
                       }
                       inputRef={null}
                       multiline={false}
-                      placeholder="ユーザー名を入力してください。"
+                      placeholder="店舗IDを入力してください。"
                     >
                       <ForwardRef(Input)
                         autoFocus={false}
@@ -388,12 +388,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                         fullWidth={true}
                         inputProps={
                           Object {
-                            "maxLength": 32,
+                            "maxLength": 64,
                           }
                         }
                         inputRef={null}
                         multiline={false}
-                        placeholder="ユーザー名を入力してください。"
+                        placeholder="店舗IDを入力してください。"
                       >
                         <WithStyles(ForwardRef(InputBase))
                           autoFocus={false}
@@ -420,12 +420,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                           inputComponent="input"
                           inputProps={
                             Object {
-                              "maxLength": 32,
+                              "maxLength": 64,
                             }
                           }
                           inputRef={null}
                           multiline={false}
-                          placeholder="ユーザー名を入力してください。"
+                          placeholder="店舗IDを入力してください。"
                           type="text"
                         >
                           <ForwardRef(InputBase)
@@ -457,12 +457,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                             inputComponent="input"
                             inputProps={
                               Object {
-                                "maxLength": 32,
+                                "maxLength": 64,
                               }
                             }
                             inputRef={null}
                             multiline={false}
-                            placeholder="ユーザー名を入力してください。"
+                            placeholder="店舗IDを入力してください。"
                             type="text"
                           >
                             <div
@@ -475,12 +475,12 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
                                 className="MuiInputBase-input MuiInput-input"
                                 defaultValue=""
                                 disabled={false}
-                                maxLength={32}
+                                maxLength={64}
                                 onAnimationStart={[Function]}
                                 onBlur={[Function]}
                                 onChange={[Function]}
                                 onFocus={[Function]}
-                                placeholder="ユーザー名を入力してください。"
+                                placeholder="店舗IDを入力してください。"
                                 required={false}
                                 type="text"
                               />

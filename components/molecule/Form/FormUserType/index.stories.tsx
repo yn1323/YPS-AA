@@ -9,9 +9,7 @@ export default {
     groupName: 'age',
     initialVal: '200',
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    setter: v => {
-      console.log(v)
-    },
+    setter: v => {},
     options: [
       { value: '100', label: 'hundred' },
       { value: '200', label: 'two-hundred' },

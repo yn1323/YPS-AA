@@ -1,17 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Textbox Textbox-snapshot 1`] = `
-<ForwardRef
-  defaultValue="default"
-  disabled={false}
-  error={false}
-  helperText="error"
-  maxLength={64}
-  placeholder="placeholder"
-  required={false}
->
+exports[`atom/Textbox atom/Textbox-snapshot 1`] = `
+<ForwardRef>
   <WithStyles(ForwardRef(TextField))
-    defaultValue="default"
+    defaultValue=""
     disabled={false}
     error={false}
     fullWidth={true}
@@ -21,8 +13,19 @@ exports[`Textbox Textbox-snapshot 1`] = `
         "maxLength": 64,
       }
     }
-    inputRef={null}
-    placeholder="placeholder"
+    inputRef={
+      Object {
+        "current": <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiInput-input"
+          maxlength="64"
+          placeholder=""
+          type="text"
+          value=""
+        />,
+      }
+    }
+    placeholder=""
     required={false}
   >
     <ForwardRef(TextField)
@@ -31,7 +34,7 @@ exports[`Textbox Textbox-snapshot 1`] = `
           "root": "MuiTextField-root",
         }
       }
-      defaultValue="default"
+      defaultValue=""
       disabled={false}
       error={false}
       fullWidth={true}
@@ -41,8 +44,19 @@ exports[`Textbox Textbox-snapshot 1`] = `
           "maxLength": 64,
         }
       }
-      inputRef={null}
-      placeholder="placeholder"
+      inputRef={
+        Object {
+          "current": <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            maxlength="64"
+            placeholder=""
+            type="text"
+            value=""
+          />,
+        }
+      }
+      placeholder=""
       required={false}
     >
       <WithStyles(ForwardRef(FormControl))
@@ -76,16 +90,27 @@ exports[`Textbox Textbox-snapshot 1`] = `
           >
             <WithStyles(ForwardRef(Input))
               autoFocus={false}
-              defaultValue="default"
+              defaultValue=""
               fullWidth={true}
               inputProps={
                 Object {
                   "maxLength": 64,
                 }
               }
-              inputRef={null}
+              inputRef={
+                Object {
+                  "current": <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiInput-input"
+                    maxlength="64"
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />,
+                }
+              }
               multiline={false}
-              placeholder="placeholder"
+              placeholder=""
             >
               <ForwardRef(Input)
                 autoFocus={false}
@@ -107,16 +132,27 @@ exports[`Textbox Textbox-snapshot 1`] = `
                     "underline": "MuiInput-underline",
                   }
                 }
-                defaultValue="default"
+                defaultValue=""
                 fullWidth={true}
                 inputProps={
                   Object {
                     "maxLength": 64,
                   }
                 }
-                inputRef={null}
+                inputRef={
+                  Object {
+                    "current": <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      maxlength="64"
+                      placeholder=""
+                      type="text"
+                      value=""
+                    />,
+                  }
+                }
                 multiline={false}
-                placeholder="placeholder"
+                placeholder=""
               >
                 <WithStyles(ForwardRef(InputBase))
                   autoFocus={false}
@@ -138,7 +174,7 @@ exports[`Textbox Textbox-snapshot 1`] = `
                       "underline": null,
                     }
                   }
-                  defaultValue="default"
+                  defaultValue=""
                   fullWidth={true}
                   inputComponent="input"
                   inputProps={
@@ -146,9 +182,20 @@ exports[`Textbox Textbox-snapshot 1`] = `
                       "maxLength": 64,
                     }
                   }
-                  inputRef={null}
+                  inputRef={
+                    Object {
+                      "current": <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiInput-input"
+                        maxlength="64"
+                        placeholder=""
+                        type="text"
+                        value=""
+                      />,
+                    }
+                  }
                   multiline={false}
-                  placeholder="placeholder"
+                  placeholder=""
                   type="text"
                 >
                   <ForwardRef(InputBase)
@@ -175,7 +222,7 @@ exports[`Textbox Textbox-snapshot 1`] = `
                         "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
                       }
                     }
-                    defaultValue="default"
+                    defaultValue=""
                     fullWidth={true}
                     inputComponent="input"
                     inputProps={
@@ -183,9 +230,20 @@ exports[`Textbox Textbox-snapshot 1`] = `
                         "maxLength": 64,
                       }
                     }
-                    inputRef={null}
+                    inputRef={
+                      Object {
+                        "current": <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiInput-input"
+                          maxlength="64"
+                          placeholder=""
+                          type="text"
+                          value=""
+                        />,
+                      }
+                    }
                     multiline={false}
-                    placeholder="placeholder"
+                    placeholder=""
                     type="text"
                   >
                     <div
@@ -196,14 +254,14 @@ exports[`Textbox Textbox-snapshot 1`] = `
                         aria-invalid={false}
                         autoFocus={false}
                         className="MuiInputBase-input MuiInput-input"
-                        defaultValue="default"
+                        defaultValue=""
                         disabled={false}
                         maxLength={64}
                         onAnimationStart={[Function]}
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
-                        placeholder="placeholder"
+                        placeholder=""
                         required={false}
                         type="text"
                       />
