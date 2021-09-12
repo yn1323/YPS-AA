@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 import Component, { Props } from '.'
 
 export default {
-  title: `molecule/Textbox`,
+  title: `atom/Textbox`,
   component: Component,
   args: {
     error: false,
