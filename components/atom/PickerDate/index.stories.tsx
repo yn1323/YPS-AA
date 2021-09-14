@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React from 'react'
 import Component, { Props } from '.'
 
-const COMPONENT_NAME = 'PickerTime'
+const COMPONENT_NAME = 'PickerDate'
 
 export default {
   title: `atom/${COMPONENT_NAME}`,
