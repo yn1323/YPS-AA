@@ -5,7 +5,6 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
   color="primary"
   disabled={false}
   initialChecked={true}
-  label="label"
   name=""
   size="medium"
 >
@@ -20,7 +19,6 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
         size="medium"
       />
     }
-    label="label"
   >
     <ForwardRef(FormControlLabel)
       classes={
@@ -43,7 +41,6 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
           size="medium"
         />
       }
-      label="label"
     >
       <label
         className="MuiFormControlLabel-root"
@@ -305,9 +302,7 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
           >
             <span
               className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-            >
-              label
-            </span>
+            />
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>
       </label>

@@ -10,9 +10,9 @@ export interface Props {
   disabled?: boolean
   initialChecked: boolean
   size?: SwitchProps['size']
-  label: string
   setter: (v: boolean) => void
   name?: string
+  children?: string
 }
 
 const Switch: FC<Props> = ({
@@ -20,9 +20,9 @@ const Switch: FC<Props> = ({
   disabled = false,
   initialChecked,
   size = 'medium',
-  label,
   setter,
   name = '',
+  children,
 }) => {
   const [isChecked, setChecked] = React.useState(initialChecked)
 
@@ -43,7 +43,7 @@ const Switch: FC<Props> = ({
           name={name}
         />
       }
-      label={label}
+      label={children}
     />
   )
 }

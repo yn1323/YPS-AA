@@ -12,15 +12,12 @@ export default {
     disabled: false,
     initialChecked: true,
     size: 'medium',
-    label: 'label',
     name: '',
   } as Props,
 } as ComponentMeta<typeof Component>
 
 const Template: ComponentStory<typeof Component> = args => (
-  <div style={{ height: 100 }}>
-    <Component {...args} />
-  </div>
+  <Component {...args}>LABEL</Component>
 )
 
 export const Basic = Template.bind({})
