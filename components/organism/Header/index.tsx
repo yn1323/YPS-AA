@@ -2,7 +2,7 @@ import { AppBar, Button, Toolbar } from '@material-ui/core'
 import React, { cloneElement, FC, Fragment, useMemo } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
-import HeaderTitle from '@atom/HeaderTitle'
+import HeaderTitle from '@atom/Text/HeaderTitle'
 import ButtonAvatarMenu from '@molecule/ButtonAvatarMenu'
 import HeaderMenu from '@organism/HeaderMenu'
 

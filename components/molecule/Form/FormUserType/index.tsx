@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import Radio, { Option } from '@atom/Radio'
+import Radio, { Option } from '@atom/Input/Radio'
 import FormUserBase from '@molecule/Form/FormUserBase'
 
 const GROUP_NAME = 'USER_TYPE'

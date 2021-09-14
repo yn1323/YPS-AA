@@ -110,7 +110,7 @@ exports[`Layout-snapshot 1`] = `
                                 $isLoggedIn={false}
                               >
                                 <div
-                                  className="HeaderTitle__Container-sc-nwr99g-0 fpaVea"
+                                  className="HeaderTitle__Container-sc-7q3edu-0 kKdpPP"
                                 >
                                   <HeaderTitle__ImageLogo
                                     height={32}
@@ -118,7 +118,7 @@ exports[`Layout-snapshot 1`] = `
                                     width={32}
                                   >
                                     <Image1
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                      className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                       height={32}
                                       src="/images/logo.png"
                                       width={32}
@@ -160,7 +160,7 @@ exports[`Layout-snapshot 1`] = `
                                           />
                                         </div>
                                         <img
-                                          className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                          className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                           data-nimg="intrinsic"
                                           decoding="async"
                                           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -189,7 +189,7 @@ exports[`Layout-snapshot 1`] = `
                                         />
                                         <noscript>
                                           <img
-                                            className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                            className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                             data-nimg="intrinsic"
                                             decoding="async"
                                             loading="lazy"
@@ -226,11 +226,11 @@ exports[`Layout-snapshot 1`] = `
                                     variant="h6"
                                   >
                                     <WithStyles(ForwardRef(Typography))
-                                      className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                      className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                       variant="h6"
                                     >
                                       <ForwardRef(Typography)
-                                        className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                        className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                         classes={
                                           Object {
                                             "alignCenter": "MuiTypography-alignCenter",
@@ -268,7 +268,7 @@ exports[`Layout-snapshot 1`] = `
                                         variant="h6"
                                       >
                                         <h6
-                                          className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
+                                          className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
                                         >
                                           YPS
                                         </h6>
@@ -455,7 +455,7 @@ exports[`Layout-snapshot 1`] = `
                     >
                       <SlashLink__Container>
                         <div
-                          className="SlashLink__Container-sc-12n56qr-0 cgAmef"
+                          className="SlashLink__Container-sc-1g0nuih-0 kPqvfW"
                         >
                           <SlashLink__UrlLink
                             href="http://www.google.com"
@@ -463,7 +463,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                              className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                               href="http://www.google.com"
                               rel="noopener"
                             >
@@ -476,7 +476,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                              className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                               href="http://www.google.com"
                               rel="noopener"
                             >
@@ -489,7 +489,7 @@ exports[`Layout-snapshot 1`] = `
                             rel="noopener"
                           >
                             <a
-                              className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                              className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                               href="https://storyset.com/work"
                               rel="noopener"
                             >

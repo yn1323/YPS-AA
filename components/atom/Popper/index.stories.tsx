@@ -6,6 +6,15 @@ import { COMMON_MENU } from '@constant/layout/menus'
 export default {
   title: `atom/${Component.name}`,
   component: Component,
+  args: {
+    show: true,
+    setShow: () => {
+      console.log('close')
+    },
+    anchorEl: document.getElementsByTagName('body')[0],
+    placement: 'bottom-start',
+    timeout: 200,
+  },
   argTypes: {
     placement: {
       control: {
@@ -35,13 +44,4 @@ const Template: ComponentStory<typeof Component> = args => (
   </Component>
 )
 
-export const ListMenu = Template.bind({})
-ListMenu.args = {
-  show: true,
-  setShow: () => {
-    console.log('close')
-  },
-  anchorEl: document.getElementsByTagName('body')[0],
-  placement: 'bottom-start',
-  timeout: 200,
-}
+export const Basic = Template.bind({})

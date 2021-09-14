@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Switch Switch-snapshot 1`] = `
+exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
 <Switch
   color="primary"
   disabled={false}

@@ -105,7 +105,7 @@ exports[`Header Header-snapshot 1`] = `
                           $isLoggedIn={false}
                         >
                           <div
-                            className="HeaderTitle__Container-sc-nwr99g-0 fpaVea"
+                            className="HeaderTitle__Container-sc-7q3edu-0 kKdpPP"
                           >
                             <HeaderTitle__ImageLogo
                               height={32}
@@ -113,7 +113,7 @@ exports[`Header Header-snapshot 1`] = `
                               width={32}
                             >
                               <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                 height={32}
                                 src="/images/logo.png"
                                 width={32}
@@ -155,7 +155,7 @@ exports[`Header Header-snapshot 1`] = `
                                     />
                                   </div>
                                   <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                    className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                     data-nimg="intrinsic"
                                     decoding="async"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -184,7 +184,7 @@ exports[`Header Header-snapshot 1`] = `
                                   />
                                   <noscript>
                                     <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                      className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                       data-nimg="intrinsic"
                                       decoding="async"
                                       loading="lazy"
@@ -221,11 +221,11 @@ exports[`Header Header-snapshot 1`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                  className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -263,7 +263,7 @@ exports[`Header Header-snapshot 1`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -514,7 +514,7 @@ exports[`Header Header-snapshot 2`] = `
                           $isLoggedIn={true}
                         >
                           <div
-                            className="HeaderTitle__Container-sc-nwr99g-0 fpaWmr"
+                            className="HeaderTitle__Container-sc-7q3edu-0 kKdqkK"
                           >
                             <HeaderTitle__ImageLogo
                               height={32}
@@ -522,7 +522,7 @@ exports[`Header Header-snapshot 2`] = `
                               width={32}
                             >
                               <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                 height={32}
                                 src="/images/logo.png"
                                 width={32}
@@ -564,7 +564,7 @@ exports[`Header Header-snapshot 2`] = `
                                     />
                                   </div>
                                   <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                    className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                     data-nimg="intrinsic"
                                     decoding="async"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -593,7 +593,7 @@ exports[`Header Header-snapshot 2`] = `
                                   />
                                   <noscript>
                                     <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                      className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                       data-nimg="intrinsic"
                                       decoding="async"
                                       loading="lazy"
@@ -630,11 +630,11 @@ exports[`Header Header-snapshot 2`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                  className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -672,7 +672,7 @@ exports[`Header Header-snapshot 2`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>
@@ -1777,7 +1777,7 @@ exports[`Header Header-snapshot 3`] = `
                           $isLoggedIn={true}
                         >
                           <div
-                            className="HeaderTitle__Container-sc-nwr99g-0 fpaWmr"
+                            className="HeaderTitle__Container-sc-7q3edu-0 kKdqkK"
                           >
                             <HeaderTitle__ImageLogo
                               height={32}
@@ -1785,7 +1785,7 @@ exports[`Header Header-snapshot 3`] = `
                               width={32}
                             >
                               <Image1
-                                className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                 height={32}
                                 src="/images/logo.png"
                                 width={32}
@@ -1827,7 +1827,7 @@ exports[`Header Header-snapshot 3`] = `
                                     />
                                   </div>
                                   <img
-                                    className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                    className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                     data-nimg="intrinsic"
                                     decoding="async"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1856,7 +1856,7 @@ exports[`Header Header-snapshot 3`] = `
                                   />
                                   <noscript>
                                     <img
-                                      className="HeaderTitle__ImageLogo-sc-nwr99g-2 gKHUxL"
+                                      className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
                                       data-nimg="intrinsic"
                                       decoding="async"
                                       loading="lazy"
@@ -1893,11 +1893,11 @@ exports[`Header Header-snapshot 3`] = `
                               variant="h6"
                             >
                               <WithStyles(ForwardRef(Typography))
-                                className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                 variant="h6"
                               >
                                 <ForwardRef(Typography)
-                                  className="HeaderTitle__TitleText-sc-nwr99g-1 funUic"
+                                  className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
                                   classes={
                                     Object {
                                       "alignCenter": "MuiTypography-alignCenter",
@@ -1935,7 +1935,7 @@ exports[`Header Header-snapshot 3`] = `
                                   variant="h6"
                                 >
                                   <h6
-                                    className="MuiTypography-root HeaderTitle__TitleText-sc-nwr99g-1 funUic MuiTypography-h6"
+                                    className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
                                   >
                                     YPS
                                   </h6>

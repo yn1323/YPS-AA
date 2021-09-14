@@ -1,19 +1,18 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React from 'react'
 import Component from '.'
-import { COMMON_MENU } from '@constant/layout/menus'
 
 export default {
-  title: `atom/${Component.name}`,
+  title: `atom/Text/Heading`,
   component: Component,
   args: {
-    items: COMMON_MENU[1].items,
-    delimeterPosition: [1],
+    type: 'sub',
+    showUnderline: true,
   },
 } as ComponentMeta<typeof Component>
 
 const Template: ComponentStory<typeof Component> = args => (
-  <Component {...args} />
+  <Component {...args}>Heading</Component>
 )
 
 export const Basic = Template.bind({})

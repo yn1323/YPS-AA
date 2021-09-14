@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atom/Text/Heading atom/Text/Heading-snapshot 1`] = `
+<Heading
+  type="sub"
+>
+  <Heading__sub
+    variant="h2"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="Heading__sub-sc-rckheo-0 FvPVl"
+      variant="h2"
+    >
+      <ForwardRef(Typography)
+        className="Heading__sub-sc-rckheo-0 FvPVl"
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h2"
+      >
+        <h2
+          className="MuiTypography-root Heading__sub-sc-rckheo-0 FvPVl MuiTypography-h2"
+        >
+          Heading
+        </h2>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Heading__sub>
+</Heading>
+`;
+
+exports[`atom/Text/Heading atom/Text/Heading-snapshot 2`] = `
+<Heading
+  showUnderline={true}
+  type="sub"
+>
+  <Heading__sub
+    variant="h2"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="Heading__sub-sc-rckheo-0 FvPVl"
+      variant="h2"
+    >
+      <ForwardRef(Typography)
+        className="Heading__sub-sc-rckheo-0 FvPVl"
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h2"
+      >
+        <h2
+          className="MuiTypography-root Heading__sub-sc-rckheo-0 FvPVl MuiTypography-h2"
+        >
+          Heading
+        </h2>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Heading__sub>
+  <Heading__sub>
+    <div
+      className="Heading__sub-sc-rckheo-1 boScs"
+    />
+  </Heading__sub>
+</Heading>
+`;

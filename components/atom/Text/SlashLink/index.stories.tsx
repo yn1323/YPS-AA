@@ -1,14 +1,13 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React from 'react'
 import Component from '.'
-import { COMMON_MENU } from '@constant/layout/menus'
+import { FOOTER_LINKS } from '@constant/common'
 
 export default {
-  title: `atom/${Component.name}`,
+  title: `atom/Text/SlashLink`,
   component: Component,
   args: {
-    items: COMMON_MENU[1].items,
-    delimeterPosition: [1],
+    links: FOOTER_LINKS,
   },
 } as ComponentMeta<typeof Component>
 

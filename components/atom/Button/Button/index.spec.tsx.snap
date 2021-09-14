@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Button-snapshot 1`] = `
+exports[`atom/Button/Button atom/Button/Button-snapshot 1`] = `
 <Button
   onClick={[Function]}
 >
@@ -135,7 +135,7 @@ exports[`Button Button-snapshot 1`] = `
 </Button>
 `;
 
-exports[`Button Button-snapshot 2`] = `
+exports[`atom/Button/Button atom/Button/Button-snapshot 2`] = `
 <Button
   color="primary"
   disabled={false}

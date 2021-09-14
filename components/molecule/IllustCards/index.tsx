@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
-import IllustCard from '@atom/IllustCard'
+import IllustCard from '@atom/Image/IllustCard'
 
 const illusts = [
   {

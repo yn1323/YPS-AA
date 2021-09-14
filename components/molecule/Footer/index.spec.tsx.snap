@@ -33,7 +33,7 @@ exports[`Footer Footer-snapshot 1`] = `
           >
             <SlashLink__Container>
               <div
-                className="SlashLink__Container-sc-12n56qr-0 cgAmef"
+                className="SlashLink__Container-sc-1g0nuih-0 kPqvfW"
               >
                 <SlashLink__UrlLink
                   href="http://www.google.com"
@@ -41,7 +41,7 @@ exports[`Footer Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                    className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                     href="http://www.google.com"
                     rel="noopener"
                   >
@@ -54,7 +54,7 @@ exports[`Footer Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                    className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                     href="http://www.google.com"
                     rel="noopener"
                   >
@@ -67,7 +67,7 @@ exports[`Footer Footer-snapshot 1`] = `
                   rel="noopener"
                 >
                   <a
-                    className="SlashLink__UrlLink-sc-12n56qr-1 gBDHey"
+                    className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
                     href="https://storyset.com/work"
                     rel="noopener"
                   >

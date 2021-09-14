@@ -125,7 +125,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                     key="0"
                   >
                     <div
-                      className="Radio__LabelContainer-sc-xz452g-0 iMxgID"
+                      className="Radio__LabelContainer-sc-fteruh-0 hawhMd"
                     >
                       <WithStyles(ForwardRef(FormControlLabel))
                         control={
@@ -504,7 +504,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                           </label>
                         </ForwardRef(FormControlLabel)>
                       </WithStyles(ForwardRef(FormControlLabel))>
-                      <TooltipNote>
+                      <Note>
                         <WithStyles(ForwardRef(Tooltip))
                           title="店舗管理者・シフト管理者はこちら"
                         >
@@ -729,14 +729,14 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                             />
                           </ForwardRef(Tooltip)>
                         </WithStyles(ForwardRef(Tooltip))>
-                      </TooltipNote>
+                      </Note>
                     </div>
                   </Radio__LabelContainer>
                   <Radio__LabelContainer
                     key="1"
                   >
                     <div
-                      className="Radio__LabelContainer-sc-xz452g-0 iMxgID"
+                      className="Radio__LabelContainer-sc-fteruh-0 hawhMd"
                     >
                       <WithStyles(ForwardRef(FormControlLabel))
                         control={
@@ -1113,7 +1113,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                           </label>
                         </ForwardRef(FormControlLabel)>
                       </WithStyles(ForwardRef(FormControlLabel))>
-                      <TooltipNote>
+                      <Note>
                         <WithStyles(ForwardRef(Tooltip))
                           title="従業員・アルバイトはこちら"
                         >
@@ -1338,7 +1338,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                             />
                           </ForwardRef(Tooltip)>
                         </WithStyles(ForwardRef(Tooltip))>
-                      </TooltipNote>
+                      </Note>
                     </div>
                   </Radio__LabelContainer>
                 </div>

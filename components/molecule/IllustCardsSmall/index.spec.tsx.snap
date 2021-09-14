@@ -16,11 +16,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={false}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -128,7 +128,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 開閉店時間
               </div>
@@ -146,11 +146,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={true}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -258,7 +258,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 タイムカード
               </div>
@@ -276,11 +276,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={false}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -388,7 +388,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 月ごとで管理
               </div>
@@ -406,11 +406,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={true}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -518,7 +518,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 勤務時間のリスト化
               </div>
@@ -536,11 +536,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={false}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 ceFJro"
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -648,7 +648,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 無料
               </div>
@@ -666,11 +666,11 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
           isGrayBg={true}
         >
           <div
-            className="IllustCardSmall__Container-sc-1kir3jt-0 dfLgDT"
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
           >
             <IllustCardSmall__ImageWrapper>
               <div
-                className="IllustCardSmall__ImageWrapper-sc-1kir3jt-1 bFflZd"
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
               >
                 <Image1
                   height="80%"
@@ -778,7 +778,7 @@ exports[`IllustCardsSmall IllustCardsSmall-snapshot 1`] = `
             </IllustCardSmall__ImageWrapper>
             <IllustCardSmall__TextWrapper>
               <div
-                className="IllustCardSmall__TextWrapper-sc-1kir3jt-2 katymb"
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
               >
                 クラウドに保存
               </div>

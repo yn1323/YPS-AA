@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atom/Button/Note atom/Button/Note-snapshot 1`] = `
+<Note>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Tooltip Note"
+  >
+    <ForwardRef(Tooltip)
+      classes={
+        Object {
+          "arrow": "MuiTooltip-arrow",
+          "popper": "MuiTooltip-popper",
+          "popperArrow": "MuiTooltip-popperArrow",
+          "popperInteractive": "MuiTooltip-popperInteractive",
+          "tooltip": "MuiTooltip-tooltip",
+          "tooltipArrow": "MuiTooltip-tooltipArrow",
+          "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+          "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+          "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+          "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+          "touch": "MuiTooltip-touch",
+        }
+      }
+      title="Tooltip Note"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        aria-describedby={null}
+        className=""
+        disableRipple={true}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        size="small"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        title="Tooltip Note"
+      >
+        <ForwardRef(IconButton)
+          aria-describedby={null}
+          className=""
+          classes={
+            Object {
+              "colorInherit": "MuiIconButton-colorInherit",
+              "colorPrimary": "MuiIconButton-colorPrimary",
+              "colorSecondary": "MuiIconButton-colorSecondary",
+              "disabled": "Mui-disabled",
+              "edgeEnd": "MuiIconButton-edgeEnd",
+              "edgeStart": "MuiIconButton-edgeStart",
+              "label": "MuiIconButton-label",
+              "root": "MuiIconButton-root",
+              "sizeSmall": "MuiIconButton-sizeSmall",
+            }
+          }
+          disableRipple={true}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          size="small"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+          title="Tooltip Note"
+        >
+          <WithStyles(ForwardRef(ButtonBase))
+            aria-describedby={null}
+            centerRipple={true}
+            className="MuiIconButton-root MuiIconButton-sizeSmall"
+            disableRipple={true}
+            disabled={false}
+            focusRipple={true}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+            title="Tooltip Note"
+          >
+            <ForwardRef(ButtonBase)
+              aria-describedby={null}
+              centerRipple={true}
+              className="MuiIconButton-root MuiIconButton-sizeSmall"
+              classes={
+                Object {
+                  "disabled": "Mui-disabled",
+                  "focusVisible": "Mui-focusVisible",
+                  "root": "MuiButtonBase-root",
+                }
+              }
+              disableRipple={true}
+              disabled={false}
+              focusRipple={true}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
+              title="Tooltip Note"
+            >
+              <button
+                aria-describedby={null}
+                className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall"
+                disabled={false}
+                onBlur={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                tabIndex={0}
+                title="Tooltip Note"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label"
+                >
+                  <ForwardRef(HelpOutlineOutlinedIcon)>
+                    <WithStyles(ForwardRef(SvgIcon))>
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef(HelpOutlineOutlinedIcon)>
+                </span>
+              </button>
+            </ForwardRef(ButtonBase)>
+          </WithStyles(ForwardRef(ButtonBase))>
+        </ForwardRef(IconButton)>
+      </WithStyles(ForwardRef(IconButton))>
+      <ForwardRef(Popper)
+        anchorEl={
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall"
+            style="background-color: transparent;"
+            tabindex="0"
+            title="Tooltip Note"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                />
+              </svg>
+            </span>
+          </button>
+        }
+        className="MuiTooltip-popper"
+        id={null}
+        open={false}
+        placement="bottom"
+        popperOptions={
+          Object {
+            "modifiers": Object {
+              "arrow": Object {
+                "element": null,
+                "enabled": false,
+              },
+            },
+          }
+        }
+        transition={true}
+      />
+    </ForwardRef(Tooltip)>
+  </WithStyles(ForwardRef(Tooltip))>
+</Note>
+`;

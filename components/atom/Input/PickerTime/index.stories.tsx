@@ -2,25 +2,24 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import React from 'react'
 import Component, { Props } from '.'
 
-const COMPONENT_NAME = 'Switch'
+const COMPONENT_NAME = 'PickerTime'
 
 export default {
-  title: `atom/Button/${COMPONENT_NAME}`,
+  title: `atom/Input/${COMPONENT_NAME}`,
   component: Component,
   args: {
-    color: 'primary',
-    disabled: false,
-    initialChecked: true,
-    size: 'medium',
-    label: 'label',
-    name: '',
+    error: false,
+    margin: 'normal',
+    errorMessage: 'エラーメッセージ',
+    label: 'ラベル',
+    inputVariant: 'standard',
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    setter: () => {},
   } as Props,
 } as ComponentMeta<typeof Component>
 
 const Template: ComponentStory<typeof Component> = args => (
-  <div style={{ height: 100 }}>
-    <Component {...args} />
-  </div>
+  <Component {...args} />
 )
 
 export const Basic = Template.bind({})

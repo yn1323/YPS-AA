@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atom/Text/HeaderTitle atom/Text/HeaderTitle-snapshot 1`] = `
+<HeaderTitle
+  isLoggedIn={false}
+>
+  <HeaderTitle__Container
+    $isLoggedIn={false}
+  >
+    <div
+      className="HeaderTitle__Container-sc-7q3edu-0 kKdpPP"
+    >
+      <HeaderTitle__ImageLogo
+        height={32}
+        src="/images/logo.png"
+        width={32}
+      >
+        <Image1
+          className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+          height={32}
+          src="/images/logo.png"
+          width={32}
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "maxWidth": "100%",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style={
+                  Object {
+                    "border": "none",
+                    "display": "block",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "padding": 0,
+                  }
+                }
+              />
+            </div>
+            <img
+              className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+                srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </div>
+        </Image1>
+      </HeaderTitle__ImageLogo>
+      <HeaderTitle__TitleText
+        variant="h6"
+      >
+        <WithStyles(ForwardRef(Typography))
+          className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
+          variant="h6"
+        >
+          <ForwardRef(Typography)
+            className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            variant="h6"
+          >
+            <h6
+              className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
+            />
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+      </HeaderTitle__TitleText>
+    </div>
+  </HeaderTitle__Container>
+</HeaderTitle>
+`;
+
+exports[`atom/Text/HeaderTitle atom/Text/HeaderTitle-snapshot 2`] = `
+<HeaderTitle
+  isLoggedIn={true}
+>
+  <HeaderTitle__Container
+    $isLoggedIn={true}
+  >
+    <div
+      className="HeaderTitle__Container-sc-7q3edu-0 kKdqkK"
+    >
+      <HeaderTitle__ImageLogo
+        height={32}
+        src="/images/logo.png"
+        width={32}
+      >
+        <Image1
+          className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+          height={32}
+          src="/images/logo.png"
+          width={32}
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "maxWidth": "100%",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style={
+                  Object {
+                    "border": "none",
+                    "display": "block",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "padding": 0,
+                  }
+                }
+              />
+            </div>
+            <img
+              className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                className="HeaderTitle__ImageLogo-sc-7q3edu-2 hBBKOC"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75"
+                srcSet="/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </div>
+        </Image1>
+      </HeaderTitle__ImageLogo>
+      <HeaderTitle__TitleText
+        variant="h6"
+      >
+        <WithStyles(ForwardRef(Typography))
+          className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
+          variant="h6"
+        >
+          <ForwardRef(Typography)
+            className="HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            variant="h6"
+          >
+            <h6
+              className="MuiTypography-root HeaderTitle__TitleText-sc-7q3edu-1 dZeUFJ MuiTypography-h6"
+            />
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+      </HeaderTitle__TitleText>
+    </div>
+  </HeaderTitle__Container>
+</HeaderTitle>
+`;

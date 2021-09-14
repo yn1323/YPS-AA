@@ -1,5 +1,5 @@
 import React, { FC, forwardRef } from 'react'
-import Textbox, { Props as TextboxProps } from '@atom/Textbox'
+import Textbox, { Props as TextboxProps } from '@atom/Input/Textbox'
 import { MAX_LENGTH } from '@constant/validation'
 import FormUserBase from '@molecule/Form/FormUserBase'
 
