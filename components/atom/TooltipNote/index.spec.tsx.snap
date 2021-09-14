@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TooptipNote TooptipNote-snapshot 1`] = `
-<TooptipNote>
+exports[`TooltipNote TooltipNote-snapshot 1`] = `
+<TooltipNote>
   <WithStyles(ForwardRef(Tooltip))
     title="Tooltip Note"
   >
@@ -226,5 +226,5 @@ exports[`TooptipNote TooptipNote-snapshot 1`] = `
       />
     </ForwardRef(Tooltip)>
   </WithStyles(ForwardRef(Tooltip))>
-</TooptipNote>
+</TooltipNote>
 `;

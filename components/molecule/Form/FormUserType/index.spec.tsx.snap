@@ -504,7 +504,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                           </label>
                         </ForwardRef(FormControlLabel)>
                       </WithStyles(ForwardRef(FormControlLabel))>
-                      <TooptipNote>
+                      <TooltipNote>
                         <WithStyles(ForwardRef(Tooltip))
                           title="店舗管理者・シフト管理者はこちら"
                         >
@@ -729,7 +729,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                             />
                           </ForwardRef(Tooltip)>
                         </WithStyles(ForwardRef(Tooltip))>
-                      </TooptipNote>
+                      </TooltipNote>
                     </div>
                   </Radio__LabelContainer>
                   <Radio__LabelContainer
@@ -1113,7 +1113,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                           </label>
                         </ForwardRef(FormControlLabel)>
                       </WithStyles(ForwardRef(FormControlLabel))>
-                      <TooptipNote>
+                      <TooltipNote>
                         <WithStyles(ForwardRef(Tooltip))
                           title="従業員・アルバイトはこちら"
                         >
@@ -1338,7 +1338,7 @@ exports[`FormUserType FormUserType-snapshot 1`] = `
                             />
                           </ForwardRef(Tooltip)>
                         </WithStyles(ForwardRef(Tooltip))>
-                      </TooptipNote>
+                      </TooltipNote>
                     </div>
                   </Radio__LabelContainer>
                 </div>

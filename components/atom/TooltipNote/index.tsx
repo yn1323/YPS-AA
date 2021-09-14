@@ -6,7 +6,7 @@ interface Props {
   children: string
 }
 
-const TooptipNote: FC<Props> = ({ children }) => {
+const TooltipNote: FC<Props> = ({ children }) => {
   return (
     <Tooltip title={children}>
       <IconButton
@@ -20,4 +20,4 @@ const TooptipNote: FC<Props> = ({ children }) => {
   )
 }
 
-export default TooptipNote
+export default TooltipNote

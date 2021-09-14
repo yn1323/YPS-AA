@@ -2726,7 +2726,7 @@ exports[`Radio Radio-snapshot 1`] = `
                   </label>
                 </ForwardRef(FormControlLabel)>
               </WithStyles(ForwardRef(FormControlLabel))>
-              <TooptipNote>
+              <TooltipNote>
                 <WithStyles(ForwardRef(Tooltip))
                   title="tooltip"
                 >
@@ -2951,7 +2951,7 @@ exports[`Radio Radio-snapshot 1`] = `
                     />
                   </ForwardRef(Tooltip)>
                 </WithStyles(ForwardRef(Tooltip))>
-              </TooptipNote>
+              </TooltipNote>
             </div>
           </Radio__LabelContainer>
         </div>
