@@ -14,7 +14,7 @@ export interface Props {
   margin?: KeyboardTimePickerProps['margin']
   inputVariant?: KeyboardTimePickerProps['inputVariant']
   errorMessage?: string
-  defaultDate?: Moment
+  initialDate?: Moment
   id?: string
   label?: string
   setter: (d: Moment) => void
@@ -26,16 +26,16 @@ const PickerDate: FC<Props> = ({
   id,
   errorMessage,
   label,
-  defaultDate = null,
+  initialDate = null,
   setter,
   inputVariant = 'standard',
 }) => {
   const [locale] = useState('ja')
-  const [initialDate, setInitialDate] = useState<Moment | null>(defaultDate)
+  const [d, setD] = useState<Moment | null>(initialDate)
 
   const handleDateChange = (date: MaterialUiPickersDate) => {
     if (date) {
-      setInitialDate(date)
+      setD(date)
       setter(date)
     }
   }
@@ -53,7 +53,7 @@ const PickerDate: FC<Props> = ({
         id={id}
         label={error ? errorMessage || label : label}
         disableToolbar
-        value={initialDate}
+        value={d}
         onChange={handleDateChange}
       />
     </MuiPickersUtilsProvider>
