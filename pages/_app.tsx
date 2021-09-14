@@ -1,20 +1,17 @@
-import { useEffect } from 'react'
-import type { AppProps } from 'next/app'
-
-import { RecoilRoot } from 'recoil'
-
+import { ApolloProvider } from '@apollo/client'
+import CssBaseline from '@material-ui/core/CssBaseline'
 import {
   ThemeProvider as MaterialUIThemeProvider,
   StylesProvider,
 } from '@material-ui/styles'
-import CssBaseline from '@material-ui/core/CssBaseline'
+import type { AppProps } from 'next/app'
+import { useEffect } from 'react'
+import { RecoilRoot } from 'recoil'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
-import { ApolloProvider } from '@apollo/client'
-
 import 'styles/globals.css'
-import Layout from '@template/Layout'
-import { theme } from '@constant/theme'
 import { useApollo } from '@constant/apollo/apolloClient'
+import { theme } from '@constant/theme'
+import Common from '@template/Layout/Common'
 
 const App = ({ Component, pageProps }: AppProps) => {
   const apolloClient = useApollo(pageProps)
@@ -34,9 +31,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           <StyledComponentsThemeProvider theme={theme}>
             <CssBaseline />
             <RecoilRoot>
-              <Layout>
+              <Common>
                 <Component {...pageProps} />
-              </Layout>
+              </Common>
             </RecoilRoot>
           </StyledComponentsThemeProvider>
         </MaterialUIThemeProvider>

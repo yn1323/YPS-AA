@@ -3,7 +3,7 @@ import React from 'react'
 import Component from '.'
 
 export default {
-  title: `molecule/${Component.name}`,
+  title: `molecule/Footer`,
   component: Component,
 } as ComponentMeta<typeof Component>
 
@@ -11,4 +11,4 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const Footer = Template.bind({})
+export const Basic = Template.bind({})

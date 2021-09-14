@@ -1,0 +1,792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Image/IllustCardsSmall molecule/Image/IllustCardsSmall-snapshot 1`] = `
+<IllustCardsSmall>
+  <IllustCardsSmall__Container>
+    <div
+      className="IllustCardsSmall__Container-sc-4gdi6h-0 kHhnhI"
+    >
+      <IllustCardSmall
+        imageUri="/images/functionalIcon1.png"
+        isGray={false}
+        key="0"
+        text="開閉店時間"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={false}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon1.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon1.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                開閉店時間
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+      <IllustCardSmall
+        imageUri="/images/functionalIcon2.png"
+        isGray={true}
+        key="1"
+        text="タイムカード"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={true}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon2.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon2.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                タイムカード
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+      <IllustCardSmall
+        imageUri="/images/functionalIcon3.png"
+        isGray={false}
+        key="2"
+        text="月ごとで管理"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={false}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon3.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon3.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                月ごとで管理
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+      <IllustCardSmall
+        imageUri="/images/functionalIcon4.png"
+        isGray={true}
+        key="3"
+        text="勤務時間のリスト化"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={true}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon4.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon4.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                勤務時間のリスト化
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+      <IllustCardSmall
+        imageUri="/images/functionalIcon5.png"
+        isGray={false}
+        key="4"
+        text="無料"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={false}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 bSWuRp"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon5.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon5.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                無料
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+      <IllustCardSmall
+        imageUri="/images/functionalIcon6.png"
+        isGray={true}
+        key="5"
+        text="クラウドに保存"
+      >
+        <IllustCardSmall__Container
+          isGrayBg={true}
+        >
+          <div
+            className="IllustCardSmall__Container-sc-biko0j-0 hshZPK"
+          >
+            <IllustCardSmall__ImageWrapper>
+              <div
+                className="IllustCardSmall__ImageWrapper-sc-biko0j-1 fbtnuw"
+              >
+                <Image1
+                  height="80%"
+                  objectFit="contain"
+                  src="/images/functionalIcon6.png"
+                  width="80%"
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "display": "inline-block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "overflow": "hidden",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "maxWidth": "100%",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style={
+                          Object {
+                            "border": "none",
+                            "display": "block",
+                            "margin": 0,
+                            "maxWidth": "100%",
+                            "padding": 0,
+                          }
+                        }
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": "contain",
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                    <noscript>
+                      <img
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=256&q=75"
+                        srcSet="/_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FfunctionalIcon6.png&w=256&q=75 2x"
+                        style={
+                          Object {
+                            "border": "none",
+                            "bottom": 0,
+                            "boxSizing": "border-box",
+                            "display": "block",
+                            "height": 0,
+                            "left": 0,
+                            "margin": "auto",
+                            "maxHeight": "100%",
+                            "maxWidth": "100%",
+                            "minHeight": "100%",
+                            "minWidth": "100%",
+                            "objectFit": "contain",
+                            "objectPosition": undefined,
+                            "padding": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 0,
+                          }
+                        }
+                      />
+                    </noscript>
+                  </div>
+                </Image1>
+              </div>
+            </IllustCardSmall__ImageWrapper>
+            <IllustCardSmall__TextWrapper>
+              <div
+                className="IllustCardSmall__TextWrapper-sc-biko0j-2 wHwgq"
+              >
+                クラウドに保存
+              </div>
+            </IllustCardSmall__TextWrapper>
+          </div>
+        </IllustCardSmall__Container>
+      </IllustCardSmall>
+    </div>
+  </IllustCardsSmall__Container>
+</IllustCardsSmall>
+`;

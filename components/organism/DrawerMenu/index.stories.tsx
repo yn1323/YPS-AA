@@ -5,7 +5,7 @@ import Component from '.'
 import { drawerState } from '@recoil/drawer'
 
 export default {
-  title: `organism/${Component.name}`,
+  title: `organism/DrawerMenu`,
   component: Component,
 } as ComponentMeta<typeof Component>
 
@@ -23,4 +23,4 @@ const Template: ComponentStory<typeof Component> = args => {
   )
 }
 
-export const LayoutSp = Template.bind({})
+export const Basic = Template.bind({})

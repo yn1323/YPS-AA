@@ -3,7 +3,7 @@ import React from 'react'
 import Component, { Props } from '.'
 
 export default {
-  title: `molecule/Form/${Component.name}`,
+  title: `molecule/Form/UserBase`,
   component: Component,
   args: {
     definition: 'User type',
@@ -15,4 +15,4 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const FormUserBase = Template.bind({})
+export const Basic = Template.bind({})

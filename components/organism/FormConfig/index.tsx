@@ -1,7 +1,5 @@
 import React, { FC } from 'react'
-import styled from 'styled-components'
-import tw from 'tailwind-extended.macro'
-import Center from '@template/Center'
+import Center from '@template/Layout/Center'
 
 const FormConfig: FC = () => {
   return (

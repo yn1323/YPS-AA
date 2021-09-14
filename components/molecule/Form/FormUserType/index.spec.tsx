@@ -3,9 +3,9 @@ import stories from './index.stories'
 import Component, { Props } from '.'
 import { mountWithTheme } from '@test/TestWrapper'
 
-describe(`${Component.name}`, () => {
+describe(`${stories.title}`, () => {
   const component = mountWithTheme(<Component {...(stories.args as Props)} />)
-  test(`${Component.name}-snapshot`, () => {
+  test(`${stories.title}-snapshot`, () => {
     expect(component).toMatchSnapshot()
   })
 })

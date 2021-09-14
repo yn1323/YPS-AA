@@ -3,7 +3,7 @@ import React from 'react'
 import Component from '.'
 
 export default {
-  title: `organism/${Component.name}`,
+  title: `organism/FormConfig`,
   component: Component,
 } as ComponentMeta<typeof Component>
 
@@ -11,4 +11,4 @@ const Template: ComponentStory<typeof Component> = args => (
   <Component {...args} />
 )
 
-export const FormConfig = Template.bind({})
+export const Basic = Template.bind({})

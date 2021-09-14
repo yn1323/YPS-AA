@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormUserType FormUserType-snapshot 1`] = `
+exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
 <FormUserType
   groupName="age"
   initialVal="200"

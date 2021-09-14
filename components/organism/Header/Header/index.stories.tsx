@@ -1,0 +1,28 @@
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import React from 'react'
+import Component from '.'
+
+export default {
+  title: `organism/Header/Header`,
+  component: Component,
+} as ComponentMeta<typeof Component>
+
+const Template: ComponentStory<typeof Component> = args => (
+  <Component {...args} />
+)
+
+export const HeaderTop = Template.bind({})
+HeaderTop.args = {
+  isLoggedIn: true,
+  isInitialLogin: true,
+}
+export const HeaderLoggedIn = Template.bind({})
+HeaderLoggedIn.args = {
+  isLoggedIn: true,
+  isInitialLogin: false,
+}
+export const HeaderInitialLogin = Template.bind({})
+HeaderInitialLogin.args = {
+  isLoggedIn: false,
+  isInitialLogin: true,
+}

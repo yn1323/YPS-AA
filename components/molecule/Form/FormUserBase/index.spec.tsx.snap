@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormUserBase FormUserBase-snapshot 1`] = `
+exports[`molecule/Form/UserBase molecule/Form/UserBase-snapshot 1`] = `
 <FormUserBase
   definition="User type"
   item={
