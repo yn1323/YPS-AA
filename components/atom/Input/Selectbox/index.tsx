@@ -22,7 +22,7 @@ export interface Props {
   setter: (v: string) => void
 }
 
-const PickerDate: FC<Props> = ({
+const Selectbox: FC<Props> = ({
   inputLabel = '',
   helperText = '',
   initialValue,
@@ -60,4 +60,4 @@ const PickerDate: FC<Props> = ({
   )
 }
 
-export default PickerDate
+export default Selectbox

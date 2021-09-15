@@ -23,7 +23,7 @@ exports[`molecule/Form/FormUserNamet molecule/Form/FormUserNamet-snapshot 1`] = 
           $position="center"
         >
           <div
-            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
+            className="FormUserBase__Title-sc-143288g-1 byaPDS"
           >
             ユーザー名
           </div>
@@ -278,7 +278,7 @@ exports[`molecule/Form/FormUserNamet molecule/Form/FormUserNamet-snapshot 2`] = 
           $position="center"
         >
           <div
-            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
+            className="FormUserBase__Title-sc-143288g-1 byaPDS"
           >
             ユーザー名
           </div>

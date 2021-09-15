@@ -31,7 +31,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
           $position="bottom"
         >
           <div
-            className="FormUserBase__Title-sc-143288g-1 iwOqZn"
+            className="FormUserBase__Title-sc-143288g-1 ggDHem"
           >
             シフト設定可能時間
           </div>
@@ -1039,7 +1039,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
           $position="bottom"
         >
           <div
-            className="FormUserBase__Title-sc-143288g-1 iwOqZn"
+            className="FormUserBase__Title-sc-143288g-1 ggDHem"
           >
             シフト設定可能時間
           </div>
