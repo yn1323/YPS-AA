@@ -9,7 +9,7 @@ const HeaderTypes = { sub: 'h2', description: 'subtitle1' } as const
 interface Props {
   children: string
   type: Types
-  showUnderline?: boolean
+  underline?: boolean
 }
 
 const styles = {
@@ -31,14 +31,14 @@ const underlines = {
   description: styled.div``,
 }
 
-const Heading: FC<Props> = ({ children, type, showUnderline }) => {
+const Heading: FC<Props> = ({ children, type, underline }) => {
   const variant = HeaderTypes[type]
   const HeaderElem = styles[type]
   const Underline = underlines[type]
   return (
     <>
       <HeaderElem variant={variant}>{children}</HeaderElem>
-      {showUnderline && <Underline />}
+      {underline && <Underline />}
     </>
   )
 }

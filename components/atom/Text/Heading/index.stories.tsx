@@ -7,7 +7,7 @@ export default {
   component: Component,
   args: {
     type: 'sub',
-    showUnderline: true,
+    underline: true,
   },
 } as ComponentMeta<typeof Component>
 
