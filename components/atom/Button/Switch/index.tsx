@@ -6,10 +6,11 @@ import {
 import React, { FC } from 'react'
 
 export interface Props {
-  color: SwitchProps['color']
+  color?: SwitchProps['color']
   disabled?: boolean
   initialChecked: boolean
   size?: SwitchProps['size']
+  labelOnFalse?: string
   setter: (v: boolean) => void
   name?: string
   children?: string
@@ -20,6 +21,7 @@ const Switch: FC<Props> = ({
   disabled = false,
   initialChecked,
   size = 'medium',
+  labelOnFalse = '',
   setter,
   name = '',
   children,
@@ -43,7 +45,7 @@ const Switch: FC<Props> = ({
           name={name}
         />
       }
-      label={children}
+      label={isChecked ? children : labelOnFalse || children}
     />
   )
 }
