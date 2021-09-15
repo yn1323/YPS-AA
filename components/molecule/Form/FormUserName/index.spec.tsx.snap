@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-snapshot 1`] = `
+exports[`molecule/Form/FormUserNamet molecule/Form/FormUserNamet-snapshot 1`] = `
 <ForwardRef>
   <FormUserBase
     definition="ユーザー名"
@@ -19,9 +19,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
       <div
         className="FormUserBase__Container-sc-143288g-0 krfzgn"
       >
-        <FormUserBase__Title>
+        <FormUserBase__Title
+          $position="center"
+        >
           <div
-            className="FormUserBase__Title-sc-143288g-1 dldOxw"
+            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
           >
             ユーザー名
           </div>
@@ -248,7 +250,7 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
 </ForwardRef>
 `;
 
-exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-snapshot 2`] = `
+exports[`molecule/Form/FormUserNamet molecule/Form/FormUserNamet-snapshot 2`] = `
 <ForwardRef
   defaultValue=""
   error={false}
@@ -272,9 +274,11 @@ exports[`molecule/Form/TexFormUserNametbox molecule/Form/TexFormUserNametbox-sna
       <div
         className="FormUserBase__Container-sc-143288g-0 krfzgn"
       >
-        <FormUserBase__Title>
+        <FormUserBase__Title
+          $position="center"
+        >
           <div
-            className="FormUserBase__Title-sc-143288g-1 dldOxw"
+            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
           >
             ユーザー名
           </div>

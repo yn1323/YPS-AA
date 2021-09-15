@@ -19,9 +19,11 @@ exports[`molecule/Form/FormShopName molecule/Form/FormShopName-snapshot 1`] = `
       <div
         className="FormUserBase__Container-sc-143288g-0 krfzgn"
       >
-        <FormUserBase__Title>
+        <FormUserBase__Title
+          $position="center"
+        >
           <div
-            className="FormUserBase__Title-sc-143288g-1 dldOxw"
+            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
           >
             店舗ID
           </div>
@@ -272,9 +274,11 @@ exports[`molecule/Form/FormShopName molecule/Form/FormShopName-snapshot 2`] = `
       <div
         className="FormUserBase__Container-sc-143288g-0 krfzgn"
       >
-        <FormUserBase__Title>
+        <FormUserBase__Title
+          $position="center"
+        >
           <div
-            className="FormUserBase__Title-sc-143288g-1 dldOxw"
+            className="FormUserBase__Title-sc-143288g-1 jMZXuL"
           >
             店舗ID
           </div>

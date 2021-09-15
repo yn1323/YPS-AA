@@ -118,10 +118,5 @@ exports[`atom/Text/Heading atom/Text/Heading-snapshot 2`] = `
       </ForwardRef(Typography)>
     </WithStyles(ForwardRef(Typography))>
   </Heading__sub>
-  <Heading__sub>
-    <div
-      className="Heading__sub-sc-rckheo-2 kcOukX"
-    />
-  </Heading__sub>
 </Heading>
 `;
