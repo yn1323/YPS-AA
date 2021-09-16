@@ -8,6 +8,7 @@ export default {
   title: `molecule/Form/${COMPONENT_NAME}`,
   component: Component,
   args: {
+    initialValue: false,
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     setter: () => {},
   } as Props,

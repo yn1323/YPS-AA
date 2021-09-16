@@ -1,13 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-snapshot 1`] = `
-<FormSubmitFrequency>
+<FormSubmitFrequency
+  initialValue="1w"
+  setter={[Function]}
+>
   <FormUserBase
     definition="シフト提出頻度"
     item={
       <FormSubmitFrequency__Container>
         <Selectbox
-          initialValue="2w"
+          initialValue="1w"
           options={
             Array [
               Object {
@@ -24,29 +27,36 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
               },
             ]
           }
+          setter={[Function]}
         />
       </FormSubmitFrequency__Container>
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト提出頻度
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                シフト提出頻度
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormSubmitFrequency__Container>
           <div
             className="FormSubmitFrequency__Container-sc-1bgjk3t-0 bGkqJD"
           >
             <Selectbox
-              initialValue="2w"
+              initialValue="1w"
               options={
                 Array [
                   Object {
@@ -63,6 +73,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                   },
                 ]
               }
+              setter={[Function]}
             >
               <WithStyles(ForwardRef(FormControl))
                 style={
@@ -97,7 +108,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                     <WithStyles(ForwardRef(Select))
                       displayEmpty={true}
                       onChange={[Function]}
-                      value="2w"
+                      value="1w"
                       variant="standard"
                     >
                       <ForwardRef(Select)
@@ -118,7 +129,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                         }
                         displayEmpty={true}
                         onChange={[Function]}
-                        value="2w"
+                        value="1w"
                         variant="standard"
                       >
                         <WithStyles(ForwardRef(Input))
@@ -215,7 +226,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                             }
                           }
                           onChange={[Function]}
-                          value="2w"
+                          value="1w"
                         >
                           <ForwardRef(Input)
                             classes={
@@ -329,7 +340,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                               }
                             }
                             onChange={[Function]}
-                            value="2w"
+                            value="1w"
                           >
                             <WithStyles(ForwardRef(InputBase))
                               classes={
@@ -446,7 +457,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                               multiline={false}
                               onChange={[Function]}
                               type="text"
-                              value="2w"
+                              value="1w"
                             >
                               <ForwardRef(InputBase)
                                 classes={
@@ -567,7 +578,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                 multiline={false}
                                 onChange={[Function]}
                                 type="text"
-                                value="2w"
+                                value="1w"
                               >
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -616,7 +627,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                     onChange={[Function]}
                                     onFocus={[Function]}
                                     required={false}
-                                    value="2w"
+                                    value="1w"
                                     variant="standard"
                                   >
                                     <div
@@ -629,7 +640,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                       role="button"
                                       tabIndex={0}
                                     >
-                                      2週間毎
+                                      1週間毎
                                     </div>
                                     <input
                                       aria-hidden={true}
@@ -638,7 +649,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                       onChange={[Function]}
                                       required={false}
                                       tabIndex={-1}
-                                      value="2w"
+                                      value="1w"
                                     />
                                     <ForwardRef(ArrowDropDownIcon)
                                       className="MuiSelect-icon"
@@ -697,7 +708,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                           role="button"
                                           tabindex="0"
                                         >
-                                          2週間毎
+                                          1週間毎
                                         </div>
                                       }
                                       id="menu-"
@@ -726,7 +737,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                             role="button"
                                             tabindex="0"
                                           >
-                                            2週間毎
+                                            1週間毎
                                           </div>
                                         }
                                         classes={
@@ -762,7 +773,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                               role="button"
                                               tabindex="0"
                                             >
-                                              2週間毎
+                                              1週間毎
                                             </div>
                                           }
                                           anchorOrigin={
@@ -806,7 +817,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                                 role="button"
                                                 tabindex="0"
                                               >
-                                                2週間毎
+                                                1週間毎
                                               </div>
                                             }
                                             anchorOrigin={
@@ -871,6 +882,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
 
 exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-snapshot 2`] = `
 <FormSubmitFrequency
+  initialValue="1w"
   setter={[Function]}
 >
   <FormUserBase
@@ -878,7 +890,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
     item={
       <FormSubmitFrequency__Container>
         <Selectbox
-          initialValue="2w"
+          initialValue="1w"
           options={
             Array [
               Object {
@@ -902,23 +914,29 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト提出頻度
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                シフト提出頻度
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormSubmitFrequency__Container>
           <div
             className="FormSubmitFrequency__Container-sc-1bgjk3t-0 bGkqJD"
           >
             <Selectbox
-              initialValue="2w"
+              initialValue="1w"
               options={
                 Array [
                   Object {
@@ -970,7 +988,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                     <WithStyles(ForwardRef(Select))
                       displayEmpty={true}
                       onChange={[Function]}
-                      value="2w"
+                      value="1w"
                       variant="standard"
                     >
                       <ForwardRef(Select)
@@ -991,7 +1009,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                         }
                         displayEmpty={true}
                         onChange={[Function]}
-                        value="2w"
+                        value="1w"
                         variant="standard"
                       >
                         <WithStyles(ForwardRef(Input))
@@ -1088,7 +1106,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                             }
                           }
                           onChange={[Function]}
-                          value="2w"
+                          value="1w"
                         >
                           <ForwardRef(Input)
                             classes={
@@ -1202,7 +1220,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                               }
                             }
                             onChange={[Function]}
-                            value="2w"
+                            value="1w"
                           >
                             <WithStyles(ForwardRef(InputBase))
                               classes={
@@ -1319,7 +1337,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                               multiline={false}
                               onChange={[Function]}
                               type="text"
-                              value="2w"
+                              value="1w"
                             >
                               <ForwardRef(InputBase)
                                 classes={
@@ -1440,7 +1458,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                 multiline={false}
                                 onChange={[Function]}
                                 type="text"
-                                value="2w"
+                                value="1w"
                               >
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -1489,7 +1507,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                     onChange={[Function]}
                                     onFocus={[Function]}
                                     required={false}
-                                    value="2w"
+                                    value="1w"
                                     variant="standard"
                                   >
                                     <div
@@ -1502,7 +1520,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                       role="button"
                                       tabIndex={0}
                                     >
-                                      2週間毎
+                                      1週間毎
                                     </div>
                                     <input
                                       aria-hidden={true}
@@ -1511,7 +1529,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                       onChange={[Function]}
                                       required={false}
                                       tabIndex={-1}
-                                      value="2w"
+                                      value="1w"
                                     />
                                     <ForwardRef(ArrowDropDownIcon)
                                       className="MuiSelect-icon"
@@ -1570,7 +1588,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                           role="button"
                                           tabindex="0"
                                         >
-                                          2週間毎
+                                          1週間毎
                                         </div>
                                       }
                                       id="menu-"
@@ -1599,7 +1617,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                             role="button"
                                             tabindex="0"
                                           >
-                                            2週間毎
+                                            1週間毎
                                           </div>
                                         }
                                         classes={
@@ -1635,7 +1653,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                               role="button"
                                               tabindex="0"
                                             >
-                                              2週間毎
+                                              1週間毎
                                             </div>
                                           }
                                           anchorOrigin={
@@ -1679,7 +1697,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
                                                 role="button"
                                                 tabindex="0"
                                               >
-                                                2週間毎
+                                                1週間毎
                                               </div>
                                             }
                                             anchorOrigin={

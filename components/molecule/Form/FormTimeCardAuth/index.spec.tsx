@@ -4,7 +4,7 @@ import Component, { Props } from '.'
 import { mountWithTheme } from '@test/TestWrapper'
 
 describe(`${stories.title}`, () => {
-  const component = mountWithTheme(<Component {...({} as Props)} />)
+  const component = mountWithTheme(<Component {...(stories.args as Props)} />)
   test(`${stories.title}-snapshot`, () => {
     expect(component).toMatchSnapshot()
     component.setProps(stories.args as Props)

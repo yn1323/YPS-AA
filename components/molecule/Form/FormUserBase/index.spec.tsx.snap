@@ -11,17 +11,23 @@ exports[`molecule/Form/UserBase molecule/Form/UserBase-snapshot 1`] = `
 >
   <FormUserBase__Container>
     <div
-      className="FormUserBase__Container-sc-143288g-0 krfzgn"
+      className="FormUserBase__Container-sc-143288g-0 kqhLZP"
     >
-      <FormUserBase__Title
-        $position="center"
-      >
+      <FormUserBase__TitleWrapper>
         <div
-          className="FormUserBase__Title-sc-143288g-1 byaPDS"
+          className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
         >
-          User type
+          <FormUserBase__Title
+            $position="center"
+          >
+            <div
+              className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+            >
+              User type
+            </div>
+          </FormUserBase__Title>
         </div>
-      </FormUserBase__Title>
+      </FormUserBase__TitleWrapper>
       <div>
         aaa
       </div>

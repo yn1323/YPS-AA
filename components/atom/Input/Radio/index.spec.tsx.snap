@@ -86,7 +86,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="hundred"
+                label={
+                  <Radio__Label>
+                    hundred
+                  </Radio__Label>
+                }
                 value="100"
               >
                 <ForwardRef(FormControlLabel)
@@ -106,7 +110,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="hundred"
+                  label={
+                    <Radio__Label>
+                      hundred
+                    </Radio__Label>
+                  }
                   value="100"
                 >
                   <label
@@ -447,7 +455,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          hundred
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              hundred
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -469,7 +483,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="two-hundred"
+                label={
+                  <Radio__Label>
+                    two-hundred
+                  </Radio__Label>
+                }
                 value="200"
               >
                 <ForwardRef(FormControlLabel)
@@ -489,7 +507,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="two-hundred"
+                  label={
+                    <Radio__Label>
+                      two-hundred
+                    </Radio__Label>
+                  }
                   value="200"
                 >
                   <label
@@ -832,7 +854,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          two-hundred
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              two-hundred
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -854,7 +882,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={true}
-                label="disabled"
+                label={
+                  <Radio__Label>
+                    disabled
+                  </Radio__Label>
+                }
                 value="300"
               >
                 <ForwardRef(FormControlLabel)
@@ -874,7 +906,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={true}
-                  label="disabled"
+                  label={
+                    <Radio__Label>
+                      disabled
+                    </Radio__Label>
+                  }
                   value="300"
                 >
                   <label
@@ -1187,7 +1223,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label Mui-disabled MuiTypography-body1"
                         >
-                          disabled
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              disabled
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -1209,7 +1251,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="disabled = false"
+                label={
+                  <Radio__Label>
+                    disabled = false
+                  </Radio__Label>
+                }
                 value="400"
               >
                 <ForwardRef(FormControlLabel)
@@ -1229,7 +1275,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="disabled = false"
+                  label={
+                    <Radio__Label>
+                      disabled = false
+                    </Radio__Label>
+                  }
                   value="400"
                 >
                   <label
@@ -1570,7 +1620,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          disabled = false
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              disabled = false
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -1592,7 +1648,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="color-default"
+                label={
+                  <Radio__Label>
+                    color-default
+                  </Radio__Label>
+                }
                 value="500"
               >
                 <ForwardRef(FormControlLabel)
@@ -1612,7 +1672,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="color-default"
+                  label={
+                    <Radio__Label>
+                      color-default
+                    </Radio__Label>
+                  }
                   value="500"
                 >
                   <label
@@ -1953,7 +2017,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          color-default
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              color-default
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -1975,7 +2045,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="color-secondary"
+                label={
+                  <Radio__Label>
+                    color-secondary
+                  </Radio__Label>
+                }
                 value="600"
               >
                 <ForwardRef(FormControlLabel)
@@ -1995,7 +2069,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="color-secondary"
+                  label={
+                    <Radio__Label>
+                      color-secondary
+                    </Radio__Label>
+                  }
                   value="600"
                 >
                   <label
@@ -2336,7 +2414,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          color-secondary
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              color-secondary
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>
@@ -2358,7 +2442,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                   />
                 }
                 disabled={false}
-                label="note"
+                label={
+                  <Radio__Label>
+                    note
+                  </Radio__Label>
+                }
                 value="700"
               >
                 <ForwardRef(FormControlLabel)
@@ -2378,7 +2466,11 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                     />
                   }
                   disabled={false}
-                  label="note"
+                  label={
+                    <Radio__Label>
+                      note
+                    </Radio__Label>
+                  }
                   value="700"
                 >
                   <label
@@ -2719,7 +2811,13 @@ exports[`atom/Input/Radio atom/Input/Radio-snapshot 1`] = `
                         <span
                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                         >
-                          note
+                          <Radio__Label>
+                            <div
+                              className="Radio__Label-sc-fteruh-1 kdAydk"
+                            >
+                              note
+                            </div>
+                          </Radio__Label>
                         </span>
                       </ForwardRef(Typography)>
                     </WithStyles(ForwardRef(Typography))>

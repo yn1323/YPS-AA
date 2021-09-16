@@ -3,7 +3,7 @@ import React from 'react'
 import Component from '.'
 
 export default {
-  title: `organism/FormConfig`,
+  title: `organism/InitialConfig`,
   component: Component,
 } as ComponentMeta<typeof Component>
 

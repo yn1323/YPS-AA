@@ -10,30 +10,36 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
         error={false}
         helperText=""
         maxLength={64}
-        placeholder="店舗IDを入力してください。"
+        placeholder="xxxxxx"
         required={false}
       />
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            店舗ID
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                店舗ID
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <ForwardRef
           defaultValue=""
           error={false}
           helperText=""
           maxLength={64}
-          placeholder="店舗IDを入力してください。"
+          placeholder="xxxxxx"
           required={false}
         >
           <WithStyles(ForwardRef(TextField))
@@ -48,7 +54,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
               }
             }
             inputRef={null}
-            placeholder="店舗IDを入力してください。"
+            placeholder="xxxxxx"
             required={false}
           >
             <ForwardRef(TextField)
@@ -68,7 +74,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                 }
               }
               inputRef={null}
-              placeholder="店舗IDを入力してください。"
+              placeholder="xxxxxx"
               required={false}
             >
               <WithStyles(ForwardRef(FormControl))
@@ -111,7 +117,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                       }
                       inputRef={null}
                       multiline={false}
-                      placeholder="店舗IDを入力してください。"
+                      placeholder="xxxxxx"
                     >
                       <ForwardRef(Input)
                         autoFocus={false}
@@ -142,7 +148,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                         }
                         inputRef={null}
                         multiline={false}
-                        placeholder="店舗IDを入力してください。"
+                        placeholder="xxxxxx"
                       >
                         <WithStyles(ForwardRef(InputBase))
                           autoFocus={false}
@@ -174,7 +180,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                           }
                           inputRef={null}
                           multiline={false}
-                          placeholder="店舗IDを入力してください。"
+                          placeholder="xxxxxx"
                           type="text"
                         >
                           <ForwardRef(InputBase)
@@ -211,7 +217,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                             }
                             inputRef={null}
                             multiline={false}
-                            placeholder="店舗IDを入力してください。"
+                            placeholder="xxxxxx"
                             type="text"
                           >
                             <div
@@ -229,7 +235,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 1`] = `
                                 onBlur={[Function]}
                                 onChange={[Function]}
                                 onFocus={[Function]}
-                                placeholder="店舗IDを入力してください。"
+                                placeholder="xxxxxx"
                                 required={false}
                                 type="text"
                               />
@@ -265,30 +271,36 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
         error={false}
         helperText="必ず入力してください。"
         maxLength={64}
-        placeholder="店舗IDを入力してください。"
+        placeholder="xxxxxx"
         required={false}
       />
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            店舗ID
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                店舗ID
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <ForwardRef
           defaultValue=""
           error={false}
           helperText="必ず入力してください。"
           maxLength={64}
-          placeholder="店舗IDを入力してください。"
+          placeholder="xxxxxx"
           required={false}
         >
           <WithStyles(ForwardRef(TextField))
@@ -303,7 +315,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
               }
             }
             inputRef={null}
-            placeholder="店舗IDを入力してください。"
+            placeholder="xxxxxx"
             required={false}
           >
             <ForwardRef(TextField)
@@ -323,7 +335,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                 }
               }
               inputRef={null}
-              placeholder="店舗IDを入力してください。"
+              placeholder="xxxxxx"
               required={false}
             >
               <WithStyles(ForwardRef(FormControl))
@@ -366,7 +378,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                       }
                       inputRef={null}
                       multiline={false}
-                      placeholder="店舗IDを入力してください。"
+                      placeholder="xxxxxx"
                     >
                       <ForwardRef(Input)
                         autoFocus={false}
@@ -397,7 +409,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                         }
                         inputRef={null}
                         multiline={false}
-                        placeholder="店舗IDを入力してください。"
+                        placeholder="xxxxxx"
                       >
                         <WithStyles(ForwardRef(InputBase))
                           autoFocus={false}
@@ -429,7 +441,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                           }
                           inputRef={null}
                           multiline={false}
-                          placeholder="店舗IDを入力してください。"
+                          placeholder="xxxxxx"
                           type="text"
                         >
                           <ForwardRef(InputBase)
@@ -466,7 +478,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                             }
                             inputRef={null}
                             multiline={false}
-                            placeholder="店舗IDを入力してください。"
+                            placeholder="xxxxxx"
                             type="text"
                           >
                             <div
@@ -484,7 +496,7 @@ exports[`molecule/Form/FormShopId molecule/Form/FormShopId-snapshot 2`] = `
                                 onBlur={[Function]}
                                 onChange={[Function]}
                                 onFocus={[Function]}
-                                placeholder="店舗IDを入力してください。"
+                                placeholder="xxxxxx"
                                 required={false}
                                 type="text"
                               />

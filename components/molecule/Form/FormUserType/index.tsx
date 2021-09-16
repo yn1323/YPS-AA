@@ -1,32 +1,37 @@
-import React, { FC } from 'react'
+import React, { Dispatch, FC, SetStateAction } from 'react'
 import Radio, { Option } from '@atom/Input/Radio'
+import { UserType } from '@constant/config'
 import FormUserBase from '@molecule/Form/FormUserBase'
 
 const GROUP_NAME = 'USER_TYPE'
-const INITIAL_VALUE = 'user'
 const OPTION: Option[] = [
   {
-    value: 'user',
+    value: 'admin',
     label: '管理ユーザー',
     note: '店舗管理者・シフト管理者はこちら',
   },
-  { value: 'admin', label: '一般ユーザー', note: '従業員・アルバイトはこちら' },
+  {
+    value: 'general',
+    label: '一般ユーザー',
+    note: '従業員・アルバイトはこちら',
+  },
 ]
 
 export interface Props {
-  setter: (v: string) => void
+  initialValue: UserType
+  setter: Dispatch<SetStateAction<UserType>>
 }
 
-const FormUserType: FC<Props> = ({ setter }) => {
+const FormUserType: FC<Props> = ({ initialValue, setter }) => {
   return (
     <FormUserBase
       definition="ユーザー種別"
       item={
         <Radio
           groupName={GROUP_NAME}
-          initialValue={INITIAL_VALUE}
+          initialValue={initialValue}
           options={OPTION}
-          setter={setter}
+          setter={setter as (v: string) => void}
         />
       }
     />

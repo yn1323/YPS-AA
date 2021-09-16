@@ -1,34 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 1`] = `
-<FormTimeCardAuth>
+<FormTimeCardAuth
+  initialValue={false}
+  setter={[Function]}
+>
   <FormUserBase
     definition="タイムカード入力権限"
     item={
       <Switch
         initialChecked={false}
-        labelOnFalse="管理ユーザーのみ許可する"
+        labelOnFalse="管理ユーザーのみ入力を許可"
+        setter={[Function]}
       >
-        一般ユーザーに許可する
+        一般ユーザーの入力を許可
       </Switch>
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            タイムカード入力権限
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                タイムカード入力権限
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <Switch
           initialChecked={false}
-          labelOnFalse="管理ユーザーのみ許可する"
+          labelOnFalse="管理ユーザーのみ入力を許可"
+          setter={[Function]}
         >
           <WithStyles(ForwardRef(FormControlLabel))
             control={
@@ -41,7 +52,16 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                 size="medium"
               />
             }
-            label="管理ユーザーのみ許可する"
+            label={
+              <Switch__Label>
+                管理ユーザーのみ入力を許可
+              </Switch__Label>
+            }
+            style={
+              Object {
+                "fontSize": "0,9rem",
+              }
+            }
           >
             <ForwardRef(FormControlLabel)
               classes={
@@ -64,10 +84,24 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                   size="medium"
                 />
               }
-              label="管理ユーザーのみ許可する"
+              label={
+                <Switch__Label>
+                  管理ユーザーのみ入力を許可
+                </Switch__Label>
+              }
+              style={
+                Object {
+                  "fontSize": "0,9rem",
+                }
+              }
             >
               <label
                 className="MuiFormControlLabel-root"
+                style={
+                  Object {
+                    "fontSize": "0,9rem",
+                  }
+                }
               >
                 <WithStyles(ForwardRef(Switch))
                   checked={false}
@@ -327,7 +361,13 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                     <span
                       className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                     >
-                      管理ユーザーのみ許可する
+                      <Switch__Label>
+                        <div
+                          className="Switch__Label-sc-wjp50u-0 dOExmH"
+                        >
+                          管理ユーザーのみ入力を許可
+                        </div>
+                      </Switch__Label>
                     </span>
                   </ForwardRef(Typography)>
                 </WithStyles(ForwardRef(Typography))>
@@ -343,6 +383,7 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
 
 exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 2`] = `
 <FormTimeCardAuth
+  initialValue={false}
   setter={[Function]}
 >
   <FormUserBase
@@ -350,29 +391,35 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
     item={
       <Switch
         initialChecked={false}
-        labelOnFalse="管理ユーザーのみ許可する"
+        labelOnFalse="管理ユーザーのみ入力を許可"
         setter={[Function]}
       >
-        一般ユーザーに許可する
+        一般ユーザーの入力を許可
       </Switch>
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            タイムカード入力権限
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                タイムカード入力権限
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <Switch
           initialChecked={false}
-          labelOnFalse="管理ユーザーのみ許可する"
+          labelOnFalse="管理ユーザーのみ入力を許可"
           setter={[Function]}
         >
           <WithStyles(ForwardRef(FormControlLabel))
@@ -386,7 +433,16 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                 size="medium"
               />
             }
-            label="管理ユーザーのみ許可する"
+            label={
+              <Switch__Label>
+                管理ユーザーのみ入力を許可
+              </Switch__Label>
+            }
+            style={
+              Object {
+                "fontSize": "0,9rem",
+              }
+            }
           >
             <ForwardRef(FormControlLabel)
               classes={
@@ -409,10 +465,24 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                   size="medium"
                 />
               }
-              label="管理ユーザーのみ許可する"
+              label={
+                <Switch__Label>
+                  管理ユーザーのみ入力を許可
+                </Switch__Label>
+              }
+              style={
+                Object {
+                  "fontSize": "0,9rem",
+                }
+              }
             >
               <label
                 className="MuiFormControlLabel-root"
+                style={
+                  Object {
+                    "fontSize": "0,9rem",
+                  }
+                }
               >
                 <WithStyles(ForwardRef(Switch))
                   checked={false}
@@ -672,7 +742,13 @@ exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 
                     <span
                       className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                     >
-                      管理ユーザーのみ許可する
+                      <Switch__Label>
+                        <div
+                          className="Switch__Label-sc-wjp50u-0 dOExmH"
+                        >
+                          管理ユーザーのみ入力を許可
+                        </div>
+                      </Switch__Label>
                     </span>
                   </ForwardRef(Typography)>
                 </WithStyles(ForwardRef(Typography))>

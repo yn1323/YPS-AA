@@ -7,9 +7,5 @@ describe(`${stories.title}`, () => {
   test(`${stories.title}-snapshot`, () => {
     const wrapper = mountWithTheme(<Component />)
     expect(wrapper).toMatchSnapshot()
-    wrapper.setProps({ isLoggedIn: true })
-    expect(wrapper).toMatchSnapshot()
-    wrapper.setProps({ initialLogin: true })
-    expect(wrapper).toMatchSnapshot()
   })
 })

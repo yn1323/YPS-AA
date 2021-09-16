@@ -19,6 +19,12 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
         size="medium"
       />
     }
+    label={<Switch__Label />}
+    style={
+      Object {
+        "fontSize": "0,9rem",
+      }
+    }
   >
     <ForwardRef(FormControlLabel)
       classes={
@@ -41,9 +47,20 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
           size="medium"
         />
       }
+      label={<Switch__Label />}
+      style={
+        Object {
+          "fontSize": "0,9rem",
+        }
+      }
     >
       <label
         className="MuiFormControlLabel-root"
+        style={
+          Object {
+            "fontSize": "0,9rem",
+          }
+        }
       >
         <WithStyles(ForwardRef(Switch))
           checked={true}
@@ -302,7 +319,13 @@ exports[`atom/Button/Switch atom/Button/Switch-snapshot 1`] = `
           >
             <span
               className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-            />
+            >
+              <Switch__Label>
+                <div
+                  className="Switch__Label-sc-wjp50u-0 dOExmH"
+                />
+              </Switch__Label>
+            </span>
           </ForwardRef(Typography)>
         </WithStyles(ForwardRef(Typography))>
       </label>

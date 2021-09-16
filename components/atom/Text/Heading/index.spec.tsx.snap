@@ -8,11 +8,11 @@ exports[`atom/Text/Heading atom/Text/Heading-snapshot 1`] = `
     variant="h2"
   >
     <WithStyles(ForwardRef(Typography))
-      className="Heading__sub-sc-rckheo-0 FvPVl"
+      className="Heading__sub-sc-rckheo-0 ceEKfy"
       variant="h2"
     >
       <ForwardRef(Typography)
-        className="Heading__sub-sc-rckheo-0 FvPVl"
+        className="Heading__sub-sc-rckheo-0 ceEKfy"
         classes={
           Object {
             "alignCenter": "MuiTypography-alignCenter",
@@ -50,7 +50,7 @@ exports[`atom/Text/Heading atom/Text/Heading-snapshot 1`] = `
         variant="h2"
       >
         <h2
-          className="MuiTypography-root Heading__sub-sc-rckheo-0 FvPVl MuiTypography-h2"
+          className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
         >
           Heading
         </h2>
@@ -69,11 +69,11 @@ exports[`atom/Text/Heading atom/Text/Heading-snapshot 2`] = `
     variant="h2"
   >
     <WithStyles(ForwardRef(Typography))
-      className="Heading__sub-sc-rckheo-0 FvPVl"
+      className="Heading__sub-sc-rckheo-0 ceEKfy"
       variant="h2"
     >
       <ForwardRef(Typography)
-        className="Heading__sub-sc-rckheo-0 FvPVl"
+        className="Heading__sub-sc-rckheo-0 ceEKfy"
         classes={
           Object {
             "alignCenter": "MuiTypography-alignCenter",
@@ -111,7 +111,7 @@ exports[`atom/Text/Heading atom/Text/Heading-snapshot 2`] = `
         variant="h2"
       >
         <h2
-          className="MuiTypography-root Heading__sub-sc-rckheo-0 FvPVl MuiTypography-h2"
+          className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
         >
           Heading
         </h2>

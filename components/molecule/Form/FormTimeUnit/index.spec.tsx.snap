@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 1`] = `
-<FormTimeUnit>
+<FormTimeUnit
+  initialValue="5"
+  setter={[Function]}
+>
   <FormUserBase
     definition="シフト作成時間単位"
     item={
@@ -32,23 +35,30 @@ exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 1`] = `
               },
             ]
           }
+          setter={[Function]}
         />
       </FormTimeUnit__Container>
     }
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト作成時間単位
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                シフト作成時間単位
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormTimeUnit__Container>
           <div
             className="FormTimeUnit__Container-sc-vtem8n-0 gxyObG"
@@ -79,6 +89,7 @@ exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 1`] = `
                   },
                 ]
               }
+              setter={[Function]}
             >
               <WithStyles(ForwardRef(FormControl))
                 style={
@@ -927,6 +938,7 @@ exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 1`] = `
 
 exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 2`] = `
 <FormTimeUnit
+  initialValue="5"
   setter={[Function]}
 >
   <FormUserBase
@@ -966,17 +978,23 @@ exports[`molecule/Form/FormTimeUnit molecule/Form/FormTimeUnit-snapshot 2`] = `
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト作成時間単位
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                シフト作成時間単位
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormTimeUnit__Container>
           <div
             className="FormTimeUnit__Container-sc-vtem8n-0 gxyObG"

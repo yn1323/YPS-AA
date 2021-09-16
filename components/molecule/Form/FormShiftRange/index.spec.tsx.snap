@@ -25,17 +25,23 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="bottom"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 ggDHem"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト設定可能時間
+            <FormUserBase__Title
+              $position="bottom"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 jRDmpS"
+              >
+                シフト設定可能時間
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormShiftRange__Wrapper>
           <div
             className="FormShiftRange__Wrapper-sc-1tj3d33-0 jwPmhw"
@@ -517,7 +523,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
             </FormShiftRange__PickerContainer>
             <FormShiftRange__Delimeter>
               <div
-                className="FormShiftRange__Delimeter-sc-1tj3d33-2 bcmnFs"
+                className="FormShiftRange__Delimeter-sc-1tj3d33-2 wyyZC"
               />
             </FormShiftRange__Delimeter>
             <FormShiftRange__PickerContainer>
@@ -1005,7 +1011,9 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
 
 exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] = `
 <FormShiftRange
+  endInitialValue={"2021-09-17T09:00:00.000Z"}
   endTimeSetter={[Function]}
+  startInitialValue={"2021-09-17T00:00:00.000Z"}
   startTimeSetter={[Function]}
 >
   <FormUserBase
@@ -1014,6 +1022,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
       <FormShiftRange__Wrapper>
         <FormShiftRange__PickerContainer>
           <PickerTime
+            initialTime={"2021-09-17T00:00:00.000Z"}
             label="開始時間"
             margin="none"
             setter={[Function]}
@@ -1022,6 +1031,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
         <FormShiftRange__Delimeter />
         <FormShiftRange__PickerContainer>
           <PickerTime
+            initialTime={"2021-09-17T09:00:00.000Z"}
             label="終了時間"
             margin="none"
             setter={[Function]}
@@ -1033,17 +1043,23 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="bottom"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 ggDHem"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            シフト設定可能時間
+            <FormUserBase__Title
+              $position="bottom"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 jRDmpS"
+              >
+                シフト設定可能時間
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <FormShiftRange__Wrapper>
           <div
             className="FormShiftRange__Wrapper-sc-1tj3d33-0 jwPmhw"
@@ -1053,6 +1069,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                 className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
               >
                 <PickerTime
+                  initialTime={"2021-09-17T00:00:00.000Z"}
                   label="開始時間"
                   margin="none"
                   setter={[Function]}
@@ -1545,7 +1562,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
             </FormShiftRange__PickerContainer>
             <FormShiftRange__Delimeter>
               <div
-                className="FormShiftRange__Delimeter-sc-1tj3d33-2 bcmnFs"
+                className="FormShiftRange__Delimeter-sc-1tj3d33-2 wyyZC"
               />
             </FormShiftRange__Delimeter>
             <FormShiftRange__PickerContainer>
@@ -1553,6 +1570,7 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                 className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
               >
                 <PickerTime
+                  initialTime={"2021-09-17T09:00:00.000Z"}
                   label="終了時間"
                   margin="none"
                   setter={[Function]}

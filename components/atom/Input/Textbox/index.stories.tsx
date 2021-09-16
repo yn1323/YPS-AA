@@ -8,7 +8,7 @@ export default {
   title: `atom/Input/${COMPONENT_NAME}`,
   component: Component,
   args: {
-    error: false,
+    error: true,
     disabled: false,
     required: false,
     defaultValue: 'default',

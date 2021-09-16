@@ -4,6 +4,11 @@ import {
   SwitchProps,
 } from '@material-ui/core'
 import React, { FC } from 'react'
+import styled from 'styled-components'
+
+const Label = styled.div`
+  font-size: 0.9rem;
+`
 
 export interface Props {
   color?: SwitchProps['color']
@@ -35,6 +40,7 @@ const Switch: FC<Props> = ({
 
   return (
     <FormControlLabel
+      style={{ fontSize: '0,9rem' }}
       control={
         <MaterialUiSwitch
           checked={isChecked}
@@ -45,7 +51,7 @@ const Switch: FC<Props> = ({
           name={name}
         />
       }
-      label={isChecked ? children : labelOnFalse || children}
+      label={<Label>{isChecked ? children : labelOnFalse || children}</Label>}
     />
   )
 }

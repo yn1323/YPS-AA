@@ -1,13 +1,16 @@
 import { Moment } from 'moment'
-import React, { FC } from 'react'
+import React, { Dispatch, FC, SetStateAction } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
 import PickerTime from '@atom/Input/PickerTime'
+import { ShiftTime } from '@constant/config'
 import FormUserBase from '@molecule/Form/FormUserBase'
 
 export interface Props {
-  startTimeSetter: (d: Moment) => void
-  endTimeSetter: (d: Moment) => void
+  startInitialValue: Moment
+  startTimeSetter: Dispatch<SetStateAction<ShiftTime>>
+  endInitialValue: Moment
+  endTimeSetter: Dispatch<SetStateAction<ShiftTime>>
 }
 
 const Wrapper = styled.div`
@@ -20,12 +23,17 @@ const Delimeter = styled.div`
   ${tw`relative w-10 flex relative items-center justify-center`}
   &:before {
     content: '〜';
-    font-size: 1rem;
+    font-size: 0.9rem;
     ${tw`absolute mt-3`};
   }
 `
 
-const FormShiftRange: FC<Props> = ({ startTimeSetter, endTimeSetter }) => {
+const FormShiftRange: FC<Props> = ({
+  startInitialValue,
+  startTimeSetter,
+  endInitialValue,
+  endTimeSetter,
+}) => {
   return (
     <FormUserBase
       position="bottom"
@@ -34,6 +42,7 @@ const FormShiftRange: FC<Props> = ({ startTimeSetter, endTimeSetter }) => {
         <Wrapper>
           <PickerContainer>
             <PickerTime
+              initialTime={startInitialValue}
               margin="none"
               setter={startTimeSetter}
               label="開始時間"
@@ -41,7 +50,12 @@ const FormShiftRange: FC<Props> = ({ startTimeSetter, endTimeSetter }) => {
           </PickerContainer>
           <Delimeter />
           <PickerContainer>
-            <PickerTime margin="none" setter={endTimeSetter} label="終了時間" />
+            <PickerTime
+              initialTime={endInitialValue}
+              margin="none"
+              setter={endTimeSetter}
+              label="終了時間"
+            />
           </PickerContainer>
         </Wrapper>
       }

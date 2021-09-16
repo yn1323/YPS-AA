@@ -2,41 +2,7 @@
 
 exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
 <FormUserType
-  groupName="age"
-  initialVal="200"
-  options={
-    Array [
-      Object {
-        "label": "hundred",
-        "value": "100",
-      },
-      Object {
-        "label": "two-hundred",
-        "value": "200",
-      },
-      Object {
-        "disabled": true,
-        "label": "disabled",
-        "value": "300",
-      },
-      Object {
-        "disabled": false,
-        "label": "disabled = false",
-        "value": "400",
-      },
-      Object {
-        "color": "default",
-        "label": "color-default",
-        "value": "500",
-      },
-      Object {
-        "color": "secondary",
-        "label": "color-secondary",
-        "value": "600",
-      },
-    ]
-  }
-  row={true}
+  initialValue="admin"
   setter={[Function]}
 >
   <FormUserBase
@@ -44,18 +10,18 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
     item={
       <Radio
         groupName="USER_TYPE"
-        initialValue="user"
+        initialValue="admin"
         options={
           Array [
             Object {
               "label": "管理ユーザー",
               "note": "店舗管理者・シフト管理者はこちら",
-              "value": "user",
+              "value": "admin",
             },
             Object {
               "label": "一般ユーザー",
               "note": "従業員・アルバイトはこちら",
-              "value": "admin",
+              "value": "general",
             },
           ]
         }
@@ -65,31 +31,37 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 krfzgn"
+        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
       >
-        <FormUserBase__Title
-          $position="center"
-        >
+        <FormUserBase__TitleWrapper>
           <div
-            className="FormUserBase__Title-sc-143288g-1 byaPDS"
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
           >
-            ユーザー種別
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                ユーザー種別
+              </div>
+            </FormUserBase__Title>
           </div>
-        </FormUserBase__Title>
+        </FormUserBase__TitleWrapper>
         <Radio
           groupName="USER_TYPE"
-          initialValue="user"
+          initialValue="admin"
           options={
             Array [
               Object {
                 "label": "管理ユーザー",
                 "note": "店舗管理者・シフト管理者はこちら",
-                "value": "user",
+                "value": "admin",
               },
               Object {
                 "label": "一般ユーザー",
                 "note": "従業員・アルバイトはこちら",
-                "value": "admin",
+                "value": "general",
               },
             ]
           }
@@ -100,7 +72,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
             name="USER_TYPE"
             onChange={[Function]}
             row={false}
-            value="user"
+            value="admin"
           >
             <WithStyles(ForwardRef(FormGroup))
               arial-label="USER_TYPE"
@@ -136,8 +108,12 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                           />
                         }
                         disabled={false}
-                        label="管理ユーザー"
-                        value="user"
+                        label={
+                          <Radio__Label>
+                            管理ユーザー
+                          </Radio__Label>
+                        }
+                        value="admin"
                       >
                         <ForwardRef(FormControlLabel)
                           classes={
@@ -156,8 +132,12 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             />
                           }
                           disabled={false}
-                          label="管理ユーザー"
-                          value="user"
+                          label={
+                            <Radio__Label>
+                              管理ユーザー
+                            </Radio__Label>
+                          }
+                          value="admin"
                         >
                           <label
                             className="MuiFormControlLabel-root"
@@ -165,7 +145,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
                               disabled={false}
-                              value="user"
+                              value="admin"
                             >
                               <ForwardRef(Radio)
                                 classes={
@@ -179,7 +159,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 }
                                 color="primary"
                                 disabled={false}
-                                value="user"
+                                value="admin"
                               >
                                 <WithStyles(ForwardRef(SwitchBase))
                                   checked={true}
@@ -206,7 +186,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   name="USER_TYPE"
                                   onChange={[Function]}
                                   type="radio"
-                                  value="user"
+                                  value="admin"
                                 >
                                   <ForwardRef(SwitchBase)
                                     checked={true}
@@ -234,7 +214,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     name="USER_TYPE"
                                     onChange={[Function]}
                                     type="radio"
-                                    value="user"
+                                    value="admin"
                                   >
                                     <WithStyles(ForwardRef(IconButton))
                                       className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked"
@@ -320,7 +300,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                   name="USER_TYPE"
                                                   onChange={[Function]}
                                                   type="radio"
-                                                  value="user"
+                                                  value="admin"
                                                 />
                                                 <WithStyles(RadioButtonIcon)
                                                   checked={true}
@@ -499,7 +479,13 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 <span
                                   className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                 >
-                                  管理ユーザー
+                                  <Radio__Label>
+                                    <div
+                                      className="Radio__Label-sc-fteruh-1 kdAydk"
+                                    >
+                                      管理ユーザー
+                                    </div>
+                                  </Radio__Label>
                                 </span>
                               </ForwardRef(Typography)>
                             </WithStyles(ForwardRef(Typography))>
@@ -747,8 +733,12 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                           />
                         }
                         disabled={false}
-                        label="一般ユーザー"
-                        value="admin"
+                        label={
+                          <Radio__Label>
+                            一般ユーザー
+                          </Radio__Label>
+                        }
+                        value="general"
                       >
                         <ForwardRef(FormControlLabel)
                           classes={
@@ -767,8 +757,12 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             />
                           }
                           disabled={false}
-                          label="一般ユーザー"
-                          value="admin"
+                          label={
+                            <Radio__Label>
+                              一般ユーザー
+                            </Radio__Label>
+                          }
+                          value="general"
                         >
                           <label
                             className="MuiFormControlLabel-root"
@@ -776,7 +770,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
                               disabled={false}
-                              value="admin"
+                              value="general"
                             >
                               <ForwardRef(Radio)
                                 classes={
@@ -790,7 +784,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 }
                                 color="primary"
                                 disabled={false}
-                                value="admin"
+                                value="general"
                               >
                                 <WithStyles(ForwardRef(SwitchBase))
                                   checked={false}
@@ -817,7 +811,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   name="USER_TYPE"
                                   onChange={[Function]}
                                   type="radio"
-                                  value="admin"
+                                  value="general"
                                 >
                                   <ForwardRef(SwitchBase)
                                     checked={false}
@@ -845,7 +839,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     name="USER_TYPE"
                                     onChange={[Function]}
                                     type="radio"
-                                    value="admin"
+                                    value="general"
                                   >
                                     <WithStyles(ForwardRef(IconButton))
                                       className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary"
@@ -931,7 +925,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                   name="USER_TYPE"
                                                   onChange={[Function]}
                                                   type="radio"
-                                                  value="admin"
+                                                  value="general"
                                                 />
                                                 <WithStyles(RadioButtonIcon)
                                                   fontSize="medium"
@@ -1108,7 +1102,13 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 <span
                                   className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                 >
-                                  一般ユーザー
+                                  <Radio__Label>
+                                    <div
+                                      className="Radio__Label-sc-fteruh-1 kdAydk"
+                                    >
+                                      一般ユーザー
+                                    </div>
+                                  </Radio__Label>
                                 </span>
                               </ForwardRef(Typography)>
                             </WithStyles(ForwardRef(Typography))>

@@ -3,7 +3,7 @@ import Textbox, { Props as TextboxProps } from '@atom/Input/Textbox'
 import { MAX_LENGTH } from '@constant/validation'
 import FormUserBase from '@molecule/Form/FormUserBase'
 
-const PLACEHOLDER = '店舗IDを入力してください。'
+const PLACEHOLDER = 'xxxxxx'
 const LENGTH = MAX_LENGTH.SHOP_ID
 
 export interface Props

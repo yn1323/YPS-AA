@@ -28,6 +28,9 @@ export interface Props {
 const LabelContainer = styled.div`
   ${tw`flex `}
 `
+const Label = styled.div`
+  font-size: 0.9rem;
+`
 
 const Radio: FC<Props> = ({
   initialValue,
@@ -63,7 +66,7 @@ const Radio: FC<Props> = ({
             <FormControlLabel
               value={value}
               control={<MaterialUIRadio color={color} />}
-              label={label}
+              label={<Label>{label}</Label>}
               disabled={disabled}
             />
             {note && <TooltipNote>{note}</TooltipNote>}
