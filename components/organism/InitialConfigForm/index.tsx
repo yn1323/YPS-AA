@@ -21,7 +21,6 @@ import FormTimeCardAuth from '@molecule/Form/FormTimeCardAuth'
 import FormTimeUnit from '@molecule/Form/FormTimeUnit'
 import FormUserName from '@molecule/Form/FormUserName'
 import FormUserType from '@molecule/Form/FormUserType'
-import Center from '@template/Layout/Center'
 
 const Root = styled.div`
   ${tw`w-full`}
