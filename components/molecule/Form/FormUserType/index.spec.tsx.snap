@@ -105,6 +105,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                         control={
                           <WithStyles(ForwardRef(Radio))
                             color="primary"
+                            size="small"
                           />
                         }
                         disabled={false}
@@ -129,6 +130,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                           control={
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
+                              size="small"
                             />
                           }
                           disabled={false}
@@ -145,6 +147,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
                               disabled={false}
+                              size="small"
                               value="admin"
                             >
                               <ForwardRef(Radio)
@@ -159,6 +162,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 }
                                 color="primary"
                                 disabled={false}
+                                size="small"
                                 value="admin"
                               >
                                 <WithStyles(ForwardRef(SwitchBase))
@@ -166,7 +170,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   checkedIcon={
                                     <WithStyles(RadioButtonIcon)
                                       checked={true}
-                                      fontSize="medium"
+                                      fontSize="small"
                                     />
                                   }
                                   classes={
@@ -180,7 +184,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   disabled={false}
                                   icon={
                                     <WithStyles(RadioButtonIcon)
-                                      fontSize="medium"
+                                      fontSize="small"
                                     />
                                   }
                                   name="USER_TYPE"
@@ -193,7 +197,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     checkedIcon={
                                       <WithStyles(RadioButtonIcon)
                                         checked={true}
-                                        fontSize="medium"
+                                        fontSize="small"
                                       />
                                     }
                                     classes={
@@ -208,7 +212,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     disabled={false}
                                     icon={
                                       <WithStyles(RadioButtonIcon)
-                                        fontSize="medium"
+                                        fontSize="small"
                                       />
                                     }
                                     name="USER_TYPE"
@@ -304,7 +308,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                 />
                                                 <WithStyles(RadioButtonIcon)
                                                   checked={true}
-                                                  fontSize="medium"
+                                                  fontSize="small"
                                                 >
                                                   <RadioButtonIcon
                                                     checked={true}
@@ -315,16 +319,16 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                         "root": "PrivateRadioButtonIcon-root-5",
                                                       }
                                                     }
-                                                    fontSize="medium"
+                                                    fontSize="small"
                                                   >
                                                     <div
                                                       className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
                                                     >
                                                       <ForwardRef(RadioButtonUncheckedIcon)
-                                                        fontSize="medium"
+                                                        fontSize="small"
                                                       >
                                                         <WithStyles(ForwardRef(SvgIcon))
-                                                          fontSize="medium"
+                                                          fontSize="small"
                                                         >
                                                           <ForwardRef(SvgIcon)
                                                             classes={
@@ -340,11 +344,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                                 "root": "MuiSvgIcon-root",
                                                               }
                                                             }
-                                                            fontSize="medium"
+                                                            fontSize="small"
                                                           >
                                                             <svg
                                                               aria-hidden={true}
-                                                              className="MuiSvgIcon-root"
+                                                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                                                               focusable="false"
                                                               viewBox="0 0 24 24"
                                                             >
@@ -357,11 +361,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                       </ForwardRef(RadioButtonUncheckedIcon)>
                                                       <ForwardRef(RadioButtonCheckedIcon)
                                                         className="PrivateRadioButtonIcon-layer-6"
-                                                        fontSize="medium"
+                                                        fontSize="small"
                                                       >
                                                         <WithStyles(ForwardRef(SvgIcon))
                                                           className="PrivateRadioButtonIcon-layer-6"
-                                                          fontSize="medium"
+                                                          fontSize="small"
                                                         >
                                                           <ForwardRef(SvgIcon)
                                                             className="PrivateRadioButtonIcon-layer-6"
@@ -378,11 +382,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                                 "root": "MuiSvgIcon-root",
                                                               }
                                                             }
-                                                            fontSize="medium"
+                                                            fontSize="small"
                                                           >
                                                             <svg
                                                               aria-hidden={true}
-                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
+                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
                                                               focusable="false"
                                                               viewBox="0 0 24 24"
                                                             >
@@ -730,6 +734,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                         control={
                           <WithStyles(ForwardRef(Radio))
                             color="primary"
+                            size="small"
                           />
                         }
                         disabled={false}
@@ -754,6 +759,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                           control={
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
+                              size="small"
                             />
                           }
                           disabled={false}
@@ -770,6 +776,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                             <WithStyles(ForwardRef(Radio))
                               color="primary"
                               disabled={false}
+                              size="small"
                               value="general"
                             >
                               <ForwardRef(Radio)
@@ -784,6 +791,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                 }
                                 color="primary"
                                 disabled={false}
+                                size="small"
                                 value="general"
                               >
                                 <WithStyles(ForwardRef(SwitchBase))
@@ -791,7 +799,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   checkedIcon={
                                     <WithStyles(RadioButtonIcon)
                                       checked={true}
-                                      fontSize="medium"
+                                      fontSize="small"
                                     />
                                   }
                                   classes={
@@ -805,7 +813,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                   disabled={false}
                                   icon={
                                     <WithStyles(RadioButtonIcon)
-                                      fontSize="medium"
+                                      fontSize="small"
                                     />
                                   }
                                   name="USER_TYPE"
@@ -818,7 +826,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     checkedIcon={
                                       <WithStyles(RadioButtonIcon)
                                         checked={true}
-                                        fontSize="medium"
+                                        fontSize="small"
                                       />
                                     }
                                     classes={
@@ -833,7 +841,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                     disabled={false}
                                     icon={
                                       <WithStyles(RadioButtonIcon)
-                                        fontSize="medium"
+                                        fontSize="small"
                                       />
                                     }
                                     name="USER_TYPE"
@@ -928,7 +936,7 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                   value="general"
                                                 />
                                                 <WithStyles(RadioButtonIcon)
-                                                  fontSize="medium"
+                                                  fontSize="small"
                                                 >
                                                   <RadioButtonIcon
                                                     classes={
@@ -938,16 +946,16 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                         "root": "PrivateRadioButtonIcon-root-5",
                                                       }
                                                     }
-                                                    fontSize="medium"
+                                                    fontSize="small"
                                                   >
                                                     <div
                                                       className="PrivateRadioButtonIcon-root-5"
                                                     >
                                                       <ForwardRef(RadioButtonUncheckedIcon)
-                                                        fontSize="medium"
+                                                        fontSize="small"
                                                       >
                                                         <WithStyles(ForwardRef(SvgIcon))
-                                                          fontSize="medium"
+                                                          fontSize="small"
                                                         >
                                                           <ForwardRef(SvgIcon)
                                                             classes={
@@ -963,11 +971,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                                 "root": "MuiSvgIcon-root",
                                                               }
                                                             }
-                                                            fontSize="medium"
+                                                            fontSize="small"
                                                           >
                                                             <svg
                                                               aria-hidden={true}
-                                                              className="MuiSvgIcon-root"
+                                                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                                                               focusable="false"
                                                               viewBox="0 0 24 24"
                                                             >
@@ -980,11 +988,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                       </ForwardRef(RadioButtonUncheckedIcon)>
                                                       <ForwardRef(RadioButtonCheckedIcon)
                                                         className="PrivateRadioButtonIcon-layer-6"
-                                                        fontSize="medium"
+                                                        fontSize="small"
                                                       >
                                                         <WithStyles(ForwardRef(SvgIcon))
                                                           className="PrivateRadioButtonIcon-layer-6"
-                                                          fontSize="medium"
+                                                          fontSize="small"
                                                         >
                                                           <ForwardRef(SvgIcon)
                                                             className="PrivateRadioButtonIcon-layer-6"
@@ -1001,11 +1009,11 @@ exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
                                                                 "root": "MuiSvgIcon-root",
                                                               }
                                                             }
-                                                            fontSize="medium"
+                                                            fontSize="small"
                                                           >
                                                             <svg
                                                               aria-hidden={true}
-                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
+                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
                                                               focusable="false"
                                                               viewBox="0 0 24 24"
                                                             >

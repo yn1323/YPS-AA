@@ -255,6 +255,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                 control={
                                                   <WithStyles(ForwardRef(Radio))
                                                     color="primary"
+                                                    size="small"
                                                   />
                                                 }
                                                 disabled={false}
@@ -279,6 +280,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                   control={
                                                     <WithStyles(ForwardRef(Radio))
                                                       color="primary"
+                                                      size="small"
                                                     />
                                                   }
                                                   disabled={false}
@@ -295,6 +297,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                     <WithStyles(ForwardRef(Radio))
                                                       color="primary"
                                                       disabled={false}
+                                                      size="small"
                                                       value="admin"
                                                     >
                                                       <ForwardRef(Radio)
@@ -309,6 +312,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                         }
                                                         color="primary"
                                                         disabled={false}
+                                                        size="small"
                                                         value="admin"
                                                       >
                                                         <WithStyles(ForwardRef(SwitchBase))
@@ -316,7 +320,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                           checkedIcon={
                                                             <WithStyles(RadioButtonIcon)
                                                               checked={true}
-                                                              fontSize="medium"
+                                                              fontSize="small"
                                                             />
                                                           }
                                                           classes={
@@ -330,7 +334,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                           disabled={false}
                                                           icon={
                                                             <WithStyles(RadioButtonIcon)
-                                                              fontSize="medium"
+                                                              fontSize="small"
                                                             />
                                                           }
                                                           name="USER_TYPE"
@@ -343,7 +347,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                             checkedIcon={
                                                               <WithStyles(RadioButtonIcon)
                                                                 checked={true}
-                                                                fontSize="medium"
+                                                                fontSize="small"
                                                               />
                                                             }
                                                             classes={
@@ -358,7 +362,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                             disabled={false}
                                                             icon={
                                                               <WithStyles(RadioButtonIcon)
-                                                                fontSize="medium"
+                                                                fontSize="small"
                                                               />
                                                             }
                                                             name="USER_TYPE"
@@ -454,7 +458,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                         />
                                                                         <WithStyles(RadioButtonIcon)
                                                                           checked={true}
-                                                                          fontSize="medium"
+                                                                          fontSize="small"
                                                                         >
                                                                           <RadioButtonIcon
                                                                             checked={true}
@@ -465,16 +469,16 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                 "root": "PrivateRadioButtonIcon-root-5",
                                                                               }
                                                                             }
-                                                                            fontSize="medium"
+                                                                            fontSize="small"
                                                                           >
                                                                             <div
                                                                               className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
                                                                             >
                                                                               <ForwardRef(RadioButtonUncheckedIcon)
-                                                                                fontSize="medium"
+                                                                                fontSize="small"
                                                                               >
                                                                                 <WithStyles(ForwardRef(SvgIcon))
-                                                                                  fontSize="medium"
+                                                                                  fontSize="small"
                                                                                 >
                                                                                   <ForwardRef(SvgIcon)
                                                                                     classes={
@@ -490,11 +494,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                         "root": "MuiSvgIcon-root",
                                                                                       }
                                                                                     }
-                                                                                    fontSize="medium"
+                                                                                    fontSize="small"
                                                                                   >
                                                                                     <svg
                                                                                       aria-hidden={true}
-                                                                                      className="MuiSvgIcon-root"
+                                                                                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                                                                                       focusable="false"
                                                                                       viewBox="0 0 24 24"
                                                                                     >
@@ -507,11 +511,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                               </ForwardRef(RadioButtonUncheckedIcon)>
                                                                               <ForwardRef(RadioButtonCheckedIcon)
                                                                                 className="PrivateRadioButtonIcon-layer-6"
-                                                                                fontSize="medium"
+                                                                                fontSize="small"
                                                                               >
                                                                                 <WithStyles(ForwardRef(SvgIcon))
                                                                                   className="PrivateRadioButtonIcon-layer-6"
-                                                                                  fontSize="medium"
+                                                                                  fontSize="small"
                                                                                 >
                                                                                   <ForwardRef(SvgIcon)
                                                                                     className="PrivateRadioButtonIcon-layer-6"
@@ -528,11 +532,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                         "root": "MuiSvgIcon-root",
                                                                                       }
                                                                                     }
-                                                                                    fontSize="medium"
+                                                                                    fontSize="small"
                                                                                   >
                                                                                     <svg
                                                                                       aria-hidden={true}
-                                                                                      className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
+                                                                                      className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
                                                                                       focusable="false"
                                                                                       viewBox="0 0 24 24"
                                                                                     >
@@ -880,6 +884,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                 control={
                                                   <WithStyles(ForwardRef(Radio))
                                                     color="primary"
+                                                    size="small"
                                                   />
                                                 }
                                                 disabled={false}
@@ -904,6 +909,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                   control={
                                                     <WithStyles(ForwardRef(Radio))
                                                       color="primary"
+                                                      size="small"
                                                     />
                                                   }
                                                   disabled={false}
@@ -920,6 +926,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                     <WithStyles(ForwardRef(Radio))
                                                       color="primary"
                                                       disabled={false}
+                                                      size="small"
                                                       value="general"
                                                     >
                                                       <ForwardRef(Radio)
@@ -934,6 +941,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                         }
                                                         color="primary"
                                                         disabled={false}
+                                                        size="small"
                                                         value="general"
                                                       >
                                                         <WithStyles(ForwardRef(SwitchBase))
@@ -941,7 +949,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                           checkedIcon={
                                                             <WithStyles(RadioButtonIcon)
                                                               checked={true}
-                                                              fontSize="medium"
+                                                              fontSize="small"
                                                             />
                                                           }
                                                           classes={
@@ -955,7 +963,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                           disabled={false}
                                                           icon={
                                                             <WithStyles(RadioButtonIcon)
-                                                              fontSize="medium"
+                                                              fontSize="small"
                                                             />
                                                           }
                                                           name="USER_TYPE"
@@ -968,7 +976,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                             checkedIcon={
                                                               <WithStyles(RadioButtonIcon)
                                                                 checked={true}
-                                                                fontSize="medium"
+                                                                fontSize="small"
                                                               />
                                                             }
                                                             classes={
@@ -983,7 +991,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                             disabled={false}
                                                             icon={
                                                               <WithStyles(RadioButtonIcon)
-                                                                fontSize="medium"
+                                                                fontSize="small"
                                                               />
                                                             }
                                                             name="USER_TYPE"
@@ -1078,7 +1086,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                           value="general"
                                                                         />
                                                                         <WithStyles(RadioButtonIcon)
-                                                                          fontSize="medium"
+                                                                          fontSize="small"
                                                                         >
                                                                           <RadioButtonIcon
                                                                             classes={
@@ -1088,16 +1096,16 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                 "root": "PrivateRadioButtonIcon-root-5",
                                                                               }
                                                                             }
-                                                                            fontSize="medium"
+                                                                            fontSize="small"
                                                                           >
                                                                             <div
                                                                               className="PrivateRadioButtonIcon-root-5"
                                                                             >
                                                                               <ForwardRef(RadioButtonUncheckedIcon)
-                                                                                fontSize="medium"
+                                                                                fontSize="small"
                                                                               >
                                                                                 <WithStyles(ForwardRef(SvgIcon))
-                                                                                  fontSize="medium"
+                                                                                  fontSize="small"
                                                                                 >
                                                                                   <ForwardRef(SvgIcon)
                                                                                     classes={
@@ -1113,11 +1121,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                         "root": "MuiSvgIcon-root",
                                                                                       }
                                                                                     }
-                                                                                    fontSize="medium"
+                                                                                    fontSize="small"
                                                                                   >
                                                                                     <svg
                                                                                       aria-hidden={true}
-                                                                                      className="MuiSvgIcon-root"
+                                                                                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                                                                                       focusable="false"
                                                                                       viewBox="0 0 24 24"
                                                                                     >
@@ -1130,11 +1138,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                               </ForwardRef(RadioButtonUncheckedIcon)>
                                                                               <ForwardRef(RadioButtonCheckedIcon)
                                                                                 className="PrivateRadioButtonIcon-layer-6"
-                                                                                fontSize="medium"
+                                                                                fontSize="small"
                                                                               >
                                                                                 <WithStyles(ForwardRef(SvgIcon))
                                                                                   className="PrivateRadioButtonIcon-layer-6"
-                                                                                  fontSize="medium"
+                                                                                  fontSize="small"
                                                                                 >
                                                                                   <ForwardRef(SvgIcon)
                                                                                     className="PrivateRadioButtonIcon-layer-6"
@@ -1151,11 +1159,11 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                                                                         "root": "MuiSvgIcon-root",
                                                                                       }
                                                                                     }
-                                                                                    fontSize="medium"
+                                                                                    fontSize="small"
                                                                                   >
                                                                                     <svg
                                                                                       aria-hidden={true}
-                                                                                      className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
+                                                                                      className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
                                                                                       focusable="false"
                                                                                       viewBox="0 0 24 24"
                                                                                     >
@@ -2297,9 +2305,9 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                         className="InitialConfig__Items-sc-r9ubk9-2 dlEuHd"
                       >
                         <FormShiftRange
-                          endInitialValue={"2021-09-17T09:00:00.000Z"}
+                          endInitialValue={"2021-09-18T09:00:00.000Z"}
                           endTimeSetter={[Function]}
-                          startInitialValue={"2021-09-17T00:00:00.000Z"}
+                          startInitialValue={"2021-09-18T00:00:00.000Z"}
                           startTimeSetter={[Function]}
                         >
                           <FormUserBase
@@ -2308,7 +2316,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                               <FormShiftRange__Wrapper>
                                 <FormShiftRange__PickerContainer>
                                   <PickerTime
-                                    initialTime={"2021-09-17T00:00:00.000Z"}
+                                    initialTime={"2021-09-18T00:00:00.000Z"}
                                     label="開始時間"
                                     margin="none"
                                     setter={[Function]}
@@ -2317,7 +2325,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                 <FormShiftRange__Delimeter />
                                 <FormShiftRange__PickerContainer>
                                   <PickerTime
-                                    initialTime={"2021-09-17T09:00:00.000Z"}
+                                    initialTime={"2021-09-18T09:00:00.000Z"}
                                     label="終了時間"
                                     margin="none"
                                     setter={[Function]}
@@ -2355,7 +2363,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                         className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
                                       >
                                         <PickerTime
-                                          initialTime={"2021-09-17T00:00:00.000Z"}
+                                          initialTime={"2021-09-18T00:00:00.000Z"}
                                           label="開始時間"
                                           margin="none"
                                           setter={[Function]}
@@ -2374,7 +2382,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                               margin="none"
                                               onChange={[Function]}
                                               openTo="hours"
-                                              value={"2021-09-17T00:00:00.000Z"}
+                                              value={"2021-09-18T00:00:00.000Z"}
                                               variant="inline"
                                               views={
                                                 Array [
@@ -2837,7 +2845,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                         className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
                                       >
                                         <PickerTime
-                                          initialTime={"2021-09-17T09:00:00.000Z"}
+                                          initialTime={"2021-09-18T09:00:00.000Z"}
                                           label="終了時間"
                                           margin="none"
                                           setter={[Function]}
@@ -2856,7 +2864,7 @@ exports[`organism/InitialConfig organism/InitialConfig-snapshot 1`] = `
                                               margin="none"
                                               onChange={[Function]}
                                               openTo="hours"
-                                              value={"2021-09-17T09:00:00.000Z"}
+                                              value={"2021-09-18T09:00:00.000Z"}
                                               variant="inline"
                                               views={
                                                 Array [

@@ -65,7 +65,7 @@ const Radio: FC<Props> = ({
           <LabelContainer key={i}>
             <FormControlLabel
               value={value}
-              control={<MaterialUIRadio color={color} />}
+              control={<MaterialUIRadio size="small" color={color} />}
               label={<Label>{label}</Label>}
               disabled={disabled}
             />
