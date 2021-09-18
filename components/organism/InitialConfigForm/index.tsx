@@ -11,6 +11,7 @@ import {
   UserType,
   USER_CONFIG,
 } from '@constant/config'
+import { mediaQueries } from '@constant/mixins'
 import { FORM_ERROR_TEXT } from '@constant/validation'
 import FormShiftRange from '@molecule/Form/FormShiftRange'
 import FormShopId from '@molecule/Form/FormShopId'
@@ -23,14 +24,17 @@ import FormUserType from '@molecule/Form/FormUserType'
 import Center from '@template/Layout/Center'
 
 const Root = styled.div`
-  ${tw`w-1/2`}
+  ${tw`w-full`}
+  ${mediaQueries('md')} {
+    ${tw`w-2/3`}
+  }
 `
 const Container = styled.section`
-  ${tw`mb-12`}
+  ${tw`mb-8 md:mb-12`}
 `
 const Items = styled.div`
   > * {
-    ${tw`my-3`}
+    ${tw`my-6 md:my-3`}
   }
 `
 const Description = styled.p`
@@ -41,7 +45,7 @@ const Submit = styled.div`
   justify-content: flex-end;
 `
 
-const InitialConfig: FC = () => {
+const InitialConfigForm: FC = () => {
   const [userType, setUserType] = useState<UserType>(USER_CONFIG.userType)
   const [startShiftTime, setStartShiftTime] = useState<ShiftTime>(
     USER_CONFIG.startShiftTime
@@ -91,95 +95,93 @@ const InitialConfig: FC = () => {
   }
 
   return (
-    <Center>
-      <Root>
+    <Root>
+      <Container>
+        <Heading type="sub" underline>
+          YPS初期設定
+        </Heading>
+        <Heading type="description">
+          <Description>
+            YPSユーザーと店舗の設定を行います。
+            <br />
+            設定内容は後からでも変更できます。
+          </Description>
+        </Heading>
+        <Items>
+          <FormUserType initialValue={userType} setter={setUserType} />
+          <FormUserName
+            error={!success.userName}
+            helperText={FORM_ERROR_TEXT.userName}
+            ref={userNameRef}
+          />
+
+          {!isAdmin && (
+            <FormShopId
+              error={!success.shopId}
+              helperText={FORM_ERROR_TEXT.shopId}
+              ref={shopIdRef}
+            />
+          )}
+        </Items>
+      </Container>
+
+      {isAdmin && (
         <Container>
           <Heading type="sub" underline>
-            YPS初期設定
-          </Heading>
-          <Heading type="description">
-            <Description>
-              YPSユーザーと店舗の設定を行います。
-              <br />
-              設定内容は後からでも変更できます。
-            </Description>
+            店舗情報設定
           </Heading>
           <Items>
-            <FormUserType initialValue={userType} setter={setUserType} />
-            <FormUserName
-              error={!success.userName}
-              helperText={FORM_ERROR_TEXT.userName}
-              ref={userNameRef}
+            <FormShopName
+              error={!success.shopName}
+              helperText={FORM_ERROR_TEXT.shopName}
+              ref={shopNameRef}
             />
-
-            {!isAdmin && (
-              <FormShopId
-                error={!success.shopId}
-                helperText={FORM_ERROR_TEXT.shopId}
-                ref={shopIdRef}
-              />
-            )}
           </Items>
         </Container>
+      )}
 
-        {isAdmin && (
-          <Container>
-            <Heading type="sub" underline>
-              店舗情報設定
-            </Heading>
-            <Items>
-              <FormShopName
-                error={!success.shopName}
-                helperText={FORM_ERROR_TEXT.shopName}
-                ref={shopNameRef}
-              />
-            </Items>
-          </Container>
-        )}
+      {isAdmin && (
+        <Container>
+          <Heading type="sub" underline>
+            シフト設定
+          </Heading>
+          <Items>
+            <FormShiftRange
+              startInitialValue={startShiftTime}
+              startTimeSetter={setStartShiftTime}
+              endInitialValue={endShiftTime}
+              endTimeSetter={setEndShiftTime}
+            />
+            <FormTimeUnit
+              initialValue={shiftTimeUnit}
+              setter={setShiftTimeUnit}
+            />
+            <FormSubmitFrequency
+              initialValue={shiftSubmitFrequency}
+              setter={setShiftSubmitFrequency}
+            />
+          </Items>
+        </Container>
+      )}
 
-        {isAdmin && (
-          <Container>
-            <Heading type="sub" underline>
-              シフト設定
-            </Heading>
-            <Items>
-              <FormShiftRange
-                startInitialValue={startShiftTime}
-                startTimeSetter={setStartShiftTime}
-                endInitialValue={endShiftTime}
-                endTimeSetter={setEndShiftTime}
-              />
-              <FormTimeUnit
-                initialValue={shiftTimeUnit}
-                setter={setShiftTimeUnit}
-              />
-              <FormSubmitFrequency
-                initialValue={shiftSubmitFrequency}
-                setter={setShiftSubmitFrequency}
-              />
-            </Items>
-          </Container>
-        )}
-
-        {isAdmin && (
-          <Container>
-            <Heading type="sub" underline>
-              権限設定
-            </Heading>
-            <Items>
-              <FormTimeCardAuth
-                initialValue={timeCardAuth}
-                setter={setTimeCardAuth}
-              />
-            </Items>
-          </Container>
-        )}
-        <Submit>
-          <Button onClick={handleSubmit}>設定完了</Button>
-        </Submit>
-      </Root>
-    </Center>
+      {isAdmin && (
+        <Container>
+          <Heading type="sub" underline>
+            権限設定
+          </Heading>
+          <Items>
+            <FormTimeCardAuth
+              initialValue={timeCardAuth}
+              setter={setTimeCardAuth}
+            />
+          </Items>
+        </Container>
+      )}
+      <Submit>
+        <Button onClick={handleSubmit}>設定完了</Button>
+      </Submit>
+    </Root>
   )
 }
 
-export default InitialConfig
+export default InitialConfigForm

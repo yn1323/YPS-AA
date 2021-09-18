@@ -34,7 +34,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
+        className="FormUserBase__Container-sc-143288g-0 gaKKXv"
       >
         <FormUserBase__TitleWrapper>
           <div
@@ -914,7 +914,7 @@ exports[`molecule/Form/FormSubmitFrequency molecule/Form/FormSubmitFrequency-sna
   >
     <FormUserBase__Container>
       <div
-        className="FormUserBase__Container-sc-143288g-0 kqhLZP"
+        className="FormUserBase__Container-sc-143288g-0 gaKKXv"
       >
         <FormUserBase__TitleWrapper>
           <div

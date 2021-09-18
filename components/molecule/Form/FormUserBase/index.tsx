@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind-extended.macro'
+import { mediaQueries } from '@constant/mixins'
 
 type Position = 'center' | 'bottom'
 export interface Props {
@@ -10,7 +11,9 @@ export interface Props {
 }
 
 const Container = styled.div`
-  ${tw`flex justify-start`}
+  ${mediaQueries('md')} {
+    ${tw`flex justify-start`}
+  }
 `
 
 const TitleWrapper = styled.div`

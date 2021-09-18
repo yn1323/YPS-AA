@@ -8,7 +8,7 @@ const Container = styled.main`
   ${tw`flex justify-center`}
 `
 const CenterDiv = styled.div`
-  ${tw`flex justify-center items-center w-full`}
+  ${tw`flex justify-center items-center w-full p-4`}
   ${mediaQueries('lg')} {
     width: ${theme.breakpoints.values.lg}px;
   }
