@@ -42,7 +42,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
         }
         InputComponent={[Function]}
         error={false}
-        format="HH:mm"
         fullWidth={true}
         inputVariant="standard"
         label="ラベル"
@@ -64,7 +63,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
           }
           InputComponent={[Function]}
           error={false}
-          format="HH:mm"
           fullWidth={true}
           inputVariant="standard"
           label="ラベル"
@@ -77,7 +75,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
         >
           <PureDateInput
             error={false}
-            format="HH:mm"
             fullWidth={true}
             inputRef={
               Object {
@@ -104,7 +101,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
                 }
               }
               error={false}
-              format="HH:mm"
               fullWidth={true}
               helperText=""
               inputRef={
@@ -137,7 +133,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
                   }
                 }
                 error={false}
-                format="HH:mm"
                 fullWidth={true}
                 helperText=""
                 inputRef={
@@ -163,7 +158,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
                   color="primary"
                   disabled={false}
                   error={false}
-                  format="HH:mm"
                   fullWidth={true}
                   margin="normal"
                   onClick={[Function]}
@@ -184,7 +178,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
                     color="primary"
                     disabled={false}
                     error={false}
-                    format="HH:mm"
                     fullWidth={true}
                     margin="normal"
                     onClick={[Function]}
@@ -194,7 +187,6 @@ exports[`atom/Input/PickerTime atom/Input/PickerTime-snapshot 1`] = `
                   >
                     <div
                       className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                      format="HH:mm"
                       onClick={[Function]}
                       onKeyDown={[Function]}
                     >

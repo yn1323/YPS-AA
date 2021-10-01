@@ -2508,14 +2508,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                     <Wrapper
                                       DateInputProps={
                                         Object {
-                                          "inputValue": "09:00",
+                                          "inputValue": "2021-10-02T09:00:00+09:00",
                                           "openPicker": [Function],
                                           "validationError": "",
                                         }
                                       }
                                       InputComponent={[Function]}
                                       error={false}
-                                      format="HH:mm"
                                       fullWidth={true}
                                       inputVariant="standard"
                                       label="開始時間"
@@ -2530,14 +2529,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                       <InlineWrapper
                                         DateInputProps={
                                           Object {
-                                            "inputValue": "09:00",
+                                            "inputValue": "2021-10-02T09:00:00+09:00",
                                             "openPicker": [Function],
                                             "validationError": "",
                                           }
                                         }
                                         InputComponent={[Function]}
                                         error={false}
-                                        format="HH:mm"
                                         fullWidth={true}
                                         inputVariant="standard"
                                         label="開始時間"
@@ -2550,7 +2548,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                       >
                                         <PureDateInput
                                           error={false}
-                                          format="HH:mm"
                                           fullWidth={true}
                                           inputRef={
                                             Object {
@@ -2559,11 +2556,11 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 class="MuiInputBase-input MuiInput-input"
                                                 readonly=""
                                                 type="text"
-                                                value="09:00"
+                                                value="2021-10-02T09:00:00+09:00"
                                               />,
                                             }
                                           }
-                                          inputValue="09:00"
+                                          inputValue="2021-10-02T09:00:00+09:00"
                                           inputVariant="standard"
                                           label="開始時間"
                                           margin="none"
@@ -2577,7 +2574,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                               }
                                             }
                                             error={false}
-                                            format="HH:mm"
                                             fullWidth={true}
                                             helperText=""
                                             inputRef={
@@ -2587,7 +2583,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                   class="MuiInputBase-input MuiInput-input"
                                                   readonly=""
                                                   type="text"
-                                                  value="09:00"
+                                                  value="2021-10-02T09:00:00+09:00"
                                                 />,
                                               }
                                             }
@@ -2595,7 +2591,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                             margin="none"
                                             onClick={[Function]}
                                             onKeyDown={[Function]}
-                                            value="09:00"
+                                            value="2021-10-02T09:00:00+09:00"
                                             variant="standard"
                                           >
                                             <ForwardRef(TextField)
@@ -2610,7 +2606,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 }
                                               }
                                               error={false}
-                                              format="HH:mm"
                                               fullWidth={true}
                                               helperText=""
                                               inputRef={
@@ -2620,7 +2615,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                     class="MuiInputBase-input MuiInput-input"
                                                     readonly=""
                                                     type="text"
-                                                    value="09:00"
+                                                    value="2021-10-02T09:00:00+09:00"
                                                   />,
                                                 }
                                               }
@@ -2628,7 +2623,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                               margin="none"
                                               onClick={[Function]}
                                               onKeyDown={[Function]}
-                                              value="09:00"
+                                              value="2021-10-02T09:00:00+09:00"
                                               variant="standard"
                                             >
                                               <WithStyles(ForwardRef(FormControl))
@@ -2636,7 +2631,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 color="primary"
                                                 disabled={false}
                                                 error={false}
-                                                format="HH:mm"
                                                 fullWidth={true}
                                                 margin="none"
                                                 onClick={[Function]}
@@ -2657,7 +2651,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                   color="primary"
                                                   disabled={false}
                                                   error={false}
-                                                  format="HH:mm"
                                                   fullWidth={true}
                                                   margin="none"
                                                   onClick={[Function]}
@@ -2667,7 +2660,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 >
                                                   <div
                                                     className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                                    format="HH:mm"
                                                     onClick={[Function]}
                                                     onKeyDown={[Function]}
                                                   >
@@ -2739,13 +2731,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                             class="MuiInputBase-input MuiInput-input"
                                                             readonly=""
                                                             type="text"
-                                                            value="09:00"
+                                                            value="2021-10-02T09:00:00+09:00"
                                                           />,
                                                         }
                                                       }
                                                       multiline={false}
                                                       readOnly={true}
-                                                      value="09:00"
+                                                      value="2021-10-02T09:00:00+09:00"
                                                     >
                                                       <ForwardRef(Input)
                                                         autoFocus={false}
@@ -2775,13 +2767,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                               class="MuiInputBase-input MuiInput-input"
                                                               readonly=""
                                                               type="text"
-                                                              value="09:00"
+                                                              value="2021-10-02T09:00:00+09:00"
                                                             />,
                                                           }
                                                         }
                                                         multiline={false}
                                                         readOnly={true}
-                                                        value="09:00"
+                                                        value="2021-10-02T09:00:00+09:00"
                                                       >
                                                         <WithStyles(ForwardRef(InputBase))
                                                           autoFocus={false}
@@ -2812,14 +2804,14 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                 class="MuiInputBase-input MuiInput-input"
                                                                 readonly=""
                                                                 type="text"
-                                                                value="09:00"
+                                                                value="2021-10-02T09:00:00+09:00"
                                                               />,
                                                             }
                                                           }
                                                           multiline={false}
                                                           readOnly={true}
                                                           type="text"
-                                                          value="09:00"
+                                                          value="2021-10-02T09:00:00+09:00"
                                                         >
                                                           <ForwardRef(InputBase)
                                                             autoFocus={false}
@@ -2854,14 +2846,14 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                   class="MuiInputBase-input MuiInput-input"
                                                                   readonly=""
                                                                   type="text"
-                                                                  value="09:00"
+                                                                  value="2021-10-02T09:00:00+09:00"
                                                                 />,
                                                               }
                                                             }
                                                             multiline={false}
                                                             readOnly={true}
                                                             type="text"
-                                                            value="09:00"
+                                                            value="2021-10-02T09:00:00+09:00"
                                                           >
                                                             <div
                                                               className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
@@ -2879,7 +2871,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                 readOnly={true}
                                                                 required={false}
                                                                 type="text"
-                                                                value="09:00"
+                                                                value="2021-10-02T09:00:00+09:00"
                                                               />
                                                             </div>
                                                           </ForwardRef(InputBase)>
@@ -2990,14 +2982,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                     <Wrapper
                                       DateInputProps={
                                         Object {
-                                          "inputValue": "18:00",
+                                          "inputValue": "2021-10-02T18:00:00+09:00",
                                           "openPicker": [Function],
                                           "validationError": "",
                                         }
                                       }
                                       InputComponent={[Function]}
                                       error={false}
-                                      format="HH:mm"
                                       fullWidth={true}
                                       inputVariant="standard"
                                       label="終了時間"
@@ -3012,14 +3003,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                       <InlineWrapper
                                         DateInputProps={
                                           Object {
-                                            "inputValue": "18:00",
+                                            "inputValue": "2021-10-02T18:00:00+09:00",
                                             "openPicker": [Function],
                                             "validationError": "",
                                           }
                                         }
                                         InputComponent={[Function]}
                                         error={false}
-                                        format="HH:mm"
                                         fullWidth={true}
                                         inputVariant="standard"
                                         label="終了時間"
@@ -3032,7 +3022,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                       >
                                         <PureDateInput
                                           error={false}
-                                          format="HH:mm"
                                           fullWidth={true}
                                           inputRef={
                                             Object {
@@ -3041,11 +3030,11 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 class="MuiInputBase-input MuiInput-input"
                                                 readonly=""
                                                 type="text"
-                                                value="18:00"
+                                                value="2021-10-02T18:00:00+09:00"
                                               />,
                                             }
                                           }
-                                          inputValue="18:00"
+                                          inputValue="2021-10-02T18:00:00+09:00"
                                           inputVariant="standard"
                                           label="終了時間"
                                           margin="none"
@@ -3059,7 +3048,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                               }
                                             }
                                             error={false}
-                                            format="HH:mm"
                                             fullWidth={true}
                                             helperText=""
                                             inputRef={
@@ -3069,7 +3057,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                   class="MuiInputBase-input MuiInput-input"
                                                   readonly=""
                                                   type="text"
-                                                  value="18:00"
+                                                  value="2021-10-02T18:00:00+09:00"
                                                 />,
                                               }
                                             }
@@ -3077,7 +3065,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                             margin="none"
                                             onClick={[Function]}
                                             onKeyDown={[Function]}
-                                            value="18:00"
+                                            value="2021-10-02T18:00:00+09:00"
                                             variant="standard"
                                           >
                                             <ForwardRef(TextField)
@@ -3092,7 +3080,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 }
                                               }
                                               error={false}
-                                              format="HH:mm"
                                               fullWidth={true}
                                               helperText=""
                                               inputRef={
@@ -3102,7 +3089,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                     class="MuiInputBase-input MuiInput-input"
                                                     readonly=""
                                                     type="text"
-                                                    value="18:00"
+                                                    value="2021-10-02T18:00:00+09:00"
                                                   />,
                                                 }
                                               }
@@ -3110,7 +3097,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                               margin="none"
                                               onClick={[Function]}
                                               onKeyDown={[Function]}
-                                              value="18:00"
+                                              value="2021-10-02T18:00:00+09:00"
                                               variant="standard"
                                             >
                                               <WithStyles(ForwardRef(FormControl))
@@ -3118,7 +3105,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 color="primary"
                                                 disabled={false}
                                                 error={false}
-                                                format="HH:mm"
                                                 fullWidth={true}
                                                 margin="none"
                                                 onClick={[Function]}
@@ -3139,7 +3125,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                   color="primary"
                                                   disabled={false}
                                                   error={false}
-                                                  format="HH:mm"
                                                   fullWidth={true}
                                                   margin="none"
                                                   onClick={[Function]}
@@ -3149,7 +3134,6 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                 >
                                                   <div
                                                     className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                                    format="HH:mm"
                                                     onClick={[Function]}
                                                     onKeyDown={[Function]}
                                                   >
@@ -3221,13 +3205,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                             class="MuiInputBase-input MuiInput-input"
                                                             readonly=""
                                                             type="text"
-                                                            value="18:00"
+                                                            value="2021-10-02T18:00:00+09:00"
                                                           />,
                                                         }
                                                       }
                                                       multiline={false}
                                                       readOnly={true}
-                                                      value="18:00"
+                                                      value="2021-10-02T18:00:00+09:00"
                                                     >
                                                       <ForwardRef(Input)
                                                         autoFocus={false}
@@ -3257,13 +3241,13 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                               class="MuiInputBase-input MuiInput-input"
                                                               readonly=""
                                                               type="text"
-                                                              value="18:00"
+                                                              value="2021-10-02T18:00:00+09:00"
                                                             />,
                                                           }
                                                         }
                                                         multiline={false}
                                                         readOnly={true}
-                                                        value="18:00"
+                                                        value="2021-10-02T18:00:00+09:00"
                                                       >
                                                         <WithStyles(ForwardRef(InputBase))
                                                           autoFocus={false}
@@ -3294,14 +3278,14 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                 class="MuiInputBase-input MuiInput-input"
                                                                 readonly=""
                                                                 type="text"
-                                                                value="18:00"
+                                                                value="2021-10-02T18:00:00+09:00"
                                                               />,
                                                             }
                                                           }
                                                           multiline={false}
                                                           readOnly={true}
                                                           type="text"
-                                                          value="18:00"
+                                                          value="2021-10-02T18:00:00+09:00"
                                                         >
                                                           <ForwardRef(InputBase)
                                                             autoFocus={false}
@@ -3336,14 +3320,14 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                   class="MuiInputBase-input MuiInput-input"
                                                                   readonly=""
                                                                   type="text"
-                                                                  value="18:00"
+                                                                  value="2021-10-02T18:00:00+09:00"
                                                                 />,
                                                               }
                                                             }
                                                             multiline={false}
                                                             readOnly={true}
                                                             type="text"
-                                                            value="18:00"
+                                                            value="2021-10-02T18:00:00+09:00"
                                                           >
                                                             <div
                                                               className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
@@ -3361,7 +3345,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                                                 readOnly={true}
                                                                 required={false}
                                                                 type="text"
-                                                                value="18:00"
+                                                                value="2021-10-02T18:00:00+09:00"
                                                               />
                                                             </div>
                                                           </ForwardRef(InputBase)>

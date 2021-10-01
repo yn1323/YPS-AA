@@ -87,7 +87,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                         }
                         InputComponent={[Function]}
                         error={false}
-                        format="HH:mm"
                         fullWidth={true}
                         inputVariant="standard"
                         label="開始時間"
@@ -109,7 +108,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                           }
                           InputComponent={[Function]}
                           error={false}
-                          format="HH:mm"
                           fullWidth={true}
                           inputVariant="standard"
                           label="開始時間"
@@ -122,7 +120,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                         >
                           <PureDateInput
                             error={false}
-                            format="HH:mm"
                             fullWidth={true}
                             inputRef={
                               Object {
@@ -149,7 +146,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                 }
                               }
                               error={false}
-                              format="HH:mm"
                               fullWidth={true}
                               helperText=""
                               inputRef={
@@ -182,7 +178,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   }
                                 }
                                 error={false}
-                                format="HH:mm"
                                 fullWidth={true}
                                 helperText=""
                                 inputRef={
@@ -208,7 +203,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   color="primary"
                                   disabled={false}
                                   error={false}
-                                  format="HH:mm"
                                   fullWidth={true}
                                   margin="none"
                                   onClick={[Function]}
@@ -229,7 +223,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                     color="primary"
                                     disabled={false}
                                     error={false}
-                                    format="HH:mm"
                                     fullWidth={true}
                                     margin="none"
                                     onClick={[Function]}
@@ -239,7 +232,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   >
                                     <div
                                       className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                      format="HH:mm"
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                     >
@@ -567,7 +559,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                         }
                         InputComponent={[Function]}
                         error={false}
-                        format="HH:mm"
                         fullWidth={true}
                         inputVariant="standard"
                         label="終了時間"
@@ -589,7 +580,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                           }
                           InputComponent={[Function]}
                           error={false}
-                          format="HH:mm"
                           fullWidth={true}
                           inputVariant="standard"
                           label="終了時間"
@@ -602,7 +592,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                         >
                           <PureDateInput
                             error={false}
-                            format="HH:mm"
                             fullWidth={true}
                             inputRef={
                               Object {
@@ -629,7 +618,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                 }
                               }
                               error={false}
-                              format="HH:mm"
                               fullWidth={true}
                               helperText=""
                               inputRef={
@@ -662,7 +650,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   }
                                 }
                                 error={false}
-                                format="HH:mm"
                                 fullWidth={true}
                                 helperText=""
                                 inputRef={
@@ -688,7 +675,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   color="primary"
                                   disabled={false}
                                   error={false}
-                                  format="HH:mm"
                                   fullWidth={true}
                                   margin="none"
                                   onClick={[Function]}
@@ -709,7 +695,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                     color="primary"
                                     disabled={false}
                                     error={false}
-                                    format="HH:mm"
                                     fullWidth={true}
                                     margin="none"
                                     onClick={[Function]}
@@ -719,7 +704,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 1`] 
                                   >
                                     <div
                                       className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                      format="HH:mm"
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                     >
@@ -1107,7 +1091,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                         }
                         InputComponent={[Function]}
                         error={false}
-                        format="HH:mm"
                         fullWidth={true}
                         inputVariant="standard"
                         label="開始時間"
@@ -1129,7 +1112,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                           }
                           InputComponent={[Function]}
                           error={false}
-                          format="HH:mm"
                           fullWidth={true}
                           inputVariant="standard"
                           label="開始時間"
@@ -1142,7 +1124,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                         >
                           <PureDateInput
                             error={false}
-                            format="HH:mm"
                             fullWidth={true}
                             inputRef={
                               Object {
@@ -1169,7 +1150,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                 }
                               }
                               error={false}
-                              format="HH:mm"
                               fullWidth={true}
                               helperText=""
                               inputRef={
@@ -1202,7 +1182,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   }
                                 }
                                 error={false}
-                                format="HH:mm"
                                 fullWidth={true}
                                 helperText=""
                                 inputRef={
@@ -1228,7 +1207,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   color="primary"
                                   disabled={false}
                                   error={false}
-                                  format="HH:mm"
                                   fullWidth={true}
                                   margin="none"
                                   onClick={[Function]}
@@ -1249,7 +1227,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                     color="primary"
                                     disabled={false}
                                     error={false}
-                                    format="HH:mm"
                                     fullWidth={true}
                                     margin="none"
                                     onClick={[Function]}
@@ -1259,7 +1236,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   >
                                     <div
                                       className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                      format="HH:mm"
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                     >
@@ -1608,7 +1584,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                         }
                         InputComponent={[Function]}
                         error={false}
-                        format="HH:mm"
                         fullWidth={true}
                         inputVariant="standard"
                         label="終了時間"
@@ -1630,7 +1605,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                           }
                           InputComponent={[Function]}
                           error={false}
-                          format="HH:mm"
                           fullWidth={true}
                           inputVariant="standard"
                           label="終了時間"
@@ -1643,7 +1617,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                         >
                           <PureDateInput
                             error={false}
-                            format="HH:mm"
                             fullWidth={true}
                             inputRef={
                               Object {
@@ -1670,7 +1643,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                 }
                               }
                               error={false}
-                              format="HH:mm"
                               fullWidth={true}
                               helperText=""
                               inputRef={
@@ -1703,7 +1675,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   }
                                 }
                                 error={false}
-                                format="HH:mm"
                                 fullWidth={true}
                                 helperText=""
                                 inputRef={
@@ -1729,7 +1700,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   color="primary"
                                   disabled={false}
                                   error={false}
-                                  format="HH:mm"
                                   fullWidth={true}
                                   margin="none"
                                   onClick={[Function]}
@@ -1750,7 +1720,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                     color="primary"
                                     disabled={false}
                                     error={false}
-                                    format="HH:mm"
                                     fullWidth={true}
                                     margin="none"
                                     onClick={[Function]}
@@ -1760,7 +1729,6 @@ exports[`molecule/Form/FormShiftRange molecule/Form/FormShiftRange-snapshot 2`] 
                                   >
                                     <div
                                       className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                      format="HH:mm"
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                     >

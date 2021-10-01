@@ -3,9 +3,8 @@ import {
   ThemeProvider as MaterialUIThemeProvider,
   StylesProvider,
 } from '@material-ui/styles'
-import { mount, render } from 'enzyme'
+import { mount } from 'enzyme'
 import React, { ReactElement, FC } from 'react'
-import { act } from 'react-test-renderer'
 import { RecoilRoot } from 'recoil'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
 import { theme } from '@constant/theme'
@@ -43,7 +42,7 @@ export const disableWarn = () => {
       )
 
       if (!containsIgnoredMessage) {
-        realConsoleMethod(message, ...args)
+        realConsoleMethod()
       }
     }
   }
