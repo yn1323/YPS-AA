@@ -14,129 +14,174 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
             type="sub"
             underline={true}
           >
-            <Heading__sub
-              variant="h2"
+            <Heading__Container
+              onClick={[Function]}
             >
-              <WithStyles(ForwardRef(Typography))
-                className="Heading__sub-sc-rckheo-0 ceEKfy"
-                variant="h2"
-              >
-                <ForwardRef(Typography)
-                  className="Heading__sub-sc-rckheo-0 ceEKfy"
-                  classes={
-                    Object {
-                      "alignCenter": "MuiTypography-alignCenter",
-                      "alignJustify": "MuiTypography-alignJustify",
-                      "alignLeft": "MuiTypography-alignLeft",
-                      "alignRight": "MuiTypography-alignRight",
-                      "body1": "MuiTypography-body1",
-                      "body2": "MuiTypography-body2",
-                      "button": "MuiTypography-button",
-                      "caption": "MuiTypography-caption",
-                      "colorError": "MuiTypography-colorError",
-                      "colorInherit": "MuiTypography-colorInherit",
-                      "colorPrimary": "MuiTypography-colorPrimary",
-                      "colorSecondary": "MuiTypography-colorSecondary",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                      "displayBlock": "MuiTypography-displayBlock",
-                      "displayInline": "MuiTypography-displayInline",
-                      "gutterBottom": "MuiTypography-gutterBottom",
-                      "h1": "MuiTypography-h1",
-                      "h2": "MuiTypography-h2",
-                      "h3": "MuiTypography-h3",
-                      "h4": "MuiTypography-h4",
-                      "h5": "MuiTypography-h5",
-                      "h6": "MuiTypography-h6",
-                      "noWrap": "MuiTypography-noWrap",
-                      "overline": "MuiTypography-overline",
-                      "paragraph": "MuiTypography-paragraph",
-                      "root": "MuiTypography-root",
-                      "srOnly": "MuiTypography-srOnly",
-                      "subtitle1": "MuiTypography-subtitle1",
-                      "subtitle2": "MuiTypography-subtitle2",
-                    }
-                  }
-                  variant="h2"
-                >
-                  <h2
-                    className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
-                  >
-                    YPS初期設定
-                  </h2>
-                </ForwardRef(Typography)>
-              </WithStyles(ForwardRef(Typography))>
-            </Heading__sub>
-            <Heading__sub>
               <div
-                className="Heading__sub-sc-rckheo-2 bYGhYI"
-              />
-            </Heading__sub>
+                className="Heading__Container-sc-rckheo-0 bXDSND"
+                onClick={[Function]}
+              >
+                <Heading__Header>
+                  <div
+                    className="Heading__Header-sc-rckheo-1 hqhBgV"
+                  >
+                    <Heading__HeaderWrapper>
+                      <div
+                        className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
+                      >
+                        <Heading__sub
+                          variant="h2"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="Heading__sub-sc-rckheo-4 dvGqje"
+                            variant="h2"
+                          >
+                            <ForwardRef(Typography)
+                              className="Heading__sub-sc-rckheo-4 dvGqje"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              variant="h2"
+                            >
+                              <h2
+                                className="MuiTypography-root Heading__sub-sc-rckheo-4 dvGqje MuiTypography-h2"
+                              >
+                                YPS初期設定
+                              </h2>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Heading__sub>
+                      </div>
+                    </Heading__HeaderWrapper>
+                    <div>
+                      <Heading__sub>
+                        <div
+                          className="Heading__sub-sc-rckheo-6 iLukkP"
+                        />
+                      </Heading__sub>
+                    </div>
+                  </div>
+                </Heading__Header>
+              </div>
+            </Heading__Container>
           </Heading>
           <Heading
             type="description"
           >
-            <Heading__description
-              variant="subtitle1"
+            <Heading__Container
+              onClick={[Function]}
             >
-              <WithStyles(ForwardRef(Typography))
-                className="Heading__description-sc-rckheo-1 brjGSG"
-                variant="subtitle1"
+              <div
+                className="Heading__Container-sc-rckheo-0 bXDSND"
+                onClick={[Function]}
               >
-                <ForwardRef(Typography)
-                  className="Heading__description-sc-rckheo-1 brjGSG"
-                  classes={
-                    Object {
-                      "alignCenter": "MuiTypography-alignCenter",
-                      "alignJustify": "MuiTypography-alignJustify",
-                      "alignLeft": "MuiTypography-alignLeft",
-                      "alignRight": "MuiTypography-alignRight",
-                      "body1": "MuiTypography-body1",
-                      "body2": "MuiTypography-body2",
-                      "button": "MuiTypography-button",
-                      "caption": "MuiTypography-caption",
-                      "colorError": "MuiTypography-colorError",
-                      "colorInherit": "MuiTypography-colorInherit",
-                      "colorPrimary": "MuiTypography-colorPrimary",
-                      "colorSecondary": "MuiTypography-colorSecondary",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                      "displayBlock": "MuiTypography-displayBlock",
-                      "displayInline": "MuiTypography-displayInline",
-                      "gutterBottom": "MuiTypography-gutterBottom",
-                      "h1": "MuiTypography-h1",
-                      "h2": "MuiTypography-h2",
-                      "h3": "MuiTypography-h3",
-                      "h4": "MuiTypography-h4",
-                      "h5": "MuiTypography-h5",
-                      "h6": "MuiTypography-h6",
-                      "noWrap": "MuiTypography-noWrap",
-                      "overline": "MuiTypography-overline",
-                      "paragraph": "MuiTypography-paragraph",
-                      "root": "MuiTypography-root",
-                      "srOnly": "MuiTypography-srOnly",
-                      "subtitle1": "MuiTypography-subtitle1",
-                      "subtitle2": "MuiTypography-subtitle2",
-                    }
-                  }
-                  variant="subtitle1"
-                >
-                  <h6
-                    className="MuiTypography-root Heading__description-sc-rckheo-1 brjGSG MuiTypography-subtitle1"
+                <Heading__Header>
+                  <div
+                    className="Heading__Header-sc-rckheo-1 hqhBgV"
                   >
-                    <InitialConfigForm__Description>
-                      <p
-                        className="InitialConfigForm__Description-sc-13nmw88-3 bitznq"
+                    <Heading__HeaderWrapper>
+                      <div
+                        className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
                       >
-                        YPSユーザーと店舗の設定を行います。
-                        <br />
-                        設定内容は後からでも変更できます。
-                      </p>
-                    </InitialConfigForm__Description>
-                  </h6>
-                </ForwardRef(Typography)>
-              </WithStyles(ForwardRef(Typography))>
-            </Heading__description>
+                        <Heading__description
+                          variant="subtitle1"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="Heading__description-sc-rckheo-5 lfLKsS"
+                            variant="subtitle1"
+                          >
+                            <ForwardRef(Typography)
+                              className="Heading__description-sc-rckheo-5 lfLKsS"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              variant="subtitle1"
+                            >
+                              <h6
+                                className="MuiTypography-root Heading__description-sc-rckheo-5 lfLKsS MuiTypography-subtitle1"
+                              >
+                                <InitialConfigForm__Description>
+                                  <p
+                                    className="InitialConfigForm__Description-sc-13nmw88-3 bitznq"
+                                  >
+                                    YPSユーザーと店舗の設定を行います。
+                                    <br />
+                                    設定内容は後からでも変更できます。
+                                  </p>
+                                </InitialConfigForm__Description>
+                              </h6>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Heading__description>
+                      </div>
+                    </Heading__HeaderWrapper>
+                    <div />
+                  </div>
+                </Heading__Header>
+              </div>
+            </Heading__Container>
           </Heading>
           <InitialConfigForm__Items>
             <div
@@ -1835,64 +1880,87 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
             type="sub"
             underline={true}
           >
-            <Heading__sub
-              variant="h2"
+            <Heading__Container
+              onClick={[Function]}
             >
-              <WithStyles(ForwardRef(Typography))
-                className="Heading__sub-sc-rckheo-0 ceEKfy"
-                variant="h2"
-              >
-                <ForwardRef(Typography)
-                  className="Heading__sub-sc-rckheo-0 ceEKfy"
-                  classes={
-                    Object {
-                      "alignCenter": "MuiTypography-alignCenter",
-                      "alignJustify": "MuiTypography-alignJustify",
-                      "alignLeft": "MuiTypography-alignLeft",
-                      "alignRight": "MuiTypography-alignRight",
-                      "body1": "MuiTypography-body1",
-                      "body2": "MuiTypography-body2",
-                      "button": "MuiTypography-button",
-                      "caption": "MuiTypography-caption",
-                      "colorError": "MuiTypography-colorError",
-                      "colorInherit": "MuiTypography-colorInherit",
-                      "colorPrimary": "MuiTypography-colorPrimary",
-                      "colorSecondary": "MuiTypography-colorSecondary",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                      "displayBlock": "MuiTypography-displayBlock",
-                      "displayInline": "MuiTypography-displayInline",
-                      "gutterBottom": "MuiTypography-gutterBottom",
-                      "h1": "MuiTypography-h1",
-                      "h2": "MuiTypography-h2",
-                      "h3": "MuiTypography-h3",
-                      "h4": "MuiTypography-h4",
-                      "h5": "MuiTypography-h5",
-                      "h6": "MuiTypography-h6",
-                      "noWrap": "MuiTypography-noWrap",
-                      "overline": "MuiTypography-overline",
-                      "paragraph": "MuiTypography-paragraph",
-                      "root": "MuiTypography-root",
-                      "srOnly": "MuiTypography-srOnly",
-                      "subtitle1": "MuiTypography-subtitle1",
-                      "subtitle2": "MuiTypography-subtitle2",
-                    }
-                  }
-                  variant="h2"
-                >
-                  <h2
-                    className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
-                  >
-                    店舗情報設定
-                  </h2>
-                </ForwardRef(Typography)>
-              </WithStyles(ForwardRef(Typography))>
-            </Heading__sub>
-            <Heading__sub>
               <div
-                className="Heading__sub-sc-rckheo-2 bYGhYI"
-              />
-            </Heading__sub>
+                className="Heading__Container-sc-rckheo-0 bXDSND"
+                onClick={[Function]}
+              >
+                <Heading__Header>
+                  <div
+                    className="Heading__Header-sc-rckheo-1 hqhBgV"
+                  >
+                    <Heading__HeaderWrapper>
+                      <div
+                        className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
+                      >
+                        <Heading__sub
+                          variant="h2"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="Heading__sub-sc-rckheo-4 dvGqje"
+                            variant="h2"
+                          >
+                            <ForwardRef(Typography)
+                              className="Heading__sub-sc-rckheo-4 dvGqje"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              variant="h2"
+                            >
+                              <h2
+                                className="MuiTypography-root Heading__sub-sc-rckheo-4 dvGqje MuiTypography-h2"
+                              >
+                                店舗情報設定
+                              </h2>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Heading__sub>
+                      </div>
+                    </Heading__HeaderWrapper>
+                    <div>
+                      <Heading__sub>
+                        <div
+                          className="Heading__sub-sc-rckheo-6 iLukkP"
+                        />
+                      </Heading__sub>
+                    </div>
+                  </div>
+                </Heading__Header>
+              </div>
+            </Heading__Container>
           </Heading>
           <InitialConfigForm__Items>
             <div
@@ -2232,73 +2300,96 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
             type="sub"
             underline={true}
           >
-            <Heading__sub
-              variant="h2"
+            <Heading__Container
+              onClick={[Function]}
             >
-              <WithStyles(ForwardRef(Typography))
-                className="Heading__sub-sc-rckheo-0 ceEKfy"
-                variant="h2"
-              >
-                <ForwardRef(Typography)
-                  className="Heading__sub-sc-rckheo-0 ceEKfy"
-                  classes={
-                    Object {
-                      "alignCenter": "MuiTypography-alignCenter",
-                      "alignJustify": "MuiTypography-alignJustify",
-                      "alignLeft": "MuiTypography-alignLeft",
-                      "alignRight": "MuiTypography-alignRight",
-                      "body1": "MuiTypography-body1",
-                      "body2": "MuiTypography-body2",
-                      "button": "MuiTypography-button",
-                      "caption": "MuiTypography-caption",
-                      "colorError": "MuiTypography-colorError",
-                      "colorInherit": "MuiTypography-colorInherit",
-                      "colorPrimary": "MuiTypography-colorPrimary",
-                      "colorSecondary": "MuiTypography-colorSecondary",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                      "displayBlock": "MuiTypography-displayBlock",
-                      "displayInline": "MuiTypography-displayInline",
-                      "gutterBottom": "MuiTypography-gutterBottom",
-                      "h1": "MuiTypography-h1",
-                      "h2": "MuiTypography-h2",
-                      "h3": "MuiTypography-h3",
-                      "h4": "MuiTypography-h4",
-                      "h5": "MuiTypography-h5",
-                      "h6": "MuiTypography-h6",
-                      "noWrap": "MuiTypography-noWrap",
-                      "overline": "MuiTypography-overline",
-                      "paragraph": "MuiTypography-paragraph",
-                      "root": "MuiTypography-root",
-                      "srOnly": "MuiTypography-srOnly",
-                      "subtitle1": "MuiTypography-subtitle1",
-                      "subtitle2": "MuiTypography-subtitle2",
-                    }
-                  }
-                  variant="h2"
-                >
-                  <h2
-                    className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
-                  >
-                    シフト設定
-                  </h2>
-                </ForwardRef(Typography)>
-              </WithStyles(ForwardRef(Typography))>
-            </Heading__sub>
-            <Heading__sub>
               <div
-                className="Heading__sub-sc-rckheo-2 bYGhYI"
-              />
-            </Heading__sub>
+                className="Heading__Container-sc-rckheo-0 bXDSND"
+                onClick={[Function]}
+              >
+                <Heading__Header>
+                  <div
+                    className="Heading__Header-sc-rckheo-1 hqhBgV"
+                  >
+                    <Heading__HeaderWrapper>
+                      <div
+                        className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
+                      >
+                        <Heading__sub
+                          variant="h2"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="Heading__sub-sc-rckheo-4 dvGqje"
+                            variant="h2"
+                          >
+                            <ForwardRef(Typography)
+                              className="Heading__sub-sc-rckheo-4 dvGqje"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              variant="h2"
+                            >
+                              <h2
+                                className="MuiTypography-root Heading__sub-sc-rckheo-4 dvGqje MuiTypography-h2"
+                              >
+                                シフト設定
+                              </h2>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Heading__sub>
+                      </div>
+                    </Heading__HeaderWrapper>
+                    <div>
+                      <Heading__sub>
+                        <div
+                          className="Heading__sub-sc-rckheo-6 iLukkP"
+                        />
+                      </Heading__sub>
+                    </div>
+                  </div>
+                </Heading__Header>
+              </div>
+            </Heading__Container>
           </Heading>
           <InitialConfigForm__Items>
             <div
               className="InitialConfigForm__Items-sc-13nmw88-2 UALOe"
             >
               <FormShiftRange
-                endInitialValue={"2021-09-18T09:00:00.000Z"}
+                endInitialValue={"2021-10-02T09:00:00.000Z"}
                 endTimeSetter={[Function]}
-                startInitialValue={"2021-09-18T00:00:00.000Z"}
+                startInitialValue={"2021-10-02T00:00:00.000Z"}
                 startTimeSetter={[Function]}
               >
                 <FormUserBase
@@ -2307,7 +2398,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                     <FormShiftRange__Wrapper>
                       <FormShiftRange__PickerContainer>
                         <PickerTime
-                          initialTime={"2021-09-18T00:00:00.000Z"}
+                          initialTime={"2021-10-02T00:00:00.000Z"}
                           label="開始時間"
                           margin="none"
                           setter={[Function]}
@@ -2316,7 +2407,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                       <FormShiftRange__Delimeter />
                       <FormShiftRange__PickerContainer>
                         <PickerTime
-                          initialTime={"2021-09-18T09:00:00.000Z"}
+                          initialTime={"2021-10-02T09:00:00.000Z"}
                           label="終了時間"
                           margin="none"
                           setter={[Function]}
@@ -2354,7 +2445,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                               className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
                             >
                               <PickerTime
-                                initialTime={"2021-09-18T00:00:00.000Z"}
+                                initialTime={"2021-10-02T00:00:00.000Z"}
                                 label="開始時間"
                                 margin="none"
                                 setter={[Function]}
@@ -2373,7 +2464,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                     margin="none"
                                     onChange={[Function]}
                                     openTo="hours"
-                                    value={"2021-09-18T00:00:00.000Z"}
+                                    value={"2021-10-02T00:00:00.000Z"}
                                     variant="inline"
                                     views={
                                       Array [
@@ -2836,7 +2927,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                               className="FormShiftRange__PickerContainer-sc-1tj3d33-1"
                             >
                               <PickerTime
-                                initialTime={"2021-09-18T09:00:00.000Z"}
+                                initialTime={"2021-10-02T09:00:00.000Z"}
                                 label="終了時間"
                                 margin="none"
                                 setter={[Function]}
@@ -2855,7 +2946,7 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
                                     margin="none"
                                     onChange={[Function]}
                                     openTo="hours"
-                                    value={"2021-09-18T09:00:00.000Z"}
+                                    value={"2021-10-02T09:00:00.000Z"}
                                     variant="inline"
                                     views={
                                       Array [
@@ -5136,64 +5227,87 @@ exports[`organism/InitialConfigForm organism/InitialConfigForm-snapshot 1`] = `
             type="sub"
             underline={true}
           >
-            <Heading__sub
-              variant="h2"
+            <Heading__Container
+              onClick={[Function]}
             >
-              <WithStyles(ForwardRef(Typography))
-                className="Heading__sub-sc-rckheo-0 ceEKfy"
-                variant="h2"
-              >
-                <ForwardRef(Typography)
-                  className="Heading__sub-sc-rckheo-0 ceEKfy"
-                  classes={
-                    Object {
-                      "alignCenter": "MuiTypography-alignCenter",
-                      "alignJustify": "MuiTypography-alignJustify",
-                      "alignLeft": "MuiTypography-alignLeft",
-                      "alignRight": "MuiTypography-alignRight",
-                      "body1": "MuiTypography-body1",
-                      "body2": "MuiTypography-body2",
-                      "button": "MuiTypography-button",
-                      "caption": "MuiTypography-caption",
-                      "colorError": "MuiTypography-colorError",
-                      "colorInherit": "MuiTypography-colorInherit",
-                      "colorPrimary": "MuiTypography-colorPrimary",
-                      "colorSecondary": "MuiTypography-colorSecondary",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                      "displayBlock": "MuiTypography-displayBlock",
-                      "displayInline": "MuiTypography-displayInline",
-                      "gutterBottom": "MuiTypography-gutterBottom",
-                      "h1": "MuiTypography-h1",
-                      "h2": "MuiTypography-h2",
-                      "h3": "MuiTypography-h3",
-                      "h4": "MuiTypography-h4",
-                      "h5": "MuiTypography-h5",
-                      "h6": "MuiTypography-h6",
-                      "noWrap": "MuiTypography-noWrap",
-                      "overline": "MuiTypography-overline",
-                      "paragraph": "MuiTypography-paragraph",
-                      "root": "MuiTypography-root",
-                      "srOnly": "MuiTypography-srOnly",
-                      "subtitle1": "MuiTypography-subtitle1",
-                      "subtitle2": "MuiTypography-subtitle2",
-                    }
-                  }
-                  variant="h2"
-                >
-                  <h2
-                    className="MuiTypography-root Heading__sub-sc-rckheo-0 ceEKfy MuiTypography-h2"
-                  >
-                    権限設定
-                  </h2>
-                </ForwardRef(Typography)>
-              </WithStyles(ForwardRef(Typography))>
-            </Heading__sub>
-            <Heading__sub>
               <div
-                className="Heading__sub-sc-rckheo-2 bYGhYI"
-              />
-            </Heading__sub>
+                className="Heading__Container-sc-rckheo-0 bXDSND"
+                onClick={[Function]}
+              >
+                <Heading__Header>
+                  <div
+                    className="Heading__Header-sc-rckheo-1 hqhBgV"
+                  >
+                    <Heading__HeaderWrapper>
+                      <div
+                        className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
+                      >
+                        <Heading__sub
+                          variant="h2"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="Heading__sub-sc-rckheo-4 dvGqje"
+                            variant="h2"
+                          >
+                            <ForwardRef(Typography)
+                              className="Heading__sub-sc-rckheo-4 dvGqje"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              variant="h2"
+                            >
+                              <h2
+                                className="MuiTypography-root Heading__sub-sc-rckheo-4 dvGqje MuiTypography-h2"
+                              >
+                                権限設定
+                              </h2>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Heading__sub>
+                      </div>
+                    </Heading__HeaderWrapper>
+                    <div>
+                      <Heading__sub>
+                        <div
+                          className="Heading__sub-sc-rckheo-6 iLukkP"
+                        />
+                      </Heading__sub>
+                    </div>
+                  </div>
+                </Heading__Header>
+              </div>
+            </Heading__Container>
           </Heading>
           <InitialConfigForm__Items>
             <div
