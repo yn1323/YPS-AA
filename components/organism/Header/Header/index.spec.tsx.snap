@@ -1496,7 +1496,7 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 2`] = `
                       <AvatarMenu>
                         <AvatarMenu__SpSpace>
                           <div
-                            className="AvatarMenu__SpSpace-sc-1lm78z4-2 cHgZNI"
+                            className="AvatarMenu__SpSpace-sc-1lm78z4-1 gtGkof"
                           />
                         </AvatarMenu__SpSpace>
                         <AvatarMenu__TextButton
@@ -1589,18 +1589,21 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 2`] = `
                                     <span
                                       className="MuiButton-label"
                                     >
-                                      <AvatarMenu__StyledAvatar
+                                      <Avatar
                                         alt="Somebody"
                                         src="/static/images/avatar/1.jpg"
                                       >
                                         <WithStyles(ForwardRef(Avatar))
                                           alt="Somebody"
-                                          className="AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
-                                          src="/static/images/avatar/1.jpg"
+                                          style={
+                                            Object {
+                                              "height": 36,
+                                              "width": 36,
+                                            }
+                                          }
                                         >
                                           <ForwardRef(Avatar)
                                             alt="Somebody"
-                                            className="AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
                                             classes={
                                               Object {
                                                 "circle": "MuiAvatar-circle",
@@ -1613,20 +1616,61 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 2`] = `
                                                 "square": "MuiAvatar-square",
                                               }
                                             }
-                                            src="/static/images/avatar/1.jpg"
+                                            style={
+                                              Object {
+                                                "height": 36,
+                                                "width": 36,
+                                              }
+                                            }
                                           >
                                             <div
-                                              className="MuiAvatar-root MuiAvatar-circular AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
+                                              className="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault"
+                                              style={
+                                                Object {
+                                                  "height": 36,
+                                                  "width": 36,
+                                                }
+                                              }
                                             >
-                                              <img
-                                                alt="Somebody"
-                                                className="MuiAvatar-img"
-                                                src="/static/images/avatar/1.jpg"
-                                              />
+                                              <ForwardRef(PersonIcon)
+                                                className="MuiAvatar-fallback"
+                                              >
+                                                <WithStyles(ForwardRef(SvgIcon))
+                                                  className="MuiAvatar-fallback"
+                                                >
+                                                  <ForwardRef(SvgIcon)
+                                                    className="MuiAvatar-fallback"
+                                                    classes={
+                                                      Object {
+                                                        "colorAction": "MuiSvgIcon-colorAction",
+                                                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                        "colorError": "MuiSvgIcon-colorError",
+                                                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                        "root": "MuiSvgIcon-root",
+                                                      }
+                                                    }
+                                                  >
+                                                    <svg
+                                                      aria-hidden={true}
+                                                      className="MuiSvgIcon-root MuiAvatar-fallback"
+                                                      focusable="false"
+                                                      viewBox="0 0 24 24"
+                                                    >
+                                                      <path
+                                                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                                      />
+                                                    </svg>
+                                                  </ForwardRef(SvgIcon)>
+                                                </WithStyles(ForwardRef(SvgIcon))>
+                                              </ForwardRef(PersonIcon)>
                                             </div>
                                           </ForwardRef(Avatar)>
                                         </WithStyles(ForwardRef(Avatar))>
-                                      </AvatarMenu__StyledAvatar>
+                                      </Avatar>
                                     </span>
                                   </button>
                                 </ForwardRef(ButtonBase)>
@@ -2871,7 +2915,7 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 3`] = `
                       <AvatarMenu>
                         <AvatarMenu__SpSpace>
                           <div
-                            className="AvatarMenu__SpSpace-sc-1lm78z4-2 cHgZNI"
+                            className="AvatarMenu__SpSpace-sc-1lm78z4-1 gtGkof"
                           />
                         </AvatarMenu__SpSpace>
                         <AvatarMenu__TextButton
@@ -2964,18 +3008,21 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 3`] = `
                                     <span
                                       className="MuiButton-label"
                                     >
-                                      <AvatarMenu__StyledAvatar
+                                      <Avatar
                                         alt="Somebody"
                                         src="/static/images/avatar/1.jpg"
                                       >
                                         <WithStyles(ForwardRef(Avatar))
                                           alt="Somebody"
-                                          className="AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
-                                          src="/static/images/avatar/1.jpg"
+                                          style={
+                                            Object {
+                                              "height": 36,
+                                              "width": 36,
+                                            }
+                                          }
                                         >
                                           <ForwardRef(Avatar)
                                             alt="Somebody"
-                                            className="AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
                                             classes={
                                               Object {
                                                 "circle": "MuiAvatar-circle",
@@ -2988,20 +3035,61 @@ exports[`organism/Header/Header organism/Header/Header-snapshot 3`] = `
                                                 "square": "MuiAvatar-square",
                                               }
                                             }
-                                            src="/static/images/avatar/1.jpg"
+                                            style={
+                                              Object {
+                                                "height": 36,
+                                                "width": 36,
+                                              }
+                                            }
                                           >
                                             <div
-                                              className="MuiAvatar-root MuiAvatar-circular AvatarMenu__StyledAvatar-sc-1lm78z4-1 kePxeg"
+                                              className="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault"
+                                              style={
+                                                Object {
+                                                  "height": 36,
+                                                  "width": 36,
+                                                }
+                                              }
                                             >
-                                              <img
-                                                alt="Somebody"
-                                                className="MuiAvatar-img"
-                                                src="/static/images/avatar/1.jpg"
-                                              />
+                                              <ForwardRef(PersonIcon)
+                                                className="MuiAvatar-fallback"
+                                              >
+                                                <WithStyles(ForwardRef(SvgIcon))
+                                                  className="MuiAvatar-fallback"
+                                                >
+                                                  <ForwardRef(SvgIcon)
+                                                    className="MuiAvatar-fallback"
+                                                    classes={
+                                                      Object {
+                                                        "colorAction": "MuiSvgIcon-colorAction",
+                                                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                        "colorError": "MuiSvgIcon-colorError",
+                                                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                        "root": "MuiSvgIcon-root",
+                                                      }
+                                                    }
+                                                  >
+                                                    <svg
+                                                      aria-hidden={true}
+                                                      className="MuiSvgIcon-root MuiAvatar-fallback"
+                                                      focusable="false"
+                                                      viewBox="0 0 24 24"
+                                                    >
+                                                      <path
+                                                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                                      />
+                                                    </svg>
+                                                  </ForwardRef(SvgIcon)>
+                                                </WithStyles(ForwardRef(SvgIcon))>
+                                              </ForwardRef(PersonIcon)>
                                             </div>
                                           </ForwardRef(Avatar)>
                                         </WithStyles(ForwardRef(Avatar))>
-                                      </AvatarMenu__StyledAvatar>
+                                      </Avatar>
                                     </span>
                                     <WithStyles(memo)
                                       center={false}

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atom/Image/Avatar atom/Image/Avatar-snapshot 1`] = `
+<Avatar
+  alt="somebody"
+  size="md"
+  url="/static/images/avatar/1.jpg"
+>
+  <WithStyles(ForwardRef(Avatar))
+    alt="somebody"
+    src="/static/images/avatar/1.jpg"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
+  >
+    <ForwardRef(Avatar)
+      alt="somebody"
+      classes={
+        Object {
+          "circle": "MuiAvatar-circle",
+          "circular": "MuiAvatar-circular",
+          "colorDefault": "MuiAvatar-colorDefault",
+          "fallback": "MuiAvatar-fallback",
+          "img": "MuiAvatar-img",
+          "root": "MuiAvatar-root",
+          "rounded": "MuiAvatar-rounded",
+          "square": "MuiAvatar-square",
+        }
+      }
+      src="/static/images/avatar/1.jpg"
+      style={
+        Object {
+          "height": 36,
+          "width": 36,
+        }
+      }
+    >
+      <div
+        className="MuiAvatar-root MuiAvatar-circular"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
+      >
+        <img
+          alt="somebody"
+          className="MuiAvatar-img"
+          src="/static/images/avatar/1.jpg"
+        />
+      </div>
+    </ForwardRef(Avatar)>
+  </WithStyles(ForwardRef(Avatar))>
+</Avatar>
+`;
