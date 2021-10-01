@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Summary/SummaryBase molecule/Summary/SummaryBase-snapshot 1`] = `
+<SummaryBase>
+  <div
+    key="0"
+  >
+    header
+  </div>
+  <SummaryBase__BodyWrapper>
+    <div
+      className="SummaryBase__BodyWrapper-sc-1cf03ap-0 eenhen"
+    >
+      <div
+        key="1"
+      >
+        body
+      </div>
+    </div>
+  </SummaryBase__BodyWrapper>
+</SummaryBase>
+`;

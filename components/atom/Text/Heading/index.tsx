@@ -27,6 +27,8 @@ const HeaderWrapper = styled.div`
 const LinkIcon = styled(Link)`
   ${tw`ml-4`}
   color: ${({ theme }) => theme.palette.text.secondary};
+  height: 1.3rem;
+  width: 1.3rem;
 `
 
 const styles = {
