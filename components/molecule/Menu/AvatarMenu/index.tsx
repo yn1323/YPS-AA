@@ -29,7 +29,7 @@ const AvatarMenu: FC = () => {
         ref={ref}
         onClick={clickHandler}
       >
-        <Avatar alt="Somebody" src="/static/images/avatar/1.jpg" />
+        <Avatar alt="Somebody" url="/static/images/avatar/1.jpg" />
       </TextButton>
       <Popper
         show={show}

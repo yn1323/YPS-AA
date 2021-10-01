@@ -110,9 +110,7 @@ exports[`template/Layout/CommonSP-snapshot 1`] = `
                                 Not Found
                               </div>
                             </HeaderSp__PageName>
-                            <AvatarMenu
-                              isSp={true}
-                            >
+                            <AvatarMenu>
                               <AvatarMenu__SpSpace>
                                 <div
                                   className="AvatarMenu__SpSpace-sc-1lm78z4-1 gtGkof"
@@ -210,10 +208,11 @@ exports[`template/Layout/CommonSP-snapshot 1`] = `
                                           >
                                             <Avatar
                                               alt="Somebody"
-                                              src="/static/images/avatar/1.jpg"
+                                              url="/static/images/avatar/1.jpg"
                                             >
                                               <WithStyles(ForwardRef(Avatar))
                                                 alt="Somebody"
+                                                src="/static/images/avatar/1.jpg"
                                                 style={
                                                   Object {
                                                     "height": 36,
@@ -235,6 +234,7 @@ exports[`template/Layout/CommonSP-snapshot 1`] = `
                                                       "square": "MuiAvatar-square",
                                                     }
                                                   }
+                                                  src="/static/images/avatar/1.jpg"
                                                   style={
                                                     Object {
                                                       "height": 36,
@@ -243,7 +243,7 @@ exports[`template/Layout/CommonSP-snapshot 1`] = `
                                                   }
                                                 >
                                                   <div
-                                                    className="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault"
+                                                    className="MuiAvatar-root MuiAvatar-circular"
                                                     style={
                                                       Object {
                                                         "height": 36,
@@ -251,41 +251,11 @@ exports[`template/Layout/CommonSP-snapshot 1`] = `
                                                       }
                                                     }
                                                   >
-                                                    <ForwardRef(PersonIcon)
-                                                      className="MuiAvatar-fallback"
-                                                    >
-                                                      <WithStyles(ForwardRef(SvgIcon))
-                                                        className="MuiAvatar-fallback"
-                                                      >
-                                                        <ForwardRef(SvgIcon)
-                                                          className="MuiAvatar-fallback"
-                                                          classes={
-                                                            Object {
-                                                              "colorAction": "MuiSvgIcon-colorAction",
-                                                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                                                              "colorError": "MuiSvgIcon-colorError",
-                                                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                                                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                                                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                                                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                                                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                                                              "root": "MuiSvgIcon-root",
-                                                            }
-                                                          }
-                                                        >
-                                                          <svg
-                                                            aria-hidden={true}
-                                                            className="MuiSvgIcon-root MuiAvatar-fallback"
-                                                            focusable="false"
-                                                            viewBox="0 0 24 24"
-                                                          >
-                                                            <path
-                                                              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-                                                            />
-                                                          </svg>
-                                                        </ForwardRef(SvgIcon)>
-                                                      </WithStyles(ForwardRef(SvgIcon))>
-                                                    </ForwardRef(PersonIcon)>
+                                                    <img
+                                                      alt="Somebody"
+                                                      className="MuiAvatar-img"
+                                                      src="/static/images/avatar/1.jpg"
+                                                    />
                                                   </div>
                                                 </ForwardRef(Avatar)>
                                               </WithStyles(ForwardRef(Avatar))>

@@ -30,7 +30,7 @@ const HeaderSp: FC = () => {
       <SpacedToolbar $isLoggedIn={false} variant="dense">
         <PageName>{pageName}</PageName>
 
-        <ButtonAvatarMenu isSp />
+        <ButtonAvatarMenu />
       </SpacedToolbar>
     </Container>
   )
