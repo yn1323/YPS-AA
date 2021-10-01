@@ -20,3 +20,5 @@ exports[`molecule/Summary/SummaryBase molecule/Summary/SummaryBase-snapshot 1`] 
   </SummaryBase__BodyWrapper>
 </SummaryBase>
 `;
+
+exports[`molecule/Summary/SummaryBase molecule/Summary/SummaryBase-snapshot 2`] = `<SummaryBase />`;

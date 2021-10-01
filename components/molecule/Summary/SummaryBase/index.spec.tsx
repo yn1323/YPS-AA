@@ -7,5 +7,7 @@ describe(`${stories.title}`, () => {
   test(`${stories.title}-snapshot`, () => {
     const wrapper = mountWithTheme(<Component {...(stories.args as any)} />)
     expect(wrapper).toMatchSnapshot()
+    wrapper.setProps({ children: [] })
+    expect(wrapper).toMatchSnapshot()
   })
 })
