@@ -23,8 +23,8 @@ type UserConfig = {
 
 export const USER_CONFIG: UserConfig = {
   userType: 'admin',
-  startShiftTime: moment('9:00', 'hh:mm'),
-  endShiftTime: moment('18:00', 'hh:mm'),
+  startShiftTime: moment('2021-10-02 9:00', 'YYYY-MM-DD hh:mm'),
+  endShiftTime: moment('2021-10-02 18:00', 'YYYY-MM-DD hh:mm'),
   shiftTimeUnit: '5',
   shiftSubmitFrequency: '1w',
   timeCardAuth: false,
