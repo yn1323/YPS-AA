@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atom/Text/SlashLink atom/Text/SlashLink-snapshot 1`] = `
+<SlashLink
+  links={
+    Array [
+      Object {
+        "rel": "noopener",
+        "text": "よくある質問",
+        "url": "http://www.google.com",
+      },
+      Object {
+        "rel": "noopener",
+        "text": "お問い合わせ",
+        "url": "http://www.google.com",
+      },
+      Object {
+        "rel": "noopener",
+        "text": "Illustrations by Storyset.",
+        "url": "https://storyset.com/work",
+      },
+    ]
+  }
+>
+  <SlashLink__Container>
+    <div
+      className="SlashLink__Container-sc-1g0nuih-0 kPqvfW"
+    >
+      <SlashLink__UrlLink
+        href="http://www.google.com"
+        key="0"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
+          href="http://www.google.com"
+          rel="noopener"
+        >
+          よくある質問
+        </a>
+      </SlashLink__UrlLink>
+      <SlashLink__UrlLink
+        href="http://www.google.com"
+        key="1"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
+          href="http://www.google.com"
+          rel="noopener"
+        >
+          お問い合わせ
+        </a>
+      </SlashLink__UrlLink>
+      <SlashLink__UrlLink
+        href="https://storyset.com/work"
+        key="2"
+        rel="noopener"
+      >
+        <a
+          className="SlashLink__UrlLink-sc-1g0nuih-1 jJNBHf"
+          href="https://storyset.com/work"
+          rel="noopener"
+        >
+          Illustrations by Storyset.
+        </a>
+      </SlashLink__UrlLink>
+    </div>
+  </SlashLink__Container>
+</SlashLink>
+`;

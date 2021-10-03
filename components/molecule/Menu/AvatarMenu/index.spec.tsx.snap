@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Menu/AvatarMenu molecule/Menu/AvatarMenu-snapshot 1`] = `
+<AvatarMenu>
+  <AvatarMenu__SpSpace>
+    <div
+      className="AvatarMenu__SpSpace-sc-1lm78z4-1 gtGkof"
+    />
+  </AvatarMenu__SpSpace>
+  <AvatarMenu__TextButton
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Button))
+      className="AvatarMenu__TextButton-sc-1lm78z4-0 FDLip"
+      onClick={[Function]}
+    >
+      <ForwardRef(Button)
+        className="AvatarMenu__TextButton-sc-1lm78z4-0 FDLip"
+        classes={
+          Object {
+            "colorInherit": "MuiButton-colorInherit",
+            "contained": "MuiButton-contained",
+            "containedPrimary": "MuiButton-containedPrimary",
+            "containedSecondary": "MuiButton-containedSecondary",
+            "containedSizeLarge": "MuiButton-containedSizeLarge",
+            "containedSizeSmall": "MuiButton-containedSizeSmall",
+            "disableElevation": "MuiButton-disableElevation",
+            "disabled": "Mui-disabled",
+            "endIcon": "MuiButton-endIcon",
+            "focusVisible": "Mui-focusVisible",
+            "fullWidth": "MuiButton-fullWidth",
+            "iconSizeLarge": "MuiButton-iconSizeLarge",
+            "iconSizeMedium": "MuiButton-iconSizeMedium",
+            "iconSizeSmall": "MuiButton-iconSizeSmall",
+            "label": "MuiButton-label",
+            "outlined": "MuiButton-outlined",
+            "outlinedPrimary": "MuiButton-outlinedPrimary",
+            "outlinedSecondary": "MuiButton-outlinedSecondary",
+            "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+            "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+            "root": "MuiButton-root",
+            "sizeLarge": "MuiButton-sizeLarge",
+            "sizeSmall": "MuiButton-sizeSmall",
+            "startIcon": "MuiButton-startIcon",
+            "text": "MuiButton-text",
+            "textPrimary": "MuiButton-textPrimary",
+            "textSecondary": "MuiButton-textSecondary",
+            "textSizeLarge": "MuiButton-textSizeLarge",
+            "textSizeSmall": "MuiButton-textSizeSmall",
+          }
+        }
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ButtonBase))
+          className="MuiButton-root MuiButton-text AvatarMenu__TextButton-sc-1lm78z4-0 FDLip"
+          component="button"
+          disabled={false}
+          focusRipple={true}
+          focusVisibleClassName="Mui-focusVisible"
+          onClick={[Function]}
+          type="button"
+        >
+          <ForwardRef(ButtonBase)
+            className="MuiButton-root MuiButton-text AvatarMenu__TextButton-sc-1lm78z4-0 FDLip"
+            classes={
+              Object {
+                "disabled": "Mui-disabled",
+                "focusVisible": "Mui-focusVisible",
+                "root": "MuiButtonBase-root",
+              }
+            }
+            component="button"
+            disabled={false}
+            focusRipple={true}
+            focusVisibleClassName="Mui-focusVisible"
+            onClick={[Function]}
+            type="button"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text AvatarMenu__TextButton-sc-1lm78z4-0 FDLip"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <Avatar
+                  alt="Somebody"
+                  url="/static/images/avatar/1.jpg"
+                >
+                  <WithStyles(ForwardRef(Avatar))
+                    alt="Somebody"
+                    src="/static/images/avatar/1.jpg"
+                    style={
+                      Object {
+                        "height": 36,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <ForwardRef(Avatar)
+                      alt="Somebody"
+                      classes={
+                        Object {
+                          "circle": "MuiAvatar-circle",
+                          "circular": "MuiAvatar-circular",
+                          "colorDefault": "MuiAvatar-colorDefault",
+                          "fallback": "MuiAvatar-fallback",
+                          "img": "MuiAvatar-img",
+                          "root": "MuiAvatar-root",
+                          "rounded": "MuiAvatar-rounded",
+                          "square": "MuiAvatar-square",
+                        }
+                      }
+                      src="/static/images/avatar/1.jpg"
+                      style={
+                        Object {
+                          "height": 36,
+                          "width": 36,
+                        }
+                      }
+                    >
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circular"
+                        style={
+                          Object {
+                            "height": 36,
+                            "width": 36,
+                          }
+                        }
+                      >
+                        <img
+                          alt="Somebody"
+                          className="MuiAvatar-img"
+                          src="/static/images/avatar/1.jpg"
+                        />
+                      </div>
+                    </ForwardRef(Avatar)>
+                  </WithStyles(ForwardRef(Avatar))>
+                </Avatar>
+              </span>
+              <WithStyles(memo)
+                center={false}
+              >
+                <ForwardRef(TouchRipple)
+                  center={false}
+                  classes={
+                    Object {
+                      "child": "MuiTouchRipple-child",
+                      "childLeaving": "MuiTouchRipple-childLeaving",
+                      "childPulsate": "MuiTouchRipple-childPulsate",
+                      "ripple": "MuiTouchRipple-ripple",
+                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                      "root": "MuiTouchRipple-root",
+                    }
+                  }
+                >
+                  <span
+                    className="MuiTouchRipple-root"
+                  >
+                    <TransitionGroup
+                      childFactory={[Function]}
+                      component={null}
+                      exit={true}
+                    />
+                  </span>
+                </ForwardRef(TouchRipple)>
+              </WithStyles(memo)>
+            </button>
+          </ForwardRef(ButtonBase)>
+        </WithStyles(ForwardRef(ButtonBase))>
+      </ForwardRef(Button)>
+    </WithStyles(ForwardRef(Button))>
+  </AvatarMenu__TextButton>
+  <Popper
+    anchorEl={null}
+    placement="bottom-end"
+    setShow={[Function]}
+    show={false}
+  >
+    <Popper__Container
+      anchorEl={null}
+      open={false}
+      placement="bottom-end"
+      transition={true}
+    >
+      <ForwardRef(Popper)
+        anchorEl={null}
+        className="Popper__Container-sc-fo3olu-0 ibMCCu"
+        open={false}
+        placement="bottom-end"
+        transition={true}
+      />
+    </Popper__Container>
+  </Popper>
+</AvatarMenu>
+`;

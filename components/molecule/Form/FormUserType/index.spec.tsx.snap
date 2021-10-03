@@ -1,0 +1,1395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Form/FormUserType molecule/Form/FormUserType-snapshot 1`] = `
+<FormUserType
+  initialValue="admin"
+  setter={[Function]}
+>
+  <FormUserBase
+    definition="ユーザー種別"
+    item={
+      <Radio
+        groupName="USER_TYPE"
+        initialValue="admin"
+        options={
+          Array [
+            Object {
+              "label": "管理ユーザー",
+              "note": "店舗管理者・シフト管理者はこちら",
+              "value": "admin",
+            },
+            Object {
+              "label": "一般ユーザー",
+              "note": "従業員・アルバイトはこちら",
+              "value": "general",
+            },
+          ]
+        }
+        setter={[Function]}
+      />
+    }
+  >
+    <FormUserBase__Container>
+      <div
+        className="FormUserBase__Container-sc-143288g-0 gaKKXv"
+      >
+        <FormUserBase__TitleWrapper>
+          <div
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
+          >
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                ユーザー種別
+              </div>
+            </FormUserBase__Title>
+          </div>
+        </FormUserBase__TitleWrapper>
+        <Radio
+          groupName="USER_TYPE"
+          initialValue="admin"
+          options={
+            Array [
+              Object {
+                "label": "管理ユーザー",
+                "note": "店舗管理者・シフト管理者はこちら",
+                "value": "admin",
+              },
+              Object {
+                "label": "一般ユーザー",
+                "note": "従業員・アルバイトはこちら",
+                "value": "general",
+              },
+            ]
+          }
+          setter={[Function]}
+        >
+          <ForwardRef(RadioGroup)
+            arial-label="USER_TYPE"
+            name="USER_TYPE"
+            onChange={[Function]}
+            row={false}
+            value="admin"
+          >
+            <WithStyles(ForwardRef(FormGroup))
+              arial-label="USER_TYPE"
+              role="radiogroup"
+              row={false}
+            >
+              <ForwardRef(FormGroup)
+                arial-label="USER_TYPE"
+                classes={
+                  Object {
+                    "root": "MuiFormGroup-root",
+                    "row": "MuiFormGroup-row",
+                  }
+                }
+                role="radiogroup"
+                row={false}
+              >
+                <div
+                  arial-label="USER_TYPE"
+                  className="MuiFormGroup-root"
+                  role="radiogroup"
+                >
+                  <Radio__LabelContainer
+                    key="0"
+                  >
+                    <div
+                      className="Radio__LabelContainer-sc-fteruh-0 hawhMd"
+                    >
+                      <WithStyles(ForwardRef(FormControlLabel))
+                        control={
+                          <WithStyles(ForwardRef(Radio))
+                            color="primary"
+                            size="small"
+                          />
+                        }
+                        disabled={false}
+                        label={
+                          <Radio__Label>
+                            管理ユーザー
+                          </Radio__Label>
+                        }
+                        value="admin"
+                      >
+                        <ForwardRef(FormControlLabel)
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "label": "MuiFormControlLabel-label",
+                              "labelPlacementBottom": "MuiFormControlLabel-labelPlacementBottom",
+                              "labelPlacementStart": "MuiFormControlLabel-labelPlacementStart",
+                              "labelPlacementTop": "MuiFormControlLabel-labelPlacementTop",
+                              "root": "MuiFormControlLabel-root",
+                            }
+                          }
+                          control={
+                            <WithStyles(ForwardRef(Radio))
+                              color="primary"
+                              size="small"
+                            />
+                          }
+                          disabled={false}
+                          label={
+                            <Radio__Label>
+                              管理ユーザー
+                            </Radio__Label>
+                          }
+                          value="admin"
+                        >
+                          <label
+                            className="MuiFormControlLabel-root"
+                          >
+                            <WithStyles(ForwardRef(Radio))
+                              color="primary"
+                              disabled={false}
+                              size="small"
+                              value="admin"
+                            >
+                              <ForwardRef(Radio)
+                                classes={
+                                  Object {
+                                    "checked": "Mui-checked",
+                                    "colorPrimary": "MuiRadio-colorPrimary",
+                                    "colorSecondary": "MuiRadio-colorSecondary",
+                                    "disabled": "Mui-disabled",
+                                    "root": "MuiRadio-root",
+                                  }
+                                }
+                                color="primary"
+                                disabled={false}
+                                size="small"
+                                value="admin"
+                              >
+                                <WithStyles(ForwardRef(SwitchBase))
+                                  checked={true}
+                                  checkedIcon={
+                                    <WithStyles(RadioButtonIcon)
+                                      checked={true}
+                                      fontSize="small"
+                                    />
+                                  }
+                                  classes={
+                                    Object {
+                                      "checked": "Mui-checked",
+                                      "disabled": "Mui-disabled",
+                                      "root": "MuiRadio-root MuiRadio-colorPrimary",
+                                    }
+                                  }
+                                  color="primary"
+                                  disabled={false}
+                                  icon={
+                                    <WithStyles(RadioButtonIcon)
+                                      fontSize="small"
+                                    />
+                                  }
+                                  name="USER_TYPE"
+                                  onChange={[Function]}
+                                  type="radio"
+                                  value="admin"
+                                >
+                                  <ForwardRef(SwitchBase)
+                                    checked={true}
+                                    checkedIcon={
+                                      <WithStyles(RadioButtonIcon)
+                                        checked={true}
+                                        fontSize="small"
+                                      />
+                                    }
+                                    classes={
+                                      Object {
+                                        "checked": "PrivateSwitchBase-checked-2 Mui-checked",
+                                        "disabled": "PrivateSwitchBase-disabled-3 Mui-disabled",
+                                        "input": "PrivateSwitchBase-input-4",
+                                        "root": "PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary",
+                                      }
+                                    }
+                                    color="primary"
+                                    disabled={false}
+                                    icon={
+                                      <WithStyles(RadioButtonIcon)
+                                        fontSize="small"
+                                      />
+                                    }
+                                    name="USER_TYPE"
+                                    onChange={[Function]}
+                                    type="radio"
+                                    value="admin"
+                                  >
+                                    <WithStyles(ForwardRef(IconButton))
+                                      className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked"
+                                      color="primary"
+                                      component="span"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      tabIndex={null}
+                                    >
+                                      <ForwardRef(IconButton)
+                                        className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked"
+                                        classes={
+                                          Object {
+                                            "colorInherit": "MuiIconButton-colorInherit",
+                                            "colorPrimary": "MuiIconButton-colorPrimary",
+                                            "colorSecondary": "MuiIconButton-colorSecondary",
+                                            "disabled": "Mui-disabled",
+                                            "edgeEnd": "MuiIconButton-edgeEnd",
+                                            "edgeStart": "MuiIconButton-edgeStart",
+                                            "label": "MuiIconButton-label",
+                                            "root": "MuiIconButton-root",
+                                            "sizeSmall": "MuiIconButton-sizeSmall",
+                                          }
+                                        }
+                                        color="primary"
+                                        component="span"
+                                        disabled={false}
+                                        onBlur={[Function]}
+                                        onFocus={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <WithStyles(ForwardRef(ButtonBase))
+                                          centerRipple={true}
+                                          className="MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorPrimary"
+                                          component="span"
+                                          disabled={false}
+                                          focusRipple={true}
+                                          onBlur={[Function]}
+                                          onFocus={[Function]}
+                                          tabIndex={null}
+                                        >
+                                          <ForwardRef(ButtonBase)
+                                            centerRipple={true}
+                                            className="MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorPrimary"
+                                            classes={
+                                              Object {
+                                                "disabled": "Mui-disabled",
+                                                "focusVisible": "Mui-focusVisible",
+                                                "root": "MuiButtonBase-root",
+                                              }
+                                            }
+                                            component="span"
+                                            disabled={false}
+                                            focusRipple={true}
+                                            onBlur={[Function]}
+                                            onFocus={[Function]}
+                                            tabIndex={null}
+                                          >
+                                            <span
+                                              aria-disabled={false}
+                                              className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorPrimary"
+                                              onBlur={[Function]}
+                                              onDragLeave={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              onKeyUp={[Function]}
+                                              onMouseDown={[Function]}
+                                              onMouseLeave={[Function]}
+                                              onMouseUp={[Function]}
+                                              onTouchEnd={[Function]}
+                                              onTouchMove={[Function]}
+                                              onTouchStart={[Function]}
+                                              tabIndex={null}
+                                            >
+                                              <span
+                                                className="MuiIconButton-label"
+                                              >
+                                                <input
+                                                  checked={true}
+                                                  className="PrivateSwitchBase-input-4"
+                                                  disabled={false}
+                                                  name="USER_TYPE"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="admin"
+                                                />
+                                                <WithStyles(RadioButtonIcon)
+                                                  checked={true}
+                                                  fontSize="small"
+                                                >
+                                                  <RadioButtonIcon
+                                                    checked={true}
+                                                    classes={
+                                                      Object {
+                                                        "checked": "PrivateRadioButtonIcon-checked-7",
+                                                        "layer": "PrivateRadioButtonIcon-layer-6",
+                                                        "root": "PrivateRadioButtonIcon-root-5",
+                                                      }
+                                                    }
+                                                    fontSize="small"
+                                                  >
+                                                    <div
+                                                      className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
+                                                    >
+                                                      <ForwardRef(RadioButtonUncheckedIcon)
+                                                        fontSize="small"
+                                                      >
+                                                        <WithStyles(ForwardRef(SvgIcon))
+                                                          fontSize="small"
+                                                        >
+                                                          <ForwardRef(SvgIcon)
+                                                            classes={
+                                                              Object {
+                                                                "colorAction": "MuiSvgIcon-colorAction",
+                                                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                                "colorError": "MuiSvgIcon-colorError",
+                                                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                                "root": "MuiSvgIcon-root",
+                                                              }
+                                                            }
+                                                            fontSize="small"
+                                                          >
+                                                            <svg
+                                                              aria-hidden={true}
+                                                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                                                              focusable="false"
+                                                              viewBox="0 0 24 24"
+                                                            >
+                                                              <path
+                                                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                                                              />
+                                                            </svg>
+                                                          </ForwardRef(SvgIcon)>
+                                                        </WithStyles(ForwardRef(SvgIcon))>
+                                                      </ForwardRef(RadioButtonUncheckedIcon)>
+                                                      <ForwardRef(RadioButtonCheckedIcon)
+                                                        className="PrivateRadioButtonIcon-layer-6"
+                                                        fontSize="small"
+                                                      >
+                                                        <WithStyles(ForwardRef(SvgIcon))
+                                                          className="PrivateRadioButtonIcon-layer-6"
+                                                          fontSize="small"
+                                                        >
+                                                          <ForwardRef(SvgIcon)
+                                                            className="PrivateRadioButtonIcon-layer-6"
+                                                            classes={
+                                                              Object {
+                                                                "colorAction": "MuiSvgIcon-colorAction",
+                                                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                                "colorError": "MuiSvgIcon-colorError",
+                                                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                                "root": "MuiSvgIcon-root",
+                                                              }
+                                                            }
+                                                            fontSize="small"
+                                                          >
+                                                            <svg
+                                                              aria-hidden={true}
+                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
+                                                              focusable="false"
+                                                              viewBox="0 0 24 24"
+                                                            >
+                                                              <path
+                                                                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                                                              />
+                                                            </svg>
+                                                          </ForwardRef(SvgIcon)>
+                                                        </WithStyles(ForwardRef(SvgIcon))>
+                                                      </ForwardRef(RadioButtonCheckedIcon)>
+                                                    </div>
+                                                  </RadioButtonIcon>
+                                                </WithStyles(RadioButtonIcon)>
+                                              </span>
+                                              <WithStyles(memo)
+                                                center={true}
+                                              >
+                                                <ForwardRef(TouchRipple)
+                                                  center={true}
+                                                  classes={
+                                                    Object {
+                                                      "child": "MuiTouchRipple-child",
+                                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                                      "ripple": "MuiTouchRipple-ripple",
+                                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                      "root": "MuiTouchRipple-root",
+                                                    }
+                                                  }
+                                                >
+                                                  <span
+                                                    className="MuiTouchRipple-root"
+                                                  >
+                                                    <TransitionGroup
+                                                      childFactory={[Function]}
+                                                      component={null}
+                                                      exit={true}
+                                                    />
+                                                  </span>
+                                                </ForwardRef(TouchRipple)>
+                                              </WithStyles(memo)>
+                                            </span>
+                                          </ForwardRef(ButtonBase)>
+                                        </WithStyles(ForwardRef(ButtonBase))>
+                                      </ForwardRef(IconButton)>
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </ForwardRef(SwitchBase)>
+                                </WithStyles(ForwardRef(SwitchBase))>
+                              </ForwardRef(Radio)>
+                            </WithStyles(ForwardRef(Radio))>
+                            <WithStyles(ForwardRef(Typography))
+                              className="MuiFormControlLabel-label"
+                              component="span"
+                            >
+                              <ForwardRef(Typography)
+                                className="MuiFormControlLabel-label"
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                                component="span"
+                              >
+                                <span
+                                  className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                                >
+                                  <Radio__Label>
+                                    <div
+                                      className="Radio__Label-sc-fteruh-1 kdAydk"
+                                    >
+                                      管理ユーザー
+                                    </div>
+                                  </Radio__Label>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </label>
+                        </ForwardRef(FormControlLabel)>
+                      </WithStyles(ForwardRef(FormControlLabel))>
+                      <Note>
+                        <WithStyles(ForwardRef(Tooltip))
+                          title="店舗管理者・シフト管理者はこちら"
+                        >
+                          <ForwardRef(Tooltip)
+                            classes={
+                              Object {
+                                "arrow": "MuiTooltip-arrow",
+                                "popper": "MuiTooltip-popper",
+                                "popperArrow": "MuiTooltip-popperArrow",
+                                "popperInteractive": "MuiTooltip-popperInteractive",
+                                "tooltip": "MuiTooltip-tooltip",
+                                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                                "touch": "MuiTooltip-touch",
+                              }
+                            }
+                            title="店舗管理者・シフト管理者はこちら"
+                          >
+                            <Note__StyledIconButton
+                              aria-describedby={null}
+                              className=""
+                              disableRipple={true}
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOver={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "transparent",
+                                }
+                              }
+                              title="店舗管理者・シフト管理者はこちら"
+                            >
+                              <WithStyles(ForwardRef(IconButton))
+                                aria-describedby={null}
+                                className="Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                disableRipple={true}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOver={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchStart={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                  }
+                                }
+                                title="店舗管理者・シフト管理者はこちら"
+                              >
+                                <ForwardRef(IconButton)
+                                  aria-describedby={null}
+                                  className="Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                  classes={
+                                    Object {
+                                      "colorInherit": "MuiIconButton-colorInherit",
+                                      "colorPrimary": "MuiIconButton-colorPrimary",
+                                      "colorSecondary": "MuiIconButton-colorSecondary",
+                                      "disabled": "Mui-disabled",
+                                      "edgeEnd": "MuiIconButton-edgeEnd",
+                                      "edgeStart": "MuiIconButton-edgeStart",
+                                      "label": "MuiIconButton-label",
+                                      "root": "MuiIconButton-root",
+                                      "sizeSmall": "MuiIconButton-sizeSmall",
+                                    }
+                                  }
+                                  disableRipple={true}
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOver={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  style={
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                    }
+                                  }
+                                  title="店舗管理者・シフト管理者はこちら"
+                                >
+                                  <WithStyles(ForwardRef(ButtonBase))
+                                    aria-describedby={null}
+                                    centerRipple={true}
+                                    className="MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                    disableRipple={true}
+                                    disabled={false}
+                                    focusRipple={true}
+                                    onBlur={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOver={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchStart={[Function]}
+                                    style={
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      }
+                                    }
+                                    title="店舗管理者・シフト管理者はこちら"
+                                  >
+                                    <ForwardRef(ButtonBase)
+                                      aria-describedby={null}
+                                      centerRipple={true}
+                                      className="MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                      classes={
+                                        Object {
+                                          "disabled": "Mui-disabled",
+                                          "focusVisible": "Mui-focusVisible",
+                                          "root": "MuiButtonBase-root",
+                                        }
+                                      }
+                                      disableRipple={true}
+                                      disabled={false}
+                                      focusRipple={true}
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseLeave={[Function]}
+                                      onMouseOver={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchStart={[Function]}
+                                      style={
+                                        Object {
+                                          "backgroundColor": "transparent",
+                                        }
+                                      }
+                                      title="店舗管理者・シフト管理者はこちら"
+                                    >
+                                      <button
+                                        aria-describedby={null}
+                                        className="MuiButtonBase-root MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                        disabled={false}
+                                        onBlur={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseOver={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        style={
+                                          Object {
+                                            "backgroundColor": "transparent",
+                                          }
+                                        }
+                                        tabIndex={0}
+                                        title="店舗管理者・シフト管理者はこちら"
+                                        type="button"
+                                      >
+                                        <span
+                                          className="MuiIconButton-label"
+                                        >
+                                          <ForwardRef(HelpOutlineOutlinedIcon)>
+                                            <WithStyles(ForwardRef(SvgIcon))>
+                                              <ForwardRef(SvgIcon)
+                                                classes={
+                                                  Object {
+                                                    "colorAction": "MuiSvgIcon-colorAction",
+                                                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                    "colorError": "MuiSvgIcon-colorError",
+                                                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                    "root": "MuiSvgIcon-root",
+                                                  }
+                                                }
+                                              >
+                                                <svg
+                                                  aria-hidden={true}
+                                                  className="MuiSvgIcon-root"
+                                                  focusable="false"
+                                                  viewBox="0 0 24 24"
+                                                >
+                                                  <path
+                                                    d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                                                  />
+                                                </svg>
+                                              </ForwardRef(SvgIcon)>
+                                            </WithStyles(ForwardRef(SvgIcon))>
+                                          </ForwardRef(HelpOutlineOutlinedIcon)>
+                                        </span>
+                                      </button>
+                                    </ForwardRef(ButtonBase)>
+                                  </WithStyles(ForwardRef(ButtonBase))>
+                                </ForwardRef(IconButton)>
+                              </WithStyles(ForwardRef(IconButton))>
+                            </Note__StyledIconButton>
+                            <ForwardRef(Popper)
+                              anchorEl={
+                                <button
+                                  class="MuiButtonBase-root MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                  style="background-color: transparent;"
+                                  tabindex="0"
+                                  title="店舗管理者・シフト管理者はこちら"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiIconButton-label"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                                      />
+                                    </svg>
+                                  </span>
+                                </button>
+                              }
+                              className="MuiTooltip-popper"
+                              id={null}
+                              open={false}
+                              placement="bottom"
+                              popperOptions={
+                                Object {
+                                  "modifiers": Object {
+                                    "arrow": Object {
+                                      "element": null,
+                                      "enabled": false,
+                                    },
+                                  },
+                                }
+                              }
+                              transition={true}
+                            />
+                          </ForwardRef(Tooltip)>
+                        </WithStyles(ForwardRef(Tooltip))>
+                      </Note>
+                    </div>
+                  </Radio__LabelContainer>
+                  <Radio__LabelContainer
+                    key="1"
+                  >
+                    <div
+                      className="Radio__LabelContainer-sc-fteruh-0 hawhMd"
+                    >
+                      <WithStyles(ForwardRef(FormControlLabel))
+                        control={
+                          <WithStyles(ForwardRef(Radio))
+                            color="primary"
+                            size="small"
+                          />
+                        }
+                        disabled={false}
+                        label={
+                          <Radio__Label>
+                            一般ユーザー
+                          </Radio__Label>
+                        }
+                        value="general"
+                      >
+                        <ForwardRef(FormControlLabel)
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "label": "MuiFormControlLabel-label",
+                              "labelPlacementBottom": "MuiFormControlLabel-labelPlacementBottom",
+                              "labelPlacementStart": "MuiFormControlLabel-labelPlacementStart",
+                              "labelPlacementTop": "MuiFormControlLabel-labelPlacementTop",
+                              "root": "MuiFormControlLabel-root",
+                            }
+                          }
+                          control={
+                            <WithStyles(ForwardRef(Radio))
+                              color="primary"
+                              size="small"
+                            />
+                          }
+                          disabled={false}
+                          label={
+                            <Radio__Label>
+                              一般ユーザー
+                            </Radio__Label>
+                          }
+                          value="general"
+                        >
+                          <label
+                            className="MuiFormControlLabel-root"
+                          >
+                            <WithStyles(ForwardRef(Radio))
+                              color="primary"
+                              disabled={false}
+                              size="small"
+                              value="general"
+                            >
+                              <ForwardRef(Radio)
+                                classes={
+                                  Object {
+                                    "checked": "Mui-checked",
+                                    "colorPrimary": "MuiRadio-colorPrimary",
+                                    "colorSecondary": "MuiRadio-colorSecondary",
+                                    "disabled": "Mui-disabled",
+                                    "root": "MuiRadio-root",
+                                  }
+                                }
+                                color="primary"
+                                disabled={false}
+                                size="small"
+                                value="general"
+                              >
+                                <WithStyles(ForwardRef(SwitchBase))
+                                  checked={false}
+                                  checkedIcon={
+                                    <WithStyles(RadioButtonIcon)
+                                      checked={true}
+                                      fontSize="small"
+                                    />
+                                  }
+                                  classes={
+                                    Object {
+                                      "checked": "Mui-checked",
+                                      "disabled": "Mui-disabled",
+                                      "root": "MuiRadio-root MuiRadio-colorPrimary",
+                                    }
+                                  }
+                                  color="primary"
+                                  disabled={false}
+                                  icon={
+                                    <WithStyles(RadioButtonIcon)
+                                      fontSize="small"
+                                    />
+                                  }
+                                  name="USER_TYPE"
+                                  onChange={[Function]}
+                                  type="radio"
+                                  value="general"
+                                >
+                                  <ForwardRef(SwitchBase)
+                                    checked={false}
+                                    checkedIcon={
+                                      <WithStyles(RadioButtonIcon)
+                                        checked={true}
+                                        fontSize="small"
+                                      />
+                                    }
+                                    classes={
+                                      Object {
+                                        "checked": "PrivateSwitchBase-checked-2 Mui-checked",
+                                        "disabled": "PrivateSwitchBase-disabled-3 Mui-disabled",
+                                        "input": "PrivateSwitchBase-input-4",
+                                        "root": "PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary",
+                                      }
+                                    }
+                                    color="primary"
+                                    disabled={false}
+                                    icon={
+                                      <WithStyles(RadioButtonIcon)
+                                        fontSize="small"
+                                      />
+                                    }
+                                    name="USER_TYPE"
+                                    onChange={[Function]}
+                                    type="radio"
+                                    value="general"
+                                  >
+                                    <WithStyles(ForwardRef(IconButton))
+                                      className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary"
+                                      color="primary"
+                                      component="span"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      tabIndex={null}
+                                    >
+                                      <ForwardRef(IconButton)
+                                        className="PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary"
+                                        classes={
+                                          Object {
+                                            "colorInherit": "MuiIconButton-colorInherit",
+                                            "colorPrimary": "MuiIconButton-colorPrimary",
+                                            "colorSecondary": "MuiIconButton-colorSecondary",
+                                            "disabled": "Mui-disabled",
+                                            "edgeEnd": "MuiIconButton-edgeEnd",
+                                            "edgeStart": "MuiIconButton-edgeStart",
+                                            "label": "MuiIconButton-label",
+                                            "root": "MuiIconButton-root",
+                                            "sizeSmall": "MuiIconButton-sizeSmall",
+                                          }
+                                        }
+                                        color="primary"
+                                        component="span"
+                                        disabled={false}
+                                        onBlur={[Function]}
+                                        onFocus={[Function]}
+                                        tabIndex={null}
+                                      >
+                                        <WithStyles(ForwardRef(ButtonBase))
+                                          centerRipple={true}
+                                          className="MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                                          component="span"
+                                          disabled={false}
+                                          focusRipple={true}
+                                          onBlur={[Function]}
+                                          onFocus={[Function]}
+                                          tabIndex={null}
+                                        >
+                                          <ForwardRef(ButtonBase)
+                                            centerRipple={true}
+                                            className="MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                                            classes={
+                                              Object {
+                                                "disabled": "Mui-disabled",
+                                                "focusVisible": "Mui-focusVisible",
+                                                "root": "MuiButtonBase-root",
+                                              }
+                                            }
+                                            component="span"
+                                            disabled={false}
+                                            focusRipple={true}
+                                            onBlur={[Function]}
+                                            onFocus={[Function]}
+                                            tabIndex={null}
+                                          >
+                                            <span
+                                              aria-disabled={false}
+                                              className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+                                              onBlur={[Function]}
+                                              onDragLeave={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              onKeyUp={[Function]}
+                                              onMouseDown={[Function]}
+                                              onMouseLeave={[Function]}
+                                              onMouseUp={[Function]}
+                                              onTouchEnd={[Function]}
+                                              onTouchMove={[Function]}
+                                              onTouchStart={[Function]}
+                                              tabIndex={null}
+                                            >
+                                              <span
+                                                className="MuiIconButton-label"
+                                              >
+                                                <input
+                                                  checked={false}
+                                                  className="PrivateSwitchBase-input-4"
+                                                  disabled={false}
+                                                  name="USER_TYPE"
+                                                  onChange={[Function]}
+                                                  type="radio"
+                                                  value="general"
+                                                />
+                                                <WithStyles(RadioButtonIcon)
+                                                  fontSize="small"
+                                                >
+                                                  <RadioButtonIcon
+                                                    classes={
+                                                      Object {
+                                                        "checked": "PrivateRadioButtonIcon-checked-7",
+                                                        "layer": "PrivateRadioButtonIcon-layer-6",
+                                                        "root": "PrivateRadioButtonIcon-root-5",
+                                                      }
+                                                    }
+                                                    fontSize="small"
+                                                  >
+                                                    <div
+                                                      className="PrivateRadioButtonIcon-root-5"
+                                                    >
+                                                      <ForwardRef(RadioButtonUncheckedIcon)
+                                                        fontSize="small"
+                                                      >
+                                                        <WithStyles(ForwardRef(SvgIcon))
+                                                          fontSize="small"
+                                                        >
+                                                          <ForwardRef(SvgIcon)
+                                                            classes={
+                                                              Object {
+                                                                "colorAction": "MuiSvgIcon-colorAction",
+                                                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                                "colorError": "MuiSvgIcon-colorError",
+                                                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                                "root": "MuiSvgIcon-root",
+                                                              }
+                                                            }
+                                                            fontSize="small"
+                                                          >
+                                                            <svg
+                                                              aria-hidden={true}
+                                                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                                                              focusable="false"
+                                                              viewBox="0 0 24 24"
+                                                            >
+                                                              <path
+                                                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                                                              />
+                                                            </svg>
+                                                          </ForwardRef(SvgIcon)>
+                                                        </WithStyles(ForwardRef(SvgIcon))>
+                                                      </ForwardRef(RadioButtonUncheckedIcon)>
+                                                      <ForwardRef(RadioButtonCheckedIcon)
+                                                        className="PrivateRadioButtonIcon-layer-6"
+                                                        fontSize="small"
+                                                      >
+                                                        <WithStyles(ForwardRef(SvgIcon))
+                                                          className="PrivateRadioButtonIcon-layer-6"
+                                                          fontSize="small"
+                                                        >
+                                                          <ForwardRef(SvgIcon)
+                                                            className="PrivateRadioButtonIcon-layer-6"
+                                                            classes={
+                                                              Object {
+                                                                "colorAction": "MuiSvgIcon-colorAction",
+                                                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                                "colorError": "MuiSvgIcon-colorError",
+                                                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                                "root": "MuiSvgIcon-root",
+                                                              }
+                                                            }
+                                                            fontSize="small"
+                                                          >
+                                                            <svg
+                                                              aria-hidden={true}
+                                                              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6 MuiSvgIcon-fontSizeSmall"
+                                                              focusable="false"
+                                                              viewBox="0 0 24 24"
+                                                            >
+                                                              <path
+                                                                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                                                              />
+                                                            </svg>
+                                                          </ForwardRef(SvgIcon)>
+                                                        </WithStyles(ForwardRef(SvgIcon))>
+                                                      </ForwardRef(RadioButtonCheckedIcon)>
+                                                    </div>
+                                                  </RadioButtonIcon>
+                                                </WithStyles(RadioButtonIcon)>
+                                              </span>
+                                              <WithStyles(memo)
+                                                center={true}
+                                              >
+                                                <ForwardRef(TouchRipple)
+                                                  center={true}
+                                                  classes={
+                                                    Object {
+                                                      "child": "MuiTouchRipple-child",
+                                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                                      "ripple": "MuiTouchRipple-ripple",
+                                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                      "root": "MuiTouchRipple-root",
+                                                    }
+                                                  }
+                                                >
+                                                  <span
+                                                    className="MuiTouchRipple-root"
+                                                  >
+                                                    <TransitionGroup
+                                                      childFactory={[Function]}
+                                                      component={null}
+                                                      exit={true}
+                                                    />
+                                                  </span>
+                                                </ForwardRef(TouchRipple)>
+                                              </WithStyles(memo)>
+                                            </span>
+                                          </ForwardRef(ButtonBase)>
+                                        </WithStyles(ForwardRef(ButtonBase))>
+                                      </ForwardRef(IconButton)>
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </ForwardRef(SwitchBase)>
+                                </WithStyles(ForwardRef(SwitchBase))>
+                              </ForwardRef(Radio)>
+                            </WithStyles(ForwardRef(Radio))>
+                            <WithStyles(ForwardRef(Typography))
+                              className="MuiFormControlLabel-label"
+                              component="span"
+                            >
+                              <ForwardRef(Typography)
+                                className="MuiFormControlLabel-label"
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                                component="span"
+                              >
+                                <span
+                                  className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                                >
+                                  <Radio__Label>
+                                    <div
+                                      className="Radio__Label-sc-fteruh-1 kdAydk"
+                                    >
+                                      一般ユーザー
+                                    </div>
+                                  </Radio__Label>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </label>
+                        </ForwardRef(FormControlLabel)>
+                      </WithStyles(ForwardRef(FormControlLabel))>
+                      <Note>
+                        <WithStyles(ForwardRef(Tooltip))
+                          title="従業員・アルバイトはこちら"
+                        >
+                          <ForwardRef(Tooltip)
+                            classes={
+                              Object {
+                                "arrow": "MuiTooltip-arrow",
+                                "popper": "MuiTooltip-popper",
+                                "popperArrow": "MuiTooltip-popperArrow",
+                                "popperInteractive": "MuiTooltip-popperInteractive",
+                                "tooltip": "MuiTooltip-tooltip",
+                                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                                "touch": "MuiTooltip-touch",
+                              }
+                            }
+                            title="従業員・アルバイトはこちら"
+                          >
+                            <Note__StyledIconButton
+                              aria-describedby={null}
+                              className=""
+                              disableRipple={true}
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOver={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "transparent",
+                                }
+                              }
+                              title="従業員・アルバイトはこちら"
+                            >
+                              <WithStyles(ForwardRef(IconButton))
+                                aria-describedby={null}
+                                className="Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                disableRipple={true}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOver={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchStart={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                  }
+                                }
+                                title="従業員・アルバイトはこちら"
+                              >
+                                <ForwardRef(IconButton)
+                                  aria-describedby={null}
+                                  className="Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                  classes={
+                                    Object {
+                                      "colorInherit": "MuiIconButton-colorInherit",
+                                      "colorPrimary": "MuiIconButton-colorPrimary",
+                                      "colorSecondary": "MuiIconButton-colorSecondary",
+                                      "disabled": "Mui-disabled",
+                                      "edgeEnd": "MuiIconButton-edgeEnd",
+                                      "edgeStart": "MuiIconButton-edgeStart",
+                                      "label": "MuiIconButton-label",
+                                      "root": "MuiIconButton-root",
+                                      "sizeSmall": "MuiIconButton-sizeSmall",
+                                    }
+                                  }
+                                  disableRipple={true}
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOver={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  style={
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                    }
+                                  }
+                                  title="従業員・アルバイトはこちら"
+                                >
+                                  <WithStyles(ForwardRef(ButtonBase))
+                                    aria-describedby={null}
+                                    centerRipple={true}
+                                    className="MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                    disableRipple={true}
+                                    disabled={false}
+                                    focusRipple={true}
+                                    onBlur={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOver={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchStart={[Function]}
+                                    style={
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      }
+                                    }
+                                    title="従業員・アルバイトはこちら"
+                                  >
+                                    <ForwardRef(ButtonBase)
+                                      aria-describedby={null}
+                                      centerRipple={true}
+                                      className="MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                      classes={
+                                        Object {
+                                          "disabled": "Mui-disabled",
+                                          "focusVisible": "Mui-focusVisible",
+                                          "root": "MuiButtonBase-root",
+                                        }
+                                      }
+                                      disableRipple={true}
+                                      disabled={false}
+                                      focusRipple={true}
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseLeave={[Function]}
+                                      onMouseOver={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchStart={[Function]}
+                                      style={
+                                        Object {
+                                          "backgroundColor": "transparent",
+                                        }
+                                      }
+                                      title="従業員・アルバイトはこちら"
+                                    >
+                                      <button
+                                        aria-describedby={null}
+                                        className="MuiButtonBase-root MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                        disabled={false}
+                                        onBlur={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseOver={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        style={
+                                          Object {
+                                            "backgroundColor": "transparent",
+                                          }
+                                        }
+                                        tabIndex={0}
+                                        title="従業員・アルバイトはこちら"
+                                        type="button"
+                                      >
+                                        <span
+                                          className="MuiIconButton-label"
+                                        >
+                                          <ForwardRef(HelpOutlineOutlinedIcon)>
+                                            <WithStyles(ForwardRef(SvgIcon))>
+                                              <ForwardRef(SvgIcon)
+                                                classes={
+                                                  Object {
+                                                    "colorAction": "MuiSvgIcon-colorAction",
+                                                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                                    "colorError": "MuiSvgIcon-colorError",
+                                                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                                    "root": "MuiSvgIcon-root",
+                                                  }
+                                                }
+                                              >
+                                                <svg
+                                                  aria-hidden={true}
+                                                  className="MuiSvgIcon-root"
+                                                  focusable="false"
+                                                  viewBox="0 0 24 24"
+                                                >
+                                                  <path
+                                                    d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                                                  />
+                                                </svg>
+                                              </ForwardRef(SvgIcon)>
+                                            </WithStyles(ForwardRef(SvgIcon))>
+                                          </ForwardRef(HelpOutlineOutlinedIcon)>
+                                        </span>
+                                      </button>
+                                    </ForwardRef(ButtonBase)>
+                                  </WithStyles(ForwardRef(ButtonBase))>
+                                </ForwardRef(IconButton)>
+                              </WithStyles(ForwardRef(IconButton))>
+                            </Note__StyledIconButton>
+                            <ForwardRef(Popper)
+                              anchorEl={
+                                <button
+                                  class="MuiButtonBase-root MuiIconButton-root Note__StyledIconButton-sc-hp5f89-0 dlxIld"
+                                  style="background-color: transparent;"
+                                  tabindex="0"
+                                  title="従業員・アルバイトはこちら"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiIconButton-label"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      class="MuiSvgIcon-root"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+                                      />
+                                    </svg>
+                                  </span>
+                                </button>
+                              }
+                              className="MuiTooltip-popper"
+                              id={null}
+                              open={false}
+                              placement="bottom"
+                              popperOptions={
+                                Object {
+                                  "modifiers": Object {
+                                    "arrow": Object {
+                                      "element": null,
+                                      "enabled": false,
+                                    },
+                                  },
+                                }
+                              }
+                              transition={true}
+                            />
+                          </ForwardRef(Tooltip)>
+                        </WithStyles(ForwardRef(Tooltip))>
+                      </Note>
+                    </div>
+                  </Radio__LabelContainer>
+                </div>
+              </ForwardRef(FormGroup)>
+            </WithStyles(ForwardRef(FormGroup))>
+          </ForwardRef(RadioGroup)>
+        </Radio>
+      </div>
+    </FormUserBase__Container>
+  </FormUserBase>
+</FormUserType>
+`;

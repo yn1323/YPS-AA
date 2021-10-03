@@ -1,6 +1,6 @@
-import { merge } from 'lodash'
-import { makeExecutableSchema } from 'graphql-tools'
 import { ApolloServer } from 'apollo-server-micro'
+import { makeExecutableSchema } from 'graphql-tools'
+import { merge } from 'lodash'
 import { ENVIRONMENT } from '@constant/env'
 import debug from '@graphql/debug'
 

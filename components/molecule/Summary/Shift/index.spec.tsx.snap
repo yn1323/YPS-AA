@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Summary/Shift molecule/Summary/Shift-snapshot 1`] = `
+<Shift
+  imageUrl="imageUrl.jpg"
+  month="11"
+  name="neko"
+  time={25.5}
+>
+  <SummaryBase>
+    <Heading
+      icon={
+        <Memo
+          style={
+            Object {
+              "color": "#444",
+            }
+          }
+        />
+      }
+      link="here"
+      type="sub"
+      underline={true}
+    >
+      <Heading__Container
+        onClick={[Function]}
+      >
+        <div
+          className="Heading__Container-sc-rckheo-0 bXDSND"
+          onClick={[Function]}
+        >
+          <ForwardRef(LibraryBooksIcon)
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(SvgIcon))
+              style={
+                Object {
+                  "color": "#444",
+                }
+              }
+            >
+              <ForwardRef(SvgIcon)
+                classes={
+                  Object {
+                    "colorAction": "MuiSvgIcon-colorAction",
+                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                    "colorError": "MuiSvgIcon-colorError",
+                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                    "root": "MuiSvgIcon-root",
+                  }
+                }
+                style={
+                  Object {
+                    "color": "#444",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"
+                  />
+                </svg>
+              </ForwardRef(SvgIcon)>
+            </WithStyles(ForwardRef(SvgIcon))>
+          </ForwardRef(LibraryBooksIcon)>
+          <Heading__Header>
+            <div
+              className="Heading__Header-sc-rckheo-1 hqhBgV"
+            >
+              <Heading__HeaderWrapper>
+                <div
+                  className="Heading__HeaderWrapper-sc-rckheo-2 eZZEfS"
+                >
+                  <Heading__sub
+                    variant="h2"
+                  >
+                    <WithStyles(ForwardRef(Typography))
+                      className="Heading__sub-sc-rckheo-4 dvGqje"
+                      variant="h2"
+                    >
+                      <ForwardRef(Typography)
+                        className="Heading__sub-sc-rckheo-4 dvGqje"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        variant="h2"
+                      >
+                        <h2
+                          className="MuiTypography-root Heading__sub-sc-rckheo-4 dvGqje MuiTypography-h2"
+                        >
+                          直近のシフト
+                        </h2>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </Heading__sub>
+                  <Heading__LinkIcon>
+                    <ForwardRef(LinkIcon)
+                      className="Heading__LinkIcon-sc-rckheo-3 dzawVR"
+                    >
+                      <WithStyles(ForwardRef(SvgIcon))
+                        className="Heading__LinkIcon-sc-rckheo-3 dzawVR"
+                      >
+                        <ForwardRef(SvgIcon)
+                          className="Heading__LinkIcon-sc-rckheo-3 dzawVR"
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root Heading__LinkIcon-sc-rckheo-3 dzawVR"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef(LinkIcon)>
+                  </Heading__LinkIcon>
+                </div>
+              </Heading__HeaderWrapper>
+              <div>
+                <Heading__sub>
+                  <div
+                    className="Heading__sub-sc-rckheo-6 iLukkP"
+                  />
+                </Heading__sub>
+              </div>
+            </div>
+          </Heading__Header>
+        </div>
+      </Heading__Container>
+    </Heading>
+    <SummaryBase__BodyWrapper>
+      <div
+        className="SummaryBase__BodyWrapper-sc-1cf03ap-0 eenhen"
+      >
+        <Shift__Body>
+          <div
+            className="Shift__Body-sc-e4wp85-0"
+          />
+        </Shift__Body>
+      </div>
+    </SummaryBase__BodyWrapper>
+  </SummaryBase>
+</Shift>
+`;

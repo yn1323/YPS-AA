@@ -1,12 +1,8 @@
 {
-    "eslint.validate": [
-      "html",
-      "javascriptreact",
-      "typescriptreact"
-    ],
-    "tailwindCSS.includeLanguages": {
-      "typescriptreact": "html"
-    },
+  "eslint.validate": ["html", "javascriptreact", "typescriptreact"],
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "html"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -35,5 +31,5 @@
   "less.validate": false,
   "scss.validate": false,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
 }

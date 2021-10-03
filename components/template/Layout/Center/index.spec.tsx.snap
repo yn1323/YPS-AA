@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`template/Layout/Center-snapshot 1`] = `
+<Center>
+  <Center__Container>
+    <main
+      className="Center__Container-sc-tnkcpe-0 lkosJD"
+    >
+      <Center__CenterDiv>
+        <div
+          className="Center__CenterDiv-sc-tnkcpe-1 kRAafw"
+        />
+      </Center__CenterDiv>
+    </main>
+  </Center__Container>
+</Center>
+`;

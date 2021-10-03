@@ -1,0 +1,763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 1`] = `
+<FormTimeCardAuth
+  initialValue={false}
+  setter={[Function]}
+>
+  <FormUserBase
+    definition="タイムカード入力権限"
+    item={
+      <Switch
+        initialChecked={false}
+        labelOnFalse="管理ユーザーのみ入力を許可"
+        setter={[Function]}
+      >
+        一般ユーザーの入力を許可
+      </Switch>
+    }
+  >
+    <FormUserBase__Container>
+      <div
+        className="FormUserBase__Container-sc-143288g-0 gaKKXv"
+      >
+        <FormUserBase__TitleWrapper>
+          <div
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
+          >
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                タイムカード入力権限
+              </div>
+            </FormUserBase__Title>
+          </div>
+        </FormUserBase__TitleWrapper>
+        <Switch
+          initialChecked={false}
+          labelOnFalse="管理ユーザーのみ入力を許可"
+          setter={[Function]}
+        >
+          <WithStyles(ForwardRef(FormControlLabel))
+            control={
+              <WithStyles(ForwardRef(Switch))
+                checked={false}
+                color="primary"
+                disabled={false}
+                name=""
+                onChange={[Function]}
+                size="medium"
+              />
+            }
+            label={
+              <Switch__Label>
+                管理ユーザーのみ入力を許可
+              </Switch__Label>
+            }
+            style={
+              Object {
+                "fontSize": "0,9rem",
+              }
+            }
+          >
+            <ForwardRef(FormControlLabel)
+              classes={
+                Object {
+                  "disabled": "Mui-disabled",
+                  "label": "MuiFormControlLabel-label",
+                  "labelPlacementBottom": "MuiFormControlLabel-labelPlacementBottom",
+                  "labelPlacementStart": "MuiFormControlLabel-labelPlacementStart",
+                  "labelPlacementTop": "MuiFormControlLabel-labelPlacementTop",
+                  "root": "MuiFormControlLabel-root",
+                }
+              }
+              control={
+                <WithStyles(ForwardRef(Switch))
+                  checked={false}
+                  color="primary"
+                  disabled={false}
+                  name=""
+                  onChange={[Function]}
+                  size="medium"
+                />
+              }
+              label={
+                <Switch__Label>
+                  管理ユーザーのみ入力を許可
+                </Switch__Label>
+              }
+              style={
+                Object {
+                  "fontSize": "0,9rem",
+                }
+              }
+            >
+              <label
+                className="MuiFormControlLabel-root"
+                style={
+                  Object {
+                    "fontSize": "0,9rem",
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(Switch))
+                  checked={false}
+                  color="primary"
+                  disabled={false}
+                  name=""
+                  onChange={[Function]}
+                  size="medium"
+                >
+                  <ForwardRef(Switch)
+                    checked={false}
+                    classes={
+                      Object {
+                        "checked": "Mui-checked",
+                        "colorPrimary": "MuiSwitch-colorPrimary",
+                        "colorSecondary": "MuiSwitch-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "edgeEnd": "MuiSwitch-edgeEnd",
+                        "edgeStart": "MuiSwitch-edgeStart",
+                        "input": "MuiSwitch-input",
+                        "root": "MuiSwitch-root",
+                        "sizeSmall": "MuiSwitch-sizeSmall",
+                        "switchBase": "MuiSwitch-switchBase",
+                        "thumb": "MuiSwitch-thumb",
+                        "track": "MuiSwitch-track",
+                      }
+                    }
+                    color="primary"
+                    disabled={false}
+                    name=""
+                    onChange={[Function]}
+                    size="medium"
+                  >
+                    <span
+                      className="MuiSwitch-root"
+                    >
+                      <WithStyles(ForwardRef(SwitchBase))
+                        checked={false}
+                        checkedIcon={
+                          <span
+                            className="MuiSwitch-thumb"
+                          />
+                        }
+                        classes={
+                          Object {
+                            "checked": "Mui-checked",
+                            "disabled": "Mui-disabled",
+                            "input": "MuiSwitch-input",
+                            "root": "MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          }
+                        }
+                        disabled={false}
+                        icon={
+                          <span
+                            className="MuiSwitch-thumb"
+                          />
+                        }
+                        name=""
+                        onChange={[Function]}
+                        type="checkbox"
+                      >
+                        <ForwardRef(SwitchBase)
+                          checked={false}
+                          checkedIcon={
+                            <span
+                              className="MuiSwitch-thumb"
+                            />
+                          }
+                          classes={
+                            Object {
+                              "checked": "PrivateSwitchBase-checked-2 Mui-checked",
+                              "disabled": "PrivateSwitchBase-disabled-3 Mui-disabled",
+                              "input": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                              "root": "PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                            }
+                          }
+                          disabled={false}
+                          icon={
+                            <span
+                              className="MuiSwitch-thumb"
+                            />
+                          }
+                          name=""
+                          onChange={[Function]}
+                          type="checkbox"
+                        >
+                          <WithStyles(ForwardRef(IconButton))
+                            className="PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                            component="span"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            tabIndex={null}
+                          >
+                            <ForwardRef(IconButton)
+                              className="PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                              classes={
+                                Object {
+                                  "colorInherit": "MuiIconButton-colorInherit",
+                                  "colorPrimary": "MuiIconButton-colorPrimary",
+                                  "colorSecondary": "MuiIconButton-colorSecondary",
+                                  "disabled": "Mui-disabled",
+                                  "edgeEnd": "MuiIconButton-edgeEnd",
+                                  "edgeStart": "MuiIconButton-edgeStart",
+                                  "label": "MuiIconButton-label",
+                                  "root": "MuiIconButton-root",
+                                  "sizeSmall": "MuiIconButton-sizeSmall",
+                                }
+                              }
+                              component="span"
+                              disabled={false}
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              tabIndex={null}
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                centerRipple={true}
+                                className="MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                component="span"
+                                disabled={false}
+                                focusRipple={true}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                tabIndex={null}
+                              >
+                                <ForwardRef(ButtonBase)
+                                  centerRipple={true}
+                                  className="MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  component="span"
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                    onBlur={[Function]}
+                                    onDragLeave={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={null}
+                                  >
+                                    <span
+                                      className="MuiIconButton-label"
+                                    >
+                                      <input
+                                        checked={false}
+                                        className="PrivateSwitchBase-input-4 MuiSwitch-input"
+                                        disabled={false}
+                                        name=""
+                                        onChange={[Function]}
+                                        type="checkbox"
+                                      />
+                                      <span
+                                        className="MuiSwitch-thumb"
+                                      />
+                                    </span>
+                                    <WithStyles(memo)
+                                      center={true}
+                                    >
+                                      <ForwardRef(TouchRipple)
+                                        center={true}
+                                        classes={
+                                          Object {
+                                            "child": "MuiTouchRipple-child",
+                                            "childLeaving": "MuiTouchRipple-childLeaving",
+                                            "childPulsate": "MuiTouchRipple-childPulsate",
+                                            "ripple": "MuiTouchRipple-ripple",
+                                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                            "root": "MuiTouchRipple-root",
+                                          }
+                                        }
+                                      >
+                                        <span
+                                          className="MuiTouchRipple-root"
+                                        >
+                                          <TransitionGroup
+                                            childFactory={[Function]}
+                                            component={null}
+                                            exit={true}
+                                          />
+                                        </span>
+                                      </ForwardRef(TouchRipple)>
+                                    </WithStyles(memo)>
+                                  </span>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(IconButton)>
+                          </WithStyles(ForwardRef(IconButton))>
+                        </ForwardRef(SwitchBase)>
+                      </WithStyles(ForwardRef(SwitchBase))>
+                      <span
+                        className="MuiSwitch-track"
+                      />
+                    </span>
+                  </ForwardRef(Switch)>
+                </WithStyles(ForwardRef(Switch))>
+                <WithStyles(ForwardRef(Typography))
+                  className="MuiFormControlLabel-label"
+                  component="span"
+                >
+                  <ForwardRef(Typography)
+                    className="MuiFormControlLabel-label"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                    component="span"
+                  >
+                    <span
+                      className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                    >
+                      <Switch__Label>
+                        <div
+                          className="Switch__Label-sc-wjp50u-0 dOExmH"
+                        >
+                          管理ユーザーのみ入力を許可
+                        </div>
+                      </Switch__Label>
+                    </span>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+              </label>
+            </ForwardRef(FormControlLabel)>
+          </WithStyles(ForwardRef(FormControlLabel))>
+        </Switch>
+      </div>
+    </FormUserBase__Container>
+  </FormUserBase>
+</FormTimeCardAuth>
+`;
+
+exports[`molecule/Form/FormTimeCardAuth molecule/Form/FormTimeCardAuth-snapshot 2`] = `
+<FormTimeCardAuth
+  initialValue={false}
+  setter={[Function]}
+>
+  <FormUserBase
+    definition="タイムカード入力権限"
+    item={
+      <Switch
+        initialChecked={false}
+        labelOnFalse="管理ユーザーのみ入力を許可"
+        setter={[Function]}
+      >
+        一般ユーザーの入力を許可
+      </Switch>
+    }
+  >
+    <FormUserBase__Container>
+      <div
+        className="FormUserBase__Container-sc-143288g-0 gaKKXv"
+      >
+        <FormUserBase__TitleWrapper>
+          <div
+            className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
+          >
+            <FormUserBase__Title
+              $position="center"
+            >
+              <div
+                className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+              >
+                タイムカード入力権限
+              </div>
+            </FormUserBase__Title>
+          </div>
+        </FormUserBase__TitleWrapper>
+        <Switch
+          initialChecked={false}
+          labelOnFalse="管理ユーザーのみ入力を許可"
+          setter={[Function]}
+        >
+          <WithStyles(ForwardRef(FormControlLabel))
+            control={
+              <WithStyles(ForwardRef(Switch))
+                checked={false}
+                color="primary"
+                disabled={false}
+                name=""
+                onChange={[Function]}
+                size="medium"
+              />
+            }
+            label={
+              <Switch__Label>
+                管理ユーザーのみ入力を許可
+              </Switch__Label>
+            }
+            style={
+              Object {
+                "fontSize": "0,9rem",
+              }
+            }
+          >
+            <ForwardRef(FormControlLabel)
+              classes={
+                Object {
+                  "disabled": "Mui-disabled",
+                  "label": "MuiFormControlLabel-label",
+                  "labelPlacementBottom": "MuiFormControlLabel-labelPlacementBottom",
+                  "labelPlacementStart": "MuiFormControlLabel-labelPlacementStart",
+                  "labelPlacementTop": "MuiFormControlLabel-labelPlacementTop",
+                  "root": "MuiFormControlLabel-root",
+                }
+              }
+              control={
+                <WithStyles(ForwardRef(Switch))
+                  checked={false}
+                  color="primary"
+                  disabled={false}
+                  name=""
+                  onChange={[Function]}
+                  size="medium"
+                />
+              }
+              label={
+                <Switch__Label>
+                  管理ユーザーのみ入力を許可
+                </Switch__Label>
+              }
+              style={
+                Object {
+                  "fontSize": "0,9rem",
+                }
+              }
+            >
+              <label
+                className="MuiFormControlLabel-root"
+                style={
+                  Object {
+                    "fontSize": "0,9rem",
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(Switch))
+                  checked={false}
+                  color="primary"
+                  disabled={false}
+                  name=""
+                  onChange={[Function]}
+                  size="medium"
+                >
+                  <ForwardRef(Switch)
+                    checked={false}
+                    classes={
+                      Object {
+                        "checked": "Mui-checked",
+                        "colorPrimary": "MuiSwitch-colorPrimary",
+                        "colorSecondary": "MuiSwitch-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "edgeEnd": "MuiSwitch-edgeEnd",
+                        "edgeStart": "MuiSwitch-edgeStart",
+                        "input": "MuiSwitch-input",
+                        "root": "MuiSwitch-root",
+                        "sizeSmall": "MuiSwitch-sizeSmall",
+                        "switchBase": "MuiSwitch-switchBase",
+                        "thumb": "MuiSwitch-thumb",
+                        "track": "MuiSwitch-track",
+                      }
+                    }
+                    color="primary"
+                    disabled={false}
+                    name=""
+                    onChange={[Function]}
+                    size="medium"
+                  >
+                    <span
+                      className="MuiSwitch-root"
+                    >
+                      <WithStyles(ForwardRef(SwitchBase))
+                        checked={false}
+                        checkedIcon={
+                          <span
+                            className="MuiSwitch-thumb"
+                          />
+                        }
+                        classes={
+                          Object {
+                            "checked": "Mui-checked",
+                            "disabled": "Mui-disabled",
+                            "input": "MuiSwitch-input",
+                            "root": "MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          }
+                        }
+                        disabled={false}
+                        icon={
+                          <span
+                            className="MuiSwitch-thumb"
+                          />
+                        }
+                        name=""
+                        onChange={[Function]}
+                        type="checkbox"
+                      >
+                        <ForwardRef(SwitchBase)
+                          checked={false}
+                          checkedIcon={
+                            <span
+                              className="MuiSwitch-thumb"
+                            />
+                          }
+                          classes={
+                            Object {
+                              "checked": "PrivateSwitchBase-checked-2 Mui-checked",
+                              "disabled": "PrivateSwitchBase-disabled-3 Mui-disabled",
+                              "input": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                              "root": "PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                            }
+                          }
+                          disabled={false}
+                          icon={
+                            <span
+                              className="MuiSwitch-thumb"
+                            />
+                          }
+                          name=""
+                          onChange={[Function]}
+                          type="checkbox"
+                        >
+                          <WithStyles(ForwardRef(IconButton))
+                            className="PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                            component="span"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            tabIndex={null}
+                          >
+                            <ForwardRef(IconButton)
+                              className="PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                              classes={
+                                Object {
+                                  "colorInherit": "MuiIconButton-colorInherit",
+                                  "colorPrimary": "MuiIconButton-colorPrimary",
+                                  "colorSecondary": "MuiIconButton-colorSecondary",
+                                  "disabled": "Mui-disabled",
+                                  "edgeEnd": "MuiIconButton-edgeEnd",
+                                  "edgeStart": "MuiIconButton-edgeStart",
+                                  "label": "MuiIconButton-label",
+                                  "root": "MuiIconButton-root",
+                                  "sizeSmall": "MuiIconButton-sizeSmall",
+                                }
+                              }
+                              component="span"
+                              disabled={false}
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              tabIndex={null}
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                centerRipple={true}
+                                className="MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                component="span"
+                                disabled={false}
+                                focusRipple={true}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                tabIndex={null}
+                              >
+                                <ForwardRef(ButtonBase)
+                                  centerRipple={true}
+                                  className="MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  component="span"
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+                                    onBlur={[Function]}
+                                    onDragLeave={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={null}
+                                  >
+                                    <span
+                                      className="MuiIconButton-label"
+                                    >
+                                      <input
+                                        checked={false}
+                                        className="PrivateSwitchBase-input-4 MuiSwitch-input"
+                                        disabled={false}
+                                        name=""
+                                        onChange={[Function]}
+                                        type="checkbox"
+                                      />
+                                      <span
+                                        className="MuiSwitch-thumb"
+                                      />
+                                    </span>
+                                    <WithStyles(memo)
+                                      center={true}
+                                    >
+                                      <ForwardRef(TouchRipple)
+                                        center={true}
+                                        classes={
+                                          Object {
+                                            "child": "MuiTouchRipple-child",
+                                            "childLeaving": "MuiTouchRipple-childLeaving",
+                                            "childPulsate": "MuiTouchRipple-childPulsate",
+                                            "ripple": "MuiTouchRipple-ripple",
+                                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                            "root": "MuiTouchRipple-root",
+                                          }
+                                        }
+                                      >
+                                        <span
+                                          className="MuiTouchRipple-root"
+                                        >
+                                          <TransitionGroup
+                                            childFactory={[Function]}
+                                            component={null}
+                                            exit={true}
+                                          />
+                                        </span>
+                                      </ForwardRef(TouchRipple)>
+                                    </WithStyles(memo)>
+                                  </span>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(IconButton)>
+                          </WithStyles(ForwardRef(IconButton))>
+                        </ForwardRef(SwitchBase)>
+                      </WithStyles(ForwardRef(SwitchBase))>
+                      <span
+                        className="MuiSwitch-track"
+                      />
+                    </span>
+                  </ForwardRef(Switch)>
+                </WithStyles(ForwardRef(Switch))>
+                <WithStyles(ForwardRef(Typography))
+                  className="MuiFormControlLabel-label"
+                  component="span"
+                >
+                  <ForwardRef(Typography)
+                    className="MuiFormControlLabel-label"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                    component="span"
+                  >
+                    <span
+                      className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                    >
+                      <Switch__Label>
+                        <div
+                          className="Switch__Label-sc-wjp50u-0 dOExmH"
+                        >
+                          管理ユーザーのみ入力を許可
+                        </div>
+                      </Switch__Label>
+                    </span>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+              </label>
+            </ForwardRef(FormControlLabel)>
+          </WithStyles(ForwardRef(FormControlLabel))>
+        </Switch>
+      </div>
+    </FormUserBase__Container>
+  </FormUserBase>
+</FormTimeCardAuth>
+`;

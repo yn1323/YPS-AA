@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecule/Form/UserBase molecule/Form/UserBase-snapshot 1`] = `
+<FormUserBase
+  definition="User type"
+  item={
+    <div>
+      aaa
+    </div>
+  }
+>
+  <FormUserBase__Container>
+    <div
+      className="FormUserBase__Container-sc-143288g-0 gaKKXv"
+    >
+      <FormUserBase__TitleWrapper>
+        <div
+          className="FormUserBase__TitleWrapper-sc-143288g-1 jSzBJn"
+        >
+          <FormUserBase__Title
+            $position="center"
+          >
+            <div
+              className="FormUserBase__Title-sc-143288g-2 dKTgsS"
+            >
+              User type
+            </div>
+          </FormUserBase__Title>
+        </div>
+      </FormUserBase__TitleWrapper>
+      <div>
+        aaa
+      </div>
+    </div>
+  </FormUserBase__Container>
+</FormUserBase>
+`;

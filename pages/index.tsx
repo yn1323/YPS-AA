@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HomeTemplate from '@template/Home'
+import HomeTemplate from '@template/Page/Home'
 
 const Home = () => {
   return (

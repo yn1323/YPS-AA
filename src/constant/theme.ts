@@ -1,5 +1,5 @@
-import { createTheme, Theme } from '@material-ui/core/styles'
 import { red } from '@material-ui/core/colors'
+import { createTheme, Theme } from '@material-ui/core/styles'
 
 export const theme: Theme = createTheme({
   palette: {
@@ -22,8 +22,8 @@ export const theme: Theme = createTheme({
       default: '#FFFFFE',
     },
     text: {
-      primary: '#0D0D0D',
-      secondary: '#FF8E3C',
+      primary: '#222',
+      secondary: '#444',
     },
   },
   breakpoints: {
@@ -31,7 +31,7 @@ export const theme: Theme = createTheme({
       xs: 0,
       sm: 640,
       md: 768,
-      lg: 1280,
+      lg: 1080,
       xl: 1536,
     },
   },
